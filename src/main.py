@@ -21,24 +21,21 @@ class BaseHandler(webapp2.RequestHandler):
         rv = self.jinja2.render_template(_template, **context)
         self.response.write(rv)
         
-class ItemHandler(BaseHandler):
-    def get(self, item_id):
-        context = {'item_id': item_id}
-        self.render_response('items.html', **context)
+class ItemCategoryHandler(BaseHandler):
+    def get(self):
+        context = {}
+        self.render_response('category.html', **context)
 
 class MainPage(BaseHandler):
-
     def get(self):
-        context = {
-            'user': 'john',
-            'path': 'my path is wrong'
-        }
-        logging.info('------ %s', str(context))
-        self.render_response('index.html', **context)
+        context = {}
+        self.render_response('base.html', **context)
         
-        
+# TODO: http://webapp-improved.appspot.com/guide/routing.html#simple-routes 
 app = webapp2.WSGIApplication([
     ('/', MainPage),
-    (r'/items/(\d+)', ItemHandler)
+    (r'/guns', ItemCategoryHandler),
+    (r'/scrolls', ItemCategoryHandler),
+    (r'.*', MainPage) # redirect 404 to the main page
     ])
 

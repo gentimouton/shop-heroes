@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{% endblock %} - Shop Heroes Helper</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      padding-top: 60px; /* navbar padding */
+    }
+  </style>
+</head>
+<body>
+
+{% block navbar %}
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Shop Heroes Helper</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weapons <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/guns">Guns</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garments <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/guns">Guns</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/scrolls">Scrolls</a></li>
+            </ul>
+          </li>
+          <li><a href="/heroes">Heroes</a></li>
+          <li><a href="/furniture">Furniture</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+{% endblock navbar %}
+
+<div class="container" id="content">
+  {% block content %}{% endblock content %}
+</div>
+
+</body>
+</html>
