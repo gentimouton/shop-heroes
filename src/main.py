@@ -1,41 +1,16 @@
-import logging
-
 import webapp2
-from webapp2_extras import jinja2
+
+from handlers import HomeHandler, ItemListHandler, ItemCategoryHandler, \
+    HeroListHandler, FurnitureListHandler
 
 
-class BaseHandler(webapp2.RequestHandler):
-    """
-    Cache a jinja2 template renderer in the app context
-    http://webapp-improved.appspot.com/api/webapp2_extras/jinja2.html#webapp2_extras.jinja2.Jinja2
-    """
+# See http://webapp-improved.appspot.com/guide/routing.html#simple-routes
+routes = [webapp2.Route(r'/', handler=HomeHandler, name='home'),
+    webapp2.Route(r'/items', handler=ItemListHandler, name='item-list'),
+    webapp2.Route(r'/items/<category:\D+>', handler=ItemCategoryHandler, name='category'),
+    webapp2.Route(r'/heroes', handler=HeroListHandler, name='item-list'),
+    webapp2.Route(r'/furniture', handler=FurnitureListHandler, name='item-list'),
+    ]
 
-    @webapp2.cached_property
-    def jinja2(self):
-        # Returns a Jinja2 renderer cached in the app registry.
-        return jinja2.get_jinja2(app=self.app)
-
-    def render_response(self, _template, **context):
-        # Renders a template and writes the result to the response.
-        # templates are at /templates by default, cf http://stackoverflow.com/a/32435965
-        rv = self.jinja2.render_template(_template, **context)
-        self.response.write(rv)
-        
-class ItemCategoryHandler(BaseHandler):
-    def get(self):
-        context = {}
-        self.render_response('category.html', **context)
-
-class MainPage(BaseHandler):
-    def get(self):
-        context = {}
-        self.render_response('base.html', **context)
-        
-# TODO: http://webapp-improved.appspot.com/guide/routing.html#simple-routes 
-app = webapp2.WSGIApplication([
-    ('/', MainPage),
-    (r'/guns', ItemCategoryHandler),
-    (r'/scrolls', ItemCategoryHandler),
-    (r'.*', MainPage) # redirect 404 to the main page
-    ])
+app = webapp2.WSGIApplication(routes)
 

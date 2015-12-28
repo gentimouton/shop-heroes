@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block title %}Gear{% endblock %}
+{% block title %}{{ category|capitalize }}{% endblock %}
 {% block content %}
-    <h1>Item Category: todo</h1>
+    <h1>{{ category|capitalize }}</h1>
     <p>Hi</p>
 {% endblock content %}
