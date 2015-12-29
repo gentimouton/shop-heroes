@@ -1,0 +1,552 @@
+name,level,class,type,price,iron,wood,leather,herbs,steel,hwood,fabric,oil,mana,jewels,comp1,comp2
+Shortsword,2,Swords,Weapons,28,3,,,,,,,,,,,
+Longsword,3,Swords,Weapons,60,6,,,,,,,,,,,
+Broadsword,5,Swords,Weapons,250,11,,,,,,,,,,1 Shortsword,
+Rapier,7,Swords,Weapons,555,18,,,,,,,,,,1 Longsword,
+Claymore,8,Swords,Weapons,920,21,,,,,,,,,,3 Viper Essence,
+Fire Blade,10,Swords,Weapons,1850,30,,,,,,,,,,2 Burning Ember,
+Zweihander,12,Swords,Weapons,2250,40,,,,8,,,,,,1 Iron Wood,
+Bastard Sword,14,Swords,Weapons,3700,50,,,,12,,,,,,1 Good Broadsword,
+Sabre,16,Swords,Weapons,7000,60,,,,20,,,,,,1 Iron Carapace,1 Claymore
+Wakizashi,19,Swords,Weapons,11000,75,,,,32,,,,,,2 Rapier,
+Vorpal Sword,20,Swords,Weapons,48000,70,,,,35,,,,5,,3 Great Claymore,
+Scimitar,23,Swords,Weapons,19000,95,,,,46,,,,,,1 Good Bastard Sword,
+Coldsteel,25,Swords,Weapons,71500,105,,,,55,,,,,,2 Fire Blade,3 Frozen Core
+Masamune,27,Swords,Weapons,65000,120,,,,65,,,,,,3 Good Zweihander,1 Silver Steel
+Sawblade,30,Swords,Weapons,92000,150,,,,80,,,,,,4 Royal Bone,3 Wyvern Wing
+Heaven's Will,31,Swords,Weapons,140000,160,,,,85,,,,22,17,2 Phoenix Feather,1 Demon Heart
+Abyssal Brand,32,Swords,Weapons,485000,170,,,,90,,,,24,,3 Silver Steel,1 Flawless Vorpal Sword
+Slashing Tiger,35,Swords,Weapons,210000,200,,,,105,,,,30,,2 Dark Energy,1 Great Sabre
+Excalibur,37,Swords,Weapons,410000,,,,,,,,,,,,
+Stormbringer,38,Swords,Weapons,2000000,250,,,,130,,,,40,30,1 Adamantium,2 Flawless Coldsteel
+Balmung,40,Swords,Weapons,4400000,250,,,,130,,,,40,30,2 Adamantium,2 Great Heaven's Will
+Dragonslayer,40,Swords,Weapons,3900000,300,,,,150,,,,50,38,2 Dragon Scale,1 Flawless Abyssal Brand
+Knife,1,Daggers,Weapons,10,2,,,,,,,,,,,
+Pocket Knife,2,Daggers,Weapons,24,3,,,,,,,,,,,
+Kris,3,Daggers,Weapons,260,6,,,,,,,,,,,
+Dirk,3,Daggers,Weapons,60,5,,,,,,,,,,1 Knife,
+Parrying Dagger,5,Daggers,Weapons,195,11,,,,,,,,,,1 Pocket Knife,
+Stiletto,7,Daggers,Weapons,475,16,,,,,,,,,,2 Viper Essence,
+White Dagger,9,Daggers,Weapons,1250,23,,,,,,,,,,2 Burning Ember,
+Broad Blade,10,Daggers,Weapons,865,27,,,,,,,,,,1 Good Pocket Knife,
+Gutting Knife,12,Daggers,Weapons,1750,36,,,,7,,,,,,1 Dirk,
+Hunting Knife,13,Daggers,Weapons,2100,41,,,,9,,,,,,,
+Crimson Heart,15,Daggers,Weapons,11000,50,,,,14,,,8,2,,2 Wyvern Wing,
+Mail Breaker,16,Daggers,Weapons,4850,54,,,,18,,,10,,,1 Good Parrying Dagger,
+Phantom Katar,18,Daggers,Weapons,26000,63,,,,25,,,14,,,3 Good Broad Blade,
+Switch Blade,20,Daggers,Weapons,11500,72,,,,32,,,18,,,2 Good Stiletto,
+Life Stealer,22,Daggers,Weapons,19000,81,,,,38,,,21,5,,1 Liquid Fire,1 Good Gutting Knife
+Night Shiv,25,Daggers,Weapons,33000,95,,,,50,,,28,,,3 Frozen Core,
+Shadowripper,27,Daggers,Weapons,54500,108,,,,59,,,33,,,1 Silver Steel,3 Good Hunting Knife
+Wing Blade,30,Daggers,Weapons,110000,135,,,,72,,,40,15,,2 Golden Thread,2 Yggdrasil Leaf
+Dark Hand,35,Daggers,Weapons,175000,180,,,,95,,,53,23,,2 Demon Heart,1 Great Life Stealer
+Betrayer,36,Daggers,Weapons,845000,189,,,,99,,,55,,,1 Dark Energy,2 Great Shadowripper
+Seven Stars,38,Daggers,Weapons,955000,225,,,,117,,,65,30,40,2 Sun Tear,Flawless Night Shiv
+Dragon Fang,39,Daggers,Weapons,1750000,248,,,,126,,,70,34,45,2 Dragon Scale,1 Epic Wing Blade
+Hand Axe,2,Axes,Weapons,42,2,2,,,,,,,,,,
+Iron Axe,3,Axes,Weapons,115,5,5,,,,,,,,,,
+Broad Axe,4,Axes,Weapons,290,7,7,,,,,,,,,1 Hand Axe,
+Halberd,5,Axes,Weapons,405,9,9,,,,,,,,,2 Shiny Gem,
+Druidic Axe,6,Axes,Weapons,1300,11,11,,,1,,,,,,2 Viper Essence,1 Hand Axe
+Hunting Axe,6,Axes,Weapons,830,11,11,,,,,,,,,2 Iron Wood,
+Pole Axe,9,Axes,Weapons,1650,19,19,,,3,,,,,,1 Wooden Spear,
+Tiamat,10,Axes,Weapons,4750,23,23,,,,,,,,,2 Iron Wood,1 Good Hunting Axe
+Labrys,12,Axes,Weapons,3950,30,30,,,6,6,,,,,,
+Steel Axe,14,Axes,Weapons,6950,38,38,,,9,9,,,,,2 Good Iron Axe,
+Hawk,16,Axes,Weapons,11500,45,45,,,15,15,,,,,2 Good Broad Axe,
+Lava Axe,20,Axes,Weapons,21000,60,60,,,26,26,,,,,3 Burning Ember,2 Good Halberd
+Reaper,22,Axes,Weapons,45500,68,68,,,32,32,,,,,1 Liquid Fire,2 Good Halberd
+Berserker's Axe,23,Axes,Weapons,165000,71,71,,,35,35,,,,,2 Liquid Fire,2 Great Tiamat
+Bone Reaver,24,Axes,Weapons,56500,75,75,,,38,38,,,,,2 Royal Bone,3 Wyvern Wing
+Sharp Tusk,25,Axes,Weapons,185000,79,79,,,41,41,,,,,3 Silver Steel,1 Great Labrys
+Crystal Asunder,28,Axes,Weapons,99500,98,98,,,53,53,,,,,3 Liquid Fire,
+Shining Axe,31,Axes,Weapons,170000,120,120,,,64,64,,,,,2 Golden Thread,2 Good Labrys
+Widow Maker,32,Axes,Weapons,670000,128,128,,,68,68,,,,,2 Demon Heart,1 Flawless Bone Reaver
+Nocturne Axe,33,Axes,Weapons,205000,135,135,,,71,71,,,20,,1 Dark Energy,2 Good Steel Axe
+Storm Splitter,36,Axes,Weapons,420000,158,158,,,83,83,,,24,32,1 Sun Tear,2 Phoenix Feather
+Infernal Rage,38,Axes,Weapons,1550000,188,188,,,98,98,,,30,40,2 Demon Heart,1 Flawless Berserker's Axe
+Ragnarok's Edge,40,Axes,Weapons,4150000,225,225,,,113,113,,,38,,2 Adamantium,1 Flawless Nocturne Axe
+Wooden Spear,1,Spears,Weapons,10,,2,,,,,,,,,,
+Iron Spear,3,Spears,Weapons,60,,6,,,,,,,,,,
+Half Pike,4,Spears,Weapons,140,,9,,,,,,,,,1 Wooden Spear,
+Trident,5,Spears,Weapons,290,,12,,,,,,,,,3 Shiny Gem,
+Pike,8,Spears,Weapons,615,,21,,,,,,,,,,
+Gaia's Javelin,9,Spears,Weapons,1700,,25,,,,,,,,,2 Iron Wood,2 Great Wooden Spear
+Spade,10,Spears,Weapons,1750,15,30,,,,,,,,,2 Iron Wood,
+Seeking Tip,12,Spears,Weapons,5250,20,40,,,4,8,,,,,3 Good Iron Spear,
+Lance,13,Spears,Weapons,3150,,45,,,5,10,,,,,,
+Knight's Lance,15,Spears,Weapons,6750,28,55,,,8,16,,,,,1 Moon Shard,1 Good Iron Spear
+Valkyrie,18,Spears,Weapons,10000,,70,,,14,28,,,,,2 Good Half Pike,1 Good Stiletto
+Poison Tip,19,Spears,Weapons,62000,,75,,,16,32,,,,,3 Royal Bone,7 Viper Essence
+Bone Spear,21,Spears,Weapons,24000,43,85,,,19,38,,,,,1 Royal Bone,1 Good Lance
+Winged Spear,25,Spears,Weapons,33000,53,105,,,28,55,,,,,1 Yggdrasil Leaf,3 Rainbow Dust
+Silver Fork,26,Spears,Weapons,70500,55,110,,,30,60,,,,,2 Liquid Fire,2 Frozen Core
+Lion's Tail,29,Spears,Weapons,51000,70,140,,,38,75,,,,,2 Good Spade,
+Moon Voulge,30,Spears,Weapons,355000,,150,,,40,80,,,15,,2 Flawless Valkyrie,7 Moon Shards
+Obsidian Spear,32,Spears,Weapons,345000,83,165,,,45,90,,,18,,2 Demon Heart,1 Great Bone Spear
+Impaler,32,Spears,Weapons,99500,,,,,,,,,,,,
+Twisted Pike,34,Spears,Weapons,165000,,,,,,,,,,,,
+Titanic Lance,36,Spears,Weapons,295000,,,,,,,,,,,,
+Night Spike,38,Spears,Weapons,1300000,,250,,,65,130,,,30,,2 Dark Energy,2 Flawless Lion's Tail
+Divine Ray,39,Spears,Weapons,2800000,138,275,,,70,140,,,34,,2 Adamantium,1 Flawless Impaler
+Club,1,Maces,Weapons,10,,2,,,,,,,,,,
+Spiked Club,2,Maces,Weapons,24,,3,,,,,,,,,,
+Shieldbreaker,3,Maces,Weapons,260,,5,,,,,,,,,,
+Maul,4,Maces,Weapons,95,,8,,,,,,,,,,
+Sledgehammer,5,Maces,Weapons,195,,11,,,,,,,,,2 Shiny Gem,
+Mace,7,Maces,Weapons,390,,16,,,,,,,,,1 Spiked Club,
+Morning Star,8,Maces,Weapons,1150,,19,,,,,,,,,3 Elven Dew,3 Good Spiked Club
+Heavy Mace,9,Maces,Weapons,815,,23,,,,,,,,,2 Iron Wood,
+Battle Mace,11,Maces,Weapons,1750,,32,,,,5,,,,,2 Maul,
+Steeled Club,14,Maces,Weapons,3500,,45,,,3,11,,,,,1 Iron Carapace,
+Tree Trunk,15,Maces,Weapons,12500,,50,,,,14,,,,,4 Rainbow Dust,10 Great Club
+War Gavel,17,Maces,Weapons,5700,,59,,,,22,,,,,2 Good Sledgehammer,
+Journey Mace,21,Maces,Weapons,9550,,77,,,,34,,,,,1 Mace,
+Hammer Fist,22,Maces,Weapons,54000,,81,,,11,38,,,,,3 Royal Bone,1 Great Steeled Club
+Giant's Hammer,25,Maces,Weapons,115000,,95,,,,50,,,,,1 Yggdrasil Leaf,2 Good Heavy Mace
+Demolisher,25,Maces,Weapons,24500,,95,,,,50,,,,,2 Royal Bone,1 Heavy Mace
+Fury Club,28,Maces,Weapons,43500,,117,,,,63,,,,,2 Liquid Fire,2 Battle Mace
+Earthquake,31,Maces,Weapons,62500,,144,,,,77,,,17,,2 Silver Steel,
+Apocalyptus,32,Maces,Weapons,385000,,153,,,,81,,23,,24,3 Demon Heart,1 Epic War Gavel
+Pulverizer,35,Maces,Weapons,160000,,167,,,26,95,,,,30,2 Demonlisher,
+Tide Maker,37,Maces,Weapons,285000,,,,,,,,,,,,
+Evening Star,38,Maces,Weapons,695000,,225,,,,117,,33,30,40,2 Sun Tear,2 Epic Journey Mace
+Hundred Ton,40,Maces,Weapons,2650000,,270,,,,135,,38,38,50,2 Adamantium,1 Flawless Pulverizer
+Walking Stick,1,Staves,Weapons,12,,2,,,,,,,,,,
+Crow Stick,3,Staves,Weapons,85,,6,,,,,,,,,1 Shiny Gem,
+Druidic Rod,5,Staves,Weapons,335,,12,,,,,,,,,2 Elven Dew,
+Battle Staff,6,Staves,Weapons,645,,15,,,,,,,,,2 Iron Wood,
+Muted Caster,8,Staves,Weapons,965,,21,,,,,,,,,3 Good Walking Stick,
+Bishop Staff,9,Staves,Weapons,1550,,25,,,,,,,,,2 Iron Wood,
+Healing Rod,10,Staves,Weapons,2150,,30,,,,5,,,,,2 Crow Stick,
+Forest Wand,12,Staves,Weapons,3950,,40,,,,8,,,,,1 Moon Shard,1 Druidic Rod
+Fire Rod,13,Staves,Weapons,7750,,45,,,,10,,,,,1 Burning Ember,2 Battle Staff
+Blood Staff,15,Staves,Weapons,11000,,55,,,,16,,,,,1 Good Healing Rod,1 Wyvern Wing
+Luna Rod,17,Staves,Weapons,36500,,65,,,,24,,,3,3,5 Moon Shards,
+Whispering Wand,19,Staves,Weapons,27000,,75,,,,32,,,,,3 Muted Caster,1 Frozen Core
+Rebirth Rod,23,Staves,Weapons,47500,,95,,,,46,,,7,,2 Royal Bone,1 Fire Rod
+Ice Staff,26,Staves,Weapons,93500,,110,,,,60,,,12,10,4 Frozen Core,1 Great Forest Wand
+Death Stick,27,Staves,Weapons,190000,,120,,,,65,,49,14,,3 Liquid Fire,2 Good Blood Staff
+Sacred Scepter,28,Staves,Weapons,405000,,130,,,18,70,,53,16,14,2 Liquid Fire,1 Flawless Rebirth Rod
+Soul Stealer,30,Staves,Weapons,325000,,120,,,,80,,60,20,,2 Demon Heart,2 Phoenix Feather
+Staff of Ages,33,Staves,Weapons,305000,,180,,,,95,,71,26,22,2 Dark Energy,
+Star Wand,35,Staves,Weapons,795000,,200,,,,105,,79,30,26,2 Sun Tear,1 Epic Bishop Staff
+Emperor Wand,38,Staves,Weapons,1400000,,250,,,33,130,,98,40,34,2 Dragon Scale,5 Yggdrasil leaf
+Valkyrie's Wisdom,40,Staves,Weapons,2150000,,300,,,38,150,,113,50,43,2 Dragon Scales,1 Flawless Ice Staff
+Sun King,40,Staves,Weapons,5800000,,300,,,,150,,113,50,43,2 Adamantium,1 Flawless Sacred Scepter
+Short Bow,2,Bows,Weapons,32,,3,,,,,,,,,,
+Long Bow,3,Bows,Weapons,75,,6,,,,,,,,,,
+Faery's String,5,Bows,Weapons,345,,12,,,,,,,,,2 Elven Dew,
+Double String,7,Bows,Weapons,635,,18,,,,,,,,,1 Short Bow,
+Falcon Eye,8,Bows,Weapons,2800,,21,,,,,,,,,5 Viper Essence,2 Long Bow
+Composite Bow,9,Bows,Weapons,1500,,25,,,,,,,,,2 Burning Ember,
+Crossbow,11,Bows,Weapons,2550,,35,,,,6,,3,,,1 Good Long Bow,
+Recurved Bow,14,Bows,Weapons,4650,,50,,,,12,,,,,3 Iron Wood,
+Heavy Crossbow,17,Bows,Weapons,9950,,65,,,,24,,12,,,1 Iron Carapace,
+Self-loader,18,Bows,Weapons,45500,,70,,,,28,,14,,,1 Good Heavy Crossbow,
+Forester,20,Bows,Weapons,14000,,80,,,,35,,,,,2 Good Faery's String,
+Eagle Eye,21,Bows,Weapons,48500,,85,,,,38,,,,,1 Royal Bone,2 Good Falcon Eye
+Transfixer,23,Bows,Weapons,25500,,95,,,,46,,,,,2 Wyvern Wing,1 Good Double String
+Silent Arbalast,25,Bows,Weapons,74000,,105,,,,55,,28,,,2 Silver Steel,
+Wind Striker,27,Bows,Weapons,115000,,120,,,,65,,,,,2 Phoenix Feather,3 Good Composite Bow
+Bow Of Light,29,Bows,Weapons,160000,,140,,,,75,,,18,,2 Golden Thread,1 Good Forester
+Valkyrie's Touch,30,Bows,Weapons,460000,,150,,,,80,,,20,15,2 Good Transfixer,2 Yggdrasil Leaf
+Spider,31,Bows,Weapons,215000,,160,,,,85,,,22,17,2 Demon Heart,1 Great Recurved Bow
+Chimera Wings,34,Bows,Weapons,365000,,190,,,,100,,,28,21,2 Dark Energy,1 Sun Tear
+Evelyn,35,Bows,Weapons,1350000,,200,,,,105,,53,,23,2 Sun Tear,2 Flawless Transfixer
+Dragon Eye,37,Bows,Weapons,4100000,,225,,,,120,,,36,,1 Dragon Scale,2 Flawless Bow Of Light
+Adamantium Crossbow,39,Bows,Weapons,6400000,,275,,,,140,,70,45,34,2 Adamantium,1 Epic Self-loader
+Pistol,5,Guns,Weapons,420,7,7,,,,,,,,,,
+Musket,6,Guns,Weapons,1000,9,9,,,,,,,,,5 Shiny Gem ,
+Arquebuse,7,Guns,Weapons,1650,11,11,,,,,,,,,3 Iron Wood,
+Pocket Pistol,8,Guns,Weapons,2200,13,13,,,,,,,,,1 Pistol,
+Long Musket,9,Guns,Weapons,4100,15,15,,,,,,,,,1 Good Musket,
+Falconer,11,Guns,Weapons,6650,21,21,,,4,,,4,,,2 Moon Shard,
+Rifle,13,Guns,Weapons,7800,27,27,,,6,6,,,,,3 Iron Wood,
+Axe Pistol,14,Guns,Weapons,8850,30,30,,,7,7,,7,,,1 Iron Axe,1 Good Pistol
+Flintlock,17,Guns,Weapons,17500,39,39,,,14,14,,14,,,3 Rainbow Dust,
+Black Stock,18,Guns,Weapons,99500,42,42,,,17,17,,,,,5 Wyvern Wing,1 Flawless Pistol
+Double Barrel,19,Guns,Weapons,33000,45,45,,,19,19,,19,,,2 Arquebuse,
+Fire Gun,21,Guns,Weapons,47500,51,51,,,23,23,,23,,,2 Royal Bone,3 Burning Ember
+Conqueror,22,Guns,Weapons,225000,54,54,,,25,25,,25,,,1 Royal Bone,1 Great Double Barrel
+War Axe Pistol,24,Guns,Weapons,69500,60,60,,,30,30,,30,,,1 Good Steel Axe,1 Falconer
+Thunder Shot,26,Guns,Weapons,160000,66,66,,,36,36,,36,,,2 Phoenix Feather,2 Good Lightning Scroll
+Death Missive,29,Guns,Weapons,230000,84,84,,,45,45,,45,,,2 Demon Heart,
+Rising Sun,33,Guns,Weapons,230000,108,108,,,57,57,,57,,,1 Sun Tear,
+One-shot,35,Guns,Weapons,940000,,,,,,,,,,,,
+Judgement,36,Guns,Weapons,2000000,126,126,,,66,66,,66,,,5 Silver Steel,2 Flawless Bone Spear
+Bomb Launcher,37,Guns,Weapons,1600000,135,135,,,72,72,,72,36,,2 Dragon Scale,1 Epic Fireball Scroll
+Nordic Warfare,39,Guns,Weapons,3050000,165,165,,,84,84,,84,45,,1 Adamantium,1 Flawless Thunder Shot
+Cuirass,1,Armor,Armor,16,2,,1,,,,,,,,,
+Banded Mail,3,Armor,Armor,95,6,,3,,,,,,,,,
+Scale Mail,4,Armor,Armor,215,9,,5,,,,,,,,2 Shiny Gem,
+Ring Mail,5,Armor,Armor,320,12,,6,,,,,,,,,
+Chainmail,8,Armor,Armor,995,21,,11,,,,,,,,2 Cuirass,
+Half Plate,9,Armor,Armor,1650,25,,13,,,,,3,,,4 Elven Dew,
+Moonplate,10,Armor,Armor,4400,30,,15,,,,,,,,2 Moon Shard,
+Steel Cuirass,11,Armor,Armor,3550,35,,18,,6,,,5,,,1 Iron Carapace,
+Full Plate,14,Armor,Armor,5200,50,,25,,12,,,9,,,,
+Longmail,17,Armor,Armor,12500,65,,33,,24,,,18,,,1 Good Half Plate,
+Noble Plate,18,Armor,Armor,36500,70,,35,,28,,,21,,,5 Rainbow Dust,1 Good Moonplate
+Silvered Scales,19,Armor,Armor,26500,75,,38,,32,,,24,,3,2 Frozen Core,3 Good Scale Mail
+Arcane Guard,22,Armor,Armor,43000,90,,45,,42,,,32,,5,2 Steel Cuirass,1 Royal Bone
+Runic Mail,23,Armor,Armor,67500,95,,48,,46,,,35,7,5,2 Silver Steel,
+Chaos Armor,25,Armor,Armor,405000,105,,80,,55,,,41,10,8,1 Liquid Fire,2 Great Silvered Scales
+Shining Armor,27,Armor,Armor,190000,120,,60,,65,,,49,,11,2 Golden Thread,2 Good Longmail
+Valkyrie Armor,30,Armor,Armor,635000,150,,75,,80,,,60,20,15,2 Phoenix Feather,2 Good Arcane Guard
+White Fullplate,32,Armor,Armor,230000,170,,85,,90,,,68,24,18,2 Demon Heart,1 Great Full Plate
+Eldritch Mail,35,Armor,Armor,2800000,200,,100,,105,,,79,,23,2 Demon Heart,1 Flawless Chaos Armor
+Golden Heart,36,Armor,Armor,305000,200,,100,,110,,,83,32,24,1 Sun Tear,2 Yggdrasil Leaf
+Gaia's Foretress,38,Armor,Armor,1400000,250,,125,,130,,,98,40,30,2 Dark Energy,1 Flawless Shining Armor
+Draconic Plate,39,Armor,Armor,3550000,275,,138,,140,,,105,45,34,3 Dragon Scale,1 Flawless White Fullplate
+Leather Vest,1,Vests,Armor,10,,,2,,,,,,,,,
+Hide Armor,2,Vests,Armor,28,,,3,,,,,,,,,
+Boiled Leather,4,Vests,Armor,215,5,,9,,,,,,,,1 Viper Essence,
+Brigandine,6,Vests,Armor,510,8,,15,,,,,,,,1 Leather Vest,
+Leather Cuirass,8,Vests,Armor,695,,,21,,,,,,,,2 Elven Dew,
+Studded Leather,11,Vests,Armor,1800,,,35,,,,6,,,,1 Hide Armor,
+Raccoon Ranger,12,Vests,Armor,8650,,,40,,,,8,6,,,2 Iron Carapace,2 Rainbow Dust
+Poison Studs,13,Vests,Armor,4250,,,45,,,,10,8,,,1 Iron Carapace,
+Strapped Leather,16,Vests,Armor,6500,,,60,,,,20,15,,,,
+Plated Tunic,17,Vests,Armor,23000,,,65,,,12,24,,,,3 Iron Carapace,3 Great Hide Armor
+Plated Leather,18,Vests,Armor,12000,35,,70,,,,28,21,,,2 Good Banded Mail,
+Bear Armor,21,Vests,Armor,18000,,,85,,,,38,29,,5,2 Brigandine,
+Nightingale,24,Vests,Armor,51500,,,100,,,,50,38,,,2 Liquid Fire,2 Good Studded Leather
+Genji Armor,26,Vests,Armor,87000,,110,,,,,60,,,12,2 Phoenix Feather,3 Wyvern Wing
+Oiled Leather,28,Vests,Armor,90500,,,130,,,,70,53,,16,1 Golden Thread,3 Great Leather Cuirass
+Layered Armor,29,Vests,Armor,140000,,,140,,,38,75,,,,3 Yggdrasil Leaf,2 Good Strapped Leather
+Gold Stitch,32,Vests,Armor,170000,,,,,,,,,,,,
+Wyrm Hide,33,Vests,Armor,935000,,,180,,,,95,,20,26,3 Demon Heart,1 Flawless Genji Armor
+White Crow,36,Vests,Armor,395000,,,,,,,,,,,,
+Shadow Lurker,38,Vests,Armor,800000,,,250,,,65,130,98,30,,3 Dark Energy,1 Flawless Nightingale
+Valkyrie's Embrace,40,Vests,Armor,1750000,,,300,,,,150,113,,50,3 Sun Tear,3 Great Bear Armor
+Dragon Skin,40,Vests,Armor,5350000,,,300,,,,150,113,38,50,3 Dragon Scales,2 Flawless Layered Armor
+Hard Hat,1,Helmets,Armor,10,2,,,,,,,,,,,
+Iron Cap,2,Helmets,Armor,28,3,,,,,,,,,,,
+Iron Helmet,4,Helmets,Armor,230,9,,8,,,,,,,,,
+Horned Helm,5,Helmets,Armor,400,12,,11,,,,,,,,1 Hard Hat,
+Full Helm,6,Helmets,Armor,705,15,,14,,,,,,,,2 Shiny Gem,1 Good Iron Cap
+Warrior's Helmet,9,Helmets,Armor,1700,25,,23,,4,,,,,,,
+Moonlight Cap,10,Helmets,Armor,4850,30,,27,,,,,,,,2 Moon Shard,
+Spangenhelm,11,Helmets,Armor,3350,35,,32,,6,,,,,,1 Moon Shard,
+Scale Helmet,14,Helmets,Armor,6350,50,,45,,12,,,,,,1 Iron Carapace,1 Iron Helmet
+Knight's Helm,17,Helmets,Armor,11000,65,,59,,24,,,,,,2 Horned Helm,
+Paladin's Helmet,19,Helmets,Armor,62500,75,,68,,32,,,,3,4,3 Iron Carapace,3 Liquid Fire
+Great Helm,21,Helmets,Armor,18500,85,,77,,38,,,,,,2 Full Helm,
+Frozen Helm,23,Helmets,Armor,185000,95,,86,,46,,,,5,7,2 Frozen Core,2 Great Knight's Helm
+Silver Helm,25,Helmets,Armor,65500,105,,95,,55,,,,,10,2 Silver Steel,
+Dragoon's Casque,28,Helmets,Armor,120000,130,,117,,70,,,,,16,2 Phoenix Feather,3 Good Warrior's Helmet
+Elir's Barbuta,31,Helmets,Armor,190000,150,,135,,85,,,,17,22,2 Demon Heart,2 Good Spangenhelm
+Mercurial,33,Helmets,Armor,295000,,,,,,,,,,,,
+Phoenix Helmet,34,Helmets,Armor,1750000,190,,171,,100,,,,21,28,2 Phoenix Feather,2 Flawless Paladin's Helmet
+Champion's Helm,35,Helmets,Armor,780000,,,,,,,,,,,,
+Dragonscale Helmet,38,Helmets,Armor,1450000,250,,225,,130,,,,30,40,2 Dragon Scale,1 Flawless Dragoon's Casque
+Valkyrie Helm,40,Helmets,Armor,2650000,300,,270,,150,,,,38,50,3 Dragon Scales,3 Flawless Valkyrie
+Adamantium Helm,40,Helmets,Armor,3450000,300,,270,,150,,,,38,50,2 Adamantium,1 Flawless Elur's Barbuta
+Light Gauntlets,2,Gauntlets,Armor,28,3,,,,,,,,,,,
+Gauntlets,3,Gauntlets,Armor,95,6,,,,,,,,,,2 Shiny Gem,
+Vambrace,5,Gauntlets,Armor,455,12,,11,,,,,,,,2 Elven Dew,
+Long Gauntlets,7,Gauntlets,Armor,980,18,,16,,,,,,,,2 Light Gauntlets,
+Meshed Gauntlets,8,Gauntlets,Armor,1500,21,,19,,,,,,,,2 Burning Ember,
+Moonlight Gauntlets,10,Gauntlets,Armor,6450,30,,27,,,,,,,,2 Moon Shard,1 Long Gauntlets
+Chainmail Gauntlets,12,Gauntlets,Armor,3650,40,,36,,8,,,,,,1 Gauntlets,
+Jagged Gauntlets,15,Gauntlets,Armor,7400,55,,50,,16,,,,,,1 Iron Carapace,2 Good Light Gauntlets
+Lord's Gauntlets,16,Gauntlets,Armor,15500,60,,54,,20,,,,,,2 Wyvern Wing,1 Good Meshed Gaultlets
+Steel Vambrace,19,Gauntlets,Armor,28000,75,,68,,32,,,,,,2 Royal Bone,2 Good Vambrace
+Frozen Grip,20,Gauntlets,Armor,135000,80,,72,,35,,,,1,1,5 Frozen Core,1 Great Moonlight Gauntlets
+Silver Gauntlets,23,Gauntlets,Armor,63000,95,,86,,46,,,,,,3 Liquid Fire,
+King's Gauntlets,25,Gauntlets,Armor,265000,105,,95,,55,,,,10,10,2 Royal Bone,1 Great Silver Gauntlets
+Bloodlust Gauntlets,27,Gauntlets,Armor,120000,120,,108,,65,,,,,2,3 Silver Steel,
+Dark Vambrace,30,Gauntlets,Armor,185000,150,,135,,80,,,,,3,2 Demon Heart,1 Good Steel Vambrace
+Protector Gauntlets,31,Gauntlets,Armor,180000,160,,144,,85,,,,3,5,3 Phoenix Feather,
+Shockers,32,Gauntlets,Armor,385000,170,,153,,90,,,,35,15,2 Dark Energy,1 Flawless Jagged Gauntlets
+Giga-brace,35,Gauntlets,Armor,385000,200,,180,,105,,,,8,8,2 Great Steel Vambrace,
+Fire Smasher,37,Gauntlets,Armor,885000,225,,203,,120,,,,25,20,2 Sun Tear,1 Flawless Bloodlust Gauntlets
+Dragonscale Gauntlets,38,Gauntlets,Armor,1750000,250,,225,,130,,,,20,30,2 Dragon Scale,1 Flawless Protector Gauntlet
+Adamantium Fists,40,Gauntlets,Armor,3900000,300,,270,,150,,,,50,50,2 Adamantium,1 Flawless King's Gauntlets
+Heavy Boots,1,Boots,Armor,22,2,,2,,,,,,,,,
+Rider's Boots,3,Boots,Armor,120,6,,5,,,,,,,,,
+Chain Greaves,4,Boots,Armor,230,9,,8,,,,,,,,,
+Plated Boots,6,Boots,Armor,705,15,,14,,,,,,,,3 Shiny Gem,
+Traveling Boots,8,Boots,Armor,1250,21,,19,,,,,,,,2 Heavy Boots,
+Moon Boots,9,Boots,Armor,4300,25,,23,,,,,,,,2 Moon Shard,
+Red Boots,10,Boots,Armor,2950,30,,27,,,,5,,,,1 Burning Ember,2 Rider's Boots
+Lion Boots,12,Boots,Armor,12500,40,,36,,8,,7,4,,,4 Rainbow Dust,
+Explorer Boots,13,Boots,Armor,6800,45,,41,,10,,9,,,,1 Traveling Boots,
+Valkyrie Boots,14,Boots,Armor,17000,50,,45,,12,,,6,,,2 Rainbow Dust,2 Good Plated Boots
+Sabaton,15,Boots,Armor,9800,55,,50,,16,,,,,,3 Good Chain Greaves,
+Warrior's Greaves,18,Boots,Armor,19500,70,,63,,28,,,14,,,3 Iron Carapace,
+Knight Riders,21,Boots,Armor,38000,85,,77,,38,,34,19,,,2 Red Boots,
+Silvered Greaves,25,Boots,Armor,96500,105,,95,,55,,,28,,10,2 Silver Steel,1 Warrior's Greaves
+Flame Greaves,27,Boots,Armor,250000,120,,108,,68,,,33,11,14,3 Liquid Fire,1 Great Knight Riders
+Lord's Boots,29,Boots,Armor,130000,140,,126,,75,,68,38,--,18,3 Yggdrasil Leaf,
+Magic Riders,30,Boots,Armor,390000,150,135,,,80,,,40,15,20,3 Golden Thread,1 Epic Moonboot
+Frost Sabatons,32,Boots,Armor,180000,165,,149,,90,,,,18,24,2 Golden Thread,3 Frozen Core
+Earthshakers,34,Boots,Armor,375000,175,,158,,100,,,,21,28,2 Demon Heart,1 Good Silvered Greaves
+King's Boots,37,Boots,Armor,1250000,,,,,,,,,,,,
+Skull Stompers,38,Boots,Armor,2200000,250,,225,,130,,,65,30,40,2 Demon Heart,1 Flawless Earthshakers
+Draconic Greaves,39,Boots,Armor,2650000,275,,248,,130,,,65,30,40,3 Dragon Scale,1 Flawless Silvered Greaves
+Tunic,1,Clothes,Armor,10,,,2,,,,,,,,,
+Cloak,2,Clothes,Armor,28,,,3,,,,,,,,,
+Mantle,4,Clothes,Armor,190,,,9,,,,,,,,2 Elven Dew,
+Red Tunic,5,Clothes,Armor,230,,,12,,,,,,,,1 Tunic,
+Robe,7,Clothes,Armor,505,,,18,,,,,,,,2 Shiny Gem,
+Doublet,9,Clothes,Armor,1000,,,25,,,,4,,,,,
+Apprentice Robes,11,Clothes,Armor,1950,,,35,,,,6,,,,1 Rainbow Dust,
+Ice Cloak,13,Clothes,Armor,15500,,,45,,,,10,,,,3 Good Cloak,2 Frozen Core
+Magician's Cloak,15,Clothes,Armor,5700,,,55,,,,16,,,,1 Wyvern Wing,1 Mantle
+Silk Robe,17,Clothes,Armor,10500,,,65,,,,24,,,,3 Moon Shard,
+Mage Robe,19,Clothes,Armor,34500,,,75,,,,32,,4,3,2 Good Apprentice Robes,
+Sacred Tunic,21,Clothes,Armor,25000,,,85,,,,38,,5,,2 Royal Bone,
+Imperial Mantle,25,Clothes,Armor,44000,,,105,,,,55,,10,9,1 Phoenix Feather,3 Good Robe
+Gaia's Mantle,27,Clothes,Armor,145000,,,120,,,,65,,14,12,2 Yggdrasil Leaf,2 Good Magician's Cloak
+Stealth Apparel,28,Clothes,Armor,82000,,,130,,,,70,,16,14,3 Liquid Fire,
+Storm Apparel,29,Clothes,Armor,180000,,,140,,,,75,,18,15,3 Yggdrasil Leaf,1 Great Ice Cloak
+Night Walker,31,Clothes,Armor,145000,,,150,,,,85,,22,19,2 Demon Heart,
+Sorcerer Robe,32,Clothes,Armor,975000,,,170,,,,90,,24,20,2 Silver Steel,2 Flawless Mage Robe
+Nightmare Cape,33,Clothes,Armor,790000,,,180,,,,95,,26,22,2 Dark Energy,1 Flawless Stealth Apparel
+Sage's Robe,34,Clothes,Armor,160000,,,,,,,,,,,,
+Shimmering Robes,36,Clothes,Armor,465000,,,200,,,,110,,32,27,2 Sun Tear,2 Great Silk Robe
+Plasmic Robe,38,Clothes,Armor,2000000,,,250,,,,130,,40,34,2 Adamantium,1 FlawlessImperial Mantle
+Archwizard Robe,39,Clothes,Armor,2900000,,,275,,,,140,,45,38,2 Dragon Scale,1 Flawless Sage's Robe
+Targe,2,Shields,Armor,34,,3,,,,,,,,,,
+Buckler,3,Shields,Armor,150,6,6,,,,,,,,,,
+Small Shield,5,Shields,Armor,265,12,,,,,,,,,,,
+Heater Shield,6,Shields,Armor,550,15,,,,,,,,,,1 Burning Ember,
+Protector,8,Shields,Armor,1650,,21,,,,,,,,,3 Iron Wood,
+Kite Shield,9,Shields,Armor,1950,25,25,,,,,,,,,1 Good Targe,
+Tower Shield,11,Shields,Armor,3700,35,35,,,,,,,,,3 Iron Wood,
+Moonlight Shield,14,Shields,Armor,6000,,50,,,,12,,,,,1 Moon Shard,2 Good Buckler
+Knight Shield,17,Shields,Armor,12000,65,,,,24,,,,,,2 Iron Carapace,1 Good Small Shield
+Fire Proof,18,Shields,Armor,22500,70,,,,28,,,,3,,1 Wyvern Wing,2 Heater Shield
+Venomous Buckler,20,Shields,Armor,20500,80,,,,35,,,,,,1 Liquid Fire,3 Good Buckler
+Aegis,21,Shields,Armor,87500,,85,,,,38,,,,5,1 Liquid Fire,2 Great Tower Shield
+Bulwark,22,Shields,Armor,37500,90,,,,42,,,,,,1 Liquid Fire,2 Good Heater Shield
+Reflective Shield,23,Shields,Armor,29500,95,,,,46,,,,6,,2 Frozen Core,
+Skeleton Shield,25,Shields,Armor,39500,,105,,,,55,,,9,,2 Royal Bone,
+Spiked Shield,27,Shields,Armor,82500,120,,,,65,,,,,14,2 Silver Steel,
+Ember Shield,29,Shields,Armor,135000,140,,,,75,,,,15,,1 Phoenix Feather,3 Yggdrasil Leaf
+Crystal Shield,30,Shields,Armor,935000,150,,,,80,,,,17,20,2 Demon Heart,1 Flawless Aegis
+Argus' Shield,31,Shields,Armor,270000,150,,,,85,,,,,22,2 Demon Heart,2 Good Knight's Shield
+Blessed Aegis,34,Shields,Armor,480000,,,,,,,,,,,,
+Dragon Skull,37,Shields,Armor,2000000,,225,,,,120,,,31,36,2 Dragon Scale,2 Flawless Skeleton Shield
+Giantshield,39,Shields,Armor,3750000,275,,,,140,,,,38,45,2 Adamantium,1 Flawless Ember Shield
+Circlet,1,Hats,Armor,10,,,2,,,,,,,,,
+Hood,2,Hats,Armor,28,,,3,,,,,,,,,
+Monk's Hat,3,Hats,Armor,130,,,6,,,,,,,,2 Elven Dew,
+Buckle Hat,6,Hats,Armor,335,,,15,,,,,,,,,
+Robin's Hood,8,Hats,Armor,2000,,,21,,,,,,,,2 Rainbow Dust,1 Good Hood
+Pumpkinhead,8,Hats,Armor,2150,,11,21,,,2,,,,,2 Burning Ember,1 Hood
+Plumed Hat,8,Hats,Armor,755,,,21,,,,,,,,2 Viper Essence,
+Thief's Hood,9,Hats,Armor,1150,,,25,,,,4,,,,2 Hood,
+Noble Tiara,11,Hats,Armor,2100,9,,35,,,,6,,,,3 Shiny Gem,1 Good Circlet
+Light Visage,13,Hats,Armor,3150,11,,45,,,,10,,,,,
+Scarlet Coif,15,Hats,Armor,9100,,,55,,,,16,,,,2 Good Plumed Hat,
+Magic Top,19,Hats,Armor,21000,,,75,,,,32,,4,,2 Wyvern Wing,
+Silver Crown,21,Hats,Armor,38000,21,,85,,,38,,,5,,2 Good Noble Tiara,2 Frozen Core
+Elven Coif,24,Hats,Armor,65500,,,100,,,,50,,8,,1 Scarlet Coif,
+Golden Crown,25,Hats,Armor,265000,26,,105,,14,,55,,,8,2 Silver Steel,1 Flawless Silver Crown
+Wise Cap,27,Hats,Armor,380000,,,120,,,,65,,,,6 Rainbow Dust,2 Great Magic Top
+Dark Visage,28,Hats,Armor,105000,33,,130,,18,,70,,16,,2 Liquid Fire,2 Good Light Visage
+Shadowhood,31,Hats,Armor,140000,,,160,,,,85,,22,,2 Demon Heart,2 Good Thief's Hood
+Archwizard's Hat,33,Hats,Armor,400000,,,,,,,,,,,,
+Runic Tiara,34,Hats,Armor,615000,48,,190,,25,,100,,28,21,2 Sun Tear,2 Epic Noble Tiara
+Thunder Crown,36,Hats,Armor,1650000,,,210,,28,,110,,32,24,2 Dark Energy,1 Flawless Golden Crown
+Jorou's Crown,38,Hats,Armor,920000,,110,220,,,60,120,,36,27,2 Sun Tear,1 Flawless Lion's Tail
+Demonic Visage,39,Hats,Armor,2450000,69,,275,,35,,140,,45,,2 Adamantium,3 Demon Heart
+Leather Bracers,1,Gloves,Armor,10,,,2,,,,,,,,,
+Gloves,2,Gloves,Armor,28,,,3,,,,,,,,,
+Wrist Guards,3,Gloves,Armor,160,,3,6,,,,,,,,2 Elven Dew,
+Padded Gloves,5,Gloves,Armor,410,,,12,,,,,,,,2 Iron Wood,
+Fur Gloves,7,Gloves,Armor,790,,,18,,,,,,,,3 Gloves,
+Venomous Hands,9,Gloves,Armor,1400,,,25,,,,,,,,3 Viper Essence,
+Woven Bracers,10,Gloves,Armor,1300,,,30,,,,,,,,1 Wrist Guards,
+Dexterious Gloves,12,Gloves,Armor,3150,,,40,,,,8,,,,2 Rainbow Dust,
+Wisdom Gloves,14,Gloves,Armor,17000,,,50,,,,12,,,,2 Wyvern Wing,2 Good Padded Gloves
+Elemental Bracers,14,Gloves,Armor,5250,,25,50,,,,12,,,,1 Iron Carapace,
+Grandmaster Gloves,15,Gloves,Armor,18500,,28,55,,,8,16,,,2,1 Great Dexterous Gloves,
+Flaming Hands,16,Gloves,Armor,8650,,,60,,,,20,,,,3 Burning Ember,2 Good Padded Gloves
+Shadowed Gloves,18,Gloves,Armor,33000,,70,140,,,38,,,18,14,1 Good Venomous Hand,
+Royal Bracers,20,Gloves,Armor,18500,,40,80,,,18,35,,5,,1 Royal Bone,
+Alchemist Gloves,22,Gloves,Armor,30500,,,90,,,21,42,,,,1 Liquid Fire,3 Good Fur Gloves
+Mage Bracers,24,Gloves,Armor,41500,,50,100,,,25,50,,8,,1 Yggdrasil Leaf,2 Good Woven Bracers
+Sorcerer's Bracers,26,Gloves,Armor,72500,,55,110,,,30,60,,12,9,1 Silver Steel,2 Elemental Bracers
+Shield Bracers,30,Gloves,Armor,160000,,75,150,,,40,80,,,15,2 Phoenis Feather,1 Great Royal Bracer
+Angel Gloves,35,Gloves,Armor,355000,,,200,,,,105,53,30,23,3 Golden Thread,2 Great Flaming Hands
+Freezing Bracers,36,Gloves,Armor,1300000,,105,210,,,55,,,32,24,7 Frozen Core,2 Flawless Mage Bracers
+Nightstalker Gloves,38,Gloves,Armor,1500000,,,250,,,65,130,,40,30,2 Epic Alchemist Gloves,2 Great invisibility Scroll
+Death Grip,39,Gloves,Armor,2800000,,138,275,,,70,140,,45,34,3 Dark Energy,1 Flawless Angel Gloves
+Sandals,1,Footwear,Armor,16,,1,2,,,,,,,,,
+Shoes,2,Footwear,Armor,44,,2,3,,,,,,,,,
+Druidic Shoes,3,Footwear,Armor,210,,3,,,,,,,,,,
+Leather Shoes,4,Footwear,Armor,185,,5,9,,,,,,,,,
+Fur Loafers,6,Footwear,Armor,575,,8,15,,,,,,,,2 Elven Dew,
+Light Boots,7,Footwear,Armor,915,,9,18,,,,,,,,2 Shoes,
+Elven Boots,8,Footwear,Armor,2300,,11,21,,,,,,,,2 Rainbow Dust,
+Dancer Shoes,9,Footwear,Armor,1500,,13,25,,,,4,,,,1 Burning Ember,
+Legion Sandals,11,Footwear,Armor,2550,,18,35,,,,6,,,,2 Great Sandals,
+Horned Shoes,14,Footwear,Armor,5750,,25,50,,,6,12,,,,1 Moon Shard,2 Good Shoes
+Moon Walkers,15,Footwear,Armor,16500,,28,55,,,8,16,,,,2 Moon Shard,1 Good Dancer Shoes
+Golden Shoes,17,Footwear,Armor,9050,,33,65,,,12,24,,,,,
+Plumed Loafers,21,Footwear,Armor,19500,,43,85,,,19,38,,5,,1 Wyvern Wing,2 Leather Shoes
+Winged Sandals,22,Footwear,Armor,65500,,45,90,,,21,,,,5,3 Wyvern Wing,2 Great Legion Sandals
+Imperial Sandals,25,Footwear,Armor,37500,,53,105,,,28,,,10,,2 Royal Bone,1 Good Legion Sandals
+Genji Getas,28,Footwear,Armor,64500,,65,130,,,35,70,,16,,2 Liquid Fire,
+Path Finders,29,Footwear,Armor,560000,,70,140,,,38,,,18,14,2 Flawless Moon Walkers,1 Good Teleportation Scroll
+Floating Slippers,31,Footwear,Armor,120000,,80,160,,,43,,,,,2 Yggdrasil Leaves,1 Good Teleportation Scroll
+Wind Walkers,35,Footwear,Armor,380000,,,,,,,,,,,,
+Arcane Sandals,37,Footwear,Armor,920000,,,,,,,,,,,,
+Planeswalker,38,Footwear,Armor,2350000,,125,250,,,65,,,40,30,2 Sun Tear,1 Flawless Wind Walkers
+Draconic Boots,40,Footwear,Armor,3600000,,150,300,,,75,150,,50,,3 Dragon Scale,2 Flawless Winged Sandals
+Healing Herbs,1,Remedies,Accessories,10,,,,2,,,,,,,,
+Antidote,2,Remedies,Accessories,44,,,,3,,,,,,,1 Elven Dew,
+Fungi Brew,3,Remedies,Accessories,95,,,,6,,,,,,,2 Shiny Gem,
+Elderflower,6,Remedies,Accessories,385,,,,15,,,,,,,2 Healing Herbs,
+Healing Mix,7,Remedies,Accessories,690,,,,18,,,,,,,2 Antidote,
+Colored Powder,8,Remedies,Accessories,2200,,,,21,,,,,,,1 Rainbow Dust,3 Health Vial
+Fire Moss,9,Remedies,Accessories,1200,,,,25,,,,,,,2 Burning Ember,
+Sleeping Shrooms,11,Remedies,Accessories,2200,,,,35,,,,6,,,2 Fungi Brew,
+Bark Tea,13,Remedies,Accessories,3500,,,,45,,,,10,,,4 Iron Wood,
+Fairy Sprinkle,15,Remedies,Accessories,6200,,,,55,,,,16,,,3 Rainbow Dust,
+Anti-venom,19,Remedies,Accessories,14500,,,,75,,,,32,3,,2 Wyvern Wing,3 Good Antidote
+Protection Dust,21,Remedies,Accessories,32500,,,,85,,,,38,4,,2 Royal Bone,3 Good Heater Shield
+Swift Seed,23,Remedies,Accessories,72500,,,,95,,,,46,5,,2 Liquid Fire,2 Good Hunting Knife
+Elven Cure,24,Remedies,Accessories,45500,,,,80,,,,50,6,,2 Yggdrasil Leaf,2 Good Elderflower
+Rejuvenating Tea,26,Remedies,Accessories,120000,,,,110,,,,60,9,,3 Yggdrasil Leaf,1 Flawless Bark Tea
+Angel Dust,28,Remedies,Accessories,92000,,,,130,,,,70,12,,2 Phoenix Feather,1 Great Harp
+Coldfire Dust,31,Remedies,Accessories,120000,,,,150,,,,85,17,,2 Golden Thread,3 Fire Moss
+Strength Seed,34,Remedies,Accessories,1150000,,,,190,,,,100,21,,2 Demon Heart,1 Flawless Pulveriser
+Phoenix Dust,35,Remedies,Accessories,410000,,,,185,,,,105,23,,2 Sun Tear,3 Good Fairy Sprinkle
+Panacea,37,Remedies,Accessories,2600000,,,,225,,,,120,27,,1 Dragon Scale,2 Flawless Rejuvenating Tea
+Magic Seed,40,Remedies,Accessories,5550000,,,,300,,,,150,38,,3 Dark Energy,3 Flawless Ice Staff
+Health Vial,3,Potions,Accessories,75,,,,6,,,,,,,,
+Mana Vial,4,Potions,Accessories,175,,,,9,,,,,,,1 Healing Herbs,
+Speed Potion,5,Potions,Accessories,285,,,,12,,,,,,,1 Elven Dew,
+Love Splash,6,Potions,Accessories,420,,,,15,,,,,,,,
+Healing Potion,7,Potions,Accessories,740,,,,18,,,,,,,1 Good Health Vial,
+Toxic Vial,8,Potions,Accessories,930,,,,21,,,,,,,2 Viper Essence,
+Elixir Drops,9,Potions,Accessories,1800,,,,25,,,,4,,,3 Elven Dew,
+Health Drink,10,Potions,Accessories,2350,,,,30,,,,5,,,1 Elderflower,
+Strength Potion,13,Potions,Accessories,3900,,,,45,,,,10,,,1 Speed Potion,
+Warming Spray,15,Potions,Accessories,8100,,,,55,,,,16,,,2 Burning Ember,1 Fire Moss
+Acidic Splash,17,Potions,Accessories,11000,,,,65,,,,24,3,2,1 Good Toxic Vial,
+Health Potion,20,Potions,Accessories,26500,,,,80,,,,35,5,4,2 Wyvern Wing,1 Good Health Drink
+Wisdom Potion,22,Potions,Accessories,40000,,,,90,,,,42,,,1 Liquid Fire,2 Good Healing Potion
+Mana Potion,22,Potions,Accessories,75500,,,,90,,,,42,6,5,3 Liquid Fire,
+Demon's Blood,24,Potions,Accessories,125000,,,,100,,,,50,8,6,3 Liquid Fire,
+Elixir,26,Potions,Accessories,170000,,,,110,,,,60,12,10,3 Yggdrasil Leaves,2 Great Elixir Drops
+Golden Potion,28,Potions,Accessories,130000,,,,130,,,,70,16,13,1 Silver Steel,2 Good Warming Spray
+Life Potion,31,Potions,Accessories,220000,,,,160,,,,85,22,18,3 Yggdrasil Leaves,3 Good Strength Potions
+Invincibility Potion,33,Potions,Accessories,995000,,,,170,,,,95,26,21,3 Phoenix Feather,2 Great Bone Reaver
+Dragon's Blood,34,Potions,Accessories,1200000,,,,190,,,,100,28,22,1 Dragon Scale,2 Flawless Health Potions
+Megaelixir,36,Potions,Accessories,2150000,,,,210,,,,110,32,26,3 Sun Tear,1 Flawless Elixir
+God's Essence,39,Potions,Accessories,4700000,,,,275,,,,140,45,36,1 Adamantium,2 Flawless Golden Potion
+Shielding Seal,5,Spells,Accessories,330,,,12,,,,,,,,1 Shiny Gem,
+Fireball Scroll,7,Spells,Accessories,935,,,18,,,,,,,,1 Burning Ember,
+Poison Scroll,8,Spells,Accessories,1450,,,21,,,,,,,,3 Viper Essence,
+Lightning Scroll,9,Spells,Accessories,2700,,,25,,,,,,,,2 Rainbow Dust,
+Sleeping Totem,11,Spells,Accessories,4450,,18,35,,,,,6,,,5 Elven Dew,
+Firewall Scroll,12,Spells,Accessories,5850,,,40,,,,7,8,,,3 Burning Ember,
+Pain Totem,13,Spells,Accessories,12500,,23,,45,,5,,,,,2 Iron Carapace,
+Deflection Seal,14,Spells,Accessories,8150,25,,,,6,,,,,,2 Iron Carapace,
+Freezing Scroll,16,Spells,Accessories,16500,,,60,,,,17,20,3,,1 Frozen Core,1 Good Scarlet Drop
+Invisibility Scroll,18,Spells,Accessories,23500,,,70,,,,,28,4,,3 Moon Shard,1 Good Poison Scroll
+Teleportation Scroll,21,Spells,Accessories,40000,,,85,,,,32,38,5,,1 Liquid Fire,1 Good Lightning Scroll
+Magical Codex,23,Spells,Accessories,130000,,,95,,,,39,46,7,6,2 Liquid Fire,1 Great Hanging Journal
+Paralysis Totem,24,Spells,Accessories,86500,,50,,100,,25,,,8,6,2 Yggdrasil Leaf,1 Good Sleeping Totem
+Evil Seal,26,Spells,Accessories,305000,55,,,,30,,,60,12,10,2 Silver Steel,2 Great Deflection Seals
+Possession Scroll,28,Spells,Accessories,115000,,,130,,,,60,70,16,13,1 Phoenix Feather,1 Great Love Splash
+Njord,30,Spells,Accessories,580000,,,150,,,,68,80,20,16,2 Golden Treads,2 Good Freezing Scrolls
+Power Seal,30,Spells,Accessories,405000,75,,,,40,,,80,20,16,2 Silver Steel,1 Bloodlust Gauntlets
+Gloom Totem,32,Spells,Accessories,635000,,85,,170,,45,,,24,19,2 Demon Heart,1 Great Paralysis Totem
+Arcane Compendium,33,Spells,Accessories,1950000,,,180,,,,81,95,26,21,2 Sun Tear,1 Flawless Possession Scroll
+Disintegration Scroll,35,Spells,Accessories,935000,,,,,,,,,,,,
+Return Scroll,37,Spells,Accessories,1600000,,,225,,,,102,120,36,29,2 Dark Energy,1 Flawless Golden Potion
+Divine Tome,40,Spells,Accessories,4850000,,,300,,,,128,150,50,40,2 Adamantium,1 Flawless Magical Codex
+Darts,2,Projectiles,Accessories,70,3,3,,,,,,,,,,
+Sling,3,Projectiles,Accessories,150,6,5,,,,,,,,,,
+Boomerang,4,Projectiles,Accessories,215,,9,,,,,,,,,2 Shiny Gem,
+Kunai,6,Projectiles,Accessories,550,15,,,,,,,,,,2 Elven Dew,
+Poison Darts,7,Projectiles,Accessories,1800,18,18,,5,,,,,,,3 Viper Essence,
+Smoke Bomb,9,Projectiles,Accessories,2600,25,,19,6,,,,,,,1 Rainbow Dust,1 Fungi Brew
+Metal Boomerang,11,Projectiles,Accessories,3900,35,,,,6,,,,,,2 Boomerang,
+Toxic Bomb,12,Projectiles,Accessories,12000,,40,,10,,,,6,,,3 Viper Essence,1 Good Smoke Bomb
+Sleeping Bomb,13,Projectiles,Accessories,6100,45,,,11,10,,,8,,,1 Love Splash,
+Shock Darts,15,Projectiles,Accessories,13000,55,55,,,16,16,,,,,1 Moon Shard,2 Great Darts
+Shuriken,18,Projectiles,Accessories,21000,70,,,,28,,,21,,,3 Kunai,
+Elasti-sling,20,Projectiles,Accessories,32000,80,,60,,,,,26,,,3 Wyvern Wing,
+Bladed Feather,22,Projectiles,Accessories,43500,90,,,,42,,,,,,1 Liquid Fire,2 Good Plumed Hat
+Chakram,22,Projectiles,Accessories,54000,90,,,,42,,,,,5,2 Yggdrasil Leaf,
+Magic Shuriken,24,Projectiles,Accessories,155000,100,,,,50,,,,6,,2 Liquid Fire,1 Great Shuriken
+Singing Chakram,26,Projectiles,Accessories,175000,110,,,,60,,,,,9,2 Yggdrasil Leaf,1 Good Oud
+Steelarang,28,Projectiles,Accessories,93000,130,,,,70,,,,12,,2 Silver Steel,
+Seeking Kunai,30,Projectiles,Accessories,180000,150,,,,80,,,,15,,2 Demon Heart,1 Flawless Kunai
+Shredder,33,Projectiles,Accessories,280000,,,,,,,,,,,,
+Exploding Darts,35,Projectiles,Accessories,785000,200,200,,,105,105,,79,-,,2 Sun Tear,1 Flawless Shock Darts
+Heart Pirecer,36,Projectiles,Accessories,2650000,210,,,,110,,,,24,,2 Dragon Scale,1 Flawless Seeking Kunai
+Thunder Clap,38,Projectiles,Accessories,2000000,,250,,,,130,,98,30,,4 Dark Energy,2 Epic Switch Blades
+Iron Band,2,Rings,Accessories,32,3,,,,,,,,,,,
+Rabbit Ring,4,Rings,Accessories,155,9,,,,,,,,,,,
+Jewel Ring,5,Rings,Accessories,305,12,,,,,,,,,,2 Shiny Gem,
+Shadow Mark,6,Rings,Accessories,470,15,,,,,,,,,,1 Iron Band,
+Crescent Ring,7,Rings,Accessories,660,18,,,,,,,,,,2 Elven  Dew,
+Moonstone Ring,9,Rings,Accessories,1250,25,,,,,,,,,,2 Iron Wood,
+Luck Band,11,Rings,Accessories,3100,35,,,,6,,,,,,2 Rabbit Ring,
+Gold Digger,12,Rings,Accessories,4050,40,,,,,,,,,,4 Iron Wood,5 Shiny Gem
+Soldier's Mark,13,Rings,Accessories,4250,45,,,,10,,,,,,3 Dirk,
+Nimble Ring,14,Rings,Accessories,15500,50,,,,12,,,,,,2 Moon Shard,2 Good Shadow Mark
+Fire Band,16,Rings,Accessories,10000,60,,,,20,,,,,3,5 Burning Ember,
+Sight Band,19,Rings,Accessories,16000,75,,,,32,,,,,4,1 Light Visage,
+Undead Ring,21,Rings,Accessories,32000,85,,,,38,,,,4,5,2 Royal Bone,
+Power Ring,23,Rings,Accessories,52000,95,,,,46,,,,5,7,2 Good Strength Potion,
+Crusader Ring,25,Rings,Accessories,175000,105,,,,55,,,,,10,3 Silver Steel,3 Great Jewel Ring
+Prayer Ring,27,Rings,Accessories,245000,120,,,,65,,,,11,14,3 Royal Bone,3 Great Luck Band
+Wisdom Mark,28,Rings,Accessories,180000,130,,,,70,,,,12,16,2 Magic Top,1 Good Luck Band
+Resistance Band,31,Rings,Accessories,215000,160,,,,85,,,,17,22,2 Demon Hearts,2 Good Soldier's Mark
+Truth Ring,33,Rings,Accessories,470000,,,,,,,,,,,,
+Divine Mark,34,Rings,Accessories,2200000,190,,,,100,,,,21,28,2 Sun Tear,1 Flawless Life Potion
+Royal Ring,36,Rings,Accessories,1900000,210,,,,110,,,,,32,2 Dragon Scale,1 Flawless Crusader Ring
+Oracle,39,Rings,Accessories,4350000,275,,,,140,,,,34,45,2 Adamantium,1 Flawless Prayer Ring
+Shiny Pendant,3,Pendants,Accessories,100,3,,5,,,,,,,,,
+Opal Necklace,5,Pendants,Accessories,320,6,,9,,,,,,,,,
+Scarlet Drop,6,Pendants,Accessories,565,,8,11,,,,,,,,2 Shiny Gem,
+Protection Pendant,8,Pendants,Accessories,1050,,11,16,,,,,,,,2 Elven Dew,
+Luna Charm,10,Pendants,Accessories,1550,,,23,,3,,,,,,1 Shiny Pendant,1 Iron Wood
+Wind Charm,11,Pendants,Accessories,5850,18,,26,,,,,,,,3 Shiny Gem,2 Good Opal Necklace
+Skeleton Ward,12,Pendants,Accessories,2500,,,30,,,4,,,,,1 Shielding Seal,
+Hanging Journal,14,Pendants,Accessories,4200,,,38,,6,,9,,,2,,
+Fiery Talisman,16,Pendants,Accessories,9800,,,45,,10,,15,,,3,3 Burning Ember,1 Good Fireball Scroll
+Azure Beads,18,Pendants,Accessories,36500,,,42,,14,,,,,4,2 Wyvern Wing,3 Good Scarlet Drop
+Timeless Locket,18,Pendants,Accessories,19000,,,53,,14,,,,,4,2 Frozen Core,
+Jade Amulet,20,Pendants,Accessories,26500,,,60,,18,,,,5,5,2 Health Drink,
+Obelisk Charm,22,Pendants,Accessories,42500,,,68,,21,,,,5,6,3 Good Luna Charm,
+Turning Token,24,Pendants,Accessories,115000,,,75,,,25,,,7,8,2 Silver Steel,1 Great Skeleton Ward
+Light Amulet,25,Pendants,Accessories,79500,,,79,,,28,,,9,10,2 Flaming Hands,
+Shielding Ward,27,Pendants,Accessories,200000,,,90,,,,,,13,14,3 Yggdrasil Leaf,2 Great Hanging Journal
+Phoenix Talon,29,Pendants,Accessories,190000,,,105,,,38,,,16,18,3 Phoenix Feather,
+Freezing Ward,31,Pendants,Accessories,285000,,,113,,,43,,,20,22,7 Frozen Core,1 Great Jade Amulet
+Cat's Eye,33,Pendants,Accessories,430000,,,,,,,,,,,,
+Lich's Heart,35,Pendants,Accessories,1600000,,,150,,,53,,,27,30,3 Demon Heart,3 Flawless Freezing Scroll
+Draconic Amulet,36,Pendants,Accessories,1200000,,,158,,55,,,,29,32,2 Dragon Scale,1 Flawless Obelisk Charm
+Goddess' Tear,38,Pendants,Accessories,3050000,,,188,,65,,,,36,40,2 Sun Tear,2 Adamantium
+Wood Flute,3,Music,Accessories,80,,5,,,,,,,,,,
+Small Drum,4,Music,Accessories,350,,7,5,,,,,,,,3 Shiny Gem,
+Pan Flute,7,Music,Accessories,985,,14,9,,,,,,,,2 Elven Dew,
+Horn,9,Music,Accessories,1700,,19,13,,,,,,,,2 Viper Essence,
+Harp,11,Music,Accessories,4350,,26,18,,,5,,,,,2 Rainbow Dust,
+Iron Flute,12,Music,Accessories,4350,20,,,,,,,,,,5 Iron Wood,
+Lute,15,Music,Accessories,7450,,41,28,,,12,,,,,3 Iron Wood,
+Frozen Harp,16,Music,Accessories,46000,,45,,,,15,,,,,2 Frozen Cores,1 Good Harp
+Long Flute,18,Music,Accessories,12000,,53,,,,21,,,,,2 Moon Shards,2 Good Wood Flutes
+Oud,20,Music,Accessories,19500,,60,40,,,26,,,,,1 Royal Bone,
+Nordic Lute,22,Music,Accessories,49500,,68,45,,,32,,,,,3 Frozen Cores,
+Military Tap,25,Music,Accessories,105000,,79,53,,,41,28,,,,3 Good Small Drum,3 Liquid Fire
+Ygg Flute,26,Music,Accessories,110000,,83,,,,45,,,12,,2 Yggdrasil Leaves,1 Great Iron Flute
+Silvered Flute,28,Music,Accessories,215000,,98,,,,53,,,,13,2 Silver Steel,2 Good Long Flutes
+Soothing Harp,30,Music,Accessories,325000,,113,,,,60,,,20,,3 Phoenix Feathers,2 Great Harps
+Wyrm Horn,31,Music,Accessories,510000,,120,,,43,64,,,,18,3 Phoenix Feathers,2 Flawless Horn
+Golden String,32,Music,Accessories,410000,,128,85,,,68,,,,19,3 Golden Thread,2 Good Lutes
+Hell Hound,33,Music,Accessories,500000,,135,90,,,71,48,,26,,2 Dark Energy,2 Demon Hearts
+Draconian Sound,35,Music,Accessories,1950000,100,150,,,53,79,53,,,24,2 Dragon Scale,1 Great Silvered Flute
+Draconic Heartbeat,38,Music,Accessories,2150000,,188,125,,,98,65,,40,32,2 Dragon Scale,1 Flawless Military Tap
+Angelic Strings,40,Music,Accessories,6450000,,225,150,,,113,75,,50,40,2 Adamantium,1 Flawless Soothing Harp
