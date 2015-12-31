@@ -11,7 +11,11 @@
   <style>
     body {
       padding-top: 60px; /* navbar padding */
+      background-color: white; /* many images without transparency have white bg */
     }
+    .nopadding { padding: 0;}
+    {% block style %}
+    {% endblock style %}
   </style>
 </head>
 <body>
