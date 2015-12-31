@@ -31,7 +31,7 @@ basics = ['price', 'level']
 resources = ['iron', 'wood', 'leather', 'herbs',
              'steel', 'hwood', 'fabric', 'oil', 'mana', 'jewels']
 for row in reader:
-    name = row['name']
+    name = row['name'].replace('\'', '') # remove apostrophes
     kind = row['class']
     # fill item_data
     item_data = {}

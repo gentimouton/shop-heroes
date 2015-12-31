@@ -176,7 +176,7 @@ var items = {
          }, 
          "level": 25
       }, 
-      "Gaia's Foretress": {
+      "Gaias Foretress": {
          "price": 1400000, 
          "resources": {
             "steel": 130, 
@@ -237,15 +237,16 @@ var items = {
          }, 
          "level": 12
       }, 
-      "Berserker's Axe": {
-         "price": 165000, 
+      "Ragnaroks Edge": {
+         "price": 4150000, 
          "resources": {
-            "steel": 35, 
-            "hwood": 35, 
-            "wood": 71, 
-            "iron": 71
+            "steel": 113, 
+            "mana": 38, 
+            "hwood": 113, 
+            "wood": 225, 
+            "iron": 225
          }, 
-         "level": 23
+         "level": 40
       }, 
       "Storm Splitter": {
          "price": 420000, 
@@ -275,17 +276,6 @@ var items = {
             "iron": 7
          }, 
          "level": 4
-      }, 
-      "Ragnarok's Edge": {
-         "price": 4150000, 
-         "resources": {
-            "steel": 113, 
-            "mana": 38, 
-            "hwood": 113, 
-            "wood": 225, 
-            "iron": 225
-         }, 
-         "level": 40
       }, 
       "Halberd": {
          "price": 405, 
@@ -333,6 +323,16 @@ var items = {
             "iron": 135
          }, 
          "level": 33
+      }, 
+      "Berserkers Axe": {
+         "price": 165000, 
+         "resources": {
+            "steel": 35, 
+            "hwood": 35, 
+            "wood": 71, 
+            "iron": 71
+         }, 
+         "level": 23
       }, 
       "Crystal Asunder": {
          "price": 99500, 
@@ -489,15 +489,15 @@ var items = {
          }, 
          "level": 2
       }, 
-      "Heaven's Will": {
-         "price": 140000, 
+      "Balmung": {
+         "price": 4400000, 
          "resources": {
-            "steel": 85, 
-            "mana": 22, 
-            "jewels": 17, 
-            "iron": 160
+            "steel": 130, 
+            "mana": 40, 
+            "jewels": 30, 
+            "iron": 250
          }, 
-         "level": 31
+         "level": 40
       }, 
       "Scimitar": {
          "price": 19000, 
@@ -586,6 +586,16 @@ var items = {
          }, 
          "level": 30
       }, 
+      "Heavens Will": {
+         "price": 140000, 
+         "resources": {
+            "steel": 85, 
+            "mana": 22, 
+            "jewels": 17, 
+            "iron": 160
+         }, 
+         "level": 31
+      }, 
       "Abyssal Brand": {
          "price": 485000, 
          "resources": {
@@ -602,16 +612,6 @@ var items = {
             "iron": 120
          }, 
          "level": 27
-      }, 
-      "Balmung": {
-         "price": 4400000, 
-         "resources": {
-            "steel": 130, 
-            "mana": 40, 
-            "jewels": 30, 
-            "iron": 250
-         }, 
-         "level": 40
       }, 
       "Coldsteel": {
          "price": 71500, 
@@ -640,13 +640,6 @@ var items = {
          }, 
          "level": 37
       }, 
-      "Faery's String": {
-         "price": 345, 
-         "resources": {
-            "wood": 12
-         }, 
-         "level": 5
-      }, 
       "Bow Of Light": {
          "price": 160000, 
          "resources": {
@@ -655,16 +648,6 @@ var items = {
             "wood": 140
          }, 
          "level": 29
-      }, 
-      "Valkyrie's Touch": {
-         "price": 460000, 
-         "resources": {
-            "mana": 20, 
-            "hwood": 80, 
-            "wood": 150, 
-            "jewels": 15
-         }, 
-         "level": 30
       }, 
       "Double String": {
          "price": 635, 
@@ -751,6 +734,16 @@ var items = {
          }, 
          "level": 9
       }, 
+      "Valkyries Touch": {
+         "price": 460000, 
+         "resources": {
+            "mana": 20, 
+            "hwood": 80, 
+            "wood": 150, 
+            "jewels": 15
+         }, 
+         "level": 30
+      }, 
       "Chimera Wings": {
          "price": 365000, 
          "resources": {
@@ -777,6 +770,13 @@ var items = {
             "wood": 85
          }, 
          "level": 21
+      }, 
+      "Faerys String": {
+         "price": 345, 
+         "resources": {
+            "wood": 12
+         }, 
+         "level": 5
       }, 
       "Adamantium Crossbow": {
          "price": 6400000, 
@@ -1043,15 +1043,15 @@ var items = {
          }, 
          "level": 26
       }, 
-      "Lion's Tail": {
-         "price": 51000, 
+      "Knights Lance": {
+         "price": 6750, 
          "resources": {
-            "steel": 38, 
-            "hwood": 75, 
-            "wood": 140, 
-            "iron": 70
+            "steel": 8, 
+            "hwood": 16, 
+            "wood": 55, 
+            "iron": 28
          }, 
-         "level": 29
+         "level": 15
       }, 
       "Titanic Lance": {
          "price": 295000, 
@@ -1066,13 +1066,6 @@ var items = {
             "wood": 45
          }, 
          "level": 13
-      }, 
-      "Gaia's Javelin": {
-         "price": 1700, 
-         "resources": {
-            "wood": 25
-         }, 
-         "level": 9
       }, 
       "Obsidian Spear": {
          "price": 345000, 
@@ -1101,6 +1094,16 @@ var items = {
             "iron": 43
          }, 
          "level": 21
+      }, 
+      "Lions Tail": {
+         "price": 51000, 
+         "resources": {
+            "steel": 38, 
+            "hwood": 75, 
+            "wood": 140, 
+            "iron": 70
+         }, 
+         "level": 29
       }, 
       "Divine Ray": {
          "price": 2800000, 
@@ -1185,15 +1188,12 @@ var items = {
          "resources": {}, 
          "level": 32
       }, 
-      "Knight's Lance": {
-         "price": 6750, 
+      "Gaias Javelin": {
+         "price": 1700, 
          "resources": {
-            "steel": 8, 
-            "hwood": 16, 
-            "wood": 55, 
-            "iron": 28
+            "wood": 25
          }, 
-         "level": 15
+         "level": 9
       }, 
       "Wooden Spear": {
          "price": 10, 
@@ -1212,6 +1212,15 @@ var items = {
       }
    }, 
    "Shields": {
+      "Argus Shield": {
+         "price": 270000, 
+         "resources": {
+            "steel": 85, 
+            "jewels": 22, 
+            "iron": 150
+         }, 
+         "level": 31
+      }, 
       "Ember Shield": {
          "price": 135000, 
          "resources": {
@@ -1307,15 +1316,6 @@ var items = {
             "wood": 21
          }, 
          "level": 8
-      }, 
-      "Argus' Shield": {
-         "price": 270000, 
-         "resources": {
-            "steel": 85, 
-            "jewels": 22, 
-            "iron": 150
-         }, 
-         "level": 31
       }, 
       "Crystal Shield": {
          "price": 935000, 
@@ -1570,26 +1570,6 @@ var items = {
       }
    }, 
    "Helmets": {
-      "Paladin's Helmet": {
-         "price": 62500, 
-         "resources": {
-            "leather": 68, 
-            "steel": 32, 
-            "jewels": 4, 
-            "iron": 75, 
-            "mana": 3
-         }, 
-         "level": 19
-      }, 
-      "Great Helm": {
-         "price": 18500, 
-         "resources": {
-            "leather": 77, 
-            "steel": 38, 
-            "iron": 85
-         }, 
-         "level": 21
-      }, 
       "Adamantium Helm": {
          "price": 3450000, 
          "resources": {
@@ -1601,10 +1581,23 @@ var items = {
          }, 
          "level": 40
       }, 
-      "Champion's Helm": {
-         "price": 780000, 
-         "resources": {}, 
-         "level": 35
+      "Great Helm": {
+         "price": 18500, 
+         "resources": {
+            "leather": 77, 
+            "steel": 38, 
+            "iron": 85
+         }, 
+         "level": 21
+      }, 
+      "Warriors Helmet": {
+         "price": 1700, 
+         "resources": {
+            "leather": 23, 
+            "steel": 4, 
+            "iron": 25
+         }, 
+         "level": 9
       }, 
       "Iron Helmet": {
          "price": 230, 
@@ -1633,25 +1626,7 @@ var items = {
          }, 
          "level": 23
       }, 
-      "Knight's Helm": {
-         "price": 11000, 
-         "resources": {
-            "leather": 59, 
-            "steel": 24, 
-            "iron": 65
-         }, 
-         "level": 17
-      }, 
-      "Warrior's Helmet": {
-         "price": 1700, 
-         "resources": {
-            "leather": 23, 
-            "steel": 4, 
-            "iron": 25
-         }, 
-         "level": 9
-      }, 
-      "Dragoon's Casque": {
+      "Dragoons Casque": {
          "price": 120000, 
          "resources": {
             "leather": 117, 
@@ -1661,17 +1636,6 @@ var items = {
          }, 
          "level": 28
       }, 
-      "Dragonscale Helmet": {
-         "price": 1450000, 
-         "resources": {
-            "leather": 225, 
-            "steel": 130, 
-            "jewels": 40, 
-            "iron": 250, 
-            "mana": 30
-         }, 
-         "level": 38
-      }, 
       "Spangenhelm": {
          "price": 3350, 
          "resources": {
@@ -1680,6 +1644,17 @@ var items = {
             "iron": 35
          }, 
          "level": 11
+      }, 
+      "Paladins Helmet": {
+         "price": 62500, 
+         "resources": {
+            "leather": 68, 
+            "steel": 32, 
+            "jewels": 4, 
+            "iron": 75, 
+            "mana": 3
+         }, 
+         "level": 19
       }, 
       "Scale Helmet": {
          "price": 6350, 
@@ -1728,6 +1703,15 @@ var items = {
          }, 
          "level": 1
       }, 
+      "Knights Helm": {
+         "price": 11000, 
+         "resources": {
+            "leather": 59, 
+            "steel": 24, 
+            "iron": 65
+         }, 
+         "level": 17
+      }, 
       "Valkyrie Helm": {
          "price": 2650000, 
          "resources": {
@@ -1746,7 +1730,18 @@ var items = {
          }, 
          "level": 2
       }, 
-      "Elir's Barbuta": {
+      "Dragonscale Helmet": {
+         "price": 1450000, 
+         "resources": {
+            "leather": 225, 
+            "steel": 130, 
+            "jewels": 40, 
+            "iron": 250, 
+            "mana": 30
+         }, 
+         "level": 38
+      }, 
+      "Elirs Barbuta": {
          "price": 190000, 
          "resources": {
             "leather": 135, 
@@ -1767,21 +1762,14 @@ var items = {
             "mana": 21
          }, 
          "level": 34
+      }, 
+      "Champions Helm": {
+         "price": 780000, 
+         "resources": {}, 
+         "level": 35
       }
    }, 
    "Staves": {
-      "Valkyrie's Wisdom": {
-         "price": 2150000, 
-         "resources": {
-            "steel": 38, 
-            "oil": 113, 
-            "jewels": 43, 
-            "mana": 50, 
-            "wood": 300, 
-            "hwood": 150
-         }, 
-         "level": 40
-      }, 
       "Rebirth Rod": {
          "price": 47500, 
          "resources": {
@@ -1806,6 +1794,18 @@ var items = {
             "wood": 75
          }, 
          "level": 19
+      }, 
+      "Valkyries Wisdom": {
+         "price": 2150000, 
+         "resources": {
+            "steel": 38, 
+            "oil": 113, 
+            "jewels": 43, 
+            "mana": 50, 
+            "wood": 300, 
+            "hwood": 150
+         }, 
+         "level": 40
       }, 
       "Star Wand": {
          "price": 795000, 
@@ -2309,16 +2309,6 @@ var items = {
          }, 
          "level": 13
       }, 
-      "Valkyrie's Embrace": {
-         "price": 1750000, 
-         "resources": {
-            "leather": 300, 
-            "oil": 113, 
-            "fabric": 150, 
-            "jewels": 50
-         }, 
-         "level": 40
-      }, 
       "Plated Tunic": {
          "price": 23000, 
          "resources": {
@@ -2344,6 +2334,16 @@ var items = {
             "jewels": 16
          }, 
          "level": 28
+      }, 
+      "Valkyries Embrace": {
+         "price": 1750000, 
+         "resources": {
+            "leather": 300, 
+            "oil": 113, 
+            "fabric": 150, 
+            "jewels": 50
+         }, 
+         "level": 40
       }, 
       "Plated Leather": {
          "price": 12000, 
@@ -2452,6 +2452,14 @@ var items = {
          }, 
          "level": 4
       }, 
+      "Soldiers Mark": {
+         "price": 4250, 
+         "resources": {
+            "steel": 10, 
+            "iron": 45
+         }, 
+         "level": 13
+      }, 
       "Iron Band": {
          "price": 32, 
          "resources": {
@@ -2510,14 +2518,6 @@ var items = {
             "iron": 12
          }, 
          "level": 5
-      }, 
-      "Soldier's Mark": {
-         "price": 4250, 
-         "resources": {
-            "steel": 10, 
-            "iron": 45
-         }, 
-         "level": 13
       }, 
       "Divine Mark": {
          "price": 2200000, 
@@ -3098,14 +3098,6 @@ var items = {
          }, 
          "level": 3
       }, 
-      "Giant's Hammer": {
-         "price": 115000, 
-         "resources": {
-            "hwood": 50, 
-            "wood": 95
-         }, 
-         "level": 25
-      }, 
       "Maul": {
          "price": 95, 
          "resources": {
@@ -3129,6 +3121,14 @@ var items = {
             "wood": 19
          }, 
          "level": 8
+      }, 
+      "Giants Hammer": {
+         "price": 115000, 
+         "resources": {
+            "hwood": 50, 
+            "wood": 95
+         }, 
+         "level": 25
       }
    }, 
    "Footwear": {
@@ -3346,15 +3346,23 @@ var items = {
          }, 
          "level": 15
       }, 
-      "God's Essence": {
-         "price": 4700000, 
+      "Invincibility Potion": {
+         "price": 995000, 
          "resources": {
-            "herbs": 275, 
-            "oil": 140, 
-            "jewels": 36, 
-            "mana": 45
+            "herbs": 170, 
+            "oil": 95, 
+            "jewels": 21, 
+            "mana": 26
          }, 
-         "level": 39
+         "level": 33
+      }, 
+      "Wisdom Potion": {
+         "price": 40000, 
+         "resources": {
+            "herbs": 90, 
+            "oil": 42
+         }, 
+         "level": 22
       }, 
       "Megaelixir": {
          "price": 2150000, 
@@ -3372,6 +3380,16 @@ var items = {
             "herbs": 12
          }, 
          "level": 5
+      }, 
+      "Gods Essence": {
+         "price": 4700000, 
+         "resources": {
+            "herbs": 275, 
+            "oil": 140, 
+            "jewels": 36, 
+            "mana": 45
+         }, 
+         "level": 39
       }, 
       "Love Splash": {
          "price": 420, 
@@ -3417,40 +3435,7 @@ var items = {
          }, 
          "level": 7
       }, 
-      "Wisdom Potion": {
-         "price": 40000, 
-         "resources": {
-            "herbs": 90, 
-            "oil": 42
-         }, 
-         "level": 22
-      }, 
-      "Toxic Vial": {
-         "price": 930, 
-         "resources": {
-            "herbs": 21
-         }, 
-         "level": 8
-      }, 
-      "Invincibility Potion": {
-         "price": 995000, 
-         "resources": {
-            "herbs": 170, 
-            "oil": 95, 
-            "jewels": 21, 
-            "mana": 26
-         }, 
-         "level": 33
-      }, 
-      "Strength Potion": {
-         "price": 3900, 
-         "resources": {
-            "herbs": 45, 
-            "oil": 10
-         }, 
-         "level": 13
-      }, 
-      "Demon's Blood": {
+      "Demons Blood": {
          "price": 125000, 
          "resources": {
             "herbs": 100, 
@@ -3459,6 +3444,14 @@ var items = {
             "mana": 8
          }, 
          "level": 24
+      }, 
+      "Strength Potion": {
+         "price": 3900, 
+         "resources": {
+            "herbs": 45, 
+            "oil": 10
+         }, 
+         "level": 13
       }, 
       "Health Potion": {
          "price": 26500, 
@@ -3480,6 +3473,16 @@ var items = {
          }, 
          "level": 17
       }, 
+      "Dragons Blood": {
+         "price": 1200000, 
+         "resources": {
+            "herbs": 190, 
+            "oil": 100, 
+            "jewels": 22, 
+            "mana": 28
+         }, 
+         "level": 34
+      }, 
       "Life Potion": {
          "price": 220000, 
          "resources": {
@@ -3498,15 +3501,12 @@ var items = {
          }, 
          "level": 9
       }, 
-      "Dragon's Blood": {
-         "price": 1200000, 
+      "Toxic Vial": {
+         "price": 930, 
          "resources": {
-            "herbs": 190, 
-            "oil": 100, 
-            "jewels": 22, 
-            "mana": 28
+            "herbs": 21
          }, 
-         "level": 34
+         "level": 8
       }, 
       "Health Drink": {
          "price": 2350, 
@@ -3560,16 +3560,6 @@ var items = {
          }, 
          "level": 2
       }, 
-      "Gaia's Mantle": {
-         "price": 145000, 
-         "resources": {
-            "leather": 120, 
-            "mana": 14, 
-            "fabric": 65, 
-            "jewels": 12
-         }, 
-         "level": 27
-      }, 
       "Night Walker": {
          "price": 145000, 
          "resources": {
@@ -3613,17 +3603,22 @@ var items = {
          }, 
          "level": 21
       }, 
+      "Gaias Mantle": {
+         "price": 145000, 
+         "resources": {
+            "leather": 120, 
+            "mana": 14, 
+            "fabric": 65, 
+            "jewels": 12
+         }, 
+         "level": 27
+      }, 
       "Tunic": {
          "price": 10, 
          "resources": {
             "leather": 2
          }, 
          "level": 1
-      }, 
-      "Sage's Robe": {
-         "price": 160000, 
-         "resources": {}, 
-         "level": 34
       }, 
       "Storm Apparel": {
          "price": 180000, 
@@ -3634,6 +3629,11 @@ var items = {
             "jewels": 15
          }, 
          "level": 29
+      }, 
+      "Sages Robe": {
+         "price": 160000, 
+         "resources": {}, 
+         "level": 34
       }, 
       "Sorcerer Robe": {
          "price": 975000, 
@@ -3653,14 +3653,6 @@ var items = {
          }, 
          "level": 11
       }, 
-      "Magician's Cloak": {
-         "price": 5700, 
-         "resources": {
-            "leather": 55, 
-            "fabric": 16
-         }, 
-         "level": 15
-      }, 
       "Doublet": {
          "price": 1000, 
          "resources": {
@@ -3676,15 +3668,21 @@ var items = {
          }, 
          "level": 4
       }, 
-      "Nightmare Cape": {
-         "price": 790000, 
+      "Magicians Cloak": {
+         "price": 5700, 
          "resources": {
-            "leather": 180, 
-            "mana": 26, 
-            "fabric": 95, 
-            "jewels": 22
+            "leather": 55, 
+            "fabric": 16
          }, 
-         "level": 33
+         "level": 15
+      }, 
+      "Silk Robe": {
+         "price": 10500, 
+         "resources": {
+            "leather": 65, 
+            "fabric": 24
+         }, 
+         "level": 17
       }, 
       "Imperial Mantle": {
          "price": 44000, 
@@ -3716,13 +3714,15 @@ var items = {
          }, 
          "level": 36
       }, 
-      "Silk Robe": {
-         "price": 10500, 
+      "Nightmare Cape": {
+         "price": 790000, 
          "resources": {
-            "leather": 65, 
-            "fabric": 24
+            "leather": 180, 
+            "mana": 26, 
+            "fabric": 95, 
+            "jewels": 22
          }, 
-         "level": 17
+         "level": 33
       }
    }, 
    "Hats": {
@@ -3736,6 +3736,13 @@ var items = {
             "mana": 32
          }, 
          "level": 36
+      }, 
+      "Monks Hat": {
+         "price": 130, 
+         "resources": {
+            "leather": 6
+         }, 
+         "level": 3
       }, 
       "Plumed Hat": {
          "price": 755, 
@@ -3755,17 +3762,19 @@ var items = {
          }, 
          "level": 25
       }, 
-      "Archwizard's Hat": {
-         "price": 400000, 
-         "resources": {}, 
-         "level": 33
-      }, 
       "Circlet": {
          "price": 10, 
          "resources": {
             "leather": 2
          }, 
          "level": 1
+      }, 
+      "Robins Hood": {
+         "price": 2000, 
+         "resources": {
+            "leather": 21
+         }, 
+         "level": 8
       }, 
       "Scarlet Coif": {
          "price": 9100, 
@@ -3801,6 +3810,23 @@ var items = {
          }, 
          "level": 27
       }, 
+      "Jorous Crown": {
+         "price": 920000, 
+         "resources": {
+            "fabric": 120, 
+            "leather": 220, 
+            "jewels": 27, 
+            "mana": 36, 
+            "wood": 110, 
+            "hwood": 60
+         }, 
+         "level": 38
+      }, 
+      "Archwizards Hat": {
+         "price": 400000, 
+         "resources": {}, 
+         "level": 33
+      }, 
       "Runic Tiara": {
          "price": 615000, 
          "resources": {
@@ -3813,13 +3839,6 @@ var items = {
          }, 
          "level": 34
       }, 
-      "Monk's Hat": {
-         "price": 130, 
-         "resources": {
-            "leather": 6
-         }, 
-         "level": 3
-      }, 
       "Light Visage": {
          "price": 3150, 
          "resources": {
@@ -3829,24 +3848,13 @@ var items = {
          }, 
          "level": 13
       }, 
-      "Jorou's Crown": {
-         "price": 920000, 
+      "Thiefs Hood": {
+         "price": 1150, 
          "resources": {
-            "fabric": 120, 
-            "leather": 220, 
-            "jewels": 27, 
-            "mana": 36, 
-            "wood": 110, 
-            "hwood": 60
+            "leather": 25, 
+            "fabric": 4
          }, 
-         "level": 38
-      }, 
-      "Robin's Hood": {
-         "price": 2000, 
-         "resources": {
-            "leather": 21
-         }, 
-         "level": 8
+         "level": 9
       }, 
       "Pumpkinhead": {
          "price": 2150, 
@@ -3895,14 +3903,6 @@ var items = {
             "iron": 9
          }, 
          "level": 11
-      }, 
-      "Thief's Hood": {
-         "price": 1150, 
-         "resources": {
-            "leather": 25, 
-            "fabric": 4
-         }, 
-         "level": 9
       }, 
       "Magic Top": {
          "price": 21000, 
@@ -4011,15 +4011,14 @@ var items = {
          }, 
          "level": 3
       }, 
-      "Bloodlust Gauntlets": {
-         "price": 120000, 
+      "Lords Gauntlets": {
+         "price": 15500, 
          "resources": {
-            "leather": 108, 
-            "steel": 65, 
-            "jewels": 2, 
-            "iron": 120
+            "leather": 54, 
+            "steel": 20, 
+            "iron": 60
          }, 
-         "level": 27
+         "level": 16
       }, 
       "Frozen Grip": {
          "price": 135000, 
@@ -4051,25 +4050,26 @@ var items = {
          }, 
          "level": 8
       }, 
-      "Lord's Gauntlets": {
-         "price": 15500, 
+      "Bloodlust Gauntlets": {
+         "price": 120000, 
          "resources": {
-            "leather": 54, 
-            "steel": 20, 
-            "iron": 60
+            "leather": 108, 
+            "steel": 65, 
+            "jewels": 2, 
+            "iron": 120
          }, 
-         "level": 16
+         "level": 27
       }, 
-      "Dragonscale Gauntlets": {
-         "price": 1750000, 
+      "Kings Gauntlets": {
+         "price": 265000, 
          "resources": {
-            "leather": 225, 
-            "steel": 130, 
-            "jewels": 30, 
-            "iron": 250, 
-            "mana": 20
+            "leather": 95, 
+            "steel": 55, 
+            "jewels": 10, 
+            "iron": 105, 
+            "mana": 10
          }, 
-         "level": 38
+         "level": 25
       }, 
       "Fire Smasher": {
          "price": 885000, 
@@ -4102,16 +4102,16 @@ var items = {
          }, 
          "level": 32
       }, 
-      "King's Gauntlets": {
-         "price": 265000, 
+      "Dragonscale Gauntlets": {
+         "price": 1750000, 
          "resources": {
-            "leather": 95, 
-            "steel": 55, 
-            "jewels": 10, 
-            "iron": 105, 
-            "mana": 10
+            "leather": 225, 
+            "steel": 130, 
+            "jewels": 30, 
+            "iron": 250, 
+            "mana": 20
          }, 
-         "level": 25
+         "level": 38
       }, 
       "Long Gauntlets": {
          "price": 980, 
@@ -4188,6 +4188,16 @@ var items = {
          }, 
          "level": 22
       }, 
+      "Lichs Heart": {
+         "price": 1600000, 
+         "resources": {
+            "leather": 150, 
+            "mana": 27, 
+            "hwood": 53, 
+            "jewels": 30
+         }, 
+         "level": 35
+      }, 
       "Scarlet Drop": {
          "price": 565, 
          "resources": {
@@ -4230,6 +4240,16 @@ var items = {
             "iron": 3
          }, 
          "level": 3
+      }, 
+      "Goddess Tear": {
+         "price": 3050000, 
+         "resources": {
+            "leather": 188, 
+            "steel": 65, 
+            "jewels": 40, 
+            "mana": 36
+         }, 
+         "level": 38
       }, 
       "Protection Pendant": {
          "price": 1050, 
@@ -4305,30 +4325,10 @@ var items = {
          }, 
          "level": 29
       }, 
-      "Cat's Eye": {
+      "Cats Eye": {
          "price": 430000, 
          "resources": {}, 
          "level": 33
-      }, 
-      "Goddess' Tear": {
-         "price": 3050000, 
-         "resources": {
-            "leather": 188, 
-            "steel": 65, 
-            "jewels": 40, 
-            "mana": 36
-         }, 
-         "level": 38
-      }, 
-      "Lich's Heart": {
-         "price": 1600000, 
-         "resources": {
-            "leather": 150, 
-            "mana": 27, 
-            "hwood": 53, 
-            "jewels": 30
-         }, 
-         "level": 35
       }
    }, 
    "Boots": {
@@ -4341,6 +4341,14 @@ var items = {
             "iron": 45
          }, 
          "level": 13
+      }, 
+      "Riders Boots": {
+         "price": 120, 
+         "resources": {
+            "leather": 5, 
+            "iron": 6
+         }, 
+         "level": 3
       }, 
       "Sabaton": {
          "price": 9800, 
@@ -4361,11 +4369,6 @@ var items = {
          }, 
          "level": 14
       }, 
-      "King's Boots": {
-         "price": 1250000, 
-         "resources": {}, 
-         "level": 37
-      }, 
       "Moon Boots": {
          "price": 4300, 
          "resources": {
@@ -4373,18 +4376,6 @@ var items = {
             "iron": 25
          }, 
          "level": 9
-      }, 
-      "Lord's Boots": {
-         "price": 130000, 
-         "resources": {
-            "steel": 75, 
-            "oil": 38, 
-            "fabric": 68, 
-            "leather": 126, 
-            "jewels": 18, 
-            "iron": 140
-         }, 
-         "level": 29
       }, 
       "Heavy Boots": {
          "price": 22, 
@@ -4480,13 +4471,17 @@ var items = {
          }, 
          "level": 6
       }, 
-      "Rider's Boots": {
-         "price": 120, 
+      "Lords Boots": {
+         "price": 130000, 
          "resources": {
-            "leather": 5, 
-            "iron": 6
+            "steel": 75, 
+            "oil": 38, 
+            "fabric": 68, 
+            "leather": 126, 
+            "jewels": 18, 
+            "iron": 140
          }, 
-         "level": 3
+         "level": 29
       }, 
       "Traveling Boots": {
          "price": 1250, 
@@ -4495,6 +4490,11 @@ var items = {
             "iron": 21
          }, 
          "level": 8
+      }, 
+      "Kings Boots": {
+         "price": 1250000, 
+         "resources": {}, 
+         "level": 37
       }, 
       "Silvered Greaves": {
          "price": 96500, 
@@ -4507,7 +4507,7 @@ var items = {
          }, 
          "level": 25
       }, 
-      "Warrior's Greaves": {
+      "Warriors Greaves": {
          "price": 19500, 
          "resources": {
             "leather": 63, 
@@ -4686,6 +4686,18 @@ var items = {
          }, 
          "level": 39
       }, 
+      "Sorcerers Bracers": {
+         "price": 72500, 
+         "resources": {
+            "fabric": 60, 
+            "leather": 110, 
+            "jewels": 9, 
+            "mana": 12, 
+            "wood": 55, 
+            "hwood": 30
+         }, 
+         "level": 26
+      }, 
       "Gloves": {
          "price": 28, 
          "resources": {
@@ -4712,18 +4724,6 @@ var items = {
             "fabric": 42
          }, 
          "level": 22
-      }, 
-      "Sorcerer's Bracers": {
-         "price": 72500, 
-         "resources": {
-            "fabric": 60, 
-            "leather": 110, 
-            "jewels": 9, 
-            "mana": 12, 
-            "wood": 55, 
-            "hwood": 30
-         }, 
-         "level": 26
       }, 
       "Venomous Hands": {
          "price": 1400, 
