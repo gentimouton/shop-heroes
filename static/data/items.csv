@@ -1,552 +1,655 @@
-name,level,class,type,price,iron,wood,leather,herbs,steel,hwood,fabric,oil,mana,jewels,comp1,comp2
-Shortsword,2,Swords,Weapons,28,3,,,,,,,,,,,
-Longsword,3,Swords,Weapons,60,6,,,,,,,,,,,
-Broadsword,5,Swords,Weapons,250,11,,,,,,,,,,1 Shortsword,
-Rapier,7,Swords,Weapons,555,18,,,,,,,,,,1 Longsword,
-Claymore,8,Swords,Weapons,920,21,,,,,,,,,,3 Viper Essence,
-Fire Blade,10,Swords,Weapons,1850,30,,,,,,,,,,2 Burning Ember,
-Zweihander,12,Swords,Weapons,2250,40,,,,8,,,,,,1 Iron Wood,
-Bastard Sword,14,Swords,Weapons,3700,50,,,,12,,,,,,1 Good Broadsword,
-Sabre,16,Swords,Weapons,7000,60,,,,20,,,,,,1 Iron Carapace,1 Claymore
-Wakizashi,19,Swords,Weapons,11000,75,,,,32,,,,,,2 Rapier,
-Vorpal Sword,20,Swords,Weapons,48000,70,,,,35,,,,5,,3 Great Claymore,
-Scimitar,23,Swords,Weapons,19000,95,,,,46,,,,,,1 Good Bastard Sword,
-Coldsteel,25,Swords,Weapons,71500,105,,,,55,,,,,,2 Fire Blade,3 Frozen Core
-Masamune,27,Swords,Weapons,65000,120,,,,65,,,,,,3 Good Zweihander,1 Silver Steel
-Sawblade,30,Swords,Weapons,92000,150,,,,80,,,,,,4 Royal Bone,3 Wyvern Wing
-Heaven's Will,31,Swords,Weapons,140000,160,,,,85,,,,22,17,2 Phoenix Feather,1 Demon Heart
-Abyssal Brand,32,Swords,Weapons,485000,170,,,,90,,,,24,,3 Silver Steel,1 Flawless Vorpal Sword
-Slashing Tiger,35,Swords,Weapons,210000,200,,,,105,,,,30,,2 Dark Energy,1 Great Sabre
-Excalibur,37,Swords,Weapons,410000,,,,,,,,,,,,
-Stormbringer,38,Swords,Weapons,2000000,250,,,,130,,,,40,30,1 Adamantium,2 Flawless Coldsteel
-Balmung,40,Swords,Weapons,4400000,250,,,,130,,,,40,30,2 Adamantium,2 Great Heaven's Will
-Dragonslayer,40,Swords,Weapons,3900000,300,,,,150,,,,50,38,2 Dragon Scale,1 Flawless Abyssal Brand
-Knife,1,Daggers,Weapons,10,2,,,,,,,,,,,
-Pocket Knife,2,Daggers,Weapons,24,3,,,,,,,,,,,
-Kris,3,Daggers,Weapons,260,6,,,,,,,,,,,
-Dirk,3,Daggers,Weapons,60,5,,,,,,,,,,1 Knife,
-Parrying Dagger,5,Daggers,Weapons,195,11,,,,,,,,,,1 Pocket Knife,
-Stiletto,7,Daggers,Weapons,475,16,,,,,,,,,,2 Viper Essence,
-White Dagger,9,Daggers,Weapons,1250,23,,,,,,,,,,2 Burning Ember,
-Broad Blade,10,Daggers,Weapons,865,27,,,,,,,,,,1 Good Pocket Knife,
-Gutting Knife,12,Daggers,Weapons,1750,36,,,,7,,,,,,1 Dirk,
-Hunting Knife,13,Daggers,Weapons,2100,41,,,,9,,,,,,,
-Crimson Heart,15,Daggers,Weapons,11000,50,,,,14,,,8,2,,2 Wyvern Wing,
-Mail Breaker,16,Daggers,Weapons,4850,54,,,,18,,,10,,,1 Good Parrying Dagger,
-Phantom Katar,18,Daggers,Weapons,26000,63,,,,25,,,14,,,3 Good Broad Blade,
-Switch Blade,20,Daggers,Weapons,11500,72,,,,32,,,18,,,2 Good Stiletto,
-Life Stealer,22,Daggers,Weapons,19000,81,,,,38,,,21,5,,1 Liquid Fire,1 Good Gutting Knife
-Night Shiv,25,Daggers,Weapons,33000,95,,,,50,,,28,,,3 Frozen Core,
-Shadowripper,27,Daggers,Weapons,54500,108,,,,59,,,33,,,1 Silver Steel,3 Good Hunting Knife
-Wing Blade,30,Daggers,Weapons,110000,135,,,,72,,,40,15,,2 Golden Thread,2 Yggdrasil Leaf
-Dark Hand,35,Daggers,Weapons,175000,180,,,,95,,,53,23,,2 Demon Heart,1 Great Life Stealer
-Betrayer,36,Daggers,Weapons,845000,189,,,,99,,,55,,,1 Dark Energy,2 Great Shadowripper
-Seven Stars,38,Daggers,Weapons,955000,225,,,,117,,,65,30,40,2 Sun Tear,Flawless Night Shiv
-Dragon Fang,39,Daggers,Weapons,1750000,248,,,,126,,,70,34,45,2 Dragon Scale,1 Epic Wing Blade
-Hand Axe,2,Axes,Weapons,42,2,2,,,,,,,,,,
-Iron Axe,3,Axes,Weapons,115,5,5,,,,,,,,,,
-Broad Axe,4,Axes,Weapons,290,7,7,,,,,,,,,1 Hand Axe,
-Halberd,5,Axes,Weapons,405,9,9,,,,,,,,,2 Shiny Gem,
-Druidic Axe,6,Axes,Weapons,1300,11,11,,,1,,,,,,2 Viper Essence,1 Hand Axe
-Hunting Axe,6,Axes,Weapons,830,11,11,,,,,,,,,2 Iron Wood,
-Pole Axe,9,Axes,Weapons,1650,19,19,,,3,,,,,,1 Wooden Spear,
-Tiamat,10,Axes,Weapons,4750,23,23,,,,,,,,,2 Iron Wood,1 Good Hunting Axe
-Labrys,12,Axes,Weapons,3950,30,30,,,6,6,,,,,,
-Steel Axe,14,Axes,Weapons,6950,38,38,,,9,9,,,,,2 Good Iron Axe,
-Hawk,16,Axes,Weapons,11500,45,45,,,15,15,,,,,2 Good Broad Axe,
-Lava Axe,20,Axes,Weapons,21000,60,60,,,26,26,,,,,3 Burning Ember,2 Good Halberd
-Reaper,22,Axes,Weapons,45500,68,68,,,32,32,,,,,1 Liquid Fire,2 Good Halberd
-Berserker's Axe,23,Axes,Weapons,165000,71,71,,,35,35,,,,,2 Liquid Fire,2 Great Tiamat
-Bone Reaver,24,Axes,Weapons,56500,75,75,,,38,38,,,,,2 Royal Bone,3 Wyvern Wing
-Sharp Tusk,25,Axes,Weapons,185000,79,79,,,41,41,,,,,3 Silver Steel,1 Great Labrys
-Crystal Asunder,28,Axes,Weapons,99500,98,98,,,53,53,,,,,3 Liquid Fire,
-Shining Axe,31,Axes,Weapons,170000,120,120,,,64,64,,,,,2 Golden Thread,2 Good Labrys
-Widow Maker,32,Axes,Weapons,670000,128,128,,,68,68,,,,,2 Demon Heart,1 Flawless Bone Reaver
-Nocturne Axe,33,Axes,Weapons,205000,135,135,,,71,71,,,20,,1 Dark Energy,2 Good Steel Axe
-Storm Splitter,36,Axes,Weapons,420000,158,158,,,83,83,,,24,32,1 Sun Tear,2 Phoenix Feather
-Infernal Rage,38,Axes,Weapons,1550000,188,188,,,98,98,,,30,40,2 Demon Heart,1 Flawless Berserker's Axe
-Ragnarok's Edge,40,Axes,Weapons,4150000,225,225,,,113,113,,,38,,2 Adamantium,1 Flawless Nocturne Axe
-Wooden Spear,1,Spears,Weapons,10,,2,,,,,,,,,,
-Iron Spear,3,Spears,Weapons,60,,6,,,,,,,,,,
-Half Pike,4,Spears,Weapons,140,,9,,,,,,,,,1 Wooden Spear,
-Trident,5,Spears,Weapons,290,,12,,,,,,,,,3 Shiny Gem,
-Pike,8,Spears,Weapons,615,,21,,,,,,,,,,
-Gaia's Javelin,9,Spears,Weapons,1700,,25,,,,,,,,,2 Iron Wood,2 Great Wooden Spear
-Spade,10,Spears,Weapons,1750,15,30,,,,,,,,,2 Iron Wood,
-Seeking Tip,12,Spears,Weapons,5250,20,40,,,4,8,,,,,3 Good Iron Spear,
-Lance,13,Spears,Weapons,3150,,45,,,5,10,,,,,,
-Knight's Lance,15,Spears,Weapons,6750,28,55,,,8,16,,,,,1 Moon Shard,1 Good Iron Spear
-Valkyrie,18,Spears,Weapons,10000,,70,,,14,28,,,,,2 Good Half Pike,1 Good Stiletto
-Poison Tip,19,Spears,Weapons,62000,,75,,,16,32,,,,,3 Royal Bone,7 Viper Essence
-Bone Spear,21,Spears,Weapons,24000,43,85,,,19,38,,,,,1 Royal Bone,1 Good Lance
-Winged Spear,25,Spears,Weapons,33000,53,105,,,28,55,,,,,1 Yggdrasil Leaf,3 Rainbow Dust
-Silver Fork,26,Spears,Weapons,70500,55,110,,,30,60,,,,,2 Liquid Fire,2 Frozen Core
-Lion's Tail,29,Spears,Weapons,51000,70,140,,,38,75,,,,,2 Good Spade,
-Moon Voulge,30,Spears,Weapons,355000,,150,,,40,80,,,15,,2 Flawless Valkyrie,7 Moon Shards
-Obsidian Spear,32,Spears,Weapons,345000,83,165,,,45,90,,,18,,2 Demon Heart,1 Great Bone Spear
-Impaler,32,Spears,Weapons,99500,,,,,,,,,,,,
-Twisted Pike,34,Spears,Weapons,165000,,,,,,,,,,,,
-Titanic Lance,36,Spears,Weapons,295000,,,,,,,,,,,,
-Night Spike,38,Spears,Weapons,1300000,,250,,,65,130,,,30,,2 Dark Energy,2 Flawless Lion's Tail
-Divine Ray,39,Spears,Weapons,2800000,138,275,,,70,140,,,34,,2 Adamantium,1 Flawless Impaler
-Club,1,Maces,Weapons,10,,2,,,,,,,,,,
-Spiked Club,2,Maces,Weapons,24,,3,,,,,,,,,,
-Shieldbreaker,3,Maces,Weapons,260,,5,,,,,,,,,,
-Maul,4,Maces,Weapons,95,,8,,,,,,,,,,
-Sledgehammer,5,Maces,Weapons,195,,11,,,,,,,,,2 Shiny Gem,
-Mace,7,Maces,Weapons,390,,16,,,,,,,,,1 Spiked Club,
-Morning Star,8,Maces,Weapons,1150,,19,,,,,,,,,3 Elven Dew,3 Good Spiked Club
-Heavy Mace,9,Maces,Weapons,815,,23,,,,,,,,,2 Iron Wood,
-Battle Mace,11,Maces,Weapons,1750,,32,,,,5,,,,,2 Maul,
-Steeled Club,14,Maces,Weapons,3500,,45,,,3,11,,,,,1 Iron Carapace,
-Tree Trunk,15,Maces,Weapons,12500,,50,,,,14,,,,,4 Rainbow Dust,10 Great Club
-War Gavel,17,Maces,Weapons,5700,,59,,,,22,,,,,2 Good Sledgehammer,
-Journey Mace,21,Maces,Weapons,9550,,77,,,,34,,,,,1 Mace,
-Hammer Fist,22,Maces,Weapons,54000,,81,,,11,38,,,,,3 Royal Bone,1 Great Steeled Club
-Giant's Hammer,25,Maces,Weapons,115000,,95,,,,50,,,,,1 Yggdrasil Leaf,2 Good Heavy Mace
-Demolisher,25,Maces,Weapons,24500,,95,,,,50,,,,,2 Royal Bone,1 Heavy Mace
-Fury Club,28,Maces,Weapons,43500,,117,,,,63,,,,,2 Liquid Fire,2 Battle Mace
-Earthquake,31,Maces,Weapons,62500,,144,,,,77,,,17,,2 Silver Steel,
-Apocalyptus,32,Maces,Weapons,385000,,153,,,,81,,23,,24,3 Demon Heart,1 Epic War Gavel
-Pulverizer,35,Maces,Weapons,160000,,167,,,26,95,,,,30,2 Demonlisher,
-Tide Maker,37,Maces,Weapons,285000,,,,,,,,,,,,
-Evening Star,38,Maces,Weapons,695000,,225,,,,117,,33,30,40,2 Sun Tear,2 Epic Journey Mace
-Hundred Ton,40,Maces,Weapons,2650000,,270,,,,135,,38,38,50,2 Adamantium,1 Flawless Pulverizer
-Walking Stick,1,Staves,Weapons,12,,2,,,,,,,,,,
-Crow Stick,3,Staves,Weapons,85,,6,,,,,,,,,1 Shiny Gem,
-Druidic Rod,5,Staves,Weapons,335,,12,,,,,,,,,2 Elven Dew,
-Battle Staff,6,Staves,Weapons,645,,15,,,,,,,,,2 Iron Wood,
-Muted Caster,8,Staves,Weapons,965,,21,,,,,,,,,3 Good Walking Stick,
-Bishop Staff,9,Staves,Weapons,1550,,25,,,,,,,,,2 Iron Wood,
-Healing Rod,10,Staves,Weapons,2150,,30,,,,5,,,,,2 Crow Stick,
-Forest Wand,12,Staves,Weapons,3950,,40,,,,8,,,,,1 Moon Shard,1 Druidic Rod
-Fire Rod,13,Staves,Weapons,7750,,45,,,,10,,,,,1 Burning Ember,2 Battle Staff
-Blood Staff,15,Staves,Weapons,11000,,55,,,,16,,,,,1 Good Healing Rod,1 Wyvern Wing
-Luna Rod,17,Staves,Weapons,36500,,65,,,,24,,,3,3,5 Moon Shards,
-Whispering Wand,19,Staves,Weapons,27000,,75,,,,32,,,,,3 Muted Caster,1 Frozen Core
-Rebirth Rod,23,Staves,Weapons,47500,,95,,,,46,,,7,,2 Royal Bone,1 Fire Rod
-Ice Staff,26,Staves,Weapons,93500,,110,,,,60,,,12,10,4 Frozen Core,1 Great Forest Wand
-Death Stick,27,Staves,Weapons,190000,,120,,,,65,,49,14,,3 Liquid Fire,2 Good Blood Staff
-Sacred Scepter,28,Staves,Weapons,405000,,130,,,18,70,,53,16,14,2 Liquid Fire,1 Flawless Rebirth Rod
-Soul Stealer,30,Staves,Weapons,325000,,120,,,,80,,60,20,,2 Demon Heart,2 Phoenix Feather
-Staff of Ages,33,Staves,Weapons,305000,,180,,,,95,,71,26,22,2 Dark Energy,
-Star Wand,35,Staves,Weapons,795000,,200,,,,105,,79,30,26,2 Sun Tear,1 Epic Bishop Staff
-Emperor Wand,38,Staves,Weapons,1400000,,250,,,33,130,,98,40,34,2 Dragon Scale,5 Yggdrasil leaf
-Valkyrie's Wisdom,40,Staves,Weapons,2150000,,300,,,38,150,,113,50,43,2 Dragon Scales,1 Flawless Ice Staff
-Sun King,40,Staves,Weapons,5800000,,300,,,,150,,113,50,43,2 Adamantium,1 Flawless Sacred Scepter
-Short Bow,2,Bows,Weapons,32,,3,,,,,,,,,,
-Long Bow,3,Bows,Weapons,75,,6,,,,,,,,,,
-Faery's String,5,Bows,Weapons,345,,12,,,,,,,,,2 Elven Dew,
-Double String,7,Bows,Weapons,635,,18,,,,,,,,,1 Short Bow,
-Falcon Eye,8,Bows,Weapons,2800,,21,,,,,,,,,5 Viper Essence,2 Long Bow
-Composite Bow,9,Bows,Weapons,1500,,25,,,,,,,,,2 Burning Ember,
-Crossbow,11,Bows,Weapons,2550,,35,,,,6,,3,,,1 Good Long Bow,
-Recurved Bow,14,Bows,Weapons,4650,,50,,,,12,,,,,3 Iron Wood,
-Heavy Crossbow,17,Bows,Weapons,9950,,65,,,,24,,12,,,1 Iron Carapace,
-Self-loader,18,Bows,Weapons,45500,,70,,,,28,,14,,,1 Good Heavy Crossbow,
-Forester,20,Bows,Weapons,14000,,80,,,,35,,,,,2 Good Faery's String,
-Eagle Eye,21,Bows,Weapons,48500,,85,,,,38,,,,,1 Royal Bone,2 Good Falcon Eye
-Transfixer,23,Bows,Weapons,25500,,95,,,,46,,,,,2 Wyvern Wing,1 Good Double String
-Silent Arbalast,25,Bows,Weapons,74000,,105,,,,55,,28,,,2 Silver Steel,
-Wind Striker,27,Bows,Weapons,115000,,120,,,,65,,,,,2 Phoenix Feather,3 Good Composite Bow
-Bow Of Light,29,Bows,Weapons,160000,,140,,,,75,,,18,,2 Golden Thread,1 Good Forester
-Valkyrie's Touch,30,Bows,Weapons,460000,,150,,,,80,,,20,15,2 Good Transfixer,2 Yggdrasil Leaf
-Spider,31,Bows,Weapons,215000,,160,,,,85,,,22,17,2 Demon Heart,1 Great Recurved Bow
-Chimera Wings,34,Bows,Weapons,365000,,190,,,,100,,,28,21,2 Dark Energy,1 Sun Tear
-Evelyn,35,Bows,Weapons,1350000,,200,,,,105,,53,,23,2 Sun Tear,2 Flawless Transfixer
-Dragon Eye,37,Bows,Weapons,4100000,,225,,,,120,,,36,,1 Dragon Scale,2 Flawless Bow Of Light
-Adamantium Crossbow,39,Bows,Weapons,6400000,,275,,,,140,,70,45,34,2 Adamantium,1 Epic Self-loader
-Pistol,5,Guns,Weapons,420,7,7,,,,,,,,,,
-Musket,6,Guns,Weapons,1000,9,9,,,,,,,,,5 Shiny Gem ,
-Arquebuse,7,Guns,Weapons,1650,11,11,,,,,,,,,3 Iron Wood,
-Pocket Pistol,8,Guns,Weapons,2200,13,13,,,,,,,,,1 Pistol,
-Long Musket,9,Guns,Weapons,4100,15,15,,,,,,,,,1 Good Musket,
-Falconer,11,Guns,Weapons,6650,21,21,,,4,,,4,,,2 Moon Shard,
-Rifle,13,Guns,Weapons,7800,27,27,,,6,6,,,,,3 Iron Wood,
-Axe Pistol,14,Guns,Weapons,8850,30,30,,,7,7,,7,,,1 Iron Axe,1 Good Pistol
-Flintlock,17,Guns,Weapons,17500,39,39,,,14,14,,14,,,3 Rainbow Dust,
-Black Stock,18,Guns,Weapons,99500,42,42,,,17,17,,,,,5 Wyvern Wing,1 Flawless Pistol
-Double Barrel,19,Guns,Weapons,33000,45,45,,,19,19,,19,,,2 Arquebuse,
-Fire Gun,21,Guns,Weapons,47500,51,51,,,23,23,,23,,,2 Royal Bone,3 Burning Ember
-Conqueror,22,Guns,Weapons,225000,54,54,,,25,25,,25,,,1 Royal Bone,1 Great Double Barrel
-War Axe Pistol,24,Guns,Weapons,69500,60,60,,,30,30,,30,,,1 Good Steel Axe,1 Falconer
-Thunder Shot,26,Guns,Weapons,160000,66,66,,,36,36,,36,,,2 Phoenix Feather,2 Good Lightning Scroll
-Death Missive,29,Guns,Weapons,230000,84,84,,,45,45,,45,,,2 Demon Heart,
-Rising Sun,33,Guns,Weapons,230000,108,108,,,57,57,,57,,,1 Sun Tear,
-One-shot,35,Guns,Weapons,940000,,,,,,,,,,,,
-Judgement,36,Guns,Weapons,2000000,126,126,,,66,66,,66,,,5 Silver Steel,2 Flawless Bone Spear
-Bomb Launcher,37,Guns,Weapons,1600000,135,135,,,72,72,,72,36,,2 Dragon Scale,1 Epic Fireball Scroll
-Nordic Warfare,39,Guns,Weapons,3050000,165,165,,,84,84,,84,45,,1 Adamantium,1 Flawless Thunder Shot
-Cuirass,1,Armor,Armor,16,2,,1,,,,,,,,,
-Banded Mail,3,Armor,Armor,95,6,,3,,,,,,,,,
-Scale Mail,4,Armor,Armor,215,9,,5,,,,,,,,2 Shiny Gem,
-Ring Mail,5,Armor,Armor,320,12,,6,,,,,,,,,
-Chainmail,8,Armor,Armor,995,21,,11,,,,,,,,2 Cuirass,
-Half Plate,9,Armor,Armor,1650,25,,13,,,,,3,,,4 Elven Dew,
-Moonplate,10,Armor,Armor,4400,30,,15,,,,,,,,2 Moon Shard,
-Steel Cuirass,11,Armor,Armor,3550,35,,18,,6,,,5,,,1 Iron Carapace,
-Full Plate,14,Armor,Armor,5200,50,,25,,12,,,9,,,,
-Longmail,17,Armor,Armor,12500,65,,33,,24,,,18,,,1 Good Half Plate,
-Noble Plate,18,Armor,Armor,36500,70,,35,,28,,,21,,,5 Rainbow Dust,1 Good Moonplate
-Silvered Scales,19,Armor,Armor,26500,75,,38,,32,,,24,,3,2 Frozen Core,3 Good Scale Mail
-Arcane Guard,22,Armor,Armor,43000,90,,45,,42,,,32,,5,2 Steel Cuirass,1 Royal Bone
-Runic Mail,23,Armor,Armor,67500,95,,48,,46,,,35,7,5,2 Silver Steel,
-Chaos Armor,25,Armor,Armor,405000,105,,80,,55,,,41,10,8,1 Liquid Fire,2 Great Silvered Scales
-Shining Armor,27,Armor,Armor,190000,120,,60,,65,,,49,,11,2 Golden Thread,2 Good Longmail
-Valkyrie Armor,30,Armor,Armor,635000,150,,75,,80,,,60,20,15,2 Phoenix Feather,2 Good Arcane Guard
-White Fullplate,32,Armor,Armor,230000,170,,85,,90,,,68,24,18,2 Demon Heart,1 Great Full Plate
-Eldritch Mail,35,Armor,Armor,2800000,200,,100,,105,,,79,,23,2 Demon Heart,1 Flawless Chaos Armor
-Golden Heart,36,Armor,Armor,305000,200,,100,,110,,,83,32,24,1 Sun Tear,2 Yggdrasil Leaf
-Gaia's Foretress,38,Armor,Armor,1400000,250,,125,,130,,,98,40,30,2 Dark Energy,1 Flawless Shining Armor
-Draconic Plate,39,Armor,Armor,3550000,275,,138,,140,,,105,45,34,3 Dragon Scale,1 Flawless White Fullplate
-Leather Vest,1,Vests,Armor,10,,,2,,,,,,,,,
-Hide Armor,2,Vests,Armor,28,,,3,,,,,,,,,
-Boiled Leather,4,Vests,Armor,215,5,,9,,,,,,,,1 Viper Essence,
-Brigandine,6,Vests,Armor,510,8,,15,,,,,,,,1 Leather Vest,
-Leather Cuirass,8,Vests,Armor,695,,,21,,,,,,,,2 Elven Dew,
-Studded Leather,11,Vests,Armor,1800,,,35,,,,6,,,,1 Hide Armor,
-Raccoon Ranger,12,Vests,Armor,8650,,,40,,,,8,6,,,2 Iron Carapace,2 Rainbow Dust
-Poison Studs,13,Vests,Armor,4250,,,45,,,,10,8,,,1 Iron Carapace,
-Strapped Leather,16,Vests,Armor,6500,,,60,,,,20,15,,,,
-Plated Tunic,17,Vests,Armor,23000,,,65,,,12,24,,,,3 Iron Carapace,3 Great Hide Armor
-Plated Leather,18,Vests,Armor,12000,35,,70,,,,28,21,,,2 Good Banded Mail,
-Bear Armor,21,Vests,Armor,18000,,,85,,,,38,29,,5,2 Brigandine,
-Nightingale,24,Vests,Armor,51500,,,100,,,,50,38,,,2 Liquid Fire,2 Good Studded Leather
-Genji Armor,26,Vests,Armor,87000,,110,,,,,60,,,12,2 Phoenix Feather,3 Wyvern Wing
-Oiled Leather,28,Vests,Armor,90500,,,130,,,,70,53,,16,1 Golden Thread,3 Great Leather Cuirass
-Layered Armor,29,Vests,Armor,140000,,,140,,,38,75,,,,3 Yggdrasil Leaf,2 Good Strapped Leather
-Gold Stitch,32,Vests,Armor,170000,,,,,,,,,,,,
-Wyrm Hide,33,Vests,Armor,935000,,,180,,,,95,,20,26,3 Demon Heart,1 Flawless Genji Armor
-White Crow,36,Vests,Armor,395000,,,,,,,,,,,,
-Shadow Lurker,38,Vests,Armor,800000,,,250,,,65,130,98,30,,3 Dark Energy,1 Flawless Nightingale
-Valkyrie's Embrace,40,Vests,Armor,1750000,,,300,,,,150,113,,50,3 Sun Tear,3 Great Bear Armor
-Dragon Skin,40,Vests,Armor,5350000,,,300,,,,150,113,38,50,3 Dragon Scales,2 Flawless Layered Armor
-Hard Hat,1,Helmets,Armor,10,2,,,,,,,,,,,
-Iron Cap,2,Helmets,Armor,28,3,,,,,,,,,,,
-Iron Helmet,4,Helmets,Armor,230,9,,8,,,,,,,,,
-Horned Helm,5,Helmets,Armor,400,12,,11,,,,,,,,1 Hard Hat,
-Full Helm,6,Helmets,Armor,705,15,,14,,,,,,,,2 Shiny Gem,1 Good Iron Cap
-Warrior's Helmet,9,Helmets,Armor,1700,25,,23,,4,,,,,,,
-Moonlight Cap,10,Helmets,Armor,4850,30,,27,,,,,,,,2 Moon Shard,
-Spangenhelm,11,Helmets,Armor,3350,35,,32,,6,,,,,,1 Moon Shard,
-Scale Helmet,14,Helmets,Armor,6350,50,,45,,12,,,,,,1 Iron Carapace,1 Iron Helmet
-Knight's Helm,17,Helmets,Armor,11000,65,,59,,24,,,,,,2 Horned Helm,
-Paladin's Helmet,19,Helmets,Armor,62500,75,,68,,32,,,,3,4,3 Iron Carapace,3 Liquid Fire
-Great Helm,21,Helmets,Armor,18500,85,,77,,38,,,,,,2 Full Helm,
-Frozen Helm,23,Helmets,Armor,185000,95,,86,,46,,,,5,7,2 Frozen Core,2 Great Knight's Helm
-Silver Helm,25,Helmets,Armor,65500,105,,95,,55,,,,,10,2 Silver Steel,
-Dragoon's Casque,28,Helmets,Armor,120000,130,,117,,70,,,,,16,2 Phoenix Feather,3 Good Warrior's Helmet
-Elir's Barbuta,31,Helmets,Armor,190000,150,,135,,85,,,,17,22,2 Demon Heart,2 Good Spangenhelm
-Mercurial,33,Helmets,Armor,295000,,,,,,,,,,,,
-Phoenix Helmet,34,Helmets,Armor,1750000,190,,171,,100,,,,21,28,2 Phoenix Feather,2 Flawless Paladin's Helmet
-Champion's Helm,35,Helmets,Armor,780000,,,,,,,,,,,,
-Dragonscale Helmet,38,Helmets,Armor,1450000,250,,225,,130,,,,30,40,2 Dragon Scale,1 Flawless Dragoon's Casque
-Valkyrie Helm,40,Helmets,Armor,2650000,300,,270,,150,,,,38,50,3 Dragon Scales,3 Flawless Valkyrie
-Adamantium Helm,40,Helmets,Armor,3450000,300,,270,,150,,,,38,50,2 Adamantium,1 Flawless Elur's Barbuta
-Light Gauntlets,2,Gauntlets,Armor,28,3,,,,,,,,,,,
-Gauntlets,3,Gauntlets,Armor,95,6,,,,,,,,,,2 Shiny Gem,
-Vambrace,5,Gauntlets,Armor,455,12,,11,,,,,,,,2 Elven Dew,
-Long Gauntlets,7,Gauntlets,Armor,980,18,,16,,,,,,,,2 Light Gauntlets,
-Meshed Gauntlets,8,Gauntlets,Armor,1500,21,,19,,,,,,,,2 Burning Ember,
-Moonlight Gauntlets,10,Gauntlets,Armor,6450,30,,27,,,,,,,,2 Moon Shard,1 Long Gauntlets
-Chainmail Gauntlets,12,Gauntlets,Armor,3650,40,,36,,8,,,,,,1 Gauntlets,
-Jagged Gauntlets,15,Gauntlets,Armor,7400,55,,50,,16,,,,,,1 Iron Carapace,2 Good Light Gauntlets
-Lord's Gauntlets,16,Gauntlets,Armor,15500,60,,54,,20,,,,,,2 Wyvern Wing,1 Good Meshed Gaultlets
-Steel Vambrace,19,Gauntlets,Armor,28000,75,,68,,32,,,,,,2 Royal Bone,2 Good Vambrace
-Frozen Grip,20,Gauntlets,Armor,135000,80,,72,,35,,,,1,1,5 Frozen Core,1 Great Moonlight Gauntlets
-Silver Gauntlets,23,Gauntlets,Armor,63000,95,,86,,46,,,,,,3 Liquid Fire,
-King's Gauntlets,25,Gauntlets,Armor,265000,105,,95,,55,,,,10,10,2 Royal Bone,1 Great Silver Gauntlets
-Bloodlust Gauntlets,27,Gauntlets,Armor,120000,120,,108,,65,,,,,2,3 Silver Steel,
-Dark Vambrace,30,Gauntlets,Armor,185000,150,,135,,80,,,,,3,2 Demon Heart,1 Good Steel Vambrace
-Protector Gauntlets,31,Gauntlets,Armor,180000,160,,144,,85,,,,3,5,3 Phoenix Feather,
-Shockers,32,Gauntlets,Armor,385000,170,,153,,90,,,,35,15,2 Dark Energy,1 Flawless Jagged Gauntlets
-Giga-brace,35,Gauntlets,Armor,385000,200,,180,,105,,,,8,8,2 Great Steel Vambrace,
-Fire Smasher,37,Gauntlets,Armor,885000,225,,203,,120,,,,25,20,2 Sun Tear,1 Flawless Bloodlust Gauntlets
-Dragonscale Gauntlets,38,Gauntlets,Armor,1750000,250,,225,,130,,,,20,30,2 Dragon Scale,1 Flawless Protector Gauntlet
-Adamantium Fists,40,Gauntlets,Armor,3900000,300,,270,,150,,,,50,50,2 Adamantium,1 Flawless King's Gauntlets
-Heavy Boots,1,Boots,Armor,22,2,,2,,,,,,,,,
-Rider's Boots,3,Boots,Armor,120,6,,5,,,,,,,,,
-Chain Greaves,4,Boots,Armor,230,9,,8,,,,,,,,,
-Plated Boots,6,Boots,Armor,705,15,,14,,,,,,,,3 Shiny Gem,
-Traveling Boots,8,Boots,Armor,1250,21,,19,,,,,,,,2 Heavy Boots,
-Moon Boots,9,Boots,Armor,4300,25,,23,,,,,,,,2 Moon Shard,
-Red Boots,10,Boots,Armor,2950,30,,27,,,,5,,,,1 Burning Ember,2 Rider's Boots
-Lion Boots,12,Boots,Armor,12500,40,,36,,8,,7,4,,,4 Rainbow Dust,
-Explorer Boots,13,Boots,Armor,6800,45,,41,,10,,9,,,,1 Traveling Boots,
-Valkyrie Boots,14,Boots,Armor,17000,50,,45,,12,,,6,,,2 Rainbow Dust,2 Good Plated Boots
-Sabaton,15,Boots,Armor,9800,55,,50,,16,,,,,,3 Good Chain Greaves,
-Warrior's Greaves,18,Boots,Armor,19500,70,,63,,28,,,14,,,3 Iron Carapace,
-Knight Riders,21,Boots,Armor,38000,85,,77,,38,,34,19,,,2 Red Boots,
-Silvered Greaves,25,Boots,Armor,96500,105,,95,,55,,,28,,10,2 Silver Steel,1 Warrior's Greaves
-Flame Greaves,27,Boots,Armor,250000,120,,108,,68,,,33,11,14,3 Liquid Fire,1 Great Knight Riders
-Lord's Boots,29,Boots,Armor,130000,140,,126,,75,,68,38,--,18,3 Yggdrasil Leaf,
-Magic Riders,30,Boots,Armor,390000,150,135,,,80,,,40,15,20,3 Golden Thread,1 Epic Moonboot
-Frost Sabatons,32,Boots,Armor,180000,165,,149,,90,,,,18,24,2 Golden Thread,3 Frozen Core
-Earthshakers,34,Boots,Armor,375000,175,,158,,100,,,,21,28,2 Demon Heart,1 Good Silvered Greaves
-King's Boots,37,Boots,Armor,1250000,,,,,,,,,,,,
-Skull Stompers,38,Boots,Armor,2200000,250,,225,,130,,,65,30,40,2 Demon Heart,1 Flawless Earthshakers
-Draconic Greaves,39,Boots,Armor,2650000,275,,248,,130,,,65,30,40,3 Dragon Scale,1 Flawless Silvered Greaves
-Tunic,1,Clothes,Armor,10,,,2,,,,,,,,,
-Cloak,2,Clothes,Armor,28,,,3,,,,,,,,,
-Mantle,4,Clothes,Armor,190,,,9,,,,,,,,2 Elven Dew,
-Red Tunic,5,Clothes,Armor,230,,,12,,,,,,,,1 Tunic,
-Robe,7,Clothes,Armor,505,,,18,,,,,,,,2 Shiny Gem,
-Doublet,9,Clothes,Armor,1000,,,25,,,,4,,,,,
-Apprentice Robes,11,Clothes,Armor,1950,,,35,,,,6,,,,1 Rainbow Dust,
-Ice Cloak,13,Clothes,Armor,15500,,,45,,,,10,,,,3 Good Cloak,2 Frozen Core
-Magician's Cloak,15,Clothes,Armor,5700,,,55,,,,16,,,,1 Wyvern Wing,1 Mantle
-Silk Robe,17,Clothes,Armor,10500,,,65,,,,24,,,,3 Moon Shard,
-Mage Robe,19,Clothes,Armor,34500,,,75,,,,32,,4,3,2 Good Apprentice Robes,
-Sacred Tunic,21,Clothes,Armor,25000,,,85,,,,38,,5,,2 Royal Bone,
-Imperial Mantle,25,Clothes,Armor,44000,,,105,,,,55,,10,9,1 Phoenix Feather,3 Good Robe
-Gaia's Mantle,27,Clothes,Armor,145000,,,120,,,,65,,14,12,2 Yggdrasil Leaf,2 Good Magician's Cloak
-Stealth Apparel,28,Clothes,Armor,82000,,,130,,,,70,,16,14,3 Liquid Fire,
-Storm Apparel,29,Clothes,Armor,180000,,,140,,,,75,,18,15,3 Yggdrasil Leaf,1 Great Ice Cloak
-Night Walker,31,Clothes,Armor,145000,,,150,,,,85,,22,19,2 Demon Heart,
-Sorcerer Robe,32,Clothes,Armor,975000,,,170,,,,90,,24,20,2 Silver Steel,2 Flawless Mage Robe
-Nightmare Cape,33,Clothes,Armor,790000,,,180,,,,95,,26,22,2 Dark Energy,1 Flawless Stealth Apparel
-Sage's Robe,34,Clothes,Armor,160000,,,,,,,,,,,,
-Shimmering Robes,36,Clothes,Armor,465000,,,200,,,,110,,32,27,2 Sun Tear,2 Great Silk Robe
-Plasmic Robe,38,Clothes,Armor,2000000,,,250,,,,130,,40,34,2 Adamantium,1 FlawlessImperial Mantle
-Archwizard Robe,39,Clothes,Armor,2900000,,,275,,,,140,,45,38,2 Dragon Scale,1 Flawless Sage's Robe
-Targe,2,Shields,Armor,34,,3,,,,,,,,,,
-Buckler,3,Shields,Armor,150,6,6,,,,,,,,,,
-Small Shield,5,Shields,Armor,265,12,,,,,,,,,,,
-Heater Shield,6,Shields,Armor,550,15,,,,,,,,,,1 Burning Ember,
-Protector,8,Shields,Armor,1650,,21,,,,,,,,,3 Iron Wood,
-Kite Shield,9,Shields,Armor,1950,25,25,,,,,,,,,1 Good Targe,
-Tower Shield,11,Shields,Armor,3700,35,35,,,,,,,,,3 Iron Wood,
-Moonlight Shield,14,Shields,Armor,6000,,50,,,,12,,,,,1 Moon Shard,2 Good Buckler
-Knight Shield,17,Shields,Armor,12000,65,,,,24,,,,,,2 Iron Carapace,1 Good Small Shield
-Fire Proof,18,Shields,Armor,22500,70,,,,28,,,,3,,1 Wyvern Wing,2 Heater Shield
-Venomous Buckler,20,Shields,Armor,20500,80,,,,35,,,,,,1 Liquid Fire,3 Good Buckler
-Aegis,21,Shields,Armor,87500,,85,,,,38,,,,5,1 Liquid Fire,2 Great Tower Shield
-Bulwark,22,Shields,Armor,37500,90,,,,42,,,,,,1 Liquid Fire,2 Good Heater Shield
-Reflective Shield,23,Shields,Armor,29500,95,,,,46,,,,6,,2 Frozen Core,
-Skeleton Shield,25,Shields,Armor,39500,,105,,,,55,,,9,,2 Royal Bone,
-Spiked Shield,27,Shields,Armor,82500,120,,,,65,,,,,14,2 Silver Steel,
-Ember Shield,29,Shields,Armor,135000,140,,,,75,,,,15,,1 Phoenix Feather,3 Yggdrasil Leaf
-Crystal Shield,30,Shields,Armor,935000,150,,,,80,,,,17,20,2 Demon Heart,1 Flawless Aegis
-Argus' Shield,31,Shields,Armor,270000,150,,,,85,,,,,22,2 Demon Heart,2 Good Knight's Shield
-Blessed Aegis,34,Shields,Armor,480000,,,,,,,,,,,,
-Dragon Skull,37,Shields,Armor,2000000,,225,,,,120,,,31,36,2 Dragon Scale,2 Flawless Skeleton Shield
-Giantshield,39,Shields,Armor,3750000,275,,,,140,,,,38,45,2 Adamantium,1 Flawless Ember Shield
-Circlet,1,Hats,Armor,10,,,2,,,,,,,,,
-Hood,2,Hats,Armor,28,,,3,,,,,,,,,
-Monk's Hat,3,Hats,Armor,130,,,6,,,,,,,,2 Elven Dew,
-Buckle Hat,6,Hats,Armor,335,,,15,,,,,,,,,
-Robin's Hood,8,Hats,Armor,2000,,,21,,,,,,,,2 Rainbow Dust,1 Good Hood
-Pumpkinhead,8,Hats,Armor,2150,,11,21,,,2,,,,,2 Burning Ember,1 Hood
-Plumed Hat,8,Hats,Armor,755,,,21,,,,,,,,2 Viper Essence,
-Thief's Hood,9,Hats,Armor,1150,,,25,,,,4,,,,2 Hood,
-Noble Tiara,11,Hats,Armor,2100,9,,35,,,,6,,,,3 Shiny Gem,1 Good Circlet
-Light Visage,13,Hats,Armor,3150,11,,45,,,,10,,,,,
-Scarlet Coif,15,Hats,Armor,9100,,,55,,,,16,,,,2 Good Plumed Hat,
-Magic Top,19,Hats,Armor,21000,,,75,,,,32,,4,,2 Wyvern Wing,
-Silver Crown,21,Hats,Armor,38000,21,,85,,,38,,,5,,2 Good Noble Tiara,2 Frozen Core
-Elven Coif,24,Hats,Armor,65500,,,100,,,,50,,8,,1 Scarlet Coif,
-Golden Crown,25,Hats,Armor,265000,26,,105,,14,,55,,,8,2 Silver Steel,1 Flawless Silver Crown
-Wise Cap,27,Hats,Armor,380000,,,120,,,,65,,,,6 Rainbow Dust,2 Great Magic Top
-Dark Visage,28,Hats,Armor,105000,33,,130,,18,,70,,16,,2 Liquid Fire,2 Good Light Visage
-Shadowhood,31,Hats,Armor,140000,,,160,,,,85,,22,,2 Demon Heart,2 Good Thief's Hood
-Archwizard's Hat,33,Hats,Armor,400000,,,,,,,,,,,,
-Runic Tiara,34,Hats,Armor,615000,48,,190,,25,,100,,28,21,2 Sun Tear,2 Epic Noble Tiara
-Thunder Crown,36,Hats,Armor,1650000,,,210,,28,,110,,32,24,2 Dark Energy,1 Flawless Golden Crown
-Jorou's Crown,38,Hats,Armor,920000,,110,220,,,60,120,,36,27,2 Sun Tear,1 Flawless Lion's Tail
-Demonic Visage,39,Hats,Armor,2450000,69,,275,,35,,140,,45,,2 Adamantium,3 Demon Heart
-Leather Bracers,1,Gloves,Armor,10,,,2,,,,,,,,,
-Gloves,2,Gloves,Armor,28,,,3,,,,,,,,,
-Wrist Guards,3,Gloves,Armor,160,,3,6,,,,,,,,2 Elven Dew,
-Padded Gloves,5,Gloves,Armor,410,,,12,,,,,,,,2 Iron Wood,
-Fur Gloves,7,Gloves,Armor,790,,,18,,,,,,,,3 Gloves,
-Venomous Hands,9,Gloves,Armor,1400,,,25,,,,,,,,3 Viper Essence,
-Woven Bracers,10,Gloves,Armor,1300,,,30,,,,,,,,1 Wrist Guards,
-Dexterious Gloves,12,Gloves,Armor,3150,,,40,,,,8,,,,2 Rainbow Dust,
-Wisdom Gloves,14,Gloves,Armor,17000,,,50,,,,12,,,,2 Wyvern Wing,2 Good Padded Gloves
-Elemental Bracers,14,Gloves,Armor,5250,,25,50,,,,12,,,,1 Iron Carapace,
-Grandmaster Gloves,15,Gloves,Armor,18500,,28,55,,,8,16,,,2,1 Great Dexterous Gloves,
-Flaming Hands,16,Gloves,Armor,8650,,,60,,,,20,,,,3 Burning Ember,2 Good Padded Gloves
-Shadowed Gloves,18,Gloves,Armor,33000,,70,140,,,38,,,18,14,1 Good Venomous Hand,
-Royal Bracers,20,Gloves,Armor,18500,,40,80,,,18,35,,5,,1 Royal Bone,
-Alchemist Gloves,22,Gloves,Armor,30500,,,90,,,21,42,,,,1 Liquid Fire,3 Good Fur Gloves
-Mage Bracers,24,Gloves,Armor,41500,,50,100,,,25,50,,8,,1 Yggdrasil Leaf,2 Good Woven Bracers
-Sorcerer's Bracers,26,Gloves,Armor,72500,,55,110,,,30,60,,12,9,1 Silver Steel,2 Elemental Bracers
-Shield Bracers,30,Gloves,Armor,160000,,75,150,,,40,80,,,15,2 Phoenis Feather,1 Great Royal Bracer
-Angel Gloves,35,Gloves,Armor,355000,,,200,,,,105,53,30,23,3 Golden Thread,2 Great Flaming Hands
-Freezing Bracers,36,Gloves,Armor,1300000,,105,210,,,55,,,32,24,7 Frozen Core,2 Flawless Mage Bracers
-Nightstalker Gloves,38,Gloves,Armor,1500000,,,250,,,65,130,,40,30,2 Epic Alchemist Gloves,2 Great invisibility Scroll
-Death Grip,39,Gloves,Armor,2800000,,138,275,,,70,140,,45,34,3 Dark Energy,1 Flawless Angel Gloves
-Sandals,1,Footwear,Armor,16,,1,2,,,,,,,,,
-Shoes,2,Footwear,Armor,44,,2,3,,,,,,,,,
-Druidic Shoes,3,Footwear,Armor,210,,3,,,,,,,,,,
-Leather Shoes,4,Footwear,Armor,185,,5,9,,,,,,,,,
-Fur Loafers,6,Footwear,Armor,575,,8,15,,,,,,,,2 Elven Dew,
-Light Boots,7,Footwear,Armor,915,,9,18,,,,,,,,2 Shoes,
-Elven Boots,8,Footwear,Armor,2300,,11,21,,,,,,,,2 Rainbow Dust,
-Dancer Shoes,9,Footwear,Armor,1500,,13,25,,,,4,,,,1 Burning Ember,
-Legion Sandals,11,Footwear,Armor,2550,,18,35,,,,6,,,,2 Great Sandals,
-Horned Shoes,14,Footwear,Armor,5750,,25,50,,,6,12,,,,1 Moon Shard,2 Good Shoes
-Moon Walkers,15,Footwear,Armor,16500,,28,55,,,8,16,,,,2 Moon Shard,1 Good Dancer Shoes
-Golden Shoes,17,Footwear,Armor,9050,,33,65,,,12,24,,,,,
-Plumed Loafers,21,Footwear,Armor,19500,,43,85,,,19,38,,5,,1 Wyvern Wing,2 Leather Shoes
-Winged Sandals,22,Footwear,Armor,65500,,45,90,,,21,,,,5,3 Wyvern Wing,2 Great Legion Sandals
-Imperial Sandals,25,Footwear,Armor,37500,,53,105,,,28,,,10,,2 Royal Bone,1 Good Legion Sandals
-Genji Getas,28,Footwear,Armor,64500,,65,130,,,35,70,,16,,2 Liquid Fire,
-Path Finders,29,Footwear,Armor,560000,,70,140,,,38,,,18,14,2 Flawless Moon Walkers,1 Good Teleportation Scroll
-Floating Slippers,31,Footwear,Armor,120000,,80,160,,,43,,,,,2 Yggdrasil Leaves,1 Good Teleportation Scroll
-Wind Walkers,35,Footwear,Armor,380000,,,,,,,,,,,,
-Arcane Sandals,37,Footwear,Armor,920000,,,,,,,,,,,,
-Planeswalker,38,Footwear,Armor,2350000,,125,250,,,65,,,40,30,2 Sun Tear,1 Flawless Wind Walkers
-Draconic Boots,40,Footwear,Armor,3600000,,150,300,,,75,150,,50,,3 Dragon Scale,2 Flawless Winged Sandals
-Healing Herbs,1,Remedies,Accessories,10,,,,2,,,,,,,,
-Antidote,2,Remedies,Accessories,44,,,,3,,,,,,,1 Elven Dew,
-Fungi Brew,3,Remedies,Accessories,95,,,,6,,,,,,,2 Shiny Gem,
-Elderflower,6,Remedies,Accessories,385,,,,15,,,,,,,2 Healing Herbs,
-Healing Mix,7,Remedies,Accessories,690,,,,18,,,,,,,2 Antidote,
-Colored Powder,8,Remedies,Accessories,2200,,,,21,,,,,,,1 Rainbow Dust,3 Health Vial
-Fire Moss,9,Remedies,Accessories,1200,,,,25,,,,,,,2 Burning Ember,
-Sleeping Shrooms,11,Remedies,Accessories,2200,,,,35,,,,6,,,2 Fungi Brew,
-Bark Tea,13,Remedies,Accessories,3500,,,,45,,,,10,,,4 Iron Wood,
-Fairy Sprinkle,15,Remedies,Accessories,6200,,,,55,,,,16,,,3 Rainbow Dust,
-Anti-venom,19,Remedies,Accessories,14500,,,,75,,,,32,3,,2 Wyvern Wing,3 Good Antidote
-Protection Dust,21,Remedies,Accessories,32500,,,,85,,,,38,4,,2 Royal Bone,3 Good Heater Shield
-Swift Seed,23,Remedies,Accessories,72500,,,,95,,,,46,5,,2 Liquid Fire,2 Good Hunting Knife
-Elven Cure,24,Remedies,Accessories,45500,,,,80,,,,50,6,,2 Yggdrasil Leaf,2 Good Elderflower
-Rejuvenating Tea,26,Remedies,Accessories,120000,,,,110,,,,60,9,,3 Yggdrasil Leaf,1 Flawless Bark Tea
-Angel Dust,28,Remedies,Accessories,92000,,,,130,,,,70,12,,2 Phoenix Feather,1 Great Harp
-Coldfire Dust,31,Remedies,Accessories,120000,,,,150,,,,85,17,,2 Golden Thread,3 Fire Moss
-Strength Seed,34,Remedies,Accessories,1150000,,,,190,,,,100,21,,2 Demon Heart,1 Flawless Pulveriser
-Phoenix Dust,35,Remedies,Accessories,410000,,,,185,,,,105,23,,2 Sun Tear,3 Good Fairy Sprinkle
-Panacea,37,Remedies,Accessories,2600000,,,,225,,,,120,27,,1 Dragon Scale,2 Flawless Rejuvenating Tea
-Magic Seed,40,Remedies,Accessories,5550000,,,,300,,,,150,38,,3 Dark Energy,3 Flawless Ice Staff
-Health Vial,3,Potions,Accessories,75,,,,6,,,,,,,,
-Mana Vial,4,Potions,Accessories,175,,,,9,,,,,,,1 Healing Herbs,
-Speed Potion,5,Potions,Accessories,285,,,,12,,,,,,,1 Elven Dew,
-Love Splash,6,Potions,Accessories,420,,,,15,,,,,,,,
-Healing Potion,7,Potions,Accessories,740,,,,18,,,,,,,1 Good Health Vial,
-Toxic Vial,8,Potions,Accessories,930,,,,21,,,,,,,2 Viper Essence,
-Elixir Drops,9,Potions,Accessories,1800,,,,25,,,,4,,,3 Elven Dew,
-Health Drink,10,Potions,Accessories,2350,,,,30,,,,5,,,1 Elderflower,
-Strength Potion,13,Potions,Accessories,3900,,,,45,,,,10,,,1 Speed Potion,
-Warming Spray,15,Potions,Accessories,8100,,,,55,,,,16,,,2 Burning Ember,1 Fire Moss
-Acidic Splash,17,Potions,Accessories,11000,,,,65,,,,24,3,2,1 Good Toxic Vial,
-Health Potion,20,Potions,Accessories,26500,,,,80,,,,35,5,4,2 Wyvern Wing,1 Good Health Drink
-Wisdom Potion,22,Potions,Accessories,40000,,,,90,,,,42,,,1 Liquid Fire,2 Good Healing Potion
-Mana Potion,22,Potions,Accessories,75500,,,,90,,,,42,6,5,3 Liquid Fire,
-Demon's Blood,24,Potions,Accessories,125000,,,,100,,,,50,8,6,3 Liquid Fire,
-Elixir,26,Potions,Accessories,170000,,,,110,,,,60,12,10,3 Yggdrasil Leaves,2 Great Elixir Drops
-Golden Potion,28,Potions,Accessories,130000,,,,130,,,,70,16,13,1 Silver Steel,2 Good Warming Spray
-Life Potion,31,Potions,Accessories,220000,,,,160,,,,85,22,18,3 Yggdrasil Leaves,3 Good Strength Potions
-Invincibility Potion,33,Potions,Accessories,995000,,,,170,,,,95,26,21,3 Phoenix Feather,2 Great Bone Reaver
-Dragon's Blood,34,Potions,Accessories,1200000,,,,190,,,,100,28,22,1 Dragon Scale,2 Flawless Health Potions
-Megaelixir,36,Potions,Accessories,2150000,,,,210,,,,110,32,26,3 Sun Tear,1 Flawless Elixir
-God's Essence,39,Potions,Accessories,4700000,,,,275,,,,140,45,36,1 Adamantium,2 Flawless Golden Potion
-Shielding Seal,5,Spells,Accessories,330,,,12,,,,,,,,1 Shiny Gem,
-Fireball Scroll,7,Spells,Accessories,935,,,18,,,,,,,,1 Burning Ember,
-Poison Scroll,8,Spells,Accessories,1450,,,21,,,,,,,,3 Viper Essence,
-Lightning Scroll,9,Spells,Accessories,2700,,,25,,,,,,,,2 Rainbow Dust,
-Sleeping Totem,11,Spells,Accessories,4450,,18,35,,,,,6,,,5 Elven Dew,
-Firewall Scroll,12,Spells,Accessories,5850,,,40,,,,7,8,,,3 Burning Ember,
-Pain Totem,13,Spells,Accessories,12500,,23,,45,,5,,,,,2 Iron Carapace,
-Deflection Seal,14,Spells,Accessories,8150,25,,,,6,,,,,,2 Iron Carapace,
-Freezing Scroll,16,Spells,Accessories,16500,,,60,,,,17,20,3,,1 Frozen Core,1 Good Scarlet Drop
-Invisibility Scroll,18,Spells,Accessories,23500,,,70,,,,,28,4,,3 Moon Shard,1 Good Poison Scroll
-Teleportation Scroll,21,Spells,Accessories,40000,,,85,,,,32,38,5,,1 Liquid Fire,1 Good Lightning Scroll
-Magical Codex,23,Spells,Accessories,130000,,,95,,,,39,46,7,6,2 Liquid Fire,1 Great Hanging Journal
-Paralysis Totem,24,Spells,Accessories,86500,,50,,100,,25,,,8,6,2 Yggdrasil Leaf,1 Good Sleeping Totem
-Evil Seal,26,Spells,Accessories,305000,55,,,,30,,,60,12,10,2 Silver Steel,2 Great Deflection Seals
-Possession Scroll,28,Spells,Accessories,115000,,,130,,,,60,70,16,13,1 Phoenix Feather,1 Great Love Splash
-Njord,30,Spells,Accessories,580000,,,150,,,,68,80,20,16,2 Golden Treads,2 Good Freezing Scrolls
-Power Seal,30,Spells,Accessories,405000,75,,,,40,,,80,20,16,2 Silver Steel,1 Bloodlust Gauntlets
-Gloom Totem,32,Spells,Accessories,635000,,85,,170,,45,,,24,19,2 Demon Heart,1 Great Paralysis Totem
-Arcane Compendium,33,Spells,Accessories,1950000,,,180,,,,81,95,26,21,2 Sun Tear,1 Flawless Possession Scroll
-Disintegration Scroll,35,Spells,Accessories,935000,,,,,,,,,,,,
-Return Scroll,37,Spells,Accessories,1600000,,,225,,,,102,120,36,29,2 Dark Energy,1 Flawless Golden Potion
-Divine Tome,40,Spells,Accessories,4850000,,,300,,,,128,150,50,40,2 Adamantium,1 Flawless Magical Codex
-Darts,2,Projectiles,Accessories,70,3,3,,,,,,,,,,
-Sling,3,Projectiles,Accessories,150,6,5,,,,,,,,,,
-Boomerang,4,Projectiles,Accessories,215,,9,,,,,,,,,2 Shiny Gem,
-Kunai,6,Projectiles,Accessories,550,15,,,,,,,,,,2 Elven Dew,
-Poison Darts,7,Projectiles,Accessories,1800,18,18,,5,,,,,,,3 Viper Essence,
-Smoke Bomb,9,Projectiles,Accessories,2600,25,,19,6,,,,,,,1 Rainbow Dust,1 Fungi Brew
-Metal Boomerang,11,Projectiles,Accessories,3900,35,,,,6,,,,,,2 Boomerang,
-Toxic Bomb,12,Projectiles,Accessories,12000,,40,,10,,,,6,,,3 Viper Essence,1 Good Smoke Bomb
-Sleeping Bomb,13,Projectiles,Accessories,6100,45,,,11,10,,,8,,,1 Love Splash,
-Shock Darts,15,Projectiles,Accessories,13000,55,55,,,16,16,,,,,1 Moon Shard,2 Great Darts
-Shuriken,18,Projectiles,Accessories,21000,70,,,,28,,,21,,,3 Kunai,
-Elasti-sling,20,Projectiles,Accessories,32000,80,,60,,,,,26,,,3 Wyvern Wing,
-Bladed Feather,22,Projectiles,Accessories,43500,90,,,,42,,,,,,1 Liquid Fire,2 Good Plumed Hat
-Chakram,22,Projectiles,Accessories,54000,90,,,,42,,,,,5,2 Yggdrasil Leaf,
-Magic Shuriken,24,Projectiles,Accessories,155000,100,,,,50,,,,6,,2 Liquid Fire,1 Great Shuriken
-Singing Chakram,26,Projectiles,Accessories,175000,110,,,,60,,,,,9,2 Yggdrasil Leaf,1 Good Oud
-Steelarang,28,Projectiles,Accessories,93000,130,,,,70,,,,12,,2 Silver Steel,
-Seeking Kunai,30,Projectiles,Accessories,180000,150,,,,80,,,,15,,2 Demon Heart,1 Flawless Kunai
-Shredder,33,Projectiles,Accessories,280000,,,,,,,,,,,,
-Exploding Darts,35,Projectiles,Accessories,785000,200,200,,,105,105,,79,-,,2 Sun Tear,1 Flawless Shock Darts
-Heart Pirecer,36,Projectiles,Accessories,2650000,210,,,,110,,,,24,,2 Dragon Scale,1 Flawless Seeking Kunai
-Thunder Clap,38,Projectiles,Accessories,2000000,,250,,,,130,,98,30,,4 Dark Energy,2 Epic Switch Blades
-Iron Band,2,Rings,Accessories,32,3,,,,,,,,,,,
-Rabbit Ring,4,Rings,Accessories,155,9,,,,,,,,,,,
-Jewel Ring,5,Rings,Accessories,305,12,,,,,,,,,,2 Shiny Gem,
-Shadow Mark,6,Rings,Accessories,470,15,,,,,,,,,,1 Iron Band,
-Crescent Ring,7,Rings,Accessories,660,18,,,,,,,,,,2 Elven  Dew,
-Moonstone Ring,9,Rings,Accessories,1250,25,,,,,,,,,,2 Iron Wood,
-Luck Band,11,Rings,Accessories,3100,35,,,,6,,,,,,2 Rabbit Ring,
-Gold Digger,12,Rings,Accessories,4050,40,,,,,,,,,,4 Iron Wood,5 Shiny Gem
-Soldier's Mark,13,Rings,Accessories,4250,45,,,,10,,,,,,3 Dirk,
-Nimble Ring,14,Rings,Accessories,15500,50,,,,12,,,,,,2 Moon Shard,2 Good Shadow Mark
-Fire Band,16,Rings,Accessories,10000,60,,,,20,,,,,3,5 Burning Ember,
-Sight Band,19,Rings,Accessories,16000,75,,,,32,,,,,4,1 Light Visage,
-Undead Ring,21,Rings,Accessories,32000,85,,,,38,,,,4,5,2 Royal Bone,
-Power Ring,23,Rings,Accessories,52000,95,,,,46,,,,5,7,2 Good Strength Potion,
-Crusader Ring,25,Rings,Accessories,175000,105,,,,55,,,,,10,3 Silver Steel,3 Great Jewel Ring
-Prayer Ring,27,Rings,Accessories,245000,120,,,,65,,,,11,14,3 Royal Bone,3 Great Luck Band
-Wisdom Mark,28,Rings,Accessories,180000,130,,,,70,,,,12,16,2 Magic Top,1 Good Luck Band
-Resistance Band,31,Rings,Accessories,215000,160,,,,85,,,,17,22,2 Demon Hearts,2 Good Soldier's Mark
-Truth Ring,33,Rings,Accessories,470000,,,,,,,,,,,,
-Divine Mark,34,Rings,Accessories,2200000,190,,,,100,,,,21,28,2 Sun Tear,1 Flawless Life Potion
-Royal Ring,36,Rings,Accessories,1900000,210,,,,110,,,,,32,2 Dragon Scale,1 Flawless Crusader Ring
-Oracle,39,Rings,Accessories,4350000,275,,,,140,,,,34,45,2 Adamantium,1 Flawless Prayer Ring
-Shiny Pendant,3,Pendants,Accessories,100,3,,5,,,,,,,,,
-Opal Necklace,5,Pendants,Accessories,320,6,,9,,,,,,,,,
-Scarlet Drop,6,Pendants,Accessories,565,,8,11,,,,,,,,2 Shiny Gem,
-Protection Pendant,8,Pendants,Accessories,1050,,11,16,,,,,,,,2 Elven Dew,
-Luna Charm,10,Pendants,Accessories,1550,,,23,,3,,,,,,1 Shiny Pendant,1 Iron Wood
-Wind Charm,11,Pendants,Accessories,5850,18,,26,,,,,,,,3 Shiny Gem,2 Good Opal Necklace
-Skeleton Ward,12,Pendants,Accessories,2500,,,30,,,4,,,,,1 Shielding Seal,
-Hanging Journal,14,Pendants,Accessories,4200,,,38,,6,,9,,,2,,
-Fiery Talisman,16,Pendants,Accessories,9800,,,45,,10,,15,,,3,3 Burning Ember,1 Good Fireball Scroll
-Azure Beads,18,Pendants,Accessories,36500,,,42,,14,,,,,4,2 Wyvern Wing,3 Good Scarlet Drop
-Timeless Locket,18,Pendants,Accessories,19000,,,53,,14,,,,,4,2 Frozen Core,
-Jade Amulet,20,Pendants,Accessories,26500,,,60,,18,,,,5,5,2 Health Drink,
-Obelisk Charm,22,Pendants,Accessories,42500,,,68,,21,,,,5,6,3 Good Luna Charm,
-Turning Token,24,Pendants,Accessories,115000,,,75,,,25,,,7,8,2 Silver Steel,1 Great Skeleton Ward
-Light Amulet,25,Pendants,Accessories,79500,,,79,,,28,,,9,10,2 Flaming Hands,
-Shielding Ward,27,Pendants,Accessories,200000,,,90,,,,,,13,14,3 Yggdrasil Leaf,2 Great Hanging Journal
-Phoenix Talon,29,Pendants,Accessories,190000,,,105,,,38,,,16,18,3 Phoenix Feather,
-Freezing Ward,31,Pendants,Accessories,285000,,,113,,,43,,,20,22,7 Frozen Core,1 Great Jade Amulet
-Cat's Eye,33,Pendants,Accessories,430000,,,,,,,,,,,,
-Lich's Heart,35,Pendants,Accessories,1600000,,,150,,,53,,,27,30,3 Demon Heart,3 Flawless Freezing Scroll
-Draconic Amulet,36,Pendants,Accessories,1200000,,,158,,55,,,,29,32,2 Dragon Scale,1 Flawless Obelisk Charm
-Goddess' Tear,38,Pendants,Accessories,3050000,,,188,,65,,,,36,40,2 Sun Tear,2 Adamantium
-Wood Flute,3,Music,Accessories,80,,5,,,,,,,,,,
-Small Drum,4,Music,Accessories,350,,7,5,,,,,,,,3 Shiny Gem,
-Pan Flute,7,Music,Accessories,985,,14,9,,,,,,,,2 Elven Dew,
-Horn,9,Music,Accessories,1700,,19,13,,,,,,,,2 Viper Essence,
-Harp,11,Music,Accessories,4350,,26,18,,,5,,,,,2 Rainbow Dust,
-Iron Flute,12,Music,Accessories,4350,20,,,,,,,,,,5 Iron Wood,
-Lute,15,Music,Accessories,7450,,41,28,,,12,,,,,3 Iron Wood,
-Frozen Harp,16,Music,Accessories,46000,,45,,,,15,,,,,2 Frozen Cores,1 Good Harp
-Long Flute,18,Music,Accessories,12000,,53,,,,21,,,,,2 Moon Shards,2 Good Wood Flutes
-Oud,20,Music,Accessories,19500,,60,40,,,26,,,,,1 Royal Bone,
-Nordic Lute,22,Music,Accessories,49500,,68,45,,,32,,,,,3 Frozen Cores,
-Military Tap,25,Music,Accessories,105000,,79,53,,,41,28,,,,3 Good Small Drum,3 Liquid Fire
-Ygg Flute,26,Music,Accessories,110000,,83,,,,45,,,12,,2 Yggdrasil Leaves,1 Great Iron Flute
-Silvered Flute,28,Music,Accessories,215000,,98,,,,53,,,,13,2 Silver Steel,2 Good Long Flutes
-Soothing Harp,30,Music,Accessories,325000,,113,,,,60,,,20,,3 Phoenix Feathers,2 Great Harps
-Wyrm Horn,31,Music,Accessories,510000,,120,,,43,64,,,,18,3 Phoenix Feathers,2 Flawless Horn
-Golden String,32,Music,Accessories,410000,,128,85,,,68,,,,19,3 Golden Thread,2 Good Lutes
-Hell Hound,33,Music,Accessories,500000,,135,90,,,71,48,,26,,2 Dark Energy,2 Demon Hearts
-Draconian Sound,35,Music,Accessories,1950000,100,150,,,53,79,53,,,24,2 Dragon Scale,1 Great Silvered Flute
-Draconic Heartbeat,38,Music,Accessories,2150000,,188,125,,,98,65,,40,32,2 Dragon Scale,1 Flawless Military Tap
-Angelic Strings,40,Music,Accessories,6450000,,225,150,,,113,75,,50,40,2 Adamantium,1 Flawless Soothing Harp
+name,level,power,class,price,iron,wood,leather,herbs,steel,hwood,fabric,oil,mana,jewels,comp1,comp2,,Item Progression Unlocks,,,,,,Epic Power,Legendary Power,Mythical Power
+Shortsword,2,26,Swords,28,3,---,---,---,---,---,---,---,---,---,---,---,,-1 Iron (x4),Longsword (x8),Cuirass (x15),Good Quality (x25),Great Quality (x40),,39,52,130
+Longsword,3,46,Swords,60,5,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Leather Bracers (x8),Broadsword (x15),-1 Iron (x25),Good Quality (x40),,69,92,230
+Broadsword,5,90,Swords,250,11,---,---,---,---,---,---,---,---,---,1 Shortsword,---,,+25% Sale Price (x5),Rapier (x10),-1 Iron (x20),-2 Iron (x30),Good Quality (x50),,135,180,450
+Rapier,7,140,Swords,555,18,---,---,---,---,---,---,---,---,---,1 Longsword,---,,+25% Sale Price (x5),Claymore (x10),-2 Iron (x20),-4 Iron (x30),Good Quality (x50),,210,280,700
+Claymore,8,170,Swords,920,21,---,---,---,---,---,---,---,---,---,3 Viper Essence,---,,+25% Sale Price (x6),Zweihander (x12),-4 Iron (x20),-1 Viper Essence (x30),Good Quality (x50),,255,340,850
+Fire Blade,10,290,Swords,"1,850",30,---,---,---,---,---,---,---,---,---,2 Burning Ember,---,,+50% Sale Price (x6),-15 Iron (x12),-1 Burning Ember (x20),Good Quality (x30),Fireball (x50),,435,580,"1,450"
+Zweihander,12,300,Swords,"2,250",40,---,---,---,8,---,---,---,---,---,1 Iron Wood,---,,-8 Iron (x6),+25% Sale Price (x12),Bastard Sword (x20),-25% Time (x30),Good Quality (x50),,450,600,"1,500"
+Bastard Sword,14,360,Swords,"3,700",50,---,---,---,12,---,---,---,---,---,1 Good Broadsword,---,,-10 Iron (x7),+25% Sale Price (x14),Sabre (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Sabre,16,430,Swords,"7,000",60,---,---,---,20,---,---,---,---,---,1 Iron Carapace,1 Claymore,,-12 Iron (x7),+25% Sale Price (x14),Wakizashi (x25),-25% Time (x40),-4 Steel (x60),,645,860,"2,150"
+Wakizashi,19,550,Swords,"11,000",75,---,---,---,32,---,---,---,---,---,2 Rapier,---,,-15 Iron (x8),+25% Sale Price (x16),Scimitar (x30),-25% Time (x45),-1 Rapier (x70),,825,"1,100","2,750"
+Vorpal Sword,20,875,Swords,"48,000",80,---,---,---,35,---,---,---,5,---,3 Great Claymore,---,,+50% Sale Price (x8),-40 Iron (x16),-1 Claymore (x30),-25% Time (x45),Parry (x70),,"1,313","1,750","4,375"
+Scimitar,23,700,Swords,"19,000",95,---,---,---,46,---,---,---,---,---,1 Good Bastard Sword,---,,-25% Time (x8),-19 Iron (x16),-9 Steel (x30),Masamune (x45),+25% Sale Price (x70),,"1,050","1,400","3,500"
+Coldsteel,25,"1,000",Swords,"71,500",105,---,---,---,55,---,---,---,---,---,3 Frozen Core,2 Great Fire Blade,,-25% Time (x9),-53 Iron (x18),-1 Frozen Core (x30),+50% Sale Price (x50),Cone-of-cold (x80),,"1,500","2,000","5,000"
+Masamune,27,875,Swords,"65,000",120,---,---,---,65,---,---,---,---,---,1 Silver Steel,3 Good Zweihander,,-25% Time (x9),-13 Steel (x18),-1 Zweihander (x30),Sawblade (x50),+25% Sale Price (x80),,"1,313","1,750","4,375"
+Sawblade,30,"1,025",Swords,"92,000",145,---,---,---,80,---,---,---,---,---,4 Royal Bone,3 Wyvern Wing,,-25% Time (x9),-16 Steel (x18),-2 Wyvern Wing (x30),Heaven's Will (x50),+25% Sale Price (x80),,"1,538","2,050","5,125"
+Heaven's Will,31,"1,050",Swords,"140,000",150,---,---,---,85,---,---,---,22,17,2 Phoenix Feather,1 Demon Heart,,-25% Time (x10),-17 Steel (x20),-1 Phoenix Feather (x35),Slashing Tiger (x55),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Abyssal Brand,32,"1,650",Swords,"485,000",165,---,---,---,90,---,---,---,24,---,3 Silver Steel,1 Flawless Vorpal Sword,,-25% Time (x10),-83 Iron (x20),-1 Silver Steel (x35),+50% Sale Price (x55),Cleave (x90),,"2,475","3,300","8,250"
+Slashing Tiger,35,"1,250",Swords,"210,000",185,---,---,---,105,---,---,---,30,---,2 Dark Energy,1 Great Sabre,,-25% Time (x11),-21 Steel (x22),-1 Dark Energy (x40),Excalibur (x60),+25% Sale Price (x90),,"1,875","2,500","6,250"
+Excalibur,37,"1,350",Swords,"410,000",210,---,---,---,115,---,---,---,34,---,2 Sun Tear,1 Flawless Scimitar,,-25% Time (x12),-42 Iron (x24),-1 Sun Tear (x40),Twilight Scimitar (x65),+25% Sale Price (x100),,"2,025","2,700","6,750"
+Stormbringer,38,"1,750",Swords,"2,000,000",220,---,---,---,120,---,---,---,36,27,1 Adamantium,2 Flawless Coldsteel,,-25% Time (x12),-110 Iron (x24),-1 Coldsteel (x40),+50% Sale Price (x65),Thunderbolt (x100),,"2,625","3,500","8,750"
+Twilight Scimitar,39,"1,450",Swords,"680,000",235,---,---,---,125,---,---,---,38,29,4 Demon Heart,2 Flawless Wakizashi,,-25% Time (x13),-47 Iron (x26),-2 Demon Heart (x45),Unholy Fangs (x70),+25% Sale Price (x110),,"2,175","2,900","7,250"
+Balmung,40,"2,250",Swords,"4,400,000",250,---,---,---,130,---,---,---,40,30,2 Adamantium,2 Great Heaven's Will,,-25% Time (x13),-1 Heaven's Will (x26),-1 Adamantium (x45),+50% Sale Price (x70),Support II (x110),,"3,375","4,500","11,250"
+Dragonslayer,41,"2,325",Swords,"3,950,000",275,---,---,---,135,---,---,---,42,32,2 Dragon Scale,1 Flawless Abyssal Brand,,-25% Time (x13),-138 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Commander I (x110),,"3,488","4,650","11,625"
+Unholy Fangs,43,"1,650",Swords,"1,100,000",325,---,---,---,145,---,---,---,48,36,1 Ancient Essence,1 Flawless Sawblade,,-25% Time (x14),-65 Iron (x28),-29 Steel (x50),-10 Mana (x80),+25% Sale Price (x120),,"2,475","3,300","8,250"
+Frostfire Blade,46,"2,250",Swords,"5,450,000",400,---,---,---,160,---,---,---,60,45,1 Frostfire Crystal,2 Flawless Slashing Tiger,,-25% Time (x14),-200 Iron (x28),-1 Slashing Tiger (x50),+50% Sale Price (x80),Riposte (x120),,"3,375","4,500","11,250"
+Durandal,50,"3,025",Swords,"18,700,000",500,---,---,---,200,---,---,---,100,75,2 Primal Horn,2 Flawless Excalibur,,-25% Time (x15),-250 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Commander II (x130),,"4,538","6,050","15,125"
+Knife,1,10,Daggers,10,2,---,---,---,---,---,---,---,---,---,---,---,,Shortsword (x3),-1 Iron (x6),Pocket Knife (x10),Good Quality (x15),Great Quality (x20),,15,20,50
+Pocket Knife,2,26,Daggers,24,3,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Hand Axe (x8),Dirk (x15),-1 Iron (x25),Good Quality (x40),,39,52,130
+Kris,3,68,Daggers,260,5,---,---,---,---,---,---,---,---,---,---,---,,-1 Iron (x4),-1 Iron (x8),Good Quality (x15),Great Quality (x25),Nimble Ring (x40),,102,136,340
+Dirk,3,46,Daggers,60,5,---,---,---,---,---,---,---,---,---,1 Knife,---,,+25% Sale Price (x4),Parrying Dagger (x8),-1 Iron (x15),-1 Iron (x25),Good Quality (x40),,69,92,230
+Parrying Dagger,5,90,Daggers,195,10,---,---,---,---,---,---,---,---,---,1 Pocket Knife,---,,+25% Sale Price (x5),Stiletto (x10),-1 Iron (x20),-2 Iron (x30),Good Quality (x50),,135,180,450
+Stiletto,7,140,Daggers,475,16,---,---,---,---,---,---,---,---,---,2 Viper Essence,---,,+25% Sale Price (x5),Broad Blade (x10),-3 Iron (x20),-1 Viper Essence (x30),Good Quality (x50),,210,280,700
+White Dagger,9,250,Daggers,"1,250",23,---,---,---,---,---,---,---,---,---,2 Burning Ember,---,,+50% Sale Price (x6),-12 Iron (x12),-1 Burning Ember (x20),Good Quality (x30),Lucky II (x50),,375,500,"1,250"
+Broad Blade,10,230,Daggers,865,27,---,---,---,---,---,---,---,---,---,1 Good Pocket Knife,---,,+25% Sale Price (x6),Gutting Knife (x12),-3 Iron (x20),-5 Iron (x30),Good Quality (x50),,345,460,"1,150"
+Gutting Knife,12,300,Daggers,"1,750",36,---,---,---,7,---,---,---,---,---,1 Dirk,---,,-7 Iron (x6),+25% Sale Price (x12),Hunting Knife (x20),-25% Time (x30),Good Quality (x50),,450,600,"1,500"
+Hunting Knife,13,330,Daggers,"2,100",41,---,---,---,9,---,---,---,---,---,---,---,,-8 Iron (x7),+25% Sale Price (x14),Mail Breaker (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Crimson Heart,15,500,Daggers,"11,000",50,---,---,---,14,---,---,8,2,---,2 Wyvern Wing,---,,-25 Iron (x7),+50% Sale Price (x14),-25% Time (x25),-1 Wyvern Wing (x40),Fastidious I (x60),,750,"1,000","2,500"
+Mail Breaker,16,430,Daggers,"4,850",54,---,---,---,18,---,---,10,---,---,1 Good Parrying Dagger,---,,-11 Iron (x7),+25% Sale Price (x14),Switch Blade (x25),-25% Time (x40),-4 Steel (x60),,645,860,"2,150"
+Phantom Katar,18,775,Daggers,"26,000",63,---,---,---,25,---,---,14,---,---,3 Good Broad Blade,---,,-32 Iron (x8),+50% Sale Price (x16),-1 Broad Blade (x30),-25% Time (x45),Backstab (x70),,"1,163","1,550","3,875"
+Switch Blade,20,575,Daggers,"11,500",72,---,---,---,32,---,---,18,---,---,2 Good Stiletto,---,,-14 Iron (x8),+25% Sale Price (x16),Life Stealer (x30),-25% Time (x45),-6 Steel (x70),,863,"1,150","2,875"
+Life Stealer,22,675,Daggers,"19,000",81,---,---,---,38,---,---,21,5,---,1 Liquid Fire,1 Good Gutting Knife,,-25% Time (x8),-8 Steel (x16),-4 Oil (x30),Night Shiv (x45),+25% Sale Price (x70),,"1,013","1,350","3,375"
+Night Shiv,25,800,Daggers,"33,000",95,---,---,---,50,---,---,28,---,---,3 Frozen Core,---,,-25% Time (x9),-10 Steel (x18),-2 Frozen Core (x30),Shadowripper (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Shadowripper,27,875,Daggers,"54,500",108,---,---,---,59,---,---,33,---,---,1 Silver Steel,3 Good Hunting Knife,,-25% Time (x9),-22 Iron (x18),-1 Hunting Knife (x30),Wing Blade (x50),+25% Sale Price (x80),,"1,313","1,750","4,375"
+Wing Blade,30,"1,025",Daggers,"110,000",131,---,---,---,72,---,---,40,15,---,2 Golden Thread,2 Yggdrasil Leaf,,-25% Time (x9),-14 Steel (x18),-1 Yggdrasil Leaf (x30),Dark Hand (x50),+25% Sale Price (x80),,"1,538","2,050","5,125"
+Dark Hand,35,"1,250",Daggers,"175,000",167,---,---,---,95,---,---,53,23,---,2 Demon Heart,1 Great Life Stealer,,-25% Time (x11),-33 Iron (x22),-1 Demon Heart (x40),Royal Dirk (x60),+25% Sale Price (x90),,"1,875","2,500","6,250"
+Betrayer,36,"1,950",Daggers,"845,000",180,---,---,---,99,---,---,55,---,---,1 Dark Energy,2 Great Shadowripper,,-25% Time (x12),-90 Iron (x24),-1 Shadowripper (x40),+50% Sale Price (x65),Gangster I (x100),,"2,925","3,900","9,750"
+Royal Dirk,37,"1,350",Daggers,"405,000",189,---,---,---,104,---,---,58,26,---,2 Phoenix Feather,2 Good Power Ring,,-25% Time (x13),-38 Iron (x26),-1 Phoenix Feather (x45),Traitorous Blade (x70),+25% Sale Price (x110),,"2,025","2,700","6,750"
+Seven Stars,38,"1,750",Daggers,"955,000",198,---,---,---,108,---,---,60,27,36,2 Sun Tear,2 Flawless Night Shiv,,-25% Time (x13),-99 Iron (x26),-1 Sun Tear (x45),+50% Sale Price (x70),Scavenger I (x110),,"2,625","3,500","8,750"
+Dragon Fang,39,"2,175",Daggers,"1,750,000",212,---,---,---,113,---,---,63,29,38,2 Dragon Scale,1 Epic Wing Blade,,-25% Time (x13),-106 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Backstab (x110),,"3,263","4,350","10,875"
+Traitorous Blade,41,"1,550",Daggers,"790,000",248,---,---,---,122,---,---,68,32,---,1 Adamantium,5 Flawless Mail Breaker,,-25% Time (x13),-50 Iron (x26),-24 Steel (x45),-2 Mail Breaker (x70),+25% Sale Price (x110),,"2,325","3,100","7,750"
+Obsidian Dagger,46,"2,250",Daggers,"6,750,000",360,---,---,---,144,---,---,80,45,60,2 Obsidian Coral,2 Flawless Dark Hand,,-25% Time (x14),-180 Iron (x28),-1 Obsidian Coral (x50),+50% Sale Price (x80),Riposte (x120),,"3,375","4,500","11,250"
+Aphotic Shiv,49,"2,950",Daggers,"14,350,000",428,---,---,---,171,---,---,95,60,80,3 Shard Of Gaia,2 Flawless Demon's Blood,,-25% Time (x15),-214 Iron (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Shadowstep (x130),,"4,425","5,900","14,750"
+Hand Axe,2,26,Axes,42,2,2,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x4),Iron Axe (x8),Hard Hat (x15),Good Quality (x25),Great Quality (x40),,39,52,130
+Iron Axe,3,46,Axes,115,4,4,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Broad Axe (x8),-1 Wood (x15),-1 Iron (x25),Good Quality (x40),,69,92,230
+Broad Axe,4,68,Axes,290,6,6,---,---,---,---,---,---,---,---,1 Hand Axe,---,,+25% Sale Price (x5),Halberd (x10),-1 Iron (x20),-1 Wood (x30),Good Quality (x50),,102,136,340
+Halberd,5,90,Axes,405,8,8,---,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Hunting Axe (x10),-2 Wood (x20),-1 Shiny Gem (x30),Good Quality (x50),,135,180,450
+Druidic Axe,6,175,Axes,"1,250",11,11,---,---,---,---,---,---,---,---,2 Viper Essence,1 Hand Axe,,+50% Sale Price (x5),-6 Wood (x10),-1 Viper Essence (x20),Good Quality (x30),Azure Beads (x50),,263,350,875
+Hunting Axe,6,115,Axes,830,11,11,---,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x5),Pole Axe (x10),-2 Wood (x20),-1 Iron Wood (x30),Good Quality (x50),,173,230,575
+Pole Axe,9,200,Axes,"1,650",19,19,---,---,3,---,---,---,---,---,1 Wooden Spear,---,,+25% Sale Price (x6),Labrys (x12),-4 Wood (x20),-1 Steel (x30),Good Quality (x50),,300,400,"1,000"
+Tiamat,10,290,Axes,"4,750",23,23,---,---,---,---,---,---,---,---,2 Iron Wood,1 Good Hunting Axe,,+50% Sale Price (x6),-12 Iron (x12),-1 Iron Wood (x20),Good Quality (x30),Energetic I (x50),,435,580,"1,450"
+Labrys,12,300,Axes,"3,950",30,30,---,---,6,6,---,---,---,---,---,---,,-1 Steel (x6),+25% Sale Price (x12),Steel Axe (x20),-25% Time (x30),Good Quality (x50),,450,600,"1,500"
+Steel Axe,14,360,Axes,"6,950",38,38,---,---,9,9,---,---,---,---,2 Good Iron Axe,---,,-2 Steel (x7),+25% Sale Price (x14),Hawk (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Hawk,16,430,Axes,"11,500",45,45,---,---,15,15,---,---,---,---,2 Good Broad Axe,---,,-3 Steel (x7),+25% Sale Price (x14),Lava Axe (x25),-25% Time (x40),-9 Wood (x60),,645,860,"2,150"
+Lava Axe,20,575,Axes,"21,000",60,60,---,---,26,26,---,---,---,---,2 Good Halberd,3 Burning Ember,,-5 Steel (x8),+25% Sale Price (x16),Bone Reaver (x30),-25% Time (x45),-1 Burning Ember (x70),,863,"1,150","2,875"
+Reaper,22,"1,000",Axes,"45,500",68,68,---,---,32,32,---,---,---,---,1 Liquid Fire,2 Good Halberd,,-25% Time (x7),-1 Halberd (x14),+50% Sale Price (x25),Good Quality (x40),Nightmare Cape (x60),,"1,500","2,000","5,000"
+Berserker's Axe,23,"1,075",Axes,"165,000",71,71,---,---,35,35,---,---,---,---,2 Liquid Fire,2 Great Tiamat,,-25% Time (x8),-36 Iron (x16),-1 Liquid Fire (x30),+50% Sale Price (x45),Cleave (x70),,"1,613","2,150","5,375"
+Bone Reaver,24,750,Axes,"56,500",75,75,---,---,38,38,---,---,---,---,2 Royal Bone,3 Wyvern Wing,,-25% Time (x9),-8 Steel (x18),-1 Wyvern Wing (x30),Crystal Asunder (x50),+25% Sale Price (x80),,"1,125","1,500","3,750"
+Sharp Tusk,25,"1,000",Axes,"185,000",79,79,---,---,41,41,---,---,---,---,3 Silver Steel,1 Great Labrys,,-25% Time (x9),-40 Iron (x18),-1 Silver Steel (x30),+50% Sale Price (x50),Resilient I (x80),,"1,500","2,000","5,000"
+Crystal Asunder,28,925,Axes,"99,500",98,98,---,---,53,53,---,---,---,---,3 Liquid Fire,---,,-25% Time (x9),-11 Steel (x18),-1 Liquid Fire (x30),Shining Axe (x50),+25% Sale Price (x80),,"1,388","1,850","4,625"
+Shining Axe,31,"1,050",Axes,"170,000",113,113,---,---,64,64,---,---,---,---,2 Golden Thread,2 Good Labrys,,-25% Time (x10),-13 Steel (x20),-1 Labrys (x35),Nocturne Axe (x55),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Widow Maker,32,"1,650",Axes,"670,000",124,124,---,---,68,68,---,---,---,---,2 Demon Heart,1 Flawless Bone Reaver,,-25% Time (x10),-62 Iron (x20),-1 Demon Heart (x35),+50% Sale Price (x55),Amazon I (x90),,"2,475","3,300","8,250"
+Nocturne Axe,33,"1,150",Axes,"205,000",128,128,---,---,71,71,---,---,20,---,1 Dark Energy,2 Good Steel Axe,,-25% Time (x10),-14 Steel (x20),-1 Steel Axe (x35),Storm Splitter (x55),+25% Sale Price (x90),,"1,725","2,300","5,750"
+Storm Splitter,36,"1,300",Axes,"420,000",150,150,---,---,83,83,---,---,24,32,1 Sun Tear,2 Phoenix Feather,,-25% Time (x11),-17 Steel (x22),-1 Phoenix Feather (x40),Eagle (x60),+25% Sale Price (x90),,"1,950","2,600","6,500"
+Infernal Rage,38,"1,750",Axes,"1,550,000",165,165,---,---,90,90,---,---,27,36,2 Demon Heart,1 Flawless Berserker's Axe,,-25% Time (x13),-83 Iron (x26),-1 Demon Heart (x45),+50% Sale Price (x70),Brothers-in-arms I (x110),,"2,625","3,500","8,750"
+Eagle,39,"1,450",Axes,"745,000",176,176,---,---,94,94,---,---,29,38,1 Dragon Scale,2 Flawless Hawk,,-25% Time (x12),-19 Steel (x24),-1 Hawk (x40),Retribution (x65),+25% Sale Price (x100),,"2,175","2,900","7,250"
+Ragnarok's Edge,40,"2,250",Axes,"4,150,000",188,188,---,---,98,98,---,---,30,---,2 Adamantium,1 Flawless Nocturne Axe,,-25% Time (x13),-94 Iron (x26),-1 Adamantium (x45),+50% Sale Price (x70),Fireball (x110),,"3,375","4,500","11,250"
+Retribution,42,"1,600",Axes,"1,650,000",225,225,---,---,105,105,---,---,34,45,1 Ancient Essence,2 Flawless Lava Axe,,-25% Time (x13),-21 Steel (x26),-7 Mana (x45),-1 Lava Axe (x70),+25% Sale Price (x110),,"2,400","3,200","8,000"
+Frenzied Axe,48,"2,400",Axes,"12,150,000",338,338,---,---,135,135,---,---,53,70,2 Shard Of Gaia,1 Flawless Eagle,,-25% Time (x15),-169 Iron (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Berserker (x130),,"3,600","4,800","12,000"
+Umbral Axe,50,"3,025",Axes,"20,200,000",375,375,---,---,150,150,---,---,75,100,2 Primal Horn,2 Great Storm Splitter,,-25% Time (x15),-188 Iron (x30),-1 Storm Splitter (x55),+50% Sale Price (x85),Shadowstep (x130),,"4,538","6,050","15,125"
+Wooden Spear,1,10,Spears,10,---,2,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x3),Iron Spear (x6),Targe (x10),Good Quality (x15),Great Quality (x20),,15,20,50
+Iron Spear,3,46,Spears,60,---,5,---,---,---,---,---,---,---,---,---,---,,Leather Vest (x4),Half Pike (x8),+25% Sale Price (x15),-1 Wood (x25),Good Quality (x40),,69,92,230
+Half Pike,4,68,Spears,140,---,8,---,---,---,---,---,---,---,---,1 Wooden Spear,---,,+25% Sale Price (x5),Trident (x10),-1 Wood (x20),-2 Wood (x30),Good Quality (x50),,102,136,340
+Trident,5,90,Spears,290,---,11,---,---,---,---,---,---,---,---,3 Shiny Gem,---,,+25% Sale Price (x5),Pike (x10),-2 Wood (x20),-1 Shiny Gem (x30),Good Quality (x50),,135,180,450
+Pike,8,170,Spears,615,---,21,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x6),Spade (x12),-2 Wood (x20),-4 Wood (x30),Good Quality (x50),,255,340,850
+Gaia's Javelin,9,300,Spears,"1,700",---,25,---,---,---,---,---,---,---,---,2 Iron Wood,2 Great Wooden Spear,,+50% Sale Price (x6),-13 Wood (x12),-1 Iron Wood (x20),Good Quality (x30),Gaia's Mantle (x50),,450,600,"1,500"
+Spade,10,230,Spears,"1,750",15,30,---,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x6),Lance (x12),-6 Wood (x20),-1 Iron Wood (x30),Good Quality (x50),,345,460,"1,150"
+Seeking Tip,12,370,Spears,"5,250",20,40,---,---,4,8,---,---,---,---,3 Good Iron Spear,---,,-20 Wood (x6),+50% Sale Price (x12),-1 Iron Spear (x20),Good Quality (x30),Treasure Hunter I (x50),,555,740,"1,850"
+Lance,13,330,Spears,"3,150",---,45,---,---,5,10,---,---,---,---,---,---,,-2 Hardwood (x7),+25% Sale Price (x14),Knight's Lance (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Knight's Lance,15,400,Spears,"6,750",28,55,---,---,8,16,---,---,---,---,1 Moon Shard,1 Good Iron Spear,,-3 Hardwood (x7),+25% Sale Price (x14),Valkyrie (x25),-25% Time (x40),Good Quality (x60),,600,800,"2,000"
+Valkyrie,18,500,Spears,"10,000",---,70,---,---,14,28,---,---,---,---,2 Good Half Pike,1 Good Stiletto,,-6 Hardwood (x8),+25% Sale Price (x16),Bone Spear (x30),-25% Time (x45),-1 Half Pike (x70),,750,"1,000","2,500"
+Poison Tip,19,825,Spears,"62,000",---,75,---,---,16,32,---,---,---,---,3 Royal Bone,7 Viper Essence,,-38 Wood (x8),+50% Sale Price (x16),-3 Viper Essence (x30),-1 Royal Bone (x45),Gangster I (x70),,"1,238","1,650","4,125"
+Bone Spear,21,625,Spears,"24,000",43,85,---,---,19,38,---,---,---,---,1 Royal Bone,1 Good Lance,,-25% Time (x8),-17 Wood (x16),-8 Hardwood (x30),Winged Spear (x45),+25% Sale Price (x70),,938,"1,250","3,125"
+Winged Spear,25,800,Spears,"33,000",53,105,---,---,28,55,---,---,---,---,1 Yggdrasil Leaf,3 Rainbow Dust,,-25% Time (x9),-21 Wood (x18),-1 Rainbow Dust (x30),Lion's Tail (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Silver Fork,26,"1,050",Spears,"70,500",55,110,---,---,30,60,---,---,---,---,2 Liquid Fire,2 Frozen Core,,-25% Time (x9),-28 Iron (x18),-1 Liquid Fire (x30),+50% Sale Price (x50),Resourceful I (x80),,"1,575","2,100","5,250"
+Lion's Tail,29,975,Spears,"51,000",70,140,---,---,38,75,---,---,---,---,2 Good Spade,---,,-25% Time (x9),-28 Wood (x18),-1 Spade (x30),Impaler (x50),+25% Sale Price (x80),,"1,463","1,950","4,875"
+Moon Voulge,30,"1,525",Spears,"355,000",---,145,---,---,40,80,---,---,15,---,2 Flawless Valkyrie,7 Moon Shard,,-25% Time (x9),-73 Wood (x18),-4 Moon Shard (x30),+50% Sale Price (x50),Healer I (x80),,"2,288","3,050","7,625"
+Obsidian Spear,32,"1,650",Spears,"345,000",83,165,---,---,45,90,---,---,18,---,2 Demon Heart,1 Great Bone Spear,,-25% Time (x10),-83 Wood (x20),-1 Demon Heart (x35),+50% Sale Price (x55),Balmung (x90),,"2,475","3,300","8,250"
+Impaler,32,"1,100",Spears,"99,500",---,165,---,---,45,90,---,---,18,---,2 Silver Steel,---,,-25% Time (x10),-33 Wood (x20),-1 Silver Steel (x35),Twisted Pike (x55),+25% Sale Price (x90),,"1,650","2,200","5,500"
+Twisted Pike,34,"1,200",Spears,"165,000",---,175,---,---,50,100,---,---,---,28,2 Demon Heart,---,,-25% Time (x11),-20 Hardwood (x22),-1 Demon Heart (x40),Titanic Lance (x60),+25% Sale Price (x90),,"1,800","2,400","6,000"
+Titanic Lance,36,"1,300",Spears,"295,000",100,200,---,---,55,110,---,---,24,---,1 Sun Tear,3 Phoenix Feather,,-25% Time (x12),-40 Wood (x24),-1 Phoenix Feather (x40),Mystic Spear (x65),+25% Sale Price (x100),,"1,950","2,600","6,500"
+Night Spike,38,"1,750",Spears,"1,300,000",---,220,---,---,60,120,---,---,27,---,2 Dark Energy,2 Flawless Lion's Tail,,-25% Time (x13),-110 Wood (x26),-1 Dark Energy (x45),+50% Sale Price (x70),Speed Runner I (x110),,"2,625","3,500","8,750"
+Divine Ray,39,"2,175",Spears,"2,800,000",118,235,---,---,63,125,---,---,29,---,2 Adamantium,1 Flawless Impaler,,-25% Time (x13),-118 Wood (x26),-1 Adamantium (x45),+50% Sale Price (x70),Revive I (x110),,"3,263","4,350","10,875"
+Mystic Spear,40,"1,500",Spears,"740,000",125,250,---,---,65,130,---,---,30,40,1 Adamantium,2 Good Winged Spear,,-25% Time (x13),-50 Wood (x26),-1 Winged Spear (x45),Twilight Spear (x70),+25% Sale Price (x110),,"2,250","3,000","7,500"
+Twilight Spear,43,"1,650",Spears,"1,200,000",163,325,---,---,73,145,---,---,36,48,1 Ancient Essence,2 Epic Knight's Lance,,-25% Time (x14),-65 Wood (x28),-29 Hardwood (x50),-1 Knight's Lance (x80),+25% Sale Price (x120),,"2,475","3,300","8,250"
+Obsidian Voulge,47,"2,325",Spears,"6,350,000",---,425,---,---,85,170,---,---,49,65,2 Obsidian Coral,1 Great Moon Voulge,,-25% Time (x15),-213 Wood (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Fireball (x130),,"3,488","4,650","11,625"
+Primordial Trident,50,"3,025",Spears,"16,800,000",250,500,---,---,100,200,---,---,75,100,2 Primal Horn,2 Flawless Titanic Lance,,-25% Time (x15),-250 Wood (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Brothers-in-arms II (x130),,"4,538","6,050","15,125"
+Club,1,10,Maces,10,---,2,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x3),Spiked Club (x6),Sandals (x10),Good Quality (x15),Great Quality (x20),,15,20,50
+Spiked Club,2,26,Maces,24,---,3,---,---,---,---,---,---,---,---,---,---,,Short Bow (x4),Maul (x8),+25% Sale Price (x15),-1 Wood (x25),Good Quality (x40),,39,52,130
+Shieldbreaker,3,68,Maces,260,---,5,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x4),-1 Wood (x8),Good Quality (x15),Great Quality (x25),Valkyrie Boots (x40),,102,136,340
+Maul,4,68,Maces,95,---,7,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Sledgehammer (x10),-1 Wood (x20),-1 Wood (x30),Good Quality (x50),,102,136,340
+Sledgehammer,5,90,Maces,195,---,10,---,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Mace (x10),-2 Wood (x20),-1 Shiny Gem (x30),Good Quality (x50),,135,180,450
+Mace,7,140,Maces,390,---,16,---,---,---,---,---,---,---,---,1 Spiked Club,---,,+25% Sale Price (x5),Heavy Mace (x10),-2 Wood (x20),-3 Wood (x30),Good Quality (x50),,210,280,700
+Morning Star,8,215,Maces,"1,150",---,19,---,---,---,---,---,---,---,---,3 Elven Dew,3 Good Spiked Club,,+50% Sale Price (x6),-10 Wood (x12),-1 Elven Dew (x20),Good Quality (x30),Crush (x50),,323,430,"1,075"
+Heavy Mace,9,200,Maces,815,---,23,---,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x6),Battle Mace (x12),-5 Wood (x20),-1 Iron Wood (x30),Good Quality (x50),,300,400,"1,000"
+Battle Mace,11,260,Maces,"1,750",---,32,---,---,---,5,---,---,---,---,2 Maul,---,,-6 Wood (x6),+25% Sale Price (x12),Steeled Club (x20),-25% Time (x30),Good Quality (x50),,390,520,"1,300"
+Steeled Club,14,360,Maces,"3,500",---,45,---,---,3,11,---,---,---,---,1 Iron Carapace,---,,-9 Wood (x7),+25% Sale Price (x14),War Gavel (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Tree Trunk,15,600,Maces,"12,500",---,50,---,---,---,14,---,---,---,---,4 Rainbow Dust,10 Great Club,,-4 Club (x7),+50% Sale Price (x14),-2 Rainbow Dust (x25),Good Quality (x40),Commander I (x60),,900,"1,200","3,000"
+War Gavel,17,470,Maces,"5,700",---,59,---,---,---,22,---,---,---,---,2 Good Sledgehammer,---,,-12 Wood (x8),+25% Sale Price (x16),Journey Mace (x30),-25% Time (x45),-1 Sledgehammer (x70),,705,940,"2,350"
+Journey Mace,21,625,Maces,"9,550",---,77,---,---,---,34,---,---,---,---,2 Mace,---,,-25% Time (x8),-15 Wood (x16),-1 Mace (x30),Demolisher (x45),+25% Sale Price (x70),,938,"1,250","3,125"
+Hammer Fist,22,825,Maces,"54,000",---,81,---,---,11,38,---,---,---,---,3 Royal Bone,1 Great Steeled Club,,-25% Time (x8),-41 Wood (x16),-1 Royal Bone (x30),+50% Sale Price (x45),Brothers-in-arms I (x70),,"1,238","1,650","4,125"
+Giant's Hammer,25,"1,190",Maces,"115,000",---,95,---,---,---,50,---,---,---,---,1 Yggdrasil Leaf,2 Good Heavy Mace,,-25% Time (x9),-48 Wood (x18),-1 Heavy Mace (x30),+50% Sale Price (x50),Obsidian Spear (x80),,"1,785","2,380","5,950"
+Demolisher,25,800,Maces,"24,500",---,95,---,---,---,50,---,---,---,---,2 Royal Bone,1 Heavy Mace,,-25% Time (x9),-19 Wood (x18),-1 Royal Bone (x30),Fury Club (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Fury Club,28,925,Maces,"43,500",---,117,---,---,---,63,---,---,---,---,2 Liquid Fire,2 Good Battle Mace,,-25% Time (x9),-23 Wood (x18),-1 Liquid Fire (x30),Earthquake (x50),+25% Sale Price (x80),,"1,388","1,850","4,625"
+Earthquake,31,"1,050",Maces,"62,500",---,135,---,---,---,77,---,---,17,---,2 Silver Steel,---,,-25% Time (x10),-27 Wood (x20),-1 Silver Steel (x35),Pulverizer (x55),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Apocalyptus,32,"1,650",Maces,"385,000",---,149,---,---,---,81,---,23,---,24,3 Demon Heart,1 Epic War Gavel,,-25% Time (x10),-75 Wood (x20),-1 Demon Heart (x35),+50% Sale Price (x55),Energetic I (x90),,"2,475","3,300","8,250"
+Pulverizer,35,"1,250",Maces,"160,000",---,167,---,---,26,95,---,---,---,30,2 Demolisher,---,,-25% Time (x11),-33 Wood (x22),-1 Demolisher (x40),Tide Maker (x60),+25% Sale Price (x90),,"1,875","2,500","6,250"
+Tide Maker,37,"1,350",Maces,"225,000",---,189,---,---,---,104,---,---,26,34,2 Dark Energy,2 Phoenix Feather,,-25% Time (x12),-38 Wood (x24),-1 Dark Energy (x40),Destroyer (x65),+25% Sale Price (x100),,"2,025","2,700","6,750"
+Evening Star,38,"1,750",Maces,"940,000",---,198,---,---,---,108,---,30,27,36,3 Sun Tear,2 Flawless Journey Mace,,-25% Time (x13),-99 Wood (x26),-1 Sun Tear (x45),+50% Sale Price (x70),Lucky I (x110),,"2,625","3,500","8,750"
+Destroyer,39,"1,450",Maces,"540,000",---,212,---,---,---,113,---,---,29,38,1 Dragon Scale,2 Flawless Demolisher,,-25% Time (x13),-42 Wood (x26),-1 Demolisher (x45),Storm Basher (x70),+25% Sale Price (x110),,"2,175","2,900","7,250"
+Hundred Ton,40,"2,250",Maces,"2,650,000",---,225,---,---,---,117,---,33,30,40,2 Adamantium,1 Flawless Pulverizer,,-25% Time (x13),-113 Wood (x26),-1 Adamantium (x45),+50% Sale Price (x70),Crush (x110),,"3,375","4,500","11,250"
+Storm Basher,43,"1,650",Maces,"1,500,000",---,293,---,---,---,131,---,---,36,48,1 Ancient Essence,2 Flawless Earthquake,,-25% Time (x14),-59 Wood (x28),-26 Hardwood (x50),-1 Earthquake (x80),+25% Sale Price (x120),,"2,475","3,300","8,250"
+Crusher,48,"2,400",Maces,"6,450,000",---,405,---,---,---,162,---,45,53,70,2 Shard Of Gaia,1 Flawless Apocalyptus,,-25% Time (x15),-203 Wood (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Crush (x130),,"3,600","4,800","12,000"
+Tenderizer,50,"3,025",Maces,"13,000,000",---,450,---,---,50,180,---,50,75,100,2 Primal Horn,2 Flawless Tide Maker,,-25% Time (x15),-225 Wood (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Energetic II (x130),,"4,538","6,050","15,125"
+Walking Stick,1,10,Staves,12,---,2,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x3),Crow Stick (x6),Wooden Spear (x10),Good Quality (x15),Great Quality (x20),,15,20,50
+Crow Stick,3,46,Staves,85,---,5,---,---,---,---,---,---,---,---,1 Shiny Gem,---,,Healing Herbs (x4),Druidic Rod (x8),+25% Sale Price (x15),-1 Wood (x25),Good Quality (x40),,69,92,230
+Druidic Rod,5,90,Staves,335,---,11,---,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),-2 Wood (x10),Battle Staff (x20),-1 Elven Dew (x30),Good Quality (x50),,135,180,450
+Battle Staff,6,115,Staves,645,---,15,---,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x5),Muted Caster (x10),-3 Wood (x20),-1 Iron Wood (x30),Good Quality (x50),,173,230,575
+Muted Caster,8,170,Staves,965,---,21,---,---,---,---,---,---,---,---,3 Good Walking Stick,---,,+25% Sale Price (x6),Healing Rod (x12),-4 Wood (x20),-1 Walking Stick (x30),Good Quality (x50),,255,340,850
+Bishop Staff,9,250,Staves,"1,550",---,25,---,---,---,---,---,---,---,---,2 Iron Wood,---,,-13 Wood (x6),+50% Sale Price (x12),-1 Iron Wood (x20),Good Quality (x30),Arch Wizard I (x50),,375,500,"1,250"
+Healing Rod,10,230,Staves,"2,150",---,30,---,---,---,5,---,---,---,---,2 Crow Stick,---,,+25% Sale Price (x6),Shielding Seal (x12),Forest Wand (x20),-1 Crow Stick (x30),Good Quality (x50),,345,460,"1,150"
+Forest Wand,12,300,Staves,"3,950",---,40,---,---,---,8,---,---,---,---,1 Moon Shard,1 Druidic Rod,,-8 Wood (x6),+25% Sale Price (x12),Fire Rod (x20),-25% Time (x30),Good Quality (x50),,450,600,"1,500"
+Fire Rod,13,330,Staves,"7,750",---,45,---,---,---,10,---,---,---,---,1 Burning Ember,2 Battle Staff,,-9 Wood (x7),+25% Sale Price (x14),Blood Staff (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Blood Staff,15,400,Staves,"11,000",---,55,---,---,---,16,---,---,---,---,1 Wyvern Wing,1 Good Healing Rod,,-11 Wood (x7),+25% Sale Price (x14),Whispering Wand (x25),-25% Time (x40),Good Quality (x60),,600,800,"2,000"
+Luna Rod,17,700,Staves,"36,500",---,65,---,---,---,24,---,---,3,3,5 Moon Shard,---,,-33 Wood (x8),+50% Sale Price (x16),-25% Time (x30),-2 Moon Shard (x45),Healer I (x70),,"1,050","1,400","3,500"
+Whispering Wand,19,550,Staves,"27,000",---,75,---,---,---,32,---,---,---,---,1 Frozen Core,3 Muted Caster,,-15 Wood (x8),+25% Sale Price (x16),Rebirth Rod (x30),-25% Time (x45),-1 Muted Caster (x70),,825,"1,100","2,750"
+Rebirth Rod,23,700,Staves,"47,500",---,95,---,---,---,46,---,---,7,---,2 Royal Bone,1 Fire Rod,,-25% Time (x8),-19 Wood (x16),-1 Royal Bone (x30),Ice Staff (x45),+25% Sale Price (x70),,"1,050","1,400","3,500"
+Ice Staff,26,825,Staves,"93,500",---,110,---,---,---,60,---,---,12,10,4 Frozen Core,1 Great Forest Wand,,-25% Time (x9),-22 Wood (x18),-1 Frozen Core (x30),Death Stick (x50),+25% Sale Price (x80),,"1,238","1,650","4,125"
+Death Stick,27,875,Staves,"190,000",---,120,---,---,---,65,---,49,14,---,3 Liquid Fire,2 Good Blood Staff,,-25% Time (x9),-24 Wood (x18),-1 Liquid Fire (x30),Soul Stealer (x50),+25% Sale Price (x80),,"1,313","1,750","4,375"
+Sacred Scepter,28,"1,150",Staves,"405,000",---,130,---,---,18,70,---,53,16,14,2 Liquid Fire,1 Flawless Rebirth Rod,,-25% Time (x9),-65 Wood (x18),-1 Liquid Fire (x30),+50% Sale Price (x50),Revive I (x80),,"1,725","2,300","5,750"
+Soul Stealer,30,"1,025",Staves,"325,000",---,145,---,---,---,80,---,60,20,---,2 Demon Heart,3 Phoenix Feather,,-25% Time (x9),-29 Wood (x18),-1 Phoenix Feather (x30),Staff Of Ages (x50),+25% Sale Price (x80),,"1,538","2,050","5,125"
+Staff of Ages,33,"1,150",Staves,"530,000",---,170,---,---,---,95,---,71,26,22,2 Dark Energy,2 Good Whispering Wand,,-25% Time (x10),-34 Wood (x20),-1 Dark Energy (x35),Eagle Rod (x55),+25% Sale Price (x90),,"1,725","2,300","5,750"
+Star Wand,35,"1,875",Staves,"795,000",---,185,---,---,---,105,---,79,30,26,2 Sun Tear,1 Epic Bishop Staff,,-25% Time (x11),-93 Wood (x22),-1 Sun Tear (x40),+50% Sale Price (x60),Arch Wizard I (x90),,"2,813","3,750","9,375"
+Eagle Rod,36,"1,300",Staves,"920,000",---,200,---,---,---,110,---,83,32,27,2 Golden Thread,2 Flawless Protection Dust,,-25% Time (x12),-40 Wood (x24),-1 Protection Dust (x40),Cultist Staff (x65),+25% Sale Price (x100),,"1,950","2,600","6,500"
+Emperor Wand,38,"1,750",Staves,"1,400,000",---,220,---,---,30,120,---,90,36,31,2 Dragon Scale,5 Yggdrasil Leaf,,-25% Time (x13),-110 Wood (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Arch Wizard I (x110),,"2,625","3,500","8,750"
+Cultist Staff,39,"1,450",Staves,"1,500,000",---,235,---,---,---,125,---,94,38,32,5 Silver Steel,1 Flawless Death Stick,,-25% Time (x13),-47 Wood (x26),-8 Mana (x45),-2 Silver Steel (x70),+25% Sale Price (x110),,"2,175","2,900","7,250"
+Valkyrie's Wisdom,40,"2,250",Staves,"2,150,000",---,250,---,---,33,130,---,98,40,34,2 Dragon Scale,1 Flawless Ice Staff,,-25% Time (x13),-125 Wood (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Fastidious II (x110),,"3,375","4,500","11,250"
+Sun King,41,"2,325",Staves,"5,850,000",---,275,---,---,---,135,---,101,42,36,2 Adamantium,1 Flawless Sacred Scepter,,-25% Time (x13),-138 Wood (x26),-1 Adamantium (x45),+50% Sale Price (x70),Fireball (x110),,"3,488","4,650","11,625"
+Keeper Of Souls,45,"2,200",Staves,"12,900,000",---,375,---,---,39,155,---,116,55,47,2 Frostfire Crystal,2 Great Hell Hound,,-25% Time (x14),-188 Wood (x28),-1 Frostfire Crystal (x50),+50% Sale Price (x80),Revive II (x120),,"3,300","4,400","11,000"
+Shattered Wand,50,"3,025",Staves,"21,250,000",---,500,---,---,---,200,---,150,100,85,2 Primal Horn,1 Flawless Emperor Wand,,-25% Time (x15),-250 Wood (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Archwizard II (x130),,"4,538","6,050","15,125"
+Short Bow,2,26,Bows,32,---,3,---,---,---,---,---,---,---,---,---,---,,Tunic (x4),Long Bow (x8),+25% Sale Price (x15),Good Quality (x25),Great Quality (x40),,39,52,130
+Long Bow,3,46,Bows,75,---,5,---,---,---,---,---,---,---,---,---,---,,Darts (x4),Faery's String (x8),+25% Sale Price (x15),-1 Wood (x25),Good Quality (x40),,69,92,230
+Faery's String,5,90,Bows,345,---,11,---,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Double String (x10),-2 Wood (x20),-1 Elven Dew (x30),Good Quality (x50),,135,180,450
+Double String,7,140,Bows,635,---,18,---,---,---,---,---,---,---,---,1 Short Bow,---,,+25% Sale Price (x5),Composite Bow (x10),-2 Wood (x20),-4 Wood (x30),Good Quality (x50),,210,280,700
+Falcon Eye,8,215,Bows,"2,800",---,21,---,---,---,---,---,---,---,---,5 Viper Essence,2 Long Bow,,+50% Sale Price (x6),-11 Wood (x12),-2 Viper Essence (x20),Good Quality (x30),Energetic I (x50),,323,430,"1,075"
+Composite Bow,9,200,Bows,"1,500",---,25,---,---,---,---,---,---,---,---,2 Burning Ember,---,,+25% Sale Price (x6),Crossbow (x12),-5 Wood (x20),-1 Burning Ember (x30),Good Quality (x50),,300,400,"1,000"
+Crossbow,11,260,Bows,"2,550",---,35,---,---,---,6,---,3,---,---,1 Good Long Bow,---,,-7 Wood (x6),+25% Sale Price (x12),Recurved Bow (x20),-25% Time (x30),Good Quality (x50),,390,520,"1,300"
+Recurved Bow,14,360,Bows,"4,650",---,50,---,---,---,12,---,---,---,---,3 Iron Wood,---,,-2 Hardwood (x7),+25% Sale Price (x14),Heavy Crossbow (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Heavy Crossbow,17,470,Bows,"9,950",---,65,---,---,---,24,---,12,---,---,1 Iron Carapace,---,,-13 Wood (x8),+25% Sale Price (x16),Forester (x30),-25% Time (x45),-5 Hardwood (x70),,705,940,"2,350"
+Self-loader,18,775,Bows,"45,500",---,70,---,---,---,28,---,14,---,---,1 Good Heavy Crossbow,---,,-35 Wood (x8),+50% Sale Price (x16),-14 Hardwood (x30),-25% Time (x45),Lucky I (x70),,"1,163","1,550","3,875"
+Forester,20,575,Bows,"14,000",---,80,---,---,---,35,---,---,---,---,2 Good Faery's String,---,,-16 Wood (x8),+25% Sale Price (x16),Transfixer (x30),-25% Time (x45),-1 Faery's String (x70),,863,"1,150","2,875"
+Eagle Eye,21,775,Bows,"48,500",---,85,---,---,---,38,---,---,---,---,2 Good Falcon Eye,1 Royal Bone,,-25% Time (x8),-43 Wood (x16),-1 Falcon Eye (x30),+50% Sale Price (x45),Fastidious I (x70),,"1,163","1,550","3,875"
+Transfixer,23,700,Bows,"25,500",---,95,---,---,---,46,---,---,---,---,2 Wyvern Wing,1 Good Double String,,-25% Time (x8),-19 Wood (x16),-1 Wyvern Wing (x30),Silent Arbalest (x45),+25% Sale Price (x70),,"1,050","1,400","3,500"
+Silent Arbalest,25,800,Bows,"74,000",---,105,---,---,---,55,---,28,---,---,2 Silver Steel,---,,-25% Time (x9),-21 Wood (x18),-1 Silver Steel (x30),Wind Striker (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Wind Striker,27,875,Bows,"115,000",---,120,---,---,---,65,---,---,---,---,2 Phoenix Feather,3 Good Composite Bow,,-25% Time (x9),-24 Wood (x18),-1 Composite Bow (x30),Bow Of Light (x50),+25% Sale Price (x80),,"1,313","1,750","4,375"
+Bow Of Light,29,975,Bows,"160,000",---,140,---,---,---,75,---,---,18,---,2 Golden Thread,1 Good Forester,,-25% Time (x9),-28 Wood (x18),-1 Golden Thread (x30),Spider (x50),+25% Sale Price (x80),,"1,463","1,950","4,875"
+Valkyrie's Touch,30,"1,525",Bows,"460,000",---,145,---,---,---,80,---,---,20,15,2 Yggdrasil Leaf,2 Good Transfixer,,-25% Time (x9),-73 Wood (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Valkyrie's Embrace (x80),,"2,288","3,050","7,625"
+Spider,31,"1,050",Bows,"215,000",---,150,---,---,---,85,---,---,22,17,2 Demon Heart,1 Great Recurved Bow,,-25% Time (x10),-30 Wood (x20),-1 Demon Heart (x35),Chimera Wings (x55),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Chimera Wings,34,"1,200",Bows,"365,000",---,175,---,---,---,100,---,---,28,21,2 Dark Energy,1 Sun Tear,,-25% Time (x11),-35 Wood (x22),-1 Dark Energy (x40),Griffin Wings (x60),+25% Sale Price (x90),,"1,800","2,400","6,000"
+Evelyn,35,"1,875",Bows,"1,300,000",---,185,---,---,---,105,---,---,---,23,2 Sun Tear,2 Flawless Transfixer,,-25% Time (x11),-93 Wood (x22),-1 Sun Tear (x40),+50% Sale Price (x60),Treasure Hunter I (x90),,"2,813","3,750","9,375"
+Dragon Eye,37,"1,675",Bows,"4,100,000",---,210,---,---,---,115,---,---,34,---,1 Dragon Scale,2 Flawless Bow Of Light,,-25% Time (x12),-105 Wood (x24),-1 Bow Of Light (x40),+50% Sale Price (x65),Supplier I (x100),,"2,513","3,350","8,375"
+Griffin Wings,38,"1,400",Bows,"850,000",---,220,---,---,---,120,---,---,36,27,1 Sun Tear,2 Great Rebirth Rod,,-25% Time (x12),-44 Wood (x24),-1 Rebirth Rod (x40),Twilight Shot (x65),+25% Sale Price (x100),,"2,100","2,800","7,000"
+Adamantium Crossbow,39,"2,175",Bows,"6,400,000",---,235,---,---,---,125,---,63,38,29,3 Adamantium,1 Epic Self-Loader,,-25% Time (x13),-118 Wood (x26),-1 Adamantium (x45),+50% Sale Price (x70),Support I (x110),,"3,263","4,350","10,875"
+Twilight Shot,40,"1,500",Bows,"2,150,000",---,250,---,---,---,130,---,---,40,30,15 Liquid Fire,1 Flawless Wind Striker,,-25% Time (x13),-50 Wood (x26),-26 Hardwood (x45),-7 Liquid Fire (x70),+25% Sale Price (x110),,"2,250","3,000","7,500"
+Elven Bow,43,"2,050",Bows,"8,550,000",---,325,---,---,---,145,---,---,48,36,2 Ancient Essence,2 Flawless Spider,,-25% Time (x14),-163 Wood (x28),-1 Spider (x50),+50% Sale Price (x80),Detect Secrets (x120),,"3,075","4,100","10,250"
+Wind Piercer,48,"2,875",Bows,"19,200,000",---,450,---,---,---,180,---,---,70,53,2 Shard Of Gaia,2 Flawless Chimera Wings,,-25% Time (x15),-225 Wood (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Gangster I (x130),,"4,313","5,750","14,375"
+Pistol,5,90,Guns,420,7,7,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Musket (x10),-1 Wood (x20),Good Quality (x30),Great Quality (x50),,135,180,450
+Musket,6,115,Guns,"1,000",9,9,---,---,---,---,---,---,---,---,5 Shiny Gem,---,,+25% Sale Price (x5),Arquebuse (x10),-2 Wood (x20),-2 Shiny Gem (x30),Good Quality (x50),,173,230,575
+Arquebuse,7,140,Guns,"1,650",11,11,---,---,---,---,---,---,---,---,3 Iron Wood,---,,+25% Sale Price (x5),Pocket Pistol (x10),-2 Iron (x20),-1 Iron Wood (x30),Good Quality (x50),,210,280,700
+Pocket Pistol,8,170,Guns,"2,200",13,13,---,---,---,---,---,---,---,---,1 Pistol,---,,+25% Sale Price (x6),Long Musket (x12),-3 Wood (x20),-3 Iron (x30),Good Quality (x50),,255,340,850
+Long Musket,9,200,Guns,"4,100",15,15,---,---,---,---,---,---,---,---,1 Good Musket,---,,+25% Sale Price (x6),Falconer (x12),-3 Wood (x20),-3 Iron (x30),Good Quality (x50),,300,400,"1,000"
+Falconer,11,260,Guns,"6,650",21,21,---,---,4,---,---,4,---,---,2 Moon Shard,---,,-4 Wood (x6),+25% Sale Price (x12),Axe Pistol (x20),-25% Time (x30),Good Quality (x50),,390,520,"1,300"
+Rifle,13,410,Guns,"7,800",27,27,---,---,6,6,---,---,---,---,3 Iron Wood,---,,+50% Sale Price (x7),-14 Wood (x14),-1 Iron Wood (x25),Good Quality (x40),Fastidious I (x60),,615,820,"2,050"
+Axe Pistol,14,360,Guns,"8,850",30,30,---,---,7,7,---,7,---,---,1 Iron Axe,1 Good Pistol,,-6 Iron (x7),+25% Sale Price (x14),Flintlock (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Flintlock,17,470,Guns,"17,500",39,39,---,---,14,14,---,14,---,---,3 Rainbow Dust,---,,-8 Wood (x8),+25% Sale Price (x16),Double Barrel (x30),-25% Time (x45),-1 Rainbow Dust (x70),,705,940,"2,350"
+Black Stock,18,775,Guns,"99,500",42,42,---,---,17,17,---,---,---,---,5 Wyvern Wing,1 Flawless Pistol,,-21 Wood (x8),+50% Sale Price (x16),-25% Time (x30),-2 Wyvern Wing (x45),Resilient I (x70),,"1,163","1,550","3,875"
+Double Barrel,19,550,Guns,"33,000",45,45,---,---,19,19,---,19,---,---,2 Arquebuse,---,,-4 Steel (x8),+25% Sale Price (x16),Fire Gun (x30),-25% Time (x45),-1 Arquebuse (x70),,825,"1,100","2,750"
+Fire Gun,21,625,Guns,"47,500",51,51,---,---,23,23,---,23,---,---,2 Royal Bone,3 Burning Ember,,-25% Time (x8),-5 Hardwood (x16),-1 Burning Ember (x30),War Axe Pistol (x45),+25% Sale Price (x70),,938,"1,250","3,125"
+Conqueror,22,825,Guns,"225,000",54,54,---,---,25,25,---,25,---,---,2 Royal Bone,1 Great Double Barrel,,-25% Time (x8),-27 Iron (x16),-1 Royal Bone (x30),+50% Sale Price (x45),Commander I (x70),,"1,238","1,650","4,125"
+War Axe Pistol,24,750,Guns,"69,500",60,60,---,---,30,30,---,30,---,---,1 Good Steel Axe,1 Falconer,,-25% Time (x9),-12 Iron (x18),-6 Oil (x30),Thunder Shot (x50),+25% Sale Price (x80),,"1,125","1,500","3,750"
+Thunder Shot,26,825,Guns,"160,000",66,66,---,---,36,36,---,36,---,---,2 Phoenix Feather,2 Good Lightning Scroll,,-25% Time (x9),-7 Hardwood (x18),-1 Lightning Scroll (x30),Death Missive (x50),+25% Sale Price (x80),,"1,238","1,650","4,125"
+Candy Cane Pistol,27,"1,325",Guns,"330,000",72,72,---,---,39,39,---,39,---,---,3 Silver Steel,2 Good Pocket Pistol,,-25% Time (x9),-36 Iron (x18),-1 Silver Steel (x30),+50% Sale Price (x50),Angelic Bell (x80),,"1,988","2,650","6,625"
+Death Missive,29,975,Guns,"230,000",84,84,---,---,45,45,---,45,---,---,2 Demon Heart,---,,-25% Time (x9),-17 Wood (x18),-1 Demon Heart (x30),Rising Sun (x50),+25% Sale Price (x80),,"1,463","1,950","4,875"
+Rising Sun,33,"1,150",Guns,"350,000",102,102,---,---,57,57,---,57,---,---,1 Sun Tear,2 Good Fire Band,,-25% Time (x10),-11 Steel (x20),-11 Oil (x35),One-Shot (x55),+25% Sale Price (x90),,"1,725","2,300","5,750"
+One-shot,35,"1,250",Guns,"690,000",111,111,---,---,63,63,---,63,30,---,2 Dark Energy,2 Great Flintlock,,-25% Time (x12),-1 Flintlock (x24),-1 Dark Energy (x40),Solar Flare (x65),+25% Sale Price (x100),,"1,875","2,500","6,250"
+Judgement,36,"1,950",Guns,"2,000,000",120,120,---,---,66,66,---,66,---,---,5 Silver Steel,2 Flawless Bone Spear,,-25% Time (x12),-60 Iron (x24),-60 Wood (x40),+50% Sale Price (x65),Brothers-in-arms I (x100),,"2,925","3,900","9,750"
+Bomb Launcher,37,"1,675",Guns,"1,600,000",126,126,---,---,69,69,---,69,34,---,2 Dragon Scale,1 Epic Fireball Scroll,,-25% Time (x12),-35 Steel (x24),-1 Dragon Scale (x40),+50% Sale Price (x65),Gangster I (x100),,"2,513","3,350","8,375"
+Solar Flare,38,"1,400",Guns,"935,000",132,132,---,---,72,72,---,72,36,---,3 Golden Thread,1 Great Fire Gun,,-25% Time (x13),-14 Steel (x26),-1 Golden Thread (x45),Harpoon Gun (x70),+25% Sale Price (x110),,"2,100","2,800","7,000"
+Nordic Warfare,39,"2,175",Guns,"3,050,000",141,141,---,---,75,75,---,75,38,---,1 Adamantium,1 Flawless Thunder Shot,,-25% Time (x13),-71 Iron (x26),-38 Oil (x45),+50% Sale Price (x70),Commander I (x110),,"3,263","4,350","10,875"
+Harpoon Gun,41,"1,550",Guns,"1,850,000",165,165,---,---,81,81,---,81,42,---,1 Ancient Essence,2 Flawless Axe Pistol,,-25% Time (x13),-16 Steel (x26),-16 Hardwood (x45),-1 Axe Pistol (x70),+25% Sale Price (x110),,"2,325","3,100","7,750"
+Pirate Pistol,47,"2,325",Guns,"9,650,000",255,255,---,---,102,102,---,102,65,---,2 Obsidian Coral,2 Flawless Scimitar,,-25% Time (x15),-51 Steel (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Supplier II (x130),,"3,488","4,650","11,625"
+Demonic Blast,50,"3,025",Guns,"18,700,000",300,300,---,---,120,120,---,120,100,---,10 Demon Heart,1 Flawless Solar Flare,,-25% Time (x15),-150 Iron (x30),-5 Demon Heart (x55),+50% Sale Price (x85),Amazon II (x130),,"4,538","6,050","15,125"
+Cuirass,1,9,Armor,16,2,---,1,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Banded Mail (x6),-1 Iron (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Banded Mail,3,38,Armor,95,5,---,3,---,---,---,---,---,---,---,---,---,,Heavy Boots (x4),Scale Mail (x8),-1 Leather (x15),-1 Iron (x25),Good Quality (x40),,57,76,190
+Scale Mail,4,56,Armor,215,8,---,4,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Ring Mail (x10),-2 Iron (x20),-1 Shiny Gem (x30),Good Quality (x50),,84,112,280
+Ring Mail,5,76,Armor,320,11,---,6,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Chainmail (x10),-2 Iron (x20),-1 Leather (x30),Good Quality (x50),,114,152,380
+Chainmail,8,140,Armor,995,21,---,11,---,---,---,---,---,---,---,2 Cuirass,---,,+25% Sale Price (x6),Half Plate (x12),-2 Leather (x20),-4 Iron (x30),Good Quality (x50),,210,280,700
+Half Plate,9,165,Armor,"1,650",25,---,13,---,---,---,---,3,---,---,4 Elven Dew,---,,+25% Sale Price (x6),Steel Cuirass (x12),-5 Iron (x20),-2 Elven Dew (x30),Good Quality (x50),,248,330,825
+Moonplate,10,240,Armor,"4,400",30,---,15,---,---,---,---,---,---,---,2 Moon Shard,---,,+50% Sale Price (x6),-15 Iron (x12),-1 Moon Shard (x20),Good Quality (x30),Treasure Hunter I (x50),,360,480,"1,200"
+Steel Cuirass,11,220,Armor,"3,550",35,---,18,---,6,---,---,5,---,---,1 Iron Carapace,---,,-7 Iron (x6),+25% Sale Price (x12),Full Plate (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Full Plate,14,300,Armor,"5,200",50,---,25,---,12,---,---,9,---,---,---,---,,-5 Leather (x7),+25% Sale Price (x14),Longmail (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Longmail,17,390,Armor,"12,500",65,---,33,---,24,---,---,18,---,---,1 Good Half Plate,---,,-13 Iron (x8),+25% Sale Price (x16),Silvered Scales (x30),-25% Time (x45),-5 Steel (x70),,585,780,"1,950"
+Noble Plate,18,625,Armor,"36,500",70,---,35,---,28,---,---,21,---,---,5 Rainbow Dust,1 Good Moonplate,,-35 Iron (x8),+50% Sale Price (x16),-25% Time (x30),-3 Rainbow Dust (x45),Support I (x70),,938,"1,250","3,125"
+Silvered Scales,19,460,Armor,"26,500",75,---,38,---,32,---,---,24,---,3,2 Frozen Core,3 Good Scale Mail,,-15 Iron (x8),+25% Sale Price (x16),Arcane Guard (x30),-25% Time (x45),-1 Frozen Core (x70),,690,920,"2,300"
+Arcane Guard,22,550,Armor,"43,000",90,---,45,---,42,---,---,32,---,5,1 Royal Bone,2 Steel Cuirass,,-25% Time (x8),-18 Iron (x16),-1 Steel Cuirass (x30),Runic Mail (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Runic Mail,23,600,Armor,"67,500",95,---,48,---,46,---,---,35,7,5,2 Silver Steel,---,,-25% Time (x8),-19 Iron (x16),-1 Silver Steel (x30),Shining Armor (x45),+25% Sale Price (x70),,900,"1,200","3,000"
+Chaos Armor,25,825,Armor,"405,000",105,---,53,---,55,---,---,41,10,8,1 Liquid Fire,2 Great Silvered Scales,,-25% Time (x9),-27 Leather (x18),-1 Silvered Scales (x30),+50% Sale Price (x50),Resilient I (x80),,"1,238","1,650","4,125"
+Shining Armor,27,725,Armor,"190,000",120,---,60,---,65,---,---,49,---,11,2 Golden Thread,2 Good Longmail,,-25% Time (x9),-24 Iron (x18),-1 Golden Thread (x30),White Fullplate (x50),+25% Sale Price (x80),,"1,088","1,450","3,625"
+Valkyrie Armor,30,"1,275",Armor,"635,000",145,---,73,---,80,---,---,60,20,15,2 Phoenix Feather,2 Good Arcane Guard,,-25% Time (x9),-73 Iron (x18),-1 Phoenix Feather (x30),+50% Sale Price (x50),Valkyrie Helm (x80),,"1,913","2,550","6,375"
+White Fullplate,32,925,Armor,"230,000",165,---,83,---,90,---,---,68,24,18,2 Demon Heart,1 Great Full Plate,,-25% Time (x10),-33 Iron (x20),-1 Demon Heart (x35),Golden Heart (x55),+25% Sale Price (x90),,"1,388","1,850","4,625"
+Eldritch Mail,35,"1,550",Armor,"2,800,000",185,---,93,---,105,---,---,79,---,23,2 Demon Heart,1 Flawless Chaos Armor,,-25% Time (x11),-53 Steel (x22),-1 Demon Heart (x40),+50% Sale Price (x60),Lucky I (x90),,"2,325","3,100","7,750"
+Golden Heart,36,"1,075",Armor,"305,000",200,---,100,---,110,---,---,83,32,24,1 Sun Tear,2 Yggdrasil Leaf,,-25% Time (x12),-40 Iron (x24),-1 Yggdrasil Leaf (x40),Twilight Cuirass (x65),+25% Sale Price (x100),,"1,613","2,150","5,375"
+Gaia's Fortress,38,"1,450",Armor,"1,400,000",220,---,110,---,120,---,---,90,36,27,2 Dark Energy,1 Flawless Shining Armor,,-25% Time (x13),-110 Iron (x26),-1 Dark Energy (x45),+50% Sale Price (x70),Commander I (x110),,"2,175","2,900","7,250"
+Draconic Plate,39,"1,800",Armor,"3,550,000",235,---,118,---,125,---,---,94,38,29,3 Dragon Scale,1 Flawless White Fullplate,,-25% Time (x13),-118 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Protector I (x110),,"2,700","3,600","9,000"
+Twilight Cuirass,40,"1,250",Armor,"835,000",250,---,125,---,130,---,---,98,40,30,1 Adamantium,1 Good Dark Visage,,-25% Time (x13),-50 Iron (x26),-26 Steel (x45),Crimson Plate (x70),+25% Sale Price (x110),,"1,875","2,500","6,250"
+Crimson Plate,42,"1,325",Armor,"1,700,000",300,---,150,---,140,---,---,105,45,34,1 Ancient Essence,2 Great Runic Mail,,-25% Time (x14),-60 Iron (x28),-30 Leather (x50),-1 Runic Mail (x80),+25% Sale Price (x120),,"1,988","2,650","6,625"
+Earthen Mail,46,"1,875",Armor,"10,100,000",400,---,200,---,160,---,---,120,60,45,2 Obsidian Coral,2 Great Earthshakers,,-25% Time (x14),-200 Iron (x28),-1 Obsidian Coral (x50),+50% Sale Price (x80),Stoneskin (x120),,"2,813","3,750","9,375"
+Oracle's Armor,49,"2,450",Armor,"20,350,000",475,---,238,---,190,---,---,143,80,60,3 Shard Of Gaia,2 Flawless Life Potion,,-25% Time (x15),-238 Iron (x30),-1 Life Potion (x55),+50% Sale Price (x85),Mage Armor (x130),,"3,675","4,900","12,250"
+Leather Vest,1,9,Vests,10,---,---,2,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Hide Armor (x6),-1 Leather (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Hide Armor,2,22,Vests,28,---,---,3,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Boiled Leather (x8),-1 Leather (x15),-1 Leather (x25),Good Quality (x40),,33,44,110
+Boiled Leather,4,56,Vests,215,4,---,8,---,---,---,---,---,---,---,1 Viper Essence,---,,Iron Band (x5),Brigandine (x10),+25% Sale Price (x20),-2 Leather (x30),Good Quality (x50),,84,112,280
+Brigandine,6,96,Vests,510,8,---,15,---,---,---,---,---,---,---,1 Leather Vest,---,,+25% Sale Price (x5),Leather Cuirass (x10),-2 Leather (x20),-3 Leather (x30),Good Quality (x50),,144,192,480
+Leather Cuirass,8,140,Vests,695,---,---,21,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x6),Studded Leather (x12),-4 Leather (x20),-1 Elven Dew (x30),Good Quality (x50),,210,280,700
+Studded Leather,11,220,Vests,"1,800",---,---,35,---,---,---,6,---,---,---,1 Hide Armor,---,,-7 Leather (x6),+25% Sale Price (x12),Poison Studs (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Raccoon Ranger,12,310,Vests,"8,650",---,---,40,---,---,---,8,6,---,---,2 Iron Carapace,2 Rainbow Dust,,-20 Leather (x6),+50% Sale Price (x12),-1 Rainbow Dust (x20),Good Quality (x30),Scavenger I (x50),,465,620,"1,550"
+Poison Studs,13,270,Vests,"4,250",---,---,45,---,---,---,10,8,---,---,1 Iron Carapace,---,,-9 Leather (x7),+25% Sale Price (x14),Strapped Leather (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Strapped Leather,16,360,Vests,"6,500",---,---,60,---,---,---,20,15,---,---,---,---,,-12 Leather (x7),+25% Sale Price (x14),Plated Leather (x25),-25% Time (x40),-4 Fabric (x60),,540,720,"1,800"
+Plated Tunic,17,600,Vests,"23,000",---,---,65,---,---,12,24,---,---,---,3 Iron Carapace,3 Great Hide Armor,,-33 Leather (x8),+50% Sale Price (x16),-25% Time (x30),-1 Iron Carapace (x45),Leader I (x70),,900,"1,200","3,000"
+Plated Leather,18,420,Vests,"12,000",35,---,70,---,---,---,28,21,---,---,2 Good Banded Mail,---,,-7 Iron (x8),+25% Sale Price (x16),Bear Armor (x30),-25% Time (x45),-1 Banded Mail (x70),,630,840,"2,100"
+Bear Armor,21,525,Vests,"18,000",---,---,85,---,---,---,38,29,---,5,2 Brigandine,---,,-25% Time (x8),-17 Leather (x16),-1 Brigandine (x30),Nightingale (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Nightingale,24,625,Vests,"51,500",---,---,100,---,---,---,50,38,---,---,2 Liquid Fire,2 Good Studded Leather,,-25% Time (x9),-20 Leather (x18),-1 Studded Leather (x30),Genji Armor (x50),+25% Sale Price (x80),,938,"1,250","3,125"
+Genji Armor,26,700,Vests,"87,000",---,---,110,---,---,---,60,---,---,12,2 Phoenix Feather,3 Wyvern Wing,,-25% Time (x9),-22 Leather (x18),-1 Wyvern Wing (x30),Layered Armor (x50),+25% Sale Price (x80),,"1,050","1,400","3,500"
+Oiled Leather,28,975,Vests,"90,500",---,---,130,---,---,---,70,53,---,16,1 Golden Thread,3 Great Leather Cuirass,,-25% Time (x9),-65 Leather (x18),-1 Leather Cuirass (x30),+50% Sale Price (x50),Energetic I (x80),,"1,463","1,950","4,875"
+Layered Armor,29,800,Vests,"140,000",---,---,140,---,---,38,75,---,---,---,3 Yggdrasil Leaf,2 Good Strapped Leather,,-25% Time (x9),-28 Leather (x18),-1 Strapped Leather (x30),Gold Stitch (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Gold Stitch,32,925,Vests,"170,000",---,---,165,---,---,---,90,68,---,24,2 Golden Thread,1 Good Sacred Tunic,,-25% Time (x10),-33 Leather (x20),-1 Golden Thread (x35),White Crow (x55),+25% Sale Price (x90),,"1,388","1,850","4,625"
+Wyrm Hide,33,"1,450",Vests,"935,000",---,---,170,---,---,---,95,---,20,26,3 Demon Heart,1 Flawless Genji Armor,,-25% Time (x10),-85 Leather (x20),-1 Demon Heart (x35),+50% Sale Price (x55),Wise I (x90),,"2,175","2,900","7,250"
+White Crow,36,"1,075",Vests,"395,000",---,---,200,---,---,---,110,83,---,32,2 Sun Tear,1 Flawless Plated Leather,,-25% Time (x12),-40 Leather (x24),-1 Sun Tear (x40),Moonscale Armor (x65),+25% Sale Price (x100),,"1,613","2,150","5,375"
+Shadow Lurker,38,"1,450",Vests,"825,000",---,---,220,---,---,60,120,90,27,36,3 Dark Energy,1 Flawless Nightingale,,-25% Time (x13),-110 Leather (x26),-1 Dark Energy (x45),+50% Sale Price (x70),Gangster I (x110),,"2,175","2,900","7,250"
+Moonscale Armor,39,"1,200",Vests,"615,000",---,---,235,---,---,---,125,94,29,38,25 Moon Shard,1 Flawless Imperial Sandals,,-25% Time (x13),-47 Leather (x26),-10 Moon Shard (x45),Pirate Armor (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Valkyrie's Embrace,40,"1,875",Vests,"1,750,000",---,---,250,---,---,---,130,98,---,40,3 Sun Tear,3 Great Bear Armor,,-25% Time (x13),-2 Bear Armor (x26),+50% Sale Price (x45),-1 Sun Tear (x70),Wise II (x110),,"2,813","3,750","9,375"
+Dragon Skin,41,"1,925",Vests,"5,400,000",---,---,275,---,---,---,135,101,32,42,3 Dragon Scale,2 Flawless Layered Armor,,-25% Time (x13),-138 Leather (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Amazon I (x110),,"2,888","3,850","9,625"
+Pirate Armor,42,"1,325",Vests,"1,500,000",---,---,300,---,---,---,140,105,34,45,1 Ancient Essence,1 Flawless Gold Stitch,,-25% Time (x14),-60 Leather (x28),-28 Fabric (x50),-21 Oil (x80),+25% Sale Price (x120),,"1,988","2,650","6,625"
+Ocean Leather,47,"1,950",Vests,"13,950,000",---,---,425,---,---,85,170,128,49,65,3 Shard Of Gaia,1 Great Moonscale Armor,,-25% Time (x15),-213 Leather (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Wise III (x130),,"2,925","3,900","9,750"
+Black Crow,50,"2,525",Vests,"21,400,000",---,---,500,---,---,---,200,150,75,100,3 Primal Horn,1 Flawless White Crow,,-25% Time (x15),-250 Leather (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Shadowstep (x130),,"3,788","5,050","12,625"
+Hard Hat,1,9,Helmets,10,2,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Iron Cap (x6),-1 Iron (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Iron Cap,2,22,Helmets,28,3,---,---,---,---,---,---,---,---,---,---,---,,Light Gauntlets (x4),Iron Helmet (x8),+25% Sale Price (x15),-1 Iron (x25),Good Quality (x40),,33,44,110
+Iron Helmet,4,56,Helmets,230,8,---,7,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Horned Helm (x10),-1 Iron (x20),-2 Iron (x30),Good Quality (x50),,84,112,280
+Horned Helm,5,76,Helmets,400,11,---,10,---,---,---,---,---,---,---,1 Hard Hat,---,,+25% Sale Price (x5),Full Helm (x10),-2 Iron (x20),-1 Leather (x30),Good Quality (x50),,114,152,380
+Full Helm,6,96,Helmets,705,15,---,14,---,---,---,---,---,---,---,2 Shiny Gem,1 Good Iron Cap,,+25% Sale Price (x5),Warrior's Helmet (x10),-3 Iron (x20),-1 Shiny Gem (x30),Good Quality (x50),,144,192,480
+Warrior's Helmet,9,165,Helmets,"1,700",25,---,23,---,4,---,---,---,---,---,---,---,,+25% Sale Price (x6),Spangenhelm (x12),-5 Iron (x20),-1 Steel (x30),Good Quality (x50),,248,330,825
+Moonlight Cap,10,240,Helmets,"4,850",30,---,27,---,---,---,---,---,---,---,2 Moon Shard,---,,+50% Sale Price (x5),-15 Iron (x10),-1 Moon Shard (x20),Good Quality (x30),Lucky I (x50),,360,480,"1,200"
+Spangenhelm,11,220,Helmets,"3,350",35,---,32,---,6,---,---,---,---,---,1 Moon Shard,---,,-7 Iron (x6),+25% Sale Price (x12),Scale Helmet (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Scale Helmet,14,300,Helmets,"6,350",50,---,45,---,12,---,---,---,---,---,1 Iron Carapace,1 Iron Helmet,,-10 Iron (x7),+25% Sale Price (x14),Knight's Helm (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Knight's Helm,17,390,Helmets,"11,000",65,---,59,---,24,---,---,---,---,---,2 Horned Helm,---,,-12 Leather (x8),+25% Sale Price (x16),Great Helm (x30),-25% Time (x45),-1 Horned Helm (x70),,585,780,"1,950"
+Paladin's Helmet,19,675,Helmets,"62,500",75,---,68,---,32,---,---,---,3,4,3 Iron Carapace,2 Liquid Fire,,+50% Sale Price (x8),-1 Iron Carapace (x16),-25% Time (x30),-1 Liquid Fire (x45),Protector I (x70),,"1,013","1,350","3,375"
+Great Helm,21,525,Helmets,"18,500",85,---,77,---,38,---,---,---,---,---,2 Full Helm,---,,-25% Time (x8),-17 Iron (x16),-1 Full Helm (x30),Silver Helm (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Frozen Helm,23,750,Helmets,"185,000",95,---,86,---,46,---,---,---,5,7,2 Frozen Core,2 Great Knight's Helm,,-25% Time (x8),-48 Iron (x16),-1 Frozen Core (x30),+50% Sale Price (x45),Protector I (x70),,"1,125","1,500","3,750"
+Silver Helm,25,650,Helmets,"65,500",105,---,95,---,55,---,---,---,---,10,2 Silver Steel,---,,-25% Time (x9),-21 Iron (x18),-1 Silver Steel (x30),Dragoon's Casque (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Dragoon's Casque,28,775,Helmets,"120,000",130,---,117,---,70,---,---,---,---,16,2 Phoenix Feather,3 Good Warrior's Helmet,,-25% Time (x9),-26 Iron (x18),-1 Warrior's Helmet (x30),Elir's Barbuta (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Elir's Barbuta,31,875,Helmets,"190,000",150,---,135,---,85,---,---,---,17,22,2 Demon Heart,2 Good Spangenhelm,,-25% Time (x10),-30 Iron (x20),-1 Spangenhelm (x35),Mercurial (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Mercurial,33,950,Helmets,"295,000",170,---,153,---,95,---,---,---,20,26,2 Golden Thread,2 Good Great Helm,,-25% Time (x10),-34 Iron (x20),-1 Great Helm (x35),Champion's Helm (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Phoenix Helmet,34,"1,500",Helmets,"1,750,000",175,---,158,---,100,---,---,---,21,28,2 Phoenix Feather,2 Flawless Paladin's Helmet,,-25% Time (x11),-88 Iron (x22),-1 Phoenix Feather (x40),+50% Sale Price (x60),Speed Runner I (x90),,"2,250","3,000","7,500"
+Champion's Helm,35,"1,050",Helmets,"780,000",185,---,167,---,105,---,---,---,---,30,2 Sun Tear,2 Good Silver Helm,,-25% Time (x12),-1 Silver Helm (x24),-1 Sun Tear (x40),Viking Helm (x65),+25% Sale Price (x100),,"1,575","2,100","5,250"
+Dragonscale Helmet,38,"1,450",Helmets,"1,450,000",220,---,198,---,120,---,---,---,27,36,2 Dragon Scale,1 Flawless Dragoon's Casque,,-25% Time (x13),-110 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Brothers-in-arms I (x110),,"2,175","2,900","7,250"
+Viking Helm,39,"1,200",Helmets,"915,000",235,---,212,---,125,---,---,---,29,38,2 Dark Energy,2 Great Bone Reaver,,-25% Time (x13),-47 Iron (x26),-1 Dark Energy (x45),Golden Helm (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Adamantium Helm,40,"1,875",Helmets,"3,450,000",250,---,225,---,130,---,---,---,30,40,2 Adamantium,1 Flawless Elir's Barbuta,,-25% Time (x13),-125 Iron (x26),-1 Adamantium (x45),+50% Sale Price (x70),Energetic I (x110),,"2,813","3,750","9,375"
+Valkyrie Helm,41,"1,925",Helmets,"2,400,000",275,---,248,---,135,---,---,---,32,42,3 Dragon Scale,2 Flawless Valkyrie,,-25% Time (x13),-138 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Resilient II (x110),,"2,888","3,850","9,625"
+Golden Helm,42,"1,325",Helmets,"1,850,000",300,---,270,---,140,---,---,---,34,45,1 Ancient Essence,2 Flawless Masamune,,-25% Time (x13),-60 Iron (x26),-28 Steel (x45),-1 Masamune (x70),+25% Sale Price (x110),,"1,988","2,650","6,625"
+Frostfire Barbuta,45,"1,825",Helmets,"7,600,000",375,---,338,---,155,---,---,---,41,55,2 Frostfire Crystal,2 Flawless Frozen Helm,,-76 Timeless Locket (x14),-188 Iron (x28),-1 Frostfire Crystal (x50),+50% Sale Price (x80),Cone-of-cold (x120),,"2,738","3,650","9,125"
+Jade Helm,50,"2,525",Helmets,"19,500,000",500,---,450,---,200,---,---,---,75,100,2 Primal Horn,1 Flawless Phoenix Helmet,,-76 Timeless Locket (x15),-250 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Stoneskin (x130),,"3,788","5,050","12,625"
+Light Gauntlets,2,22,Gauntlets,28,3,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Gauntlets (x6),-1 Iron (x10),Good Quality (x15),Great Quality (x20),,33,44,110
+Gauntlets,3,38,Gauntlets,95,5,---,---,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x4),Vambrace (x8),-1 Iron (x15),-1 Shiny Gem (x25),Good Quality (x40),,57,76,190
+Vambrace,5,76,Gauntlets,455,11,---,10,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Long Gauntlets (x10),-2 Iron (x20),-1 Elven Dew (x30),Good Quality (x50),,114,152,380
+Long Gauntlets,7,120,Gauntlets,980,18,---,16,---,---,---,---,---,---,---,2 Light Gauntlets,---,,+25% Sale Price (x5),Meshed Gauntlets (x10),-4 Iron (x20),-1 Light Gauntlets (x30),Good Quality (x50),,180,240,600
+Meshed Gauntlets,8,140,Gauntlets,"1,500",21,---,19,---,---,---,---,---,---,---,2 Burning Ember,---,,+25% Sale Price (x6),Chainmail Gauntlets (x12),-4 Iron (x20),-1 Burning Ember (x30),Good Quality (x50),,210,280,700
+Moonlight Gauntlets,10,240,Gauntlets,"6,450",30,---,27,---,---,---,---,---,---,---,2 Moon Shard,1 Long Gauntlets,,+50% Sale Price (x6),-15 Iron (x12),-1 Moon Shard (x20),Good Quality (x30),Speed Runner I (x50),,360,480,"1,200"
+Chainmail Gauntlets,12,245,Gauntlets,"3,650",40,---,36,---,8,---,---,---,---,---,1 Gauntlets,---,,-8 Iron (x6),+25% Sale Price (x12),Jagged Gauntlets (x20),-25% Time (x30),Good Quality (x50),,368,490,"1,225"
+Jagged Gauntlets,15,330,Gauntlets,"7,400",55,---,50,---,16,---,---,---,---,---,1 Iron Carapace,2 Good Light Gauntlets,,-11 Iron (x7),+25% Sale Price (x14),Lord's Gauntlets (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Lord's Gauntlets,16,360,Gauntlets,"15,500",60,---,54,---,20,---,---,---,---,---,2 Wyvern Wing,1 Good Meshed Gauntlets,,-12 Iron (x7),+25% Sale Price (x14),Steel Vambrace (x25),-25% Time (x40),-1 Wyvern Wing (x60),,540,720,"1,800"
+Steel Vambrace,19,460,Gauntlets,"28,000",75,---,68,---,32,---,---,---,---,---,2 Royal Bone,2 Good Vambrace,,-15 Iron (x8),+25% Sale Price (x16),Silver Gauntlets (x30),-25% Time (x45),-1 Royal Bone (x70),,690,920,"2,300"
+Frozen Grip,20,725,Gauntlets,"135,000",80,---,72,---,35,---,---,---,1,1,5 Frozen Core,1 Great Moonlight Gauntlets,,-40 Iron (x8),+50% Sale Price (x16),-25% Time (x30),-2 Frozen Core (x45),Parry (x70),,"1,088","1,450","3,625"
+Silver Gauntlets,23,600,Gauntlets,"63,000",95,---,86,---,46,---,---,---,---,---,3 Liquid Fire,---,,-25% Time (x8),-19 Iron (x16),-1 Liquid Fire (x30),Bloodlust Gauntlets (x45),+25% Sale Price (x70),,900,"1,200","3,000"
+King's Gauntlets,25,825,Gauntlets,"265,000",105,---,95,---,55,---,---,---,10,10,2 Royal Bone,1 Great Silver Gauntlets,,-25% Time (x9),-53 Iron (x18),-1 Royal Bone (x30),+50% Sale Price (x50),Commander I (x80),,"1,238","1,650","4,125"
+Bloodlust Gauntlets,27,725,Gauntlets,"120,000",120,---,108,---,65,---,---,---,---,2,3 Silver Steel,---,,-25% Time (x9),-24 Iron (x18),-1 Silver Steel (x30),Dark Vambrace (x50),+25% Sale Price (x80),,"1,088","1,450","3,625"
+Dark Vambrace,30,850,Gauntlets,"185,000",145,---,131,---,80,---,---,---,---,3,2 Demon Heart,1 Good Steel Vambrace,,-25% Time (x9),-29 Iron (x18),-1 Demon Heart (x30),Protector Gauntlets (x50),+25% Sale Price (x80),,"1,275","1,700","4,250"
+Protector Gauntlets,31,875,Gauntlets,"265,000",150,---,135,---,85,---,---,---,3,5,3 Phoenix Feather,2 Lord's Gauntlets,,-25% Time (x10),-30 Iron (x20),-1 Phoenix Feather (x35),Giga-Brace (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Shockers,32,"1,375",Gauntlets,"385,000",165,---,149,---,90,---,---,---,35,15,2 Dark Energy,1 Flawless Jagged Gauntlets,,-25% Time (x10),-83 Iron (x20),-1 Dark Energy (x35),+50% Sale Price (x55),Resourceful I (x90),,"2,063","2,750","6,875"
+Giga-brace,35,"1,050",Gauntlets,"385,000",185,---,167,---,105,---,---,---,8,8,2 Great Steel Vambrace,---,,-25% Time (x11),-37 Iron (x22),-1 Steel Vambrace (x40),Fire Smashers (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Fire Smashers,37,"1,125",Gauntlets,"885,000",210,---,189,---,115,---,---,---,25,20,2 Sun Tear,1 Flawless Bloodlust Gauntlets,,-25% Time (x12),-23 Steel (x24),-1 Sun Tear (x40),Twilight Fists (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Dragonscale Gauntlets,38,"1,450",Gauntlets,"2,150,000",220,---,198,---,120,---,---,---,20,30,2 Dragon Scale,1 Flawless Protector Gauntlets,,-25% Time (x13),-110 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Crush (x110),,"2,175","2,900","7,250"
+Twilight Fists,39,"1,200",Gauntlets,"1,050,000",235,---,212,---,125,---,---,---,25,20,5 Yggdrasil Leaf,1 Flawless Dark Vambrace,,-25% Time (x13),-47 Iron (x26),-2 Yggdrasil Leaf (x45),Golden Gauntlets (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Adamantium Fists,40,"1,875",Gauntlets,"3,900,000",250,---,225,---,130,---,---,---,50,50,2 Adamantium,1 Flawless King's Gauntlets,,-25% Time (x13),-125 Iron (x26),-1 Adamantium (x45),+50% Sale Price (x70),Protector I (x110),,"2,813","3,750","9,375"
+Golden Gauntlets,43,"1,375",Gauntlets,"2,350,000",325,---,293,---,145,---,---,---,25,20,2 Ancient Essence,2 Golden Thread,,-25% Time (x14),-65 Iron (x28),-1 Golden Thread (x50),-1 Ancient Essence (x80),+25% Sale Price (x120),,"2,063","2,750","6,875"
+Berserker Gauntlets,46,"1,875",Gauntlets,"15,450,000",400,---,360,---,160,---,---,---,20,30,2 Obsidian Coral,1 Flawless Dragonscale Gauntlets,,-25% Time (x14),-200 Iron (x28),-1 Obsidian Coral (x50),+50% Sale Price (x80),Berserker (x120),,"2,813","3,750","9,375"
+Volcanic Smashers,49,"2,450",Gauntlets,"24,000,000",475,---,428,---,190,---,---,---,50,50,1 Primal Horn,2 Flawless Fire Smashers,,-25% Time (x15),-238 Iron (x30),-1 Fire Smashers (x55),+50% Sale Price (x85),Speed Runner II (x130),,"3,675","4,900","12,250"
+Heavy Boots,1,9,Boots,22,2,---,2,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Rider's Boots (x6),-1 Iron (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Rider's Boots,3,38,Boots,120,5,---,5,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Chain Greaves (x8),-1 Leather (x15),-1 Iron (x25),Good Quality (x40),,57,76,190
+Chain Greaves,4,56,Boots,230,8,---,7,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Plated Boots (x10),-2 Iron (x20),-1 Leather (x30),Good Quality (x50),,84,112,280
+Plated Boots,6,96,Boots,705,15,---,14,---,---,---,---,---,---,---,3 Shiny Gem,---,,+25% Sale Price (x5),Traveling Boots (x10),-3 Leather (x20),-1 Shiny Gem (x30),Good Quality (x50),,144,192,480
+Traveling Boots,8,140,Boots,"1,250",21,---,19,---,---,---,---,---,---,---,2 Heavy Boots,---,,+25% Sale Price (x6),Red Boots (x12),-4 Leather (x20),-1 Heavy Boots (x30),Good Quality (x50),,210,280,700
+Moon Boots,9,210,Boots,"4,300",25,---,23,---,---,---,---,---,---,---,2 Moon Shard,---,,+50% Sale Price (x6),-13 Iron (x12),-1 Moon Shard (x20),Good Quality (x30),Energetic I (x50),,315,420,"1,050"
+Red Boots,10,190,Boots,"2,950",30,---,27,---,---,---,5,---,---,---,1 Burning Ember,2 Rider's Boots,,+25% Sale Price (x6),Explorer Boots (x12),-5 Leather (x20),-1 Rider's Boots (x30),Good Quality (x50),,285,380,950
+Lion Boots,12,370,Boots,"12,500",40,---,36,---,8,---,7,4,---,---,4 Rainbow Dust,---,,-18 Leather (x6),+50% Sale Price (x12),-1 Rainbow Dust (x20),Good Quality (x30),Leader I (x50),,555,740,"1,850"
+Explorer Boots,13,270,Boots,"6,800",45,---,41,---,10,---,9,---,---,---,1 Traveling Boots,---,,-8 Leather (x7),+25% Sale Price (x14),Sabaton (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Valkyrie Boots,14,450,Boots,"17,000",50,---,45,---,12,---,---,6,---,---,2 Rainbow Dust,2 Good Plated Boots,,+50% Sale Price (x7),-25% Time (x14),-1 Rainbow Dust (x25),Good Quality (x40),Bulwark (x60),,675,900,"2,250"
+Sabaton,15,330,Boots,"9,800",55,---,50,---,16,---,---,---,---,---,3 Good Chain Greaves,---,,-11 Iron (x7),+25% Sale Price (x14),Warrior's Greaves (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Warrior's Greaves,18,420,Boots,"19,500",70,---,63,---,28,---,---,14,---,---,3 Iron Carapace,---,,-13 Leather (x8),+25% Sale Price (x16),Knight Riders (x30),-25% Time (x45),-1 Iron Carapace (x70),,630,840,"2,100"
+Knight Riders,21,525,Boots,"38,000",85,---,77,---,38,---,34,19,---,---,2 Red Boots,---,,-25% Time (x8),-17 Iron (x16),-1 Red Boots (x30),Silvered Greaves (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Silvered Greaves,25,650,Boots,"96,500",105,---,95,---,55,---,---,28,---,10,2 Silver Steel,1 Warrior's Greaves,,-25% Time (x9),-21 Iron (x18),-1 Silver Steel (x30),Lord's Boots (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Flame Greaves,27,925,Boots,"245,000",120,---,108,---,65,---,---,33,11,14,3 Liquid Fire,1 Great Knight Riders,,-25% Time (x9),-60 Iron (x18),-1 Liquid Fire (x30),+50% Sale Price (x50),Fireball (x80),,"1,388","1,850","4,625"
+Lord's Boots,29,800,Boots,"130,000",140,---,126,---,75,---,68,38,---,18,3 Yggdrasil Leaf,---,,-25% Time (x9),-25 Leather (x18),-1 Yggdrasil Leaf (x30),Frost Sabatons (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Magic Riders,30,"1,275",Boots,"390,000",145,---,131,---,80,---,---,40,15,20,3 Golden Thread,1 Epic Moon Boots,,-25% Time (x9),-66 Leather (x18),-1 Golden Thread (x30),+50% Sale Price (x50),Arch Wizard I (x80),,"1,913","2,550","6,375"
+Frost Sabatons,32,925,Boots,"180,000",165,---,149,---,90,---,---,---,18,24,2 Golden Thread,3 Frozen Core,,-25% Time (x10),-33 Iron (x20),-1 Frozen Core (x35),Earthshakers (x55),+25% Sale Price (x90),,"1,388","1,850","4,625"
+Earthshakers,34,"1,000",Boots,"375,000",175,---,158,---,100,---,---,---,21,28,2 Demon Heart,1 Good Silvered Greaves,,-25% Time (x11),-35 Iron (x22),-1 Demon Heart (x40),King's Boots (x60),+25% Sale Price (x90),,"1,500","2,000","5,000"
+King's Boots,37,"1,125",Boots,"1,250,000",210,---,189,---,115,---,104,58,---,34,2 Sun Tear,2 Good Lord's Boots,,-25% Time (x12),-1 Lord's Boots (x24),-1 Sun Tear (x40),Adamantium Boots (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Skull Stompers,38,"1,450",Boots,"2,200,000",220,---,198,---,120,---,---,60,27,36,2 Demon Heart,1 Flawless Earthshakers,,-25% Time (x13),-110 Iron (x26),-1 Demon Heart (x45),+50% Sale Price (x70),Crush (x110),,"2,175","2,900","7,250"
+Draconic Greaves,39,"1,800",Boots,"2,650,000",235,---,212,---,125,---,---,63,29,38,3 Dragon Scale,1 Flawless Silvered Greaves,,-25% Time (x13),-118 Iron (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Protector I (x110),,"2,700","3,600","9,000"
+Adamantium Boots,40,"1,250",Boots,"1,700,000",250,---,225,---,130,---,117,65,---,40,2 Adamantium,1 Flawless Sabaton,,-25% Time (x13),-45 Leather (x26),-1 Adamantium (x45),Royal Greaves (x70),+25% Sale Price (x110),,"1,875","2,500","6,250"
+Royal Greaves,43,"1,375",Boots,"3,200,000",325,---,293,---,145,---,131,73,---,48,2 Ancient Essence,1 Flawless Frost Sabatons,,-25% Time (x14),-59 Leather (x28),-65 Iron (x50),-1 Ancient Essence (x80),+25% Sale Price (x120),,"2,063","2,750","6,875"
+Obsidian Greaves,47,"1,950",Boots,"9,700,000",425,---,383,---,170,---,---,85,49,65,2 Obsidian Coral,2 Flawless Flame Greaves,,-25% Time (x15),-213 Iron (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Commander II (x130),,"2,925","3,900","9,750"
+Titan's Feet,50,"2,525",Boots,"22,750,000",500,---,450,---,200,---,---,100,75,100,2 Primal Horn,1 Flawless Skull Stompers,,-25% Time (x15),-250 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Crush (x130),,"3,788","5,050","12,625"
+Tunic,1,9,Clothes,10,---,---,2,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Cloak (x6),-1 Leather (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Cloak,2,22,Clothes,28,---,---,3,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Mantle (x8),-1 Leather (x15),Good Quality (x25),Great Quality (x40),,33,44,110
+Mantle,4,56,Clothes,190,---,---,8,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Red Tunic (x10),-2 Leather (x20),-1 Elven Dew (x30),Good Quality (x50),,84,112,280
+Red Tunic,5,76,Clothes,230,---,---,11,---,---,---,---,---,---,---,1 Tunic,---,,Wood Flute (x5),Robe (x10),+25% Sale Price (x20),-2 Leather (x30),Good Quality (x50),,114,152,380
+Robe,7,120,Clothes,505,---,---,18,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Doublet (x10),-4 Leather (x20),-1 Shiny Gem (x30),Good Quality (x50),,180,240,600
+Doublet,9,165,Clothes,"1,000",---,---,25,---,---,---,4,---,---,---,---,---,,+25% Sale Price (x6),Apprentice Robes (x12),-3 Leather (x20),-5 Leather (x30),Good Quality (x50),,248,330,825
+Apprentice Robes,11,220,Clothes,"1,950",---,---,35,---,---,---,6,---,---,---,1 Rainbow Dust,---,,-7 Leather (x6),+25% Sale Price (x12),Magician's Cloak (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Ice Cloak,13,340,Clothes,"15,500",---,---,45,---,---,---,10,---,---,---,3 Good Cloak,2 Frozen Core,,-23 Leather (x7),+50% Sale Price (x14),-1 Frozen Core (x25),Good Quality (x40),Cone-of-cold (x60),,510,680,"1,700"
+Magician's Cloak,15,330,Clothes,"5,700",---,---,55,---,---,---,16,---,---,---,1 Wyvern Wing,1 Mantle,,-11 Leather (x7),+25% Sale Price (x14),Silk Robe (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Silk Robe,17,390,Clothes,"10,500",---,---,65,---,---,---,24,---,---,---,3 Moon Shard,---,,-13 Leather (x8),+25% Sale Price (x16),Sacred Tunic (x30),-25% Time (x45),-1 Moon Shard (x70),,585,780,"1,950"
+Mage Robe,19,675,Clothes,"34,500",---,---,75,---,---,---,32,---,4,3,2 Good Apprentice Robes,---,,-38 Leather (x8),+50% Sale Price (x16),-25% Time (x30),-1 Apprentice Robes (x45),Arch Wizard I (x70),,"1,013","1,350","3,375"
+Sacred Tunic,21,525,Clothes,"25,000",---,---,85,---,---,---,38,---,5,---,2 Royal Bone,---,,-25% Time (x8),-17 Leather (x16),-1 Royal Bone (x30),Imperial Mantle (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Imperial Mantle,25,650,Clothes,"44,000",---,---,105,---,---,---,55,---,10,9,1 Phoenix Feather,3 Good Robe,,-25% Time (x9),-21 Leather (x18),-1 Robe (x30),Stealth Apparel (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Gaia's Mantle,27,"1,100",Clothes,"145,000",---,---,120,---,---,---,65,---,14,12,2 Yggdrasil Leaf,2 Good Magician's Cloak,,-25% Time (x9),-60 Leather (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Jorou's Crown (x80),,"1,650","2,200","5,500"
+Stealth Apparel,28,775,Clothes,"82,000",---,---,130,---,---,---,70,---,16,14,3 Liquid Fire,---,,-25% Time (x9),-26 Leather (x18),-1 Liquid Fire (x30),Night Walker (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Storm Apparel,29,"1,000",Clothes,"180,000",---,---,140,---,---,---,75,---,18,15,3 Yggdrasil Leaf,1 Great Ice Cloak,,-25% Time (x9),-70 Leather (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Wise I (x80),,"1,500","2,000","5,000"
+Night Walker,31,875,Clothes,"145,000",---,---,150,---,---,---,85,---,22,19,2 Demon Heart,---,,-25% Time (x10),-30 Leather (x20),-1 Demon Heart (x35),Sage's Robe (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Sorcerer Robe,32,"1,375",Clothes,"975,000",---,---,165,---,---,---,90,---,24,20,2 Silver Steel,2 Flawless Mage Robe,,-25% Time (x10),-1 Silver Steel (x20),-1 Mage Robe (x35),+50% Sale Price (x55),Arch Wizard I (x90),,"2,063","2,750","6,875"
+Nightmare Cape,33,"1,450",Clothes,"790,000",---,---,170,---,---,---,95,---,26,22,2 Dark Energy,1 Flawless Stealth Apparel,,-25% Time (x10),-85 Leather (x20),-1 Dark Energy (x35),+50% Sale Price (x55),Shadowstep (x90),,"2,175","2,900","7,250"
+Sage's Robe,34,"1,000",Clothes,"160,000",---,---,175,---,---,---,100,---,28,24,2 Golden Thread,2 Great Apprentice Robes,,-25% Time (x11),-35 Leather (x22),-1 Golden Thread (x40),Shimmering Robes (x60),+25% Sale Price (x90),,"1,500","2,000","5,000"
+Shimmering Robes,36,"1,075",Clothes,"465,000",---,---,200,---,---,---,110,---,32,27,2 Sun Tear,2 Great Silk Robe,,-25% Time (x12),-1 Silk Robe (x24),-1 Sun Tear (x40),Twilight Robe (x65),+25% Sale Price (x100),,"1,613","2,150","5,375"
+Plasmic Robe,38,"1,450",Clothes,"2,000,000",---,---,220,---,---,---,120,---,36,31,2 Adamantium,1 Flawless Imperial Mantle,,-25% Time (x13),-110 Leather (x26),-1 Adamantium (x45),+50% Sale Price (x70),Healer I (x110),,"2,175","2,900","7,250"
+Archwizard Robe,39,"1,800",Clothes,"2,900,000",---,---,235,---,---,---,125,---,38,32,3 Dragon Scale,1 Flawless Sage's Robe,,-25% Time (x13),-118 Leather (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Arch Wizard I (x110),,"2,700","3,600","9,000"
+Twilight Robe,40,"1,250",Clothes,"990,000",---,---,250,---,---,---,130,---,40,34,1 Adamantium,4 Dark Energy,,-25% Time (x13),-50 Leather (x26),-2 Dark Energy (x45),King's Mantle (x70),+25% Sale Price (x110),,"1,875","2,500","6,250"
+King's Mantle,43,"1,375",Clothes,"2,200,000",---,---,325,---,---,---,145,---,48,41,2 Ancient Essence,2 Epic Doublet,,-25% Time (x14),-65 Leather (x28),-1 Doublet (x50),-1 Ancient Essence (x80),+25% Sale Price (x120),,"2,063","2,750","6,875"
+Mage Doublet,47,"1,950",Clothes,"8,250,000",---,---,425,---,---,---,170,---,65,55,2 Shard Of Gaia,2 Flawless Night Walker,,-25% Time (x15),-213 Leather (x30),-1 Night Walker (x55),+50% Sale Price (x85),Arch Wizard II (x130),,"2,925","3,900","9,750"
+Holy Tunic,50,"2,525",Clothes,"19,200,000",---,---,500,---,---,---,200,---,100,85,3 Primal Horn,2 Flawless Sacred Tunic,,-25% Time (x15),-250 Leather (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Aura of Protection (x130),,"3,788","5,050","12,625"
+Targe,2,22,Shields,34,---,3,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Buckler (x8),-1 Wood (x15),Good Quality (x25),Great Quality (x40),,33,44,110
+Buckler,3,38,Shields,75,---,5,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Small Shield (x8),-1 Wood (x15),-1 Wood (x25),Good Quality (x40),,57,76,190
+Small Shield,5,76,Shields,265,11,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Heater Shield (x10),-1 Iron (x20),-2 Iron (x30),Good Quality (x50),,114,152,380
+Heater Shield,6,96,Shields,550,15,---,---,---,---,---,---,---,---,---,1 Burning Ember,---,,+25% Sale Price (x5),Kite Shield (x10),-2 Iron (x20),-3 Iron (x30),Good Quality (x50),,144,192,480
+Protector,8,175,Shields,"1,650",---,21,---,---,---,---,---,---,---,---,3 Iron Wood,---,,+50% Sale Price (x6),-11 Wood (x12),-1 Iron Wood (x20),Good Quality (x30),Protector I (x50),,263,350,875
+Kite Shield,9,165,Shields,"1,100",---,25,---,---,---,---,---,---,---,---,1 Good Targe,---,,+25% Sale Price (x6),Tower Shield (x12),-3 Wood (x20),-5 Wood (x30),Good Quality (x50),,248,330,825
+Tower Shield,11,220,Shields,"2,250",---,35,---,---,---,---,---,---,---,---,3 Iron Wood,---,,-7 Wood (x6),+25% Sale Price (x12),Moonlight Shield (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Moonlight Shield,14,300,Shields,"5,400",---,50,---,---,---,12,---,---,---,---,1 Moon Shard,2 Good Buckler,,-10 Wood (x7),+25% Sale Price (x14),Knight Shield (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Knight Shield,17,390,Shields,"12,000",65,---,---,---,24,---,---,---,---,---,2 Iron Carapace,1 Good Small Shield,,-13 Iron (x8),+25% Sale Price (x16),Venomous Buckler (x30),-25% Time (x45),-1 Iron Carapace (x70),,585,780,"1,950"
+Fire Proof,18,625,Shields,"22,500",70,---,---,---,28,---,---,---,3,---,1 Wyvern Wing,2 Heater Shield,,-35 Iron (x8),+50% Sale Price (x16),-25% Time (x30),-1 Heater Shield (x45),Fireball (x70),,938,"1,250","3,125"
+Venomous Buckler,20,490,Shields,"19,000",---,80,---,---,---,35,---,---,---,---,1 Liquid Fire,3 Good Buckler,,-16 Wood (x8),+25% Sale Price (x16),Reflective Shield (x30),-25% Time (x45),-1 Buckler (x70),,735,980,"2,450"
+Aegis,21,650,Shields,"63,500",---,85,---,---,---,38,---,---,---,5,1 Liquid Fire,2 Great Tower Shield,,-25% Time (x8),-43 Wood (x16),-1 Tower Shield (x30),+50% Sale Price (x45),Amazon I (x70),,975,"1,300","3,250"
+Bulwark,22,825,Shields,"37,500",90,---,---,---,42,---,---,---,---,---,1 Liquid Fire,2 Good Heater Shield,,+50% Sale Price (x8),-1 Heater Shield (x16),-25% Time (x30),Good Quality (x45),Valkyrie Armor (x70),,"1,238","1,650","4,125"
+Reflective Shield,23,600,Shields,"29,500",95,---,---,---,46,---,---,---,6,---,2 Frozen Core,---,,-25% Time (x8),-19 Iron (x16),-1 Frozen Core (x30),Skeleton Shield (x45),+25% Sale Price (x70),,900,"1,200","3,000"
+Skeleton Shield,25,650,Shields,"39,500",---,105,---,---,---,55,---,---,9,---,2 Royal Bone,---,,-25% Time (x9),-21 Wood (x18),-1 Royal Bone (x30),Spiked Shield (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Spiked Shield,27,725,Shields,"82,500",120,---,---,---,65,---,---,---,---,14,2 Silver Steel,---,,-25% Time (x9),-24 Iron (x18),-1 Silver Steel (x30),Ember Shield (x50),+25% Sale Price (x80),,"1,088","1,450","3,625"
+Ember Shield,29,800,Shields,"135,000",140,---,---,---,75,---,---,---,15,---,1 Phoenix Feather,3 Yggdrasil Leaf,,-25% Time (x9),-28 Iron (x18),-2 Yggdrasil Leaf (x30),Argus' Shield (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Crystal Shield,30,"1,275",Shields,"760,000",145,---,---,---,80,---,---,---,17,20,2 Demon Heart,1 Flawless Aegis,,-25% Time (x9),-73 Iron (x18),-1 Demon Heart (x30),+50% Sale Price (x50),Supplier I (x80),,"1,913","2,550","6,375"
+Argus' Shield,31,875,Shields,"270,000",150,---,---,---,85,---,---,---,---,22,2 Demon Heart,2 Good Knight Shield,,-25% Time (x10),-30 Iron (x20),-1 Knight Shield (x35),Blessed Aegis (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Blessed Aegis,34,"1,000",Shields,"470,000",---,175,---,---,---,100,---,---,24,---,2 Sun Tear,2 Great Moonlight Shield,,-25% Time (x11),-1 Moonlight Shield (x22),-1 Sun Tear (x40),Hawk Shield (x60),+25% Sale Price (x90),,"1,500","2,000","5,000"
+Dragon Skull,37,"1,400",Shields,"2,000,000",---,210,---,---,---,115,---,---,29,34,2 Dragon Scale,2 Flawless Skeleton Shield,,-25% Time (x12),-1 Skeleton Shield (x24),-1 Dragon Scale (x40),+50% Sale Price (x65),Commander1 (x100),,"2,100","2,800","7,000"
+Hawk Shield,38,"1,175",Shields,"715,000",---,220,---,---,---,120,---,---,31,36,2 Dark Energy,1 Flawless Spiked Shield,,-25% Time (x12),-44 Wood (x24),-1 Dark Energy (x40),Twilight Aegis (x65),+25% Sale Price (x100),,"1,763","2,350","5,875"
+Giantshield,39,"1,800",Shields,"3,750,000",235,---,---,---,125,---,---,---,32,38,2 Adamantium,1 Flawless Ember Shield,,-25% Time (x13),-118 Iron (x26),-1 Adamantium (x45),+50% Sale Price (x70),Crush (x110),,"2,700","3,600","9,000"
+Twilight Aegis,41,"1,300",Shields,"1,400,000",---,275,---,---,---,135,---,---,36,42,1 Ancient Essence,2 Flawless Reflective Shield,,-25% Time (x13),-55 Wood (x26),-27 Hardwood (x45),-1 Reflective Shield (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Medusa Buckler,47,"1,950",Shields,"14,250,000",---,425,---,---,---,170,---,---,55,65,2 Obsidian Coral,1 Great Dragon Skull,,-25% Time (x15),-213 Wood (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Stoneskin (x130),,"2,925","3,900","9,750"
+Oracle Shield,50,"2,525",Shields,"20,150,000",500,---,---,---,200,---,---,---,85,100,2 Primal Horn,1 Flawless Strength Seed,,-25% Time (x15),-250 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Detectsecrets (x130),,"3,788","5,050","12,625"
+Circlet,1,9,Hats,10,---,---,2,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Hood (x6),-1 Leather (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Hood,2,22,Hats,28,---,---,3,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Monk's Hat (x8),-1 Leather (x15),-1 Leather (x25),Good Quality (x40),,33,44,110
+Monk's Hat,3,38,Hats,130,---,---,5,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x4),Buckle Hat (x8),-1 Leather (x15),-1 Elven Dew (x25),Good Quality (x40),,57,76,190
+Buckle Hat,6,96,Hats,335,---,---,15,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Plumed Hat (x10),-2 Leather (x20),-3 Leather (x30),Good Quality (x50),,144,192,480
+Robin's Hood,8,175,Hats,"2,000",---,---,21,---,---,---,---,---,---,---,2 Rainbow Dust,1 Good Hood,,+50% Sale Price (x6),-11 Leather (x12),-1 Rainbow Dust (x20),Good Quality (x30),Treasure Hunter I (x50),,263,350,875
+Pumpkinhead,8,215,Hats,"2,150",---,11,21,---,---,2,---,---,---,---,2 Burning Ember,1 Hood,,-6 Wood (x6),-1 Burning Ember (x12),+50% Sale Price (x20),Good Quality (x30),Reaper (x50),,323,430,"1,075"
+Plumed Hat,8,140,Hats,755,---,---,21,---,---,---,---,---,---,---,2 Viper Essence,---,,+25% Sale Price (x6),Thief's Hood (x12),-4 Leather (x20),-1 Viper Essence (x30),Good Quality (x50),,210,280,700
+Thief's Hood,9,165,Hats,"1,150",---,---,25,---,---,---,4,---,---,---,2 Hood,---,,+25% Sale Price (x6),Noble Tiara (x12),-5 Leather (x20),-1 Hood (x30),Good Quality (x50),,248,330,825
+Noble Tiara,11,220,Hats,"2,100",9,---,35,---,---,---,6,---,---,---,3 Shiny Gem,1 Good Circlet,,-2 Iron (x6),+25% Sale Price (x12),Light Visage (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Light Visage,13,270,Hats,"3,150",11,---,45,---,---,---,10,---,---,---,---,---,,-9 Leather (x7),+25% Sale Price (x14),Scarlet Coif (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Scarlet Coif,15,330,Hats,"9,100",---,---,55,---,---,---,16,---,---,---,2 Good Plumed Hat,---,,-11 Leather (x7),+25% Sale Price (x14),Magic Top (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Magic Top,19,460,Hats,"21,000",---,---,75,---,---,---,32,---,4,---,3 Wyvern Wing,---,,-15 Leather (x8),+25% Sale Price (x16),Silver Crown (x30),-25% Time (x45),-1 Wyvern Wing (x70),,690,920,"2,300"
+Silver Crown,21,525,Hats,"38,000",21,---,85,---,10,---,38,---,5,---,2 Frozen Core,2 Good Noble Tiara,,-25% Time (x8),-17 Leather (x16),-1 Frozen Core (x30),Elven Coif (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Elven Coif,24,625,Hats,"65,500",---,---,100,---,---,---,50,---,8,---,2 Scarlet Coif,---,,-25% Time (x9),-10 Fabric (x18),-1 Scarlet Coif (x30),Dark Visage (x50),+25% Sale Price (x80),,938,"1,250","3,125"
+Golden Crown,25,825,Hats,"265,000",26,---,105,---,14,---,55,---,---,8,2 Silver Steel,1 Flawless Silver Crown,,-25% Time (x9),-13 Iron (x18),-1 Silver Steel (x30),+50% Sale Price (x50),Gold Digger I (x80),,"1,238","1,650","4,125"
+Wise Cap,27,"1,100",Hats,"380,000",---,---,120,---,---,---,65,---,---,---,2 Great Magic Top,6 Rainbow Dust,,-25% Time (x9),-3 Rainbow Dust (x18),-1 Magic Top (x30),+50% Sale Price (x50),Wise I (x80),,"1,650","2,200","5,500"
+Dark Visage,28,775,Hats,"105,000",33,---,130,---,18,---,70,---,16,---,3 Liquid Fire,2 Good Light Visage,,-25% Time (x9),-26 Leather (x18),-1 Liquid Fire (x30),Shadowhood (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Shadowhood,31,875,Hats,"140,000",---,---,150,---,---,---,85,---,22,---,2 Demon Heart,2 Good Thief's Hood,,-25% Time (x10),-30 Leather (x20),-1 Thief's Hood (x35),Archwizard's Hat (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Archwizard's Hat,33,950,Hats,"400,000",---,---,170,---,---,---,95,---,26,---,2 Golden Thread,2 Great Whispering Wand,,-25% Time (x10),-1 Whispering Wand (x20),-1 Golden Thread (x35),Runic Coif (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Runic Tiara,34,"1,500",Hats,"615,000",44,---,175,---,25,---,100,---,28,21,2 Sun Tear,2 Epic Noble Tiara,,-25% Time (x11),-88 Leather (x22),-1 Sun Tear (x40),+50% Sale Price (x60),Arch Wizard I (x90),,"2,250","3,000","7,500"
+Thunder Crown,36,"1,350",Hats,"1,650,000",50,---,200,---,28,---,110,---,32,24,2 Dark Energy,1 Flawless Golden Crown,,-25% Time (x12),-100 Leather (x24),-1 Dark Energy (x40),+50% Sale Price (x65),Thunderbolt (x100),,"2,025","2,700","6,750"
+Runic Coif,36,"1,075",Hats,"575,000",---,---,200,---,---,---,110,---,32,24,2 Phoenix Feather,2 Good Elven Coif,,-25% Time (x12),-40 Leather (x24),-1 Phoenix Feather (x40),Jade Visage (x65),+25% Sale Price (x100),,"1,613","2,150","5,375"
+Jorou's Crown,38,"1,750",Hats,"920,000",---,110,220,---,---,60,120,---,36,27,2 Sun Tear,1 Flawless Lion's Tail,,-25% Time (x13),-110 Leather (x26),-1 Sun Tear (x45),+50% Sale Price (x70),Protector II (x110),,"2,625","3,500","8,750"
+Demonic Visage,39,"1,800",Hats,"2,450,000",59,---,235,---,31,---,125,---,38,---,2 Adamantium,3 Demon Heart,,-25% Time (x13),-1 Demon Heart (x26),-1 Adamantium (x45),+50% Sale Price (x70),Fireball (x110),,"2,700","3,600","9,000"
+Jade Visage,40,"1,250",Hats,"1,000,000",63,---,250,---,33,---,130,---,40,30,2 Dragon Scale,2 Great Jade Amulet,,-25% Time (x13),-50 Leather (x26),-1 Jade Amulet (x45),-1 Dragon Scale (x70),+25% Sale Price (x110),,"1,875","2,500","6,250"
+Cultist's Hood,47,"1,950",Hats,"8,200,000",---,---,425,---,43,---,170,---,65,49,2 Shard Of Gaia,2 Flawless Shadowhood,,-25% Time (x15),-213 Leather (x30),-1 Shadowhood (x55),+50% Sale Price (x85),Shadowstep (x130),,"2,925","3,900","9,750"
+Royal Tiara,50,"2,525",Hats,"23,650,000",125,---,500,---,50,---,200,---,100,75,2 Primal Horn,2 Flawless Runic Tiara,,-25% Time (x15),-1 Primal Horn (x30),-1 Runic Tiara (x55),+50% Sale Price (x85),Gold Digger III (x130),,"3,788","5,050","12,625"
+Leather Bracers,1,9,Gloves,10,---,---,2,---,---,---,---,---,---,---,---,---,,Circlet (x3),-1 Leather (x6),Gloves (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Gloves,2,22,Gloves,28,---,---,3,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Wrist Guards (x8),-1 Leather (x15),-1 Leather (x25),Good Quality (x40),,33,44,110
+Wrist Guards,3,38,Gloves,160,---,3,5,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x4),Padded Gloves (x8),-1 Leather (x15),-1 Elven Dew (x25),Good Quality (x40),,57,76,190
+Padded Gloves,5,76,Gloves,410,---,---,11,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x5),Fur Gloves (x10),-2 Leather (x20),-1 Iron Wood (x30),Good Quality (x50),,114,152,380
+Fur Gloves,7,120,Gloves,790,---,---,18,---,---,---,---,---,---,---,3 Gloves,---,,+25% Sale Price (x5),Woven Bracers (x10),-4 Leather (x20),-1 Gloves (x30),Good Quality (x50),,180,240,600
+Venomous Hands,9,210,Gloves,"1,400",---,---,25,---,---,---,---,---,---,---,3 Viper Essence,---,,+50% Sale Price (x6),-13 Leather (x12),-1 Viper Essence (x20),Good Quality (x30),Backstab (x50),,315,420,"1,050"
+Woven Bracers,10,190,Gloves,"1,300",---,---,30,---,---,---,---,---,---,---,1 Wrist Guards,---,,+25% Sale Price (x6),Dexterous Gloves (x12),-3 Leather (x20),-6 Leather (x30),Good Quality (x50),,285,380,950
+Dexterous Gloves,12,245,Gloves,"3,150",---,---,40,---,---,---,8,---,---,---,2 Rainbow Dust,---,,-8 Leather (x6),+25% Sale Price (x12),Elemental Bracers (x20),-25% Time (x30),Good Quality (x50),,368,490,"1,225"
+Wisdom Gloves,14,450,Gloves,"17,000",---,---,50,---,---,---,12,---,---,---,2 Wyvern Wing,2 Good Padded Gloves,,+50% Sale Price (x7),-25% Time (x14),-1 Wyvern Wing (x25),Good Quality (x40),Wisdom Potion (x60),,675,900,"2,250"
+Elemental Bracers,14,300,Gloves,"5,250",---,25,50,---,---,---,12,---,---,---,1 Iron Carapace,---,,-10 Leather (x7),+25% Sale Price (x14),Flaming Hands (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Grandmaster Gloves,15,420,Gloves,"17,000",---,---,55,---,---,8,16,---,---,2,1 Great Dexterous Gloves,---,,-28 Leather (x7),+50% Sale Price (x14),-25% Time (x25),Good Quality (x40),Wise I (x60),,630,840,"2,100"
+Flaming Hands,16,360,Gloves,"8,650",---,---,60,---,---,---,20,---,---,---,3 Burning Ember,2 Good Padded Gloves,,-12 Leather (x7),+25% Sale Price (x14),Royal Bracers (x25),-25% Time (x40),-1 Burning Ember (x60),,540,720,"1,800"
+Shadowed Gloves,18,625,Gloves,"33,000",---,---,70,---,---,---,28,---,4,---,3 Wyvern Wing,1 Good Venomous Hands,,-35 Leather (x8),+50% Sale Price (x16),-25% Time (x30),-1 Wyvern Wing (x45),Gangster I (x70),,938,"1,250","3,125"
+Royal Bracers,20,490,Gloves,"18,500",---,40,80,---,---,18,35,---,5,---,1 Royal Bone,---,,-16 Leather (x8),+25% Sale Price (x16),Alchemist Gloves (x30),-25% Time (x45),-7 Fabric (x70),,735,980,"2,450"
+Alchemist Gloves,22,550,Gloves,"30,500",---,---,90,---,---,21,42,---,---,---,1 Liquid Fire,3 Good Fur Gloves,,-25% Time (x8),-18 Leather (x16),-1 Fur Gloves (x30),Mage Bracers (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Mage Bracers,24,625,Gloves,"41,500",---,50,100,---,---,25,50,---,8,---,1 Yggdrasil Leaf,2 Good Woven Bracers,,-25% Time (x9),-20 Leather (x18),-1 Woven Bracers (x30),Sorcerer's Bracers (x50),+25% Sale Price (x80),,938,"1,250","3,125"
+Sorcerer's Bracers,26,700,Gloves,"72,500",---,55,110,---,---,30,60,---,12,9,1 Silver Steel,2 Elemental Bracers,,-25% Time (x9),-22 Leather (x18),-1 Elemental Bracers (x30),Shield Bracers (x50),+25% Sale Price (x80),,"1,050","1,400","3,500"
+Shield Bracers,30,850,Gloves,"160,000",---,73,145,---,---,40,80,---,20,15,2 Phoenix Feather,1 Great Royal Bracers,,-25% Time (x9),-29 Leather (x18),-1 Phoenix Feather (x30),Angel Gloves (x50),+25% Sale Price (x80),,"1,275","1,700","4,250"
+Angel Gloves,35,"1,050",Gloves,"355,000",---,---,185,---,---,---,105,53,30,23,3 Golden Thread,2 Great Flaming Hands,,-25% Time (x11),-1 Flaming Hands (x22),-1 Golden Thread (x40),Runic Bracers (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Freezing Bracers,36,"1,625",Gloves,"1,300,000",---,100,200,---,---,55,---,---,32,24,7 Frozen Core,2 Flawless Mage Bracers,,-25% Time (x12),-3 Frozen Core (x24),-1 Mage Bracers (x40),+50% Sale Price (x65),Arch Wizard I (x100),,"2,438","3,250","8,125"
+Runic Bracers,37,"1,125",Gloves,"585,000",---,105,210,---,---,---,115,58,34,26,2 Demon Heart,1 Flawless Sorcerer's Bracers,,-25% Time (x13),-42 Leather (x26),-1 Demon Heart (x45),Cindari Gloves (x70),+25% Sale Price (x110),,"1,688","2,250","5,625"
+Nightstalker Gloves,38,"1,450",Gloves,"1,500,000",---,---,220,---,---,60,120,---,36,27,2 Epic Alchemist Gloves,2 Great Invisibility Scroll,,-25% Time (x13),-110 Leather (x26),-1 Alchemist Gloves (x45),+50% Sale Price (x70),Lucky I (x110),,"2,175","2,900","7,250"
+Death Grip,39,"1,800",Gloves,"2,750,000",---,---,235,---,---,63,125,---,38,29,3 Dark Energy,1 Flawless Angel Gloves,,-25% Time (x13),-118 Leather (x26),-1 Dark Energy (x45),+50% Sale Price (x70),Amazon I (x110),,"2,700","3,600","9,000"
+Cindari Gloves,41,"1,300",Gloves,"810,000",---,---,275,---,---,---,135,68,42,32,2 Sun Tear,1 Flawless Light Amulet,,-25% Time (x14),-55 Leather (x28),-27 Fabric (x50),-1 Sun Tear (x80),+25% Sale Price (x120),,"1,950","2,600","6,500"
+Frostfire Gloves,45,"1,825",Gloves,"7,950,000",---,---,375,---,---,78,155,---,55,41,2 Frostfire Crystal,1 Great Freezing Bracers,,-25% Time (x14),-188 Leather (x28),-1 Frostfire Crystal (x50),+50% Sale Price (x80),Cone-of-cold (x120),,"2,738","3,650","9,125"
+Archangel Gloves,49,"2,450",Gloves,"16,750,000",---,---,475,---,---,95,190,---,80,60,3 Shard Of Gaia,2 Flawless Coldfire Dust,,-25% Time (x15),-238 Leather (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Revive II (x130),,"3,675","4,900","12,250"
+Sandals,1,9,Footwear,16,---,1,2,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),Shoes (x6),-1 Leather (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Shoes,2,22,Footwear,44,---,2,3,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Leather Shoes (x8),-1 Leather (x15),-1 Wood (x25),Good Quality (x40),,33,44,110
+Druidic Shoes,3,58,Footwear,210,---,3,---,---,---,---,---,---,---,---,---,---,,-1 Wood (x4),-1 Wood (x8),Good Quality (x15),Great Quality (x25),Wisdom Gloves (x40),,87,116,290
+Leather Shoes,4,56,Footwear,185,---,4,8,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Fur Loafers (x10),-2 Leather (x20),-1 Wood (x30),Good Quality (x50),,84,112,280
+Fur Loafers,6,96,Footwear,575,---,8,15,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Light Boots (x10),-3 Leather (x20),-1 Elven Dew (x30),Good Quality (x50),,144,192,480
+Light Boots,7,120,Footwear,915,---,9,18,---,---,---,---,---,---,---,2 Shoes,---,,+25% Sale Price (x5),Dancer Shoes (x10),-2 Wood (x20),-1 Shoes (x30),Good Quality (x50),,180,240,600
+Elven Boots,8,175,Footwear,"2,300",---,11,21,---,---,---,---,---,---,---,2 Rainbow Dust,---,,+50% Sale Price (x6),-11 Leather (x12),-1 Rainbow Dust (x20),Good Quality (x30),Wise I (x50),,263,350,875
+Dancer Shoes,9,165,Footwear,"1,500",---,13,25,---,---,---,4,---,---,---,1 Burning Ember,---,,+25% Sale Price (x6),Legion Sandals (x12),-5 Leather (x20),-1 Fabric (x30),Good Quality (x50),,248,330,825
+Legion Sandals,11,220,Footwear,"2,550",---,18,35,---,---,---,6,---,---,---,2 Great Sandals,---,,-7 Leather (x6),+25% Sale Price (x12),Horned Shoes (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Horned Shoes,14,300,Footwear,"5,750",---,25,50,---,---,6,12,---,---,---,1 Moon Shard,2 Good Shoes,,-5 Wood (x7),+25% Sale Price (x14),Golden Shoes (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Moon Walkers,15,500,Footwear,"16,500",---,28,55,---,---,8,16,---,---,---,2 Moon Shard,1 Good Dancer Shoes,,-28 Leather (x7),+50% Sale Price (x14),-1 Moon Shard (x25),Good Quality (x40),Energetic I (x60),,750,"1,000","2,500"
+Golden Shoes,17,390,Footwear,"9,050",---,33,65,---,---,12,24,---,---,---,---,---,,-7 Wood (x8),+25% Sale Price (x16),Plumed Loafers (x30),-25% Time (x45),-13 Leather (x70),,585,780,"1,950"
+Plumed Loafers,21,525,Footwear,"19,500",---,43,85,---,---,19,38,---,5,---,1 Wyvern Wing,2 Leather Shoes,,-25% Time (x8),-17 Leather (x16),-1 Leather Shoes (x30),Imperial Sandals (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Winged Sandals,22,700,Footwear,"65,500",---,45,90,---,---,21,---,---,---,5,3 Wyvern Wing,2 Great Legion Sandals,,-25% Time (x8),-1 Legion Sandals (x16),-1 Wyvern Wing (x30),+50% Sale Price (x45),Support I (x70),,"1,050","1,400","3,500"
+Imperial Sandals,25,650,Footwear,"37,500",---,53,105,---,---,28,---,---,10,---,2 Royal Bone,1 Good Legion Sandals,,-25% Time (x9),-11 Wood (x18),-1 Royal Bone (x30),Genji Getas (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Genji Getas,28,775,Footwear,"64,500",---,65,130,---,---,35,70,---,16,---,2 Liquid Fire,---,,-25% Time (x9),-26 Leather (x18),-1 Liquid Fire (x30),Floating Slippers (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Path Finders,29,"1,200",Footwear,"560,000",---,70,140,---,---,38,---,---,18,14,2 Flawless Moon Walkers,1 Good Teleportation Scroll,,-25% Time (x9),-70 Leather (x18),-1 Moon Walkers (x30),+50% Sale Price (x50),Resilient I (x80),,"1,800","2,400","6,000"
+Floating Slippers,31,875,Footwear,"120,000",---,75,150,---,---,43,---,---,---,---,2 Yggdrasil Leaf,1 Good Teleportation Scroll,,-25% Time (x10),-15 Wood (x20),-1 Yggdrasil Leaf (x35),Wind Walkers (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Wind Walkers,35,"1,050",Footwear,"380,000",---,93,185,---,---,53,105,---,30,---,3 Golden Thread,2 Good Plumed Loafers,,-25% Time (x11),-37 Leather (x22),-1 Golden Thread (x40),Arcane Sandals (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Arcane Sandals,37,"1,125",Footwear,"920,000",---,105,210,---,---,58,115,---,34,---,2 Dark Energy,1 Good Power Seal,,-25% Time (x12),-21 Wood (x24),-1 Dark Energy (x40),Adamantium Shoes (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Planeswalkers,38,"1,450",Footwear,"2,350,000",---,110,220,---,---,60,---,---,36,27,2 Sun Tear,1 Flawless Wind Walkers,,-25% Time (x13),-110 Leather (x26),-30 Hardwood (x45),+50% Sale Price (x70),Healer I (x110),,"2,175","2,900","7,250"
+Adamantium Shoes,39,"1,200",Footwear,"1,200,000",---,118,235,---,---,63,125,---,38,29,1 Adamantium,2 Flawless Mage Bracers,,-25% Time (x13),-24 Wood (x26),-1 Mage Bracers (x45),Jade Shoes (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Draconic Boots,40,"1,875",Footwear,"3,600,000",---,125,250,---,---,65,130,---,40,---,3 Dragon Scale,2 Flawless Winged Sandals,,-25% Time (x14),-125 Leather (x28),-1 Dragon Scale (x50),+50% Sale Price (x80),Protector I (x120),,"2,813","3,750","9,375"
+Jade Shoes,43,"1,375",Footwear,"1,900,000",---,163,325,---,---,73,145,---,48,36,1 Ancient Essence,2 Flawless Genji Getas,,-25% Time (x14),-65 Leather (x28),-33 Wood (x50),-1 Genji Getas (x80),+25% Sale Price (x120),,"2,063","2,750","6,875"
+Frostfire Shoes,45,"1,825",Footwear,"10,650,000",---,188,375,---,---,78,---,---,55,41,2 Frostfire Crystal,2 Flawless Rising Sun,,-25% Time (x14),-188 Leather (x28),-1 Rising Sun (x50),+50% Sale Price (x80),Arch Wizard II (x120),,"2,738","3,650","9,125"
+Firewalkers,49,"2,450",Footwear,"21,300,000",---,238,475,---,---,95,190,---,80,60,2 Shard Of Gaia,1 Great Draconic Boots,,-25% Time (x15),-238 Leather (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Magearmor (x130),,"3,675","4,900","12,250"
+Healing Herbs,1,9,Remedies,10,---,---,---,2,---,---,---,---,---,---,---,---,,+25% Sale Price (x3),-1 Herb (x6),Antidote (x10),Good Quality (x15),Great Quality (x20),,14,18,45
+Antidote,2,22,Remedies,44,---,---,---,3,---,---,---,---,---,---,1 Elven Dew,---,,+25% Sale Price (x4),Fungi Brew (x8),-1 Herb (x15),-1 Herb (x25),Good Quality (x40),,33,44,110
+Fungi Brew,3,38,Remedies,95,---,---,---,5,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x4),Elderflower (x8),-1 Herb (x15),-1 Shiny Gem (x25),Good Quality (x40),,57,76,190
+Elderflower,6,96,Remedies,385,---,---,---,15,---,---,---,---,---,---,2 Healing Herbs,---,,+25% Sale Price (x5),Healing Mix (x10),-2 Herb (x20),-3 Herb (x30),Good Quality (x50),,144,192,480
+Healing Mix,7,120,Remedies,690,---,---,---,18,---,---,---,---,---,---,2 Antidote,---,,+25% Sale Price (x5),Fire Moss (x10),-2 Herb (x20),-4 Herb (x30),Good Quality (x50),,180,240,600
+Colored Powder,8,175,Remedies,"2,200",---,---,---,21,---,---,---,---,---,---,1 Rainbow Dust,3 Health Vial,,+50% Sale Price (x6),-11 Herb (x12),-1 Health Vial (x20),Good Quality (x30),Energetic I (x50),,263,350,875
+Fire Moss,9,165,Remedies,"1,200",---,---,---,25,---,---,---,---,---,---,2 Burning Ember,---,,+25% Sale Price (x6),-3 Herb (x12),Sleeping Shrooms (x20),-5 Herb (x30),Good Quality (x50),,248,330,825
+Mistletoe,10,290,Remedies,"2,950",---,---,---,30,---,---,---,---,---,---,2 Rainbow Dust,---,,+50% Sale Price (x6),-15 Herb (x12),-1 Rainbow Dust (x20),Good Quality (x30),Candy Cane Pistol (x50),,435,580,"1,450"
+Sleeping Shrooms,11,220,Remedies,"2,200",---,---,---,35,---,---,---,6,---,---,2 Fungi Brew,---,,-7 Herb (x6),+25% Sale Price (x12),Bark Tea (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Bark Tea,13,270,Remedies,"3,500",---,---,---,45,---,---,---,10,---,---,4 Iron Wood,---,,-9 Herb (x7),+25% Sale Price (x14),Fairy Sprinkle (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Fairy Sprinkle,15,330,Remedies,"6,200",---,---,---,55,---,---,---,16,---,---,3 Rainbow Dust,---,,-11 Herb (x7),+25% Sale Price (x14),Anti-Venom (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Anti-venom,19,460,Remedies,"14,500",---,---,---,75,---,---,---,32,3,---,2 Wyvern Wing,3 Good Antidote,,-15 Herb (x8),+25% Sale Price (x16),Protection Dust (x30),-25% Time (x45),-1 Wyvern Wing (x70),,690,920,"2,300"
+Protection Dust,21,525,Remedies,"32,500",---,---,---,85,---,---,---,38,4,---,2 Royal Bone,3 Good Heater Shield,,-25% Time (x8),-17 Herb (x16),-1 Heater Shield (x30),Elven Cure (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Swift Seed,23,875,Remedies,"72,500",---,---,---,95,---,---,---,46,5,---,2 Liquid Fire,2 Good Hunting Knife,,-25% Time (x8),-1 Hunting Knife (x16),-1 Liquid Fire (x30),+50% Sale Price (x45),Gangster I (x70),,"1,313","1,750","4,375"
+Elven Cure,24,625,Remedies,"45,500",---,---,---,100,---,---,---,50,6,---,2 Good Elderflower,2 Yggdrasil Leaf,,-25% Time (x9),-20 Herb (x18),-1 Yggdrasil Leaf (x30),Angel Dust (x50),+25% Sale Price (x80),,938,"1,250","3,125"
+Rejuvenating Tea,26,875,Remedies,"120,000",---,---,---,110,---,---,---,60,9,---,3 Yggdrasil Leaf,1 Flawless Bark Tea,,-25% Time (x9),-55 Herb (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Healer I (x80),,"1,313","1,750","4,375"
+Angel Dust,28,775,Remedies,"92,000",---,---,---,130,---,---,---,70,12,---,2 Phoenix Feather,1 Great Harp,,-25% Time (x9),-26 Herb (x18),-1 Phoenix Feather (x30),Coldfire Dust (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Coldfire Dust,31,875,Remedies,"120,000",---,---,---,150,---,---,---,85,17,---,2 Golden Thread,3 Fire Moss,,-25% Time (x10),-30 Herb (x20),-2 Fire Moss (x35),Phoenix Dust (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Strength Seed,34,"1,500",Remedies,"1,150,000",---,---,---,175,---,---,---,100,21,---,2 Demon Heart,1 Flawless Pulverizer,,-25% Time (x11),-88 Herb (x22),-1 Demon Heart (x40),+50% Sale Price (x60),Commander1 (x90),,"2,250","3,000","7,500"
+Phoenix Dust,35,"1,050",Remedies,"410,000",---,---,---,185,---,---,---,105,23,---,2 Sun Tear,3 Good Fairy Sprinkle,,-25% Time (x11),-1 Fairy Sprinkle (x22),-1 Sun Tear (x40),Mystic Flower (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Panacea,37,"1,400",Remedies,"2,600,000",---,---,---,210,---,---,---,115,26,---,1 Dragon Scale,2 Flawless Rejuvenating Tea,,-25% Time (x12),-105 Herb (x24),-1 Rejuvenating Tea (x40),+50% Sale Price (x65),Healer I (x100),,"2,100","2,800","7,000"
+Mystic Flower,39,"1,200",Remedies,"880,000",---,---,---,235,---,---,---,125,29,---,1 Adamantium,2 Great Elven Cure,,-25% Time (x13),-47 Herb (x26),-1 Elven Cure (x45),Albizia (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Magic Seed,40,"1,875",Remedies,"5,550,000",---,---,---,250,---,---,---,130,30,---,3 Dark Energy,3 Flawless Ice Staff,,-25% Time (x13),-1 Ice Staff (x26),-1 Dark Energy (x45),+50% Sale Price (x70),Arch Wizard I (x110),,"2,813","3,750","9,375"
+Albizia,41,"1,300",Remedies,"1,100,000",---,---,---,275,---,---,---,135,32,---,1 Ancient Essence,3 Flawless Anti-Venom,,-25% Time (x13),-55 Herb (x26),-27 Oil (x45),-1 Anti-Venom (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Devil Dust,47,"1,950",Remedies,"6,150,000",---,---,---,425,---,---,---,170,49,---,2 Obsidian Coral,2 Flawless Angel Dust,,-25% Time (x15),-213 Herb (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Fireball (x130),,"2,925","3,900","9,750"
+Draconic Tea,50,"2,525",Remedies,"21,250,000",---,---,---,500,---,---,---,200,75,---,1 Primal Horn,2 Great Dragon's Blood,,-25% Time (x15),-250 Herb (x30),-1 Dragon's Blood (x55),+50% Sale Price (x85),Healer II (x130),,"3,788","5,050","12,625"
+Health Vial,3,38,Potions,75,---,---,---,5,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Mana Vial (x8),-1 Herb (x15),Good Quality (x25),Great Quality (x40),,57,76,190
+Mana Vial,4,56,Potions,175,---,---,---,8,---,---,---,---,---,---,1 Healing Herbs,---,,+25% Sale Price (x5),Speed Potion (x10),-1 Herb (x20),-2 Herb (x30),Good Quality (x50),,84,112,280
+Speed Potion,5,76,Potions,285,---,---,---,11,---,---,---,---,---,---,1 Elven Dew,---,,+25% Sale Price (x5),Love Splash (x10),-1 Herb (x20),-2 Herb (x30),Good Quality (x50),,114,152,380
+Love Splash,6,96,Potions,420,---,---,---,15,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Healing Potion (x10),-2 Herb (x20),-3 Herb (x30),Good Quality (x50),,144,192,480
+Healing Potion,7,120,Potions,740,---,---,---,18,---,---,---,---,---,---,1 Good Health Vial,---,,+25% Sale Price (x5),Toxic Vial (x10),-2 Herb (x20),-4 Herb (x30),Good Quality (x50),,180,240,600
+Toxic Vial,8,140,Potions,930,---,---,---,21,---,---,---,---,---,---,2 Viper Essence,---,,+25% Sale Price (x6),Health Drink (x12),-4 Herb (x20),-1 Viper Essence (x30),Good Quality (x50),,210,280,700
+Elixir Drops,9,210,Potions,"1,800",---,---,---,25,---,---,---,4,---,---,3 Elven Dew,---,,+50% Sale Price (x6),-13 Herb (x12),-1 Elven Dew (x20),Good Quality (x30),Lucky I (x50),,315,420,"1,050"
+Health Drink,10,190,Potions,"2,350",---,---,---,30,---,---,---,5,---,---,1 Elderflower,---,,+25% Sale Price (x6),Strength Potion (x12),-6 Herb (x20),-1 Oil (x30),Good Quality (x50),,285,380,950
+Strength Potion,13,270,Potions,"3,900",---,---,---,45,---,---,---,10,---,---,1 Speed Potion,---,,-9 Herb (x7),+25% Sale Price (x14),Warming Spray (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Warming Spray,15,330,Potions,"8,100",---,---,---,55,---,---,---,16,---,---,2 Burning Ember,1 Fire Moss,,-11 Herb (x7),+25% Sale Price (x14),Acidic Splash (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Acidic Splash,17,390,Potions,"11,000",---,---,---,65,---,---,---,24,3,2,1 Good Toxic Vial,---,,-13 Herb (x8),+25% Sale Price (x16),Health Potion (x30),-25% Time (x45),-5 Oil (x70),,585,780,"1,950"
+Health Potion,20,490,Potions,"26,500",---,---,---,80,---,---,---,35,5,4,2 Wyvern Wing,1 Good Health Drink,,-16 Herb (x8),+25% Sale Price (x16),Mana Potion (x30),-25% Time (x45),-1 Wyvern Wing (x70),,735,980,"2,450"
+Wisdom Potion,22,825,Potions,"40,000",---,---,---,90,---,---,---,42,---,---,1 Liquid Fire,2 Good Healing Potion,,+50% Sale Price (x8),-1 Healing Potion (x16),-25% Time (x30),Good Quality (x45),Njord (x70),,"1,238","1,650","4,125"
+Mana Potion,22,550,Potions,"75,500",---,---,---,90,---,---,---,42,6,5,3 Liquid Fire,---,,-25% Time (x8),-18 Herb (x16),-1 Liquid Fire (x30),Golden Potion (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Demon's Blood,24,950,Potions,"125,000",---,---,---,100,---,---,---,50,8,6,3 Liquid Fire,---,,-25% Time (x9),-50 Herb (x18),-1 Liquid Fire (x30),+50% Sale Price (x50),Speed Runner I (x80),,"1,425","1,900","4,750"
+Elixir,26,875,Potions,"170,000",---,---,---,110,---,---,---,60,12,10,3 Yggdrasil Leaf,2 Great Elixir Drops,,-25% Time (x9),-1 Elixir Drops (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Healer I (x80),,"1,313","1,750","4,375"
+Golden Potion,28,775,Potions,"130,000",---,---,---,130,---,---,---,70,16,13,1 Silver Steel,2 Good Warming Spray,,-25% Time (x9),-26 Herb (x18),-1 Warming Spray (x30),Life Potion (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Life Potion,31,875,Potions,"220,000",---,---,---,150,---,---,---,85,22,18,3 Yggdrasil Leaf,3 Good Strength Potion,,-25% Time (x10),-30 Herb (x20),-1 Yggdrasil Leaf (x35),Invincibility Potion (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Invincibility Potion,33,950,Potions,"995,000",---,---,---,170,---,---,---,95,26,21,3 Phoenix Feather,2 Great Bone Reaver,,-25% Time (x10),-1 Bone Reaver (x20),-1 Phoenix Feather (x35),Twilight Potion (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Dragon's Blood,34,"1,500",Potions,"1,200,000",---,---,---,175,---,---,---,100,28,22,1 Dragon Scale,2 Flawless Health Potion,,-25% Time (x11),-88 Herb (x22),-1 Health Potion (x40),+50% Sale Price (x60),Gold Digger I (x90),,"2,250","3,000","7,500"
+Megalixir,36,"1,350",Potions,"2,150,000",---,---,---,200,---,---,---,110,32,26,3 Sun Tear,1 Flawless Elixir,,-25% Time (x12),-100 Herb (x24),-1 Sun Tear (x40),+50% Sale Price (x65),Energetic I (x100),,"2,025","2,700","6,750"
+Twilight Potion,37,"1,125",Potions,"1,300,000",---,---,---,210,---,---,---,115,34,27,4 Dark Energy,3 Flawless Acidic Splash,,-25% Time (x12),-42 Herb (x24),-2 Dark Energy (x40),Clarity Potion (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Gods' Essence,39,"1,800",Potions,"4,700,000",---,---,---,235,---,---,---,125,38,30,1 Adamantium,2 Flawless Golden Potion,,-25% Time (x13),-118 Herb (x26),-1 Golden Potion (x45),+50% Sale Price (x70),Revive I (x110),,"2,700","3,600","9,000"
+Clarity Potion,40,"1,250",Potions,"2,000,000",---,---,---,250,---,---,---,130,40,32,4 Golden Thread,2 Flawless Mana Potion,,-25% Time (x13),-50 Herb (x26),-1 Mana Potion (x45),-2 Golden Thread (x70),+25% Sale Price (x110),,"1,875","2,500","6,250"
+Obsidian Potion,47,"1,950",Potions,"13,800,000",---,---,---,425,---,---,---,170,65,52,2 Obsidian Coral,1 Flawless Twilight Potion,,-25% Time (x15),-213 Herb (x30),-1 Obsidian Coral (x55),+50% Sale Price (x85),Aura of Protection (x130),,"2,925","3,900","9,750"
+Gaia's Essence,50,"2,525",Potions,"22,700,000",---,---,---,500,---,---,---,200,100,80,1 Shard Of Gaia,2 Great Invincibility Potion,,-25% Time (x15),-250 Herb (x30),-1 Invincibility Potion (x55),+50% Sale Price (x85),Healer II (x130),,"3,788","5,050","12,625"
+Shielding Seal,5,76,Spells,330,---,---,11,---,---,---,---,---,---,---,1 Shiny Gem,---,,+25% Sale Price (x5),Fireball Scroll (x10),-2 Leather (x20),Good Quality (x30),Great Quality (x50),,114,152,380
+Fireball Scroll,7,120,Spells,935,---,---,18,---,---,---,---,---,---,---,1 Burning Ember,---,,+25% Sale Price (x5),Poison Scroll (x10),-2 Leather (x20),-4 Leather (x30),Good Quality (x50),,180,240,600
+Poison Scroll,8,140,Spells,"1,450",---,---,21,---,---,---,---,---,---,---,3 Viper Essence,---,,+25% Sale Price (x6),Lightning Scroll (x12),-4 Leather (x20),-1 Viper Essence (x30),Good Quality (x50),,210,280,700
+Lightning Scroll,9,165,Spells,"2,700",---,---,25,---,---,---,---,---,---,---,2 Rainbow Dust,---,,+25% Sale Price (x6),Sleeping Totem (x12),-5 Leather (x20),-1 Rainbow Dust (x30),Good Quality (x50),,248,330,825
+Sleeping Totem,11,220,Spells,"4,450",---,18,---,35,---,---,---,6,---,---,5 Elven Dew,---,,-4 Wood (x6),+25% Sale Price (x12),Firewall Scroll (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Firewall Scroll,12,245,Spells,"5,850",---,---,40,---,---,---,7,8,---,---,3 Burning Ember,---,,-8 Leather (x6),+25% Sale Price (x12),Deflection Seal (x20),-25% Time (x30),Good Quality (x50),,368,490,"1,225"
+Pain Totem,13,340,Spells,"12,500",---,23,---,45,---,5,---,---,---,---,2 Iron Carapace,---,,+50% Sale Price (x7),-12 Wood (x14),-1 Iron Carapace (x25),Good Quality (x40),Brothers-in-arms I (x60),,510,680,"1,700"
+Deflection Seal,14,300,Spells,"8,150",25,---,---,---,6,---,---,---,---,---,2 Iron Carapace,---,,-5 Iron (x7),+25% Sale Price (x14),Freezing Scroll (x25),-25% Time (x40),-1 Iron Carapace (x60),,450,600,"1,500"
+Freezing Scroll,16,360,Spells,"16,500",---,---,60,---,---,---,17,20,3,---,1 Frozen Core,1 Good Scarlet Drop,,-12 Leather (x7),+25% Sale Price (x14),Invisibility Scroll (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Invisibility Scroll,18,420,Spells,"23,500",---,---,70,---,---,---,---,28,4,---,3 Moon Shard,1 Good Poison Scroll,,-14 Leather (x8),+25% Sale Price (x16),Teleportation Scroll (x30),-25% Time (x45),-1 Moon Shard (x70),,630,840,"2,100"
+Teleportation Scroll,21,525,Spells,"40,000",---,---,85,---,---,---,32,38,5,---,1 Liquid Fire,1 Good Lightning Scroll,,-25% Time (x8),-17 Leather (x16),-8 Oil (x30),Paralysis Totem (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Magical Codex,23,875,Spells,"130,000",---,---,95,---,---,---,39,46,7,6,2 Liquid Fire,1 Great Hanging Journal,,-25% Time (x8),-48 Leather (x16),-1 Liquid Fire (x30),+50% Sale Price (x45),Wise I (x70),,"1,313","1,750","4,375"
+Paralysis Totem,24,625,Spells,"86,500",---,50,---,100,---,25,---,---,8,6,2 Yggdrasil Leaf,1 Good Sleeping Totem,,-25% Time (x9),-10 Wood (x18),-1 Yggdrasil Leaf (x30),Possession Scroll (x50),+25% Sale Price (x80),,938,"1,250","3,125"
+Evil Seal,26,875,Spells,"305,000",55,---,---,---,30,---,---,60,12,10,2 Silver Steel,2 Great Deflection Seal,,-25% Time (x9),-28 Iron (x18),-1 Deflection Seal (x30),+50% Sale Price (x50),Energetic I (x80),,"1,313","1,750","4,375"
+Possession Scroll,28,775,Spells,"115,000",---,---,130,---,---,---,60,70,16,13,1 Phoenix Feather,1 Great Love Splash,,-25% Time (x9),-26 Leather (x18),-14 Oil (x30),Power Seal (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Power Seal,30,850,Spells,"405,000",73,---,---,---,40,---,---,80,20,16,2 Silver Steel,1 Bloodlust Gauntlets,,-25% Time (x9),-15 Iron (x18),-1 Silver Steel (x30),Gloom Totem (x50),+25% Sale Price (x80),,"1,275","1,700","4,250"
+Njord,30,"1,275",Spells,"580,000",---,---,145,---,---,---,68,80,20,16,2 Golden Thread,2 Good Freezing Scroll,,-25% Time (x9),-73 Leather (x18),-1 Golden Thread (x30),+50% Sale Price (x50),Valkyrie's Wisdom (x80),,"1,913","2,550","6,375"
+Gloom Totem,32,925,Spells,"635,000",---,83,---,165,---,45,---,---,24,19,2 Demon Heart,1 Great Paralysis Totem,,-25% Time (x10),-17 Wood (x20),-1 Demon Heart (x35),Disintegration Scroll (x55),+25% Sale Price (x90),,"1,388","1,850","4,625"
+Arcane Compendium,33,"1,450",Spells,"1,950,000",---,---,170,---,---,---,81,95,26,21,2 Sun Tear,1 Flawless Possession Scroll,,-25% Time (x10),-85 Leather (x20),-1 Sun Tear (x35),+50% Sale Price (x55),Arch Wizard I (x90),,"2,175","2,900","7,250"
+Disintegration Scroll,35,"1,050",Spells,"935,000",---,---,185,---,---,---,89,105,30,24,2 Dark Energy,1 Good Death Stick,,-25% Time (x11),-37 Leather (x22),-1 Dark Energy (x40),Hawk Totem (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Return Scroll,37,"1,400",Spells,"1,600,000",---,---,210,---,---,---,98,115,34,27,2 Dark Energy,1 Flawless Golden Potion,,-25% Time (x12),-105 Leather (x24),-1 Dark Energy (x40),+50% Sale Price (x65),Scavenger I (x100),,"2,100","2,800","7,000"
+Hawk Totem,38,"1,175",Spells,"1,300,000",---,110,---,220,---,60,---,---,36,29,2 Dragon Scale,2 Flawless Hawk,,-25% Time (x13),-22 Wood (x26),-1 Dragon Scale (x45),Twilight Seal (x70),+25% Sale Price (x110),,"1,763","2,350","5,875"
+Divine Tome,40,"1,875",Spells,"4,850,000",---,---,250,---,---,---,111,130,40,32,2 Adamantium,1 Flawless Magical Codex,,-25% Time (x13),-125 Leather (x26),-1 Adamantium (x45),+50% Sale Price (x70),Revive I (x110),,"2,813","3,750","9,375"
+Twilight Seal,41,"1,300",Spells,"1,700,000",138,---,---,---,68,---,---,135,42,34,1 Ancient Essence,1 Flawless Silvered Greaves,,-25% Time (x13),-28 Iron (x26),-14 Steel (x45),-27 Oil (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Haunted Scroll,47,"1,950",Spells,"11,250,000",---,---,425,---,---,---,145,170,65,52,2 Shard Of Gaia,2 Great Possession Scroll,,-25% Time (x15),-213 Leather (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Shadowstep (x130),,"2,925","3,900","9,750"
+Guardian Seal,50,"2,525",Spells,"17,850,000",250,---,---,---,100,---,---,200,100,80,2 Primal Horn,1 Flawless Power Seal,,-25% Time (x15),-125 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Stoneskin (x130),,"3,788","5,050","12,625"
+Darts,2,22,Projectiles,70,3,3,---,---,---,---,---,---,---,---,---,---,,-1 Iron (x4),Sling (x8),-1 Wood (x15),Good Quality (x25),Great Quality (x40),,33,44,110
+Sling,3,38,Projectiles,150,5,---,4,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Boomerang (x8),-1 Leather (x15),-1 Iron (x25),Good Quality (x40),,57,76,190
+Boomerang,4,56,Projectiles,215,---,8,---,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Kunai (x10),-2 Wood (x20),-1 Shiny Gem (x30),Good Quality (x50),,84,112,280
+Kunai,6,96,Projectiles,550,15,---,---,---,---,---,---,---,---,---,2 Elven Dew,---,,Pistol (x5),Poison Darts (x10),+25% Sale Price (x20),-1 Elven Dew (x30),Good Quality (x50),,144,192,480
+Poison Darts,7,120,Projectiles,"1,800",18,18,---,5,---,---,---,---,---,---,3 Viper Essence,---,,+25% Sale Price (x5),Smoke Bomb (x10),-4 Iron (x20),-1 Viper Essence (x30),Good Quality (x50),,180,240,600
+Smoke Bomb,9,165,Projectiles,"2,600",---,25,19,6,---,---,---,---,---,---,1 Fungi Brew,1 Rainbow Dust,,+25% Sale Price (x6),Metal Boomerang (x12),-5 Wood (x20),-4 Leather (x30),Good Quality (x50),,248,330,825
+Metal Boomerang,11,220,Projectiles,"3,900",35,---,---,---,6,---,---,---,---,---,2 Boomerang,---,,-7 Iron (x6),+25% Sale Price (x12),Sleeping Bomb (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Toxic Bomb,12,310,Projectiles,"12,000",---,40,---,10,---,---,---,6,---,---,3 Viper Essence,1 Good Smoke Bomb,,+50% Sale Price (x6),-20 Wood (x12),-2 Viper Essence (x20),Good Quality (x30),Gangster I (x50),,465,620,"1,550"
+Sleeping Bomb,13,270,Projectiles,"6,100",45,---,---,11,10,---,---,8,---,---,1 Love Splash,---,,-2 Herb (x7),+25% Sale Price (x14),Shock Darts (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Shock Darts,15,330,Projectiles,"13,000",55,55,---,---,16,16,---,---,---,---,1 Moon Shard,2 Great Darts,,-11 Iron (x7),+25% Sale Price (x14),Shuriken (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Shuriken,18,420,Projectiles,"21,000",70,---,---,---,28,---,---,21,---,---,3 Kunai,---,,-14 Iron (x8),+25% Sale Price (x16),Elasti-Sling (x30),-25% Time (x45),-1 Kunai (x70),,630,840,"2,100"
+Elasti-sling,20,490,Projectiles,"32,000",80,---,60,---,---,---,---,26,---,---,3 Wyvern Wing,---,,-16 Iron (x8),+25% Sale Price (x16),Chakram (x30),-25% Time (x45),-1 Wyvern Wing (x70),,735,980,"2,450"
+Bladed Feather,22,825,Projectiles,"43,500",90,---,---,---,42,---,---,---,---,---,1 Liquid Fire,2 Good Plumed Hat,,+50% Sale Price (x8),-1 Plumed Hat (x16),-25% Time (x30),Good Quality (x45),Valkyrie's Touch (x70),,"1,238","1,650","4,125"
+Chakram,22,550,Projectiles,"54,000",90,---,---,---,42,---,---,---,---,5,2 Yggdrasil Leaf,---,,-25% Time (x8),-18 Iron (x16),-1 Yggdrasil Leaf (x30),Steelarang (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Magic Shuriken,24,775,Projectiles,"155,000",100,---,---,---,50,---,---,---,6,---,2 Liquid Fire,1 Great Shuriken,,-25% Time (x9),-50 Iron (x18),-1 Liquid Fire (x30),+50% Sale Price (x50),Parry (x80),,"1,163","1,550","3,875"
+Singing Chakram,26,"1,050",Projectiles,"175,000",110,---,---,---,60,---,---,---,---,9,2 Yggdrasil Leaf,1 Good Oud,,-25% Time (x9),-55 Iron (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Healer I (x80),,"1,575","2,100","5,250"
+Steelarang,28,775,Projectiles,"93,000",130,---,---,---,70,---,---,---,12,---,2 Silver Steel,---,,-25% Time (x9),-26 Iron (x18),-1 Silver Steel (x30),Seeking Kunai (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Seeking Kunai,30,850,Projectiles,"180,000",145,---,---,---,80,---,---,---,15,---,2 Demon Heart,1 Flawless Kunai,,-25% Time (x9),-29 Iron (x18),-1 Demon Heart (x30),Shredder (x50),+25% Sale Price (x80),,"1,275","1,700","4,250"
+Shredder,33,950,Projectiles,"280,000",170,---,---,43,95,---,---,71,20,---,2 Dark Energy,---,,-25% Time (x10),-34 Iron (x20),-1 Dark Energy (x35),Light Boomerang (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Exploding Darts,35,"1,300",Projectiles,"785,000",185,185,---,---,105,105,---,79,---,---,2 Sun Tear,1 Flawless Shock Darts,,-25% Time (x11),-93 Iron (x22),-1 Sun Tear (x40),+50% Sale Price (x60),Fireball (x90),,"1,950","2,600","6,500"
+Heart Piercer,36,"1,625",Projectiles,"2,650,000",200,---,---,---,110,---,---,---,24,---,2 Dragon Scale,1 Flawless Seeking Kunai,,-25% Time (x12),-100 Iron (x24),-1 Dragon Scale (x40),+50% Sale Price (x65),Gangster I (x100),,"2,438","3,250","8,125"
+Light Boomerang,37,"1,125",Projectiles,"500,000",210,---,---,---,115,---,---,86,26,26,2 Sun Tear,---,,-25% Time (x12),-42 Iron (x24),-1 Sun Tear (x40),Dragon Darts (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Thunder Clap,38,"1,750",Projectiles,"2,000,000",---,220,---,---,---,120,---,90,27,---,4 Dark Energy,2 Epic Switch Blade,,-25% Time (x13),-1 Switch Blade (x26),-2 Dark Energy (x45),+50% Sale Price (x70),Thunderbolt (x110),,"2,625","3,500","8,750"
+Dragon Darts,39,"1,200",Projectiles,"1,100,000",235,---,---,---,125,---,---,94,29,29,1 Adamantium,1 Flawless Steelarang,,-25% Time (x13),-47 Iron (x26),-25 Steel (x45),-19 Oil (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Frostfire Kunai,45,"1,825",Projectiles,"8,150,000",375,---,---,---,155,---,---,116,41,41,2 Frostfire Crystal,2 Great Seeking Kunai,,-25% Time (x14),-188 Iron (x28),-1 Frostfire Crystal (x50),+50% Sale Price (x80),Treasure Hunter II (x120),,"2,738","3,650","9,125"
+Hell Bomb,49,"2,450",Projectiles,"20,100,000",---,475,---,---,---,190,---,143,60,60,7 Demon Heart,1 Flawless Thunder Clap,,-25% Time (x15),-238 Wood (x30),-3 Demon Heart (x55),+50% Sale Price (x85),Berserker (x130),,"3,675","4,900","12,250"
+Iron Band,2,22,Rings,32,3,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Rabbit Ring (x8),-1 Iron (x15),Good Quality (x25),Great Quality (x40),,33,44,110
+Rabbit Ring,4,56,Rings,155,8,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Shiny Pendant (x10),Jewel Ring (x20),-2 Iron (x30),Good Quality (x50),,84,112,280
+Jewel Ring,5,76,Rings,305,11,---,---,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Shadow Mark (x10),-2 Iron (x20),-1 Shiny Gem (x30),Good Quality (x50),,114,152,380
+Shadow Mark,6,96,Rings,470,15,---,---,---,---,---,---,---,---,---,1 Iron Band,---,,+25% Sale Price (x5),Crescent Ring (x10),-2 Iron (x20),-3 Iron (x30),Good Quality (x50),,144,192,480
+Crescent Ring,7,120,Rings,660,18,---,---,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Moonstone Ring (x10),-4 Iron (x20),-1 Elven Dew (x30),Good Quality (x50),,180,240,600
+Moonstone Ring,9,165,Rings,"1,250",25,---,---,---,---,---,---,---,---,---,2 Iron Wood,---,,+25% Sale Price (x6),Luck Band (x12),-3 Iron (x20),-5 Iron (x30),Good Quality (x50),,248,330,825
+Luck Band,11,220,Rings,"3,100",35,---,---,---,6,---,---,---,---,---,2 Rabbit Ring,---,,-7 Iron (x6),+25% Sale Price (x12),Soldier's Mark (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Gold Digger,12,310,Rings,"4,050",40,---,---,---,---,---,---,---,---,---,4 Iron Wood,5 Shiny Gem,,+50% Sale Price (x6),-4 Iron (x12),-3 Shiny Gem (x20),Good Quality (x30),Gold Digger I (x50),,465,620,"1,550"
+Soldier's Mark,13,270,Rings,"4,250",45,---,---,---,10,---,---,---,---,---,3 Dirk,---,,-9 Iron (x7),+25% Sale Price (x14),Fire Band (x25),-25% Time (x40),Good Quality (x60),,405,540,"1,350"
+Nimble Ring,14,450,Rings,"15,500",50,---,---,---,12,---,---,---,---,---,2 Moon Shard,2 Good Shadow Mark,,+50% Sale Price (x7),-25% Time (x14),-1 Moon Shard (x25),Good Quality (x40),Bladed Feather (x60),,675,900,"2,250"
+Fire Band,16,360,Rings,"10,000",60,---,---,---,20,---,---,---,---,3,5 Burning Ember,---,,-12 Iron (x7),+25% Sale Price (x14),Sight Band (x25),-25% Time (x40),-2 Burning Ember (x60),,540,720,"1,800"
+Sight Band,19,460,Rings,"16,000",75,---,---,---,32,---,---,---,---,4,1 Light Visage,---,,-15 Iron (x8),+25% Sale Price (x16),Undead Ring (x30),-25% Time (x45),-6 Steel (x70),,690,920,"2,300"
+Undead Ring,21,525,Rings,"32,000",85,---,---,---,38,---,---,---,4,5,2 Royal Bone,---,,-25% Time (x8),-17 Iron (x16),-1 Royal Bone (x30),Power Ring (x45),+25% Sale Price (x70),,788,"1,050","2,625"
+Power Ring,23,600,Rings,"52,000",95,---,---,---,46,---,---,---,5,7,2 Good Strength Potion,---,,-25% Time (x8),-19 Iron (x16),-1 Strength Potion (x30),Wisdom Mark (x45),+25% Sale Price (x70),,900,"1,200","3,000"
+Crusader Ring,25,825,Rings,"175,000",105,---,---,---,55,---,---,---,---,10,3 Silver Steel,3 Great Jewel Ring,,-25% Time (x9),-1 Jewel Ring (x18),-1 Silver Steel (x30),+50% Sale Price (x50),Brothers-in-arms I (x80),,"1,238","1,650","4,125"
+Prayer Ring,27,"1,100",Rings,"245,000",120,---,---,---,65,---,---,---,11,14,3 Royal Bone,3 Great Luck Band,,-25% Time (x9),-1 Luck Band (x18),-1 Royal Bone (x30),+50% Sale Price (x50),Revive I (x80),,"1,650","2,200","5,500"
+Wisdom Mark,28,775,Rings,"180,000",130,---,---,---,70,---,---,---,12,16,2 Magic Top,1 Good Luck Band,,-25% Time (x9),-26 Iron (x18),-1 Magic Top (x30),Resistance Band (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Resistance Band,31,875,Rings,"215,000",150,---,---,---,85,---,---,---,17,22,2 Demon Heart,2 Good Soldier's Mark,,-25% Time (x10),-30 Iron (x20),-1 Demon Heart (x35),Truth Ring (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Truth Ring,33,950,Rings,"470,000",170,---,---,---,95,---,---,---,20,26,3 Golden Thread,2 Great Sight Band,,-25% Time (x10),-1 Sight Band (x20),-1 Golden Thread (x35),Fallen Angel Ring (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Divine Mark,34,"1,500",Rings,"2,200,000",175,---,---,---,100,---,---,---,21,28,2 Sun Tear,1 Flawless Life Potion,,-25% Time (x11),-88 Iron (x22),-1 Sun Tear (x40),+50% Sale Price (x60),Amazon I (x90),,"2,250","3,000","7,500"
+Royal Ring,36,"1,350",Rings,"1,900,000",200,---,---,---,110,---,---,---,---,32,2 Dragon Scale,1 Flawless Crusader Ring,,-25% Time (x12),-100 Iron (x24),-1 Dragon Scale (x40),+50% Sale Price (x65),Leader I (x100),,"2,025","2,700","6,750"
+Fallen Angel Ring,37,"1,125",Rings,"950,000",210,---,---,---,115,---,---,---,26,34,2 Dark Energy,2 Great Power Ring,,-25% Time (x12),-42 Iron (x24),-1 Power Ring (x40),Lich Ring (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Oracle,39,"1,800",Rings,"4,350,000",235,---,---,---,125,---,---,---,29,38,2 Adamantium,1 Flawless Prayer Ring,,-25% Time (x13),-118 Iron (x26),-1 Adamantium (x45),+50% Sale Price (x70),Revive I (x110),,"2,700","3,600","9,000"
+Lich Ring,41,"1,300",Rings,"1,200,000",275,---,---,---,135,---,---,---,32,42,1 Ancient Essence,2 Great Undead Ring,,-25% Time (x13),-55 Iron (x26),-27 Steel (x45),-1 Undead Ring (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Azure Ring,45,"1,825",Rings,"16,750,000",375,---,---,---,155,---,---,---,---,55,2 Obsidian Coral,1 Flawless Royal Ring,,-25% Time (x14),-188 Iron (x28),-1 Obsidian Coral (x50),+50% Sale Price (x80),Riposte (x120),,"2,738","3,650","9,125"
+Antimagic Band,50,"2,525",Rings,"19,550,000",500,---,---,---,200,---,---,---,75,100,2 Primal Horn,2 Great Truth Ring,,-25% Time (x15),-250 Iron (x30),-1 Primal Horn (x55),+50% Sale Price (x85),Magearmor (x130),,"3,788","5,050","12,625"
+Shiny Pendant,3,38,Pendants,100,3,---,4,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Opal Necklace (x8),-1 Leather (x15),Good Quality (x25),Great Quality (x40),,57,76,190
+Opal Necklace,5,76,Pendants,320,6,---,8,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x5),Scarlet Drop (x10),-1 Leather (x20),-2 Leather (x30),Good Quality (x50),,114,152,380
+Scarlet Drop,6,96,Pendants,565,---,8,11,---,---,---,---,---,---,---,2 Shiny Gem,---,,+25% Sale Price (x5),Protection Pendant (x10),-2 Leather (x20),-1 Shiny Gem (x30),Good Quality (x50),,144,192,480
+Protection Pendant,8,140,Pendants,"1,050",---,11,16,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x6),Luna Charm (x12),-2 Wood (x20),-1 Elven Dew (x30),Good Quality (x50),,210,280,700
+Luna Charm,10,190,Pendants,"1,550",---,---,23,---,3,---,---,---,---,---,1 Shiny Pendant,1 Iron Wood,,+25% Sale Price (x6),Skeleton Ward (x12),-5 Leather (x20),-1 Steel (x30),Good Quality (x50),,285,380,950
+Wind Charm,11,270,Pendants,"5,850",18,---,26,---,---,---,---,---,---,---,3 Shiny Gem,2 Good Opal Necklace,,+50% Sale Price (x6),-13 Leather (x12),-1 Shiny Gem (x20),Good Quality (x30),Arch Wizard I (x50),,405,540,"1,350"
+Skeleton Ward,12,245,Pendants,"2,500",---,---,30,---,---,4,---,---,---,---,1 Shielding Seal,---,,-6 Leather (x6),+25% Sale Price (x12),Hanging Journal (x20),-25% Time (x30),Good Quality (x50),,368,490,"1,225"
+Hanging Journal,14,300,Pendants,"4,200",---,---,38,---,6,---,9,---,---,2,---,---,,-8 Leather (x7),+25% Sale Price (x14),Fiery Talisman (x25),-25% Time (x40),Good Quality (x60),,450,600,"1,500"
+Fiery Talisman,16,360,Pendants,"9,800",---,---,45,---,10,---,15,---,---,3,3 Burning Ember,1 Good Fireball Scroll,,-9 Leather (x7),+25% Sale Price (x14),Timeless Locket (x25),-25% Time (x40),Good Quality (x60),,540,720,"1,800"
+Azure Beads,18,625,Pendants,"36,500",---,---,53,---,14,---,---,---,---,4,2 Wyvern Wing,3 Good Scarlet Drop,,-27 Leather (x8),+50% Sale Price (x16),-25% Time (x30),-1 Wyvern Wing (x45),Giant's Hammer (x70),,938,"1,250","3,125"
+Timeless Locket,18,420,Pendants,"19,000",---,---,53,---,14,---,---,---,---,4,2 Frozen Core,---,,-11 Leather (x8),+25% Sale Price (x16),Jade Amulet (x30),-25% Time (x45),-1 Frozen Core (x70),,630,840,"2,100"
+Jade Amulet,20,490,Pendants,"26,500",---,---,60,---,18,---,---,---,5,5,2 Health Drink,---,,-12 Leather (x8),+25% Sale Price (x16),Obelisk Charm (x30),-25% Time (x45),-1 Health Drink (x70),,735,980,"2,450"
+Obelisk Charm,22,550,Pendants,"42,500",---,---,68,---,21,---,---,---,5,6,3 Good Luna Charm,---,,-25% Time (x8),-14 Leather (x16),-1 Luna Charm (x30),Light Amulet (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Turning Token,24,950,Pendants,"115,000",---,---,75,---,---,25,---,---,7,8,2 Silver Steel,1 Great Skeleton Ward,,-25% Time (x9),-38 Leather (x18),-1 Silver Steel (x30),+50% Sale Price (x50),Lucky I (x80),,"1,425","1,900","4,750"
+Light Amulet,25,650,Pendants,"79,500",---,---,79,---,---,28,---,---,9,10,2 Flaming Hands,---,,-25% Time (x9),-16 Leather (x18),-1 Flaming Hands (x30),Phoenix Talon (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Shielding Ward,27,925,Pendants,"200,000",---,---,90,---,33,---,---,---,13,14,3 Yggdrasil Leaf,2 Great Hanging Journal,,-25% Time (x9),-1 Hanging Journal (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Protector I (x80),,"1,388","1,850","4,625"
+Phoenix Talon,29,800,Pendants,"190,000",---,---,105,---,---,38,---,---,16,18,3 Phoenix Feather,---,,-25% Time (x9),-21 Leather (x18),-1 Phoenix Feather (x30),Freezing Ward (x50),+25% Sale Price (x80),,"1,200","1,600","4,000"
+Freezing Ward,31,875,Pendants,"285,000",---,---,113,---,43,---,---,---,20,22,7 Frozen Core,1 Great Jade Amulet,,-25% Time (x10),-23 Leather (x20),-3 Frozen Core (x35),Cat's Eye (x55),+25% Sale Price (x90),,"1,313","1,750","4,375"
+Cat's Eye,34,"1,000",Pendants,"430,000",---,---,131,---,50,---,75,---,25,28,2 Sun Tear,---,,-25% Time (x11),-26 Leather (x22),-1 Sun Tear (x40),Trine Charm (x60),+25% Sale Price (x90),,"1,500","2,000","5,000"
+Lich's Heart,35,"1,550",Pendants,"1,600,000",---,---,139,---,---,53,---,---,27,30,3 Demon Heart,3 Flawless Freezing Scroll,,-25% Time (x11),-1 Freezing Scroll (x22),-1 Demon Heart (x40),+50% Sale Price (x60),Revive I (x90),,"2,325","3,100","7,750"
+Draconic Amulet,36,"1,350",Pendants,"1,200,000",---,---,150,---,55,---,---,---,29,32,2 Dragon Scale,1 Flawless Obelisk Charm,,-25% Time (x12),-75 Leather (x24),-1 Dragon Scale (x40),+50% Sale Price (x65),Gold Digger I (x100),,"2,025","2,700","6,750"
+Trine Charm,37,"1,125",Pendants,"780,000",---,---,158,---,58,---,86,---,31,34,4 Dark Energy,---,,-25% Time (x12),-32 Leather (x24),-2 Dark Energy (x40),Adamantium Amulet (x65),+25% Sale Price (x100),,"1,688","2,250","5,625"
+Goddess' Tear,38,"1,750",Pendants,"3,050,000",---,---,165,---,60,---,---,---,32,36,2 Sun Tear,2 Adamantium,,-25% Time (x13),-1 Sun Tear (x26),-1 Adamantium (x45),+50% Sale Price (x70),Healer I (x110),,"2,625","3,500","8,750"
+Adamantium Amulet,41,"1,300",Pendants,"1,250,000",---,---,206,---,68,---,101,---,38,42,1 Ancient Essence,2 Flawless Timeless Locket,,-25% Time (x13),-41 Leather (x26),-14 Steel (x45),-1 Timeless Locket (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Frostfire Talisman,47,"1,950",Pendants,"11,600,000",---,---,319,---,85,---,128,---,59,65,2 Frostfire Crystal,2 Flawless Freezing Ward,,-25% Time (x15),-160 Leather (x30),-1 Freezing Ward (x55),+50% Sale Price (x85),Cone-of-cold (x130),,"2,925","3,900","9,750"
+Gaia's Heart,50,"2,525",Pendants,"24,600,000",---,---,375,---,100,---,150,---,90,100,3 Shard Of Gaia,1 Great Dragonscale Helmet,,-25% Time (x15),-188 Leather (x30),-1 Shard Of Gaia (x55),+50% Sale Price (x85),Fireball (x130),,"3,788","5,050","12,625"
+Wood Flute,3,38,Music,80,---,4,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Small Drum (x8),-1 Wood (x15),Good Quality (x25),Great Quality (x40),,57,76,190
+Small Drum,4,56,Music,350,---,6,4,---,---,---,---,---,---,---,3 Shiny Gem,---,,+25% Sale Price (x5),Pan Flute (x10),-1 Leather (x20),-1 Shiny Gem (x30),Good Quality (x50),,84,112,280
+Pan Flute,7,120,Music,985,---,14,9,---,---,---,---,---,---,---,2 Elven Dew,---,,+25% Sale Price (x5),Horn (x10),-3 Wood (x20),-1 Elven Dew (x30),Good Quality (x50),,180,240,600
+Horn,9,165,Music,"1,700",---,19,13,---,---,---,---,---,---,---,2 Viper Essence,---,,+25% Sale Price (x6),Harp (x12),-4 Wood (x20),-1 Viper Essence (x30),Good Quality (x50),,248,330,825
+Harp,11,220,Music,"4,350",---,26,18,---,---,5,---,---,---,---,2 Rainbow Dust,---,,-5 Wood (x6),+25% Sale Price (x12),Lute (x20),-25% Time (x30),Good Quality (x50),,330,440,"1,100"
+Iron Flute,12,310,Music,"4,350",20,---,---,---,---,---,---,---,---,---,5 Iron Wood,---,,+50% Sale Price (x6),-10 Iron (x12),-2 Iron Wood (x20),Good Quality (x30),Resilient I (x50),,465,620,"1,550"
+Lute,15,330,Music,"7,450",---,41,28,---,---,12,---,---,---,---,3 Iron Wood,---,,-8 Wood (x7),+25% Sale Price (x14),Long Flute (x25),-25% Time (x40),Good Quality (x60),,495,660,"1,650"
+Frozen Harp,16,550,Music,"46,000",---,45,---,---,---,15,---,---,---,---,2 Frozen Core,1 Good Harp,,-23 Wood (x7),+50% Sale Price (x14),-25% Time (x25),-1 Frozen Core (x40),Cone-of-cold (x60),,825,"1,100","2,750"
+Long Flute,18,420,Music,"12,000",---,53,---,---,---,21,---,---,---,---,2 Moon Shard,2 Good Wood Flute,,-11 Wood (x8),+25% Sale Price (x16),Oud (x30),-25% Time (x45),-1 Moon Shard (x70),,630,840,"2,100"
+Oud,20,490,Music,"19,500",---,60,40,---,---,26,---,---,---,---,1 Royal Bone,---,,-12 Wood (x8),+25% Sale Price (x16),Nordic Lute (x30),-25% Time (x45),Good Quality (x70),,735,980,"2,450"
+Nordic Lute,22,550,Music,"49,500",---,68,45,---,---,32,---,---,---,---,3 Frozen Core,---,,-25% Time (x8),-14 Wood (x16),-1 Frozen Core (x30),Military Tap (x45),+25% Sale Price (x70),,825,"1,100","2,750"
+Military Tap,25,650,Music,"105,000",---,79,53,---,---,41,28,---,---,---,3 Good Small Drum,3 Liquid Fire,,-25% Time (x9),-16 Wood (x18),-1 Liquid Fire (x30),Silvered Flute (x50),+25% Sale Price (x80),,975,"1,300","3,250"
+Ygg Flute,26,875,Music,"110,000",---,83,---,---,---,45,---,---,12,---,2 Yggdrasil Leaf,1 Great Iron Flute,,-25% Time (x9),-42 Wood (x18),-1 Yggdrasil Leaf (x30),+50% Sale Price (x50),Healer I (x80),,"1,313","1,750","4,375"
+Silvered Flute,28,775,Music,"215,000",---,98,---,---,---,53,---,---,---,13,2 Silver Steel,2 Good Long Flute,,-25% Time (x9),-20 Wood (x18),-1 Silver Steel (x30),Soothing Harp (x50),+25% Sale Price (x80),,"1,163","1,550","3,875"
+Soothing Harp,30,850,Music,"325,000",---,109,---,---,---,60,---,---,20,---,3 Phoenix Feather,2 Great Harp,,-25% Time (x9),-22 Wood (x18),-1 Harp (x30),Golden String (x50),+25% Sale Price (x80),,"1,275","1,700","4,250"
+Wyrm Horn,31,"1,325",Music,"510,000",---,113,---,---,43,64,---,---,---,18,3 Phoenix Feather,3 Flawless Horn,,-25% Time (x10),-57 Wood (x20),-1 Phoenix Feather (x35),+50% Sale Price (x55),Treasure Hunter I (x90),,"1,988","2,650","6,625"
+Golden String,32,925,Music,"410,000",---,124,83,---,---,68,---,---,---,19,3 Golden Thread,2 Good Lute,,-25% Time (x10),-25 Wood (x20),-1 Golden Thread (x35),Hell Hound (x55),+25% Sale Price (x90),,"1,388","1,850","4,625"
+Hell Hound,33,950,Music,"500,000",---,128,85,---,---,71,48,---,26,---,2 Dark Energy,2 Demon Heart,,-25% Time (x10),-26 Wood (x20),-14 Hardwood (x35),Draconian Sound (x55),+25% Sale Price (x90),,"1,425","1,900","4,750"
+Draconian Sound,35,"1,050",Music,"1,950,000",93,139,---,---,53,79,53,---,---,24,2 Dragon Scale,1 Great Silvered Flute,,-25% Time (x11),-28 Wood (x22),-1 Dragon Scale (x40),Twilight Flute (x60),+25% Sale Price (x90),,"1,575","2,100","5,250"
+Draconic Heartbeat,38,"1,450",Music,"2,150,000",---,165,110,---,---,90,60,---,36,29,2 Dragon Scale,1 Flawless Military Tap,,-25% Time (x13),-83 Wood (x26),-1 Dragon Scale (x45),+50% Sale Price (x70),Protector I (x110),,"2,175","2,900","7,250"
+Twilight Flute,39,"1,200",Music,"2,400,000",---,176,---,---,---,94,63,---,---,30,2 Sun Tear,2 Good Wisdom Mark,,-25% Time (x13),-35 Wood (x26),-1 Wisdom Mark (x45),Ancient Horn (x70),+25% Sale Price (x110),,"1,800","2,400","6,000"
+Angelic Strings,40,"1,875",Music,"6,450,000",---,188,125,---,---,98,65,---,40,32,2 Adamantium,1 Flawless Soothing Harp,,-25% Time (x13),-94 Wood (x26),-1 Adamantium (x45),+50% Sale Price (x70),Revive I (x110),,"2,813","3,750","9,375"
+Ancient Horn,41,"1,300",Music,"3,400,000",---,206,---,---,---,101,68,---,---,34,2 Ancient Essence,2 Flawless Horned Shoes,,-25% Time (x13),-41 Wood (x26),-1 Horned Shoes (x45),-1 Ancient Essence (x70),+25% Sale Price (x110),,"1,950","2,600","6,500"
+Frostfire Harp,45,"1,825",Music,"15,350,000",---,281,188,---,---,116,78,---,55,44,3 Frostfire Crystal,1 Flawless Golden String,,-25% Time (x14),-141 Wood (x28),-1 Frostfire Crystal (x50),+50% Sale Price (x80),Cone-of-cold (x120),,"2,738","3,650","9,125"
+Angelic Bell,46,"2,250",Music,"12,300,000",---,300,200,---,---,120,80,---,60,48,2 Obsidian Coral,2 Flawless Angel Dust,,-25% Time (x14),-1 Angel Dust (x28),-1 Obsidian Coral (x50),+50% Sale Price (x80),Resourceful II (x120),,"3,375","4,500","11,250"
+Gaia's Flute,49,"2,450",Music,"19,900,000",---,356,238,---,---,143,95,---,80,64,2 Shard Of Gaia,3 Flawless Ygg Flute,,-25% Time (x15),-178 Wood (x30),-2 Ygg Flute (x55),+50% Sale Price (x85),Amazon II (x130),,"3,675","4,900","12,250"

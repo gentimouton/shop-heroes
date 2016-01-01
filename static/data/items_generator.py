@@ -8,8 +8,8 @@ from string import Template
 
 def get_int(row, key):
     try:
-        val = int(row[key])
-    except ValueError:  # raised by int('')
+        val = int(row[key].replace(',', ''))
+    except ValueError:  # raised by int('') or int('---')
         val = 0
     return val
 
@@ -24,10 +24,12 @@ input_file.close()
 ############## read item data
 input_file = open('items.csv')
 reader = csv.DictReader(input_file)
-# name,level,class,type,price,
-# iron,wood,leather,herb,steel,hard wood,fabric,oil,mana,jewel,comp1,comp2
-items = defaultdict(dict)  # indexed by item type, eg 'Swords', then item name, eg 'Shortsword'
-basics = ['price', 'level']
+# name    level    power    class    price
+# iron    wood    leather    herbs    steel    
+# hwood    fabric    oil    mana    jewels
+# comp1    comp2
+items = defaultdict(dict)  # {'Swords': {'Shortsword': {}, ...}, 'Axes': {} }
+basics = ['price', 'level', 'power']
 resources = ['iron', 'wood', 'leather', 'herbs',
              'steel', 'hwood', 'fabric', 'oil', 'mana', 'jewels']
 for row in reader:
@@ -37,8 +39,7 @@ for row in reader:
     item_data = {}
     for b in basics:
         value = get_int(row, b)
-        if value:
-            item_data[b] = value
+        item_data[b] = value
     item_res = {}
     for r in resources:
         value = get_int(row, r)
