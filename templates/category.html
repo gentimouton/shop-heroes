@@ -8,6 +8,19 @@
     color: white; 
     padding: 2px;
   }
+  /* resource images */
+  .rsrc {
+    background-image: url({{ rsrc_spr.url }});
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+  }
+  {% for rsrc in rsrc_spr.map %}
+    .rsrc-{{ rsrc }} {
+      background-position: 0px -{{ loop.index0 * 30}}px;
+    }
+  {% endfor %}
+
 {% endblock style %}
 {% block content %}
   <h1>{{ category|capitalize }}</h1>
@@ -27,7 +40,8 @@
           <div class='row'>
             {% for mat in item.mats %}
               <div class="col-xs-4 col-md-3 nopadding">
-                {{mat.qty}} <img src="{{ mat.img }}"/>
+                <!-- {{mat.qty}} <img src="{{ mat.img }}"/> -->
+                {{mat.qty}} <img src='/static/misc/transparent_dot.gif' class='rsrc rsrc-{{ mat.name }}'/>
               </div>
               {% if loop.index0 % 3 == 2 %}
                 <div class="clearfix visible-xs-block visible-sm-block"></div>
