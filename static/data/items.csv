@@ -1,4 +1,4 @@
-name,level,power,class,price,iron,wood,leather,herbs,steel,hwood,fabric,oil,mana,jewels,comp1,comp2,,Item Progression Unlocks,,,,,,Epic Power,Legendary Power,Mythical Power
+name,level,power,class,price,iron,wood,leather,herbs,steel,hardwood,fabric,oil,mana,jewels,comp1,comp2,,Item Progression Unlocks,,,,,,Epic Power,Legendary Power,Mythical Power
 Shortsword,2,26,Swords,28,3,---,---,---,---,---,---,---,---,---,---,---,,-1 Iron (x4),Longsword (x8),Cuirass (x15),Good Quality (x25),Great Quality (x40),,39,52,130
 Longsword,3,46,Swords,60,5,---,---,---,---,---,---,---,---,---,---,---,,+25% Sale Price (x4),Leather Bracers (x8),Broadsword (x15),-1 Iron (x25),Good Quality (x40),,69,92,230
 Broadsword,5,90,Swords,250,11,---,---,---,---,---,---,---,---,---,1 Shortsword,---,,+25% Sale Price (x5),Rapier (x10),-1 Iron (x20),-2 Iron (x30),Good Quality (x50),,135,180,450

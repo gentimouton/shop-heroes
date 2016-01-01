@@ -305,7 +305,7 @@ var items = {
          "price": 3950, 
          "resources": {
             "steel": 6, 
-            "hwood": 6, 
+            "hardwood": 6, 
             "wood": 30, 
             "iron": 30
          }, 
@@ -316,7 +316,7 @@ var items = {
          "price": 165000, 
          "resources": {
             "steel": 35, 
-            "hwood": 35, 
+            "hardwood": 35, 
             "wood": 71, 
             "iron": 71
          }, 
@@ -327,11 +327,11 @@ var items = {
          "price": 745000, 
          "resources": {
             "steel": 94, 
+            "hardwood": 94, 
             "jewels": 38, 
             "mana": 29, 
             "wood": 176, 
-            "iron": 176, 
-            "hwood": 94
+            "iron": 176
          }, 
          "power": 1450, 
          "level": 39
@@ -340,11 +340,11 @@ var items = {
          "price": 420000, 
          "resources": {
             "steel": 83, 
+            "hardwood": 83, 
             "jewels": 32, 
             "mana": 24, 
             "wood": 150, 
-            "iron": 150, 
-            "hwood": 83
+            "iron": 150
          }, 
          "power": 1300, 
          "level": 36
@@ -372,10 +372,10 @@ var items = {
          "price": 4150000, 
          "resources": {
             "steel": 98, 
-            "mana": 30, 
-            "hwood": 98, 
+            "hardwood": 98, 
             "wood": 188, 
-            "iron": 188
+            "iron": 188, 
+            "mana": 30
          }, 
          "power": 2250, 
          "level": 40
@@ -402,7 +402,7 @@ var items = {
          "price": 11500, 
          "resources": {
             "steel": 15, 
-            "hwood": 15, 
+            "hardwood": 15, 
             "wood": 45, 
             "iron": 45
          }, 
@@ -413,11 +413,11 @@ var items = {
          "price": 1650000, 
          "resources": {
             "steel": 105, 
+            "hardwood": 105, 
             "jewels": 45, 
             "mana": 34, 
             "wood": 225, 
-            "iron": 225, 
-            "hwood": 105
+            "iron": 225
          }, 
          "power": 1600, 
          "level": 42
@@ -426,7 +426,7 @@ var items = {
          "price": 56500, 
          "resources": {
             "steel": 38, 
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 75, 
             "iron": 75
          }, 
@@ -437,11 +437,11 @@ var items = {
          "price": 12150000, 
          "resources": {
             "steel": 135, 
+            "hardwood": 135, 
             "jewels": 70, 
             "mana": 53, 
             "wood": 338, 
-            "iron": 338, 
-            "hwood": 135
+            "iron": 338
          }, 
          "power": 2400, 
          "level": 48
@@ -450,10 +450,10 @@ var items = {
          "price": 205000, 
          "resources": {
             "steel": 71, 
-            "mana": 20, 
-            "hwood": 71, 
+            "hardwood": 71, 
             "wood": 128, 
-            "iron": 128
+            "iron": 128, 
+            "mana": 20
          }, 
          "power": 1150, 
          "level": 33
@@ -462,7 +462,7 @@ var items = {
          "price": 99500, 
          "resources": {
             "steel": 53, 
-            "hwood": 53, 
+            "hardwood": 53, 
             "wood": 98, 
             "iron": 98
          }, 
@@ -473,7 +473,7 @@ var items = {
          "price": 185000, 
          "resources": {
             "steel": 41, 
-            "hwood": 41, 
+            "hardwood": 41, 
             "wood": 79, 
             "iron": 79
          }, 
@@ -484,11 +484,11 @@ var items = {
          "price": 1550000, 
          "resources": {
             "steel": 90, 
+            "hardwood": 90, 
             "jewels": 36, 
             "mana": 27, 
             "wood": 165, 
-            "iron": 165, 
-            "hwood": 90
+            "iron": 165
          }, 
          "power": 1750, 
          "level": 38
@@ -497,11 +497,11 @@ var items = {
          "price": 20200000, 
          "resources": {
             "steel": 150, 
+            "hardwood": 150, 
             "jewels": 100, 
             "mana": 75, 
             "wood": 375, 
-            "iron": 375, 
-            "hwood": 150
+            "iron": 375
          }, 
          "power": 3025, 
          "level": 50
@@ -528,7 +528,7 @@ var items = {
          "price": 45500, 
          "resources": {
             "steel": 32, 
-            "hwood": 32, 
+            "hardwood": 32, 
             "wood": 68, 
             "iron": 68
          }, 
@@ -548,7 +548,7 @@ var items = {
          "price": 21000, 
          "resources": {
             "steel": 26, 
-            "hwood": 26, 
+            "hardwood": 26, 
             "wood": 60, 
             "iron": 60
          }, 
@@ -559,7 +559,7 @@ var items = {
          "price": 170000, 
          "resources": {
             "steel": 64, 
-            "hwood": 64, 
+            "hardwood": 64, 
             "wood": 113, 
             "iron": 113
          }, 
@@ -570,7 +570,7 @@ var items = {
          "price": 6950, 
          "resources": {
             "steel": 9, 
-            "hwood": 9, 
+            "hardwood": 9, 
             "wood": 38, 
             "iron": 38
          }, 
@@ -581,7 +581,7 @@ var items = {
          "price": 670000, 
          "resources": {
             "steel": 68, 
-            "hwood": 68, 
+            "hardwood": 68, 
             "wood": 124, 
             "iron": 124
          }, 
@@ -852,8 +852,8 @@ var items = {
       "Dragon Eye": {
          "price": 4100000, 
          "resources": {
+            "hardwood": 115, 
             "mana": 34, 
-            "hwood": 115, 
             "wood": 210
          }, 
          "power": 1675, 
@@ -870,8 +870,8 @@ var items = {
       "Bow Of Light": {
          "price": 160000, 
          "resources": {
+            "hardwood": 75, 
             "mana": 18, 
-            "hwood": 75, 
             "wood": 140
          }, 
          "power": 975, 
@@ -880,8 +880,8 @@ var items = {
       "Valkyrie's Touch": {
          "price": 460000, 
          "resources": {
+            "hardwood": 80, 
             "mana": 20, 
-            "hwood": 80, 
             "wood": 145, 
             "jewels": 15
          }, 
@@ -899,8 +899,8 @@ var items = {
       "Twilight Shot": {
          "price": 2150000, 
          "resources": {
+            "hardwood": 130, 
             "mana": 40, 
-            "hwood": 130, 
             "wood": 250, 
             "jewels": 30
          }, 
@@ -910,7 +910,7 @@ var items = {
       "Recurved Bow": {
          "price": 4650, 
          "resources": {
-            "hwood": 12, 
+            "hardwood": 12, 
             "wood": 50
          }, 
          "power": 360, 
@@ -919,8 +919,8 @@ var items = {
       "Griffin Wings": {
          "price": 850000, 
          "resources": {
+            "hardwood": 120, 
             "mana": 36, 
-            "hwood": 120, 
             "wood": 220, 
             "jewels": 27
          }, 
@@ -930,8 +930,8 @@ var items = {
       "Wind Piercer": {
          "price": 19200000, 
          "resources": {
+            "hardwood": 180, 
             "mana": 70, 
-            "hwood": 180, 
             "wood": 450, 
             "jewels": 53
          }, 
@@ -949,8 +949,8 @@ var items = {
       "Elven Bow": {
          "price": 8550000, 
          "resources": {
+            "hardwood": 145, 
             "mana": 48, 
-            "hwood": 145, 
             "wood": 325, 
             "jewels": 36
          }, 
@@ -960,7 +960,7 @@ var items = {
       "Forester": {
          "price": 14000, 
          "resources": {
-            "hwood": 35, 
+            "hardwood": 35, 
             "wood": 80
          }, 
          "power": 575, 
@@ -969,7 +969,7 @@ var items = {
       "Heavy Crossbow": {
          "price": 9950, 
          "resources": {
-            "hwood": 24, 
+            "hardwood": 24, 
             "wood": 65, 
             "oil": 12
          }, 
@@ -979,7 +979,7 @@ var items = {
       "Silent Arbalest": {
          "price": 74000, 
          "resources": {
-            "hwood": 55, 
+            "hardwood": 55, 
             "wood": 105, 
             "oil": 28
          }, 
@@ -989,7 +989,7 @@ var items = {
       "Transfixer": {
          "price": 25500, 
          "resources": {
-            "hwood": 46, 
+            "hardwood": 46, 
             "wood": 95
          }, 
          "power": 700, 
@@ -1014,7 +1014,7 @@ var items = {
       "Wind Striker": {
          "price": 115000, 
          "resources": {
-            "hwood": 65, 
+            "hardwood": 65, 
             "wood": 120
          }, 
          "power": 875, 
@@ -1031,7 +1031,7 @@ var items = {
       "Crossbow": {
          "price": 2550, 
          "resources": {
-            "hwood": 6, 
+            "hardwood": 6, 
             "wood": 35, 
             "oil": 3
          }, 
@@ -1041,8 +1041,8 @@ var items = {
       "Chimera Wings": {
          "price": 365000, 
          "resources": {
+            "hardwood": 100, 
             "mana": 28, 
-            "hwood": 100, 
             "wood": 175, 
             "jewels": 21
          }, 
@@ -1052,7 +1052,7 @@ var items = {
       "Self-loader": {
          "price": 45500, 
          "resources": {
-            "hwood": 28, 
+            "hardwood": 28, 
             "wood": 70, 
             "oil": 14
          }, 
@@ -1062,7 +1062,7 @@ var items = {
       "Eagle Eye": {
          "price": 48500, 
          "resources": {
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 85
          }, 
          "power": 775, 
@@ -1071,8 +1071,8 @@ var items = {
       "Adamantium Crossbow": {
          "price": 6400000, 
          "resources": {
+            "hardwood": 125, 
             "mana": 38, 
-            "hwood": 125, 
             "wood": 235, 
             "jewels": 29, 
             "oil": 63
@@ -1083,7 +1083,7 @@ var items = {
       "Evelyn": {
          "price": 1300000, 
          "resources": {
-            "hwood": 105, 
+            "hardwood": 105, 
             "wood": 185, 
             "jewels": 23
          }, 
@@ -1093,8 +1093,8 @@ var items = {
       "Spider": {
          "price": 215000, 
          "resources": {
+            "hardwood": 85, 
             "mana": 22, 
-            "hwood": 85, 
             "wood": 150, 
             "jewels": 17
          }, 
@@ -1114,8 +1114,8 @@ var items = {
       "Ygg Flute": {
          "price": 110000, 
          "resources": {
+            "hardwood": 45, 
             "mana": 12, 
-            "hwood": 45, 
             "wood": 83
          }, 
          "power": 875, 
@@ -1125,7 +1125,7 @@ var items = {
          "price": 510000, 
          "resources": {
             "steel": 43, 
-            "hwood": 64, 
+            "hardwood": 64, 
             "wood": 113, 
             "jewels": 18
          }, 
@@ -1144,7 +1144,7 @@ var items = {
          "price": 49500, 
          "resources": {
             "leather": 45, 
-            "hwood": 32, 
+            "hardwood": 32, 
             "wood": 68
          }, 
          "power": 550, 
@@ -1154,7 +1154,7 @@ var items = {
          "price": 19500, 
          "resources": {
             "leather": 40, 
-            "hwood": 26, 
+            "hardwood": 26, 
             "wood": 60
          }, 
          "power": 490, 
@@ -1172,7 +1172,7 @@ var items = {
       "Ancient Horn": {
          "price": 3400000, 
          "resources": {
-            "hwood": 101, 
+            "hardwood": 101, 
             "wood": 206, 
             "fabric": 68, 
             "jewels": 34
@@ -1183,7 +1183,7 @@ var items = {
       "Long Flute": {
          "price": 12000, 
          "resources": {
-            "hwood": 21, 
+            "hardwood": 21, 
             "wood": 53
          }, 
          "power": 420, 
@@ -1192,7 +1192,7 @@ var items = {
       "Frozen Harp": {
          "price": 46000, 
          "resources": {
-            "hwood": 15, 
+            "hardwood": 15, 
             "wood": 45
          }, 
          "power": 550, 
@@ -1202,7 +1202,7 @@ var items = {
          "price": 7450, 
          "resources": {
             "leather": 28, 
-            "hwood": 12, 
+            "hardwood": 12, 
             "wood": 41
          }, 
          "power": 330, 
@@ -1212,11 +1212,11 @@ var items = {
          "price": 19900000, 
          "resources": {
             "fabric": 95, 
+            "mana": 80, 
             "leather": 238, 
             "jewels": 64, 
-            "mana": 80, 
-            "wood": 356, 
-            "hwood": 143
+            "hardwood": 143, 
+            "wood": 356
          }, 
          "power": 2450, 
          "level": 49
@@ -1225,11 +1225,11 @@ var items = {
          "price": 15350000, 
          "resources": {
             "fabric": 78, 
+            "mana": 55, 
             "leather": 188, 
             "jewels": 44, 
-            "mana": 55, 
-            "wood": 281, 
-            "hwood": 116
+            "hardwood": 116, 
+            "wood": 281
          }, 
          "power": 1825, 
          "level": 45
@@ -1237,7 +1237,7 @@ var items = {
       "Twilight Flute": {
          "price": 2400000, 
          "resources": {
-            "hwood": 94, 
+            "hardwood": 94, 
             "wood": 176, 
             "fabric": 63, 
             "jewels": 30
@@ -1248,8 +1248,8 @@ var items = {
       "Soothing Harp": {
          "price": 325000, 
          "resources": {
+            "hardwood": 60, 
             "mana": 20, 
-            "hwood": 60, 
             "wood": 109
          }, 
          "power": 850, 
@@ -1259,11 +1259,11 @@ var items = {
          "price": 12300000, 
          "resources": {
             "fabric": 80, 
+            "mana": 60, 
             "leather": 200, 
             "jewels": 48, 
-            "mana": 60, 
-            "wood": 300, 
-            "hwood": 120
+            "hardwood": 120, 
+            "wood": 300
          }, 
          "power": 2250, 
          "level": 46
@@ -1272,7 +1272,7 @@ var items = {
          "price": 105000, 
          "resources": {
             "leather": 53, 
-            "hwood": 41, 
+            "hardwood": 41, 
             "wood": 79, 
             "fabric": 28
          }, 
@@ -1282,7 +1282,7 @@ var items = {
       "Silvered Flute": {
          "price": 215000, 
          "resources": {
-            "hwood": 53, 
+            "hardwood": 53, 
             "wood": 98, 
             "jewels": 13
          }, 
@@ -1293,11 +1293,11 @@ var items = {
          "price": 6450000, 
          "resources": {
             "fabric": 65, 
+            "mana": 40, 
             "leather": 125, 
             "jewels": 32, 
-            "mana": 40, 
-            "wood": 188, 
-            "hwood": 98
+            "hardwood": 98, 
+            "wood": 188
          }, 
          "power": 1875, 
          "level": 40
@@ -1306,7 +1306,7 @@ var items = {
          "price": 410000, 
          "resources": {
             "leather": 83, 
-            "hwood": 68, 
+            "hardwood": 68, 
             "wood": 124, 
             "jewels": 19
          }, 
@@ -1318,10 +1318,10 @@ var items = {
          "resources": {
             "steel": 53, 
             "fabric": 53, 
+            "hardwood": 79, 
             "jewels": 24, 
             "wood": 139, 
-            "iron": 93, 
-            "hwood": 79
+            "iron": 93
          }, 
          "power": 1050, 
          "level": 35
@@ -1339,11 +1339,11 @@ var items = {
          "price": 2150000, 
          "resources": {
             "fabric": 60, 
+            "mana": 36, 
             "leather": 110, 
             "jewels": 29, 
-            "mana": 36, 
-            "wood": 165, 
-            "hwood": 90
+            "hardwood": 90, 
+            "wood": 165
          }, 
          "power": 1450, 
          "level": 38
@@ -1361,7 +1361,7 @@ var items = {
          "price": 4350, 
          "resources": {
             "leather": 18, 
-            "hwood": 5, 
+            "hardwood": 5, 
             "wood": 26
          }, 
          "power": 220, 
@@ -1371,10 +1371,10 @@ var items = {
          "price": 500000, 
          "resources": {
             "leather": 85, 
-            "mana": 26, 
-            "hwood": 71, 
+            "hardwood": 71, 
             "wood": 128, 
-            "fabric": 48
+            "fabric": 48, 
+            "mana": 26
          }, 
          "power": 950, 
          "level": 33
@@ -1385,9 +1385,9 @@ var items = {
          "price": 355000, 
          "resources": {
             "steel": 40, 
-            "mana": 15, 
-            "hwood": 80, 
-            "wood": 145
+            "hardwood": 80, 
+            "wood": 145, 
+            "mana": 15
          }, 
          "power": 1525, 
          "level": 30
@@ -1404,7 +1404,7 @@ var items = {
          "price": 70500, 
          "resources": {
             "steel": 30, 
-            "hwood": 60, 
+            "hardwood": 60, 
             "wood": 110, 
             "iron": 55
          }, 
@@ -1415,7 +1415,7 @@ var items = {
          "price": 51000, 
          "resources": {
             "steel": 38, 
-            "hwood": 75, 
+            "hardwood": 75, 
             "wood": 140, 
             "iron": 70
          }, 
@@ -1426,11 +1426,11 @@ var items = {
          "price": 740000, 
          "resources": {
             "steel": 65, 
+            "hardwood": 130, 
             "jewels": 40, 
             "mana": 30, 
             "wood": 250, 
-            "iron": 125, 
-            "hwood": 130
+            "iron": 125
          }, 
          "power": 1500, 
          "level": 40
@@ -1439,10 +1439,10 @@ var items = {
          "price": 6350000, 
          "resources": {
             "steel": 85, 
-            "mana": 49, 
-            "hwood": 170, 
+            "hardwood": 170, 
             "wood": 425, 
-            "jewels": 65
+            "jewels": 65, 
+            "mana": 49
          }, 
          "power": 2325, 
          "level": 47
@@ -1451,11 +1451,11 @@ var items = {
          "price": 16800000, 
          "resources": {
             "steel": 100, 
+            "hardwood": 200, 
             "jewels": 100, 
             "mana": 75, 
             "wood": 500, 
-            "iron": 250, 
-            "hwood": 200
+            "iron": 250
          }, 
          "power": 3025, 
          "level": 50
@@ -1464,10 +1464,10 @@ var items = {
          "price": 295000, 
          "resources": {
             "steel": 55, 
-            "mana": 24, 
-            "hwood": 110, 
+            "hardwood": 110, 
             "wood": 200, 
-            "iron": 100
+            "iron": 100, 
+            "mana": 24
          }, 
          "power": 1300, 
          "level": 36
@@ -1476,7 +1476,7 @@ var items = {
          "price": 3150, 
          "resources": {
             "steel": 5, 
-            "hwood": 10, 
+            "hardwood": 10, 
             "wood": 45
          }, 
          "power": 330, 
@@ -1494,10 +1494,10 @@ var items = {
          "price": 345000, 
          "resources": {
             "steel": 45, 
-            "mana": 18, 
-            "hwood": 90, 
+            "hardwood": 90, 
             "wood": 165, 
-            "iron": 83
+            "iron": 83, 
+            "mana": 18
          }, 
          "power": 1650, 
          "level": 32
@@ -1514,7 +1514,7 @@ var items = {
          "price": 24000, 
          "resources": {
             "steel": 19, 
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 85, 
             "iron": 43
          }, 
@@ -1525,10 +1525,10 @@ var items = {
          "price": 2800000, 
          "resources": {
             "steel": 63, 
-            "mana": 29, 
-            "hwood": 125, 
+            "hardwood": 125, 
             "wood": 235, 
-            "iron": 118
+            "iron": 118, 
+            "mana": 29
          }, 
          "power": 2175, 
          "level": 39
@@ -1545,7 +1545,7 @@ var items = {
          "price": 5250, 
          "resources": {
             "steel": 4, 
-            "hwood": 8, 
+            "hardwood": 8, 
             "wood": 40, 
             "iron": 20
          }, 
@@ -1556,7 +1556,7 @@ var items = {
          "price": 10000, 
          "resources": {
             "steel": 14, 
-            "hwood": 28, 
+            "hardwood": 28, 
             "wood": 70
          }, 
          "power": 500, 
@@ -1566,9 +1566,9 @@ var items = {
          "price": 1300000, 
          "resources": {
             "steel": 60, 
-            "mana": 27, 
-            "hwood": 120, 
-            "wood": 220
+            "hardwood": 120, 
+            "wood": 220, 
+            "mana": 27
          }, 
          "power": 1750, 
          "level": 38
@@ -1585,7 +1585,7 @@ var items = {
          "price": 33000, 
          "resources": {
             "steel": 28, 
-            "hwood": 55, 
+            "hardwood": 55, 
             "wood": 105, 
             "iron": 53
          }, 
@@ -1596,11 +1596,11 @@ var items = {
          "price": 1200000, 
          "resources": {
             "steel": 73, 
+            "hardwood": 145, 
             "jewels": 48, 
             "mana": 36, 
             "wood": 325, 
-            "iron": 163, 
-            "hwood": 145
+            "iron": 163
          }, 
          "power": 1650, 
          "level": 43
@@ -1609,7 +1609,7 @@ var items = {
          "price": 165000, 
          "resources": {
             "steel": 50, 
-            "hwood": 100, 
+            "hardwood": 100, 
             "wood": 175, 
             "jewels": 28
          }, 
@@ -1620,7 +1620,7 @@ var items = {
          "price": 62000, 
          "resources": {
             "steel": 16, 
-            "hwood": 32, 
+            "hardwood": 32, 
             "wood": 75
          }, 
          "power": 825, 
@@ -1630,9 +1630,9 @@ var items = {
          "price": 99500, 
          "resources": {
             "steel": 45, 
-            "mana": 18, 
-            "hwood": 90, 
-            "wood": 165
+            "hardwood": 90, 
+            "wood": 165, 
+            "mana": 18
          }, 
          "power": 1100, 
          "level": 32
@@ -1641,7 +1641,7 @@ var items = {
          "price": 6750, 
          "resources": {
             "steel": 8, 
-            "hwood": 16, 
+            "hardwood": 16, 
             "wood": 55, 
             "iron": 28
          }, 
@@ -1680,8 +1680,8 @@ var items = {
       "Hawk Shield": {
          "price": 715000, 
          "resources": {
+            "hardwood": 120, 
             "mana": 31, 
-            "hwood": 120, 
             "wood": 220, 
             "jewels": 36
          }, 
@@ -1691,8 +1691,8 @@ var items = {
       "Medusa Buckler": {
          "price": 14250000, 
          "resources": {
+            "hardwood": 170, 
             "mana": 55, 
-            "hwood": 170, 
             "wood": 425, 
             "jewels": 65
          }, 
@@ -1721,8 +1721,8 @@ var items = {
       "Blessed Aegis": {
          "price": 470000, 
          "resources": {
+            "hardwood": 100, 
             "mana": 24, 
-            "hwood": 100, 
             "wood": 175
          }, 
          "power": 1000, 
@@ -1758,7 +1758,7 @@ var items = {
       "Venomous Buckler": {
          "price": 19000, 
          "resources": {
-            "hwood": 35, 
+            "hardwood": 35, 
             "wood": 80
          }, 
          "power": 490, 
@@ -1834,8 +1834,8 @@ var items = {
       "Twilight Aegis": {
          "price": 1400000, 
          "resources": {
+            "hardwood": 135, 
             "mana": 36, 
-            "hwood": 135, 
             "wood": 275, 
             "jewels": 42
          }, 
@@ -1853,8 +1853,8 @@ var items = {
       "Dragon Skull": {
          "price": 2000000, 
          "resources": {
+            "hardwood": 115, 
             "mana": 29, 
-            "hwood": 115, 
             "wood": 210, 
             "jewels": 34
          }, 
@@ -1864,7 +1864,7 @@ var items = {
       "Aegis": {
          "price": 63500, 
          "resources": {
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 85, 
             "jewels": 5
          }, 
@@ -1892,7 +1892,7 @@ var items = {
       "Moonlight Shield": {
          "price": 5400, 
          "resources": {
-            "hwood": 12, 
+            "hardwood": 12, 
             "wood": 50
          }, 
          "power": 300, 
@@ -1909,8 +1909,8 @@ var items = {
       "Skeleton Shield": {
          "price": 39500, 
          "resources": {
+            "hardwood": 55, 
             "mana": 9, 
-            "hwood": 55, 
             "wood": 105
          }, 
          "power": 650, 
@@ -2447,10 +2447,10 @@ var items = {
          "resources": {
             "steel": 33, 
             "oil": 98, 
+            "hardwood": 130, 
             "jewels": 34, 
             "mana": 40, 
-            "wood": 250, 
-            "hwood": 130
+            "wood": 250
          }, 
          "power": 2250, 
          "level": 40
@@ -2458,8 +2458,8 @@ var items = {
       "Shattered Wand": {
          "price": 21250000, 
          "resources": {
+            "hardwood": 200, 
             "mana": 100, 
-            "hwood": 200, 
             "wood": 500, 
             "jewels": 85, 
             "oil": 150
@@ -2470,8 +2470,8 @@ var items = {
       "Rebirth Rod": {
          "price": 47500, 
          "resources": {
+            "hardwood": 46, 
             "mana": 7, 
-            "hwood": 46, 
             "wood": 95
          }, 
          "power": 700, 
@@ -2480,7 +2480,7 @@ var items = {
       "Healing Rod": {
          "price": 2150, 
          "resources": {
-            "hwood": 5, 
+            "hardwood": 5, 
             "wood": 30
          }, 
          "power": 230, 
@@ -2489,7 +2489,7 @@ var items = {
       "Whispering Wand": {
          "price": 27000, 
          "resources": {
-            "hwood": 32, 
+            "hardwood": 32, 
             "wood": 75
          }, 
          "power": 550, 
@@ -2498,8 +2498,8 @@ var items = {
       "Star Wand": {
          "price": 795000, 
          "resources": {
+            "hardwood": 105, 
             "mana": 30, 
-            "hwood": 105, 
             "wood": 185, 
             "jewels": 26, 
             "oil": 79
@@ -2520,10 +2520,10 @@ var items = {
          "resources": {
             "steel": 18, 
             "oil": 53, 
+            "hardwood": 70, 
             "jewels": 14, 
             "mana": 16, 
-            "wood": 130, 
-            "hwood": 70
+            "wood": 130
          }, 
          "power": 1150, 
          "level": 28
@@ -2531,8 +2531,8 @@ var items = {
       "Cultist Staff": {
          "price": 1500000, 
          "resources": {
+            "hardwood": 125, 
             "mana": 38, 
-            "hwood": 125, 
             "wood": 235, 
             "jewels": 32, 
             "oil": 94
@@ -2543,7 +2543,7 @@ var items = {
       "Blood Staff": {
          "price": 11000, 
          "resources": {
-            "hwood": 16, 
+            "hardwood": 16, 
             "wood": 55
          }, 
          "power": 400, 
@@ -2552,8 +2552,8 @@ var items = {
       "Eagle Rod": {
          "price": 920000, 
          "resources": {
+            "hardwood": 110, 
             "mana": 32, 
-            "hwood": 110, 
             "wood": 200, 
             "jewels": 27, 
             "oil": 83
@@ -2572,7 +2572,7 @@ var items = {
       "Fire Rod": {
          "price": 7750, 
          "resources": {
-            "hwood": 10, 
+            "hardwood": 10, 
             "wood": 45
          }, 
          "power": 330, 
@@ -2581,8 +2581,8 @@ var items = {
       "Luna Rod": {
          "price": 36500, 
          "resources": {
+            "hardwood": 24, 
             "mana": 3, 
-            "hwood": 24, 
             "wood": 65, 
             "jewels": 3
          }, 
@@ -2608,8 +2608,8 @@ var items = {
       "Staff of Ages": {
          "price": 530000, 
          "resources": {
+            "hardwood": 95, 
             "mana": 26, 
-            "hwood": 95, 
             "wood": 170, 
             "jewels": 22, 
             "oil": 71
@@ -2628,8 +2628,8 @@ var items = {
       "Death Stick": {
          "price": 190000, 
          "resources": {
+            "hardwood": 65, 
             "mana": 14, 
-            "hwood": 65, 
             "wood": 120, 
             "oil": 49
          }, 
@@ -2641,10 +2641,10 @@ var items = {
          "resources": {
             "steel": 30, 
             "oil": 90, 
+            "hardwood": 120, 
             "jewels": 31, 
             "mana": 36, 
-            "wood": 220, 
-            "hwood": 120
+            "wood": 220
          }, 
          "power": 1750, 
          "level": 38
@@ -2652,8 +2652,8 @@ var items = {
       "Soul Stealer": {
          "price": 325000, 
          "resources": {
+            "hardwood": 80, 
             "mana": 20, 
-            "hwood": 80, 
             "wood": 145, 
             "oil": 60
          }, 
@@ -2663,7 +2663,7 @@ var items = {
       "Forest Wand": {
          "price": 3950, 
          "resources": {
-            "hwood": 8, 
+            "hardwood": 8, 
             "wood": 40
          }, 
          "power": 300, 
@@ -2674,10 +2674,10 @@ var items = {
          "resources": {
             "steel": 39, 
             "oil": 116, 
+            "hardwood": 155, 
             "jewels": 47, 
             "mana": 55, 
-            "wood": 375, 
-            "hwood": 155
+            "wood": 375
          }, 
          "power": 2200, 
          "level": 45
@@ -2685,8 +2685,8 @@ var items = {
       "Sun King": {
          "price": 5850000, 
          "resources": {
+            "hardwood": 135, 
             "mana": 42, 
-            "hwood": 135, 
             "wood": 275, 
             "jewels": 36, 
             "oil": 101
@@ -2697,8 +2697,8 @@ var items = {
       "Ice Staff": {
          "price": 93500, 
          "resources": {
+            "hardwood": 60, 
             "mana": 12, 
-            "hwood": 60, 
             "wood": 110, 
             "jewels": 10
          }, 
@@ -2771,8 +2771,8 @@ var items = {
       "Hell Bomb": {
          "price": 20100000, 
          "resources": {
+            "hardwood": 190, 
             "mana": 60, 
-            "hwood": 190, 
             "wood": 475, 
             "jewels": 60, 
             "oil": 143
@@ -2784,7 +2784,7 @@ var items = {
          "price": 13000, 
          "resources": {
             "steel": 16, 
-            "hwood": 16, 
+            "hardwood": 16, 
             "wood": 55, 
             "iron": 55
          }, 
@@ -2859,8 +2859,8 @@ var items = {
       "Thunder Clap": {
          "price": 2000000, 
          "resources": {
+            "hardwood": 120, 
             "mana": 27, 
-            "hwood": 120, 
             "wood": 220, 
             "oil": 90
          }, 
@@ -2901,9 +2901,9 @@ var items = {
          "price": 785000, 
          "resources": {
             "steel": 105, 
-            "hwood": 105, 
-            "wood": 185, 
+            "hardwood": 105, 
             "oil": 79, 
+            "wood": 185, 
             "iron": 185
          }, 
          "power": 1300, 
@@ -3072,7 +3072,7 @@ var items = {
          "price": 140000, 
          "resources": {
             "leather": 140, 
-            "hwood": 38, 
+            "hardwood": 38, 
             "fabric": 75
          }, 
          "power": 800, 
@@ -3083,10 +3083,10 @@ var items = {
          "resources": {
             "oil": 128, 
             "fabric": 170, 
+            "mana": 49, 
             "leather": 425, 
             "jewels": 65, 
-            "mana": 49, 
-            "hwood": 85
+            "hardwood": 85
          }, 
          "power": 1950, 
          "level": 47
@@ -3115,10 +3115,10 @@ var items = {
          "resources": {
             "oil": 90, 
             "fabric": 120, 
+            "mana": 27, 
             "leather": 220, 
             "jewels": 36, 
-            "mana": 27, 
-            "hwood": 60
+            "hardwood": 60
          }, 
          "power": 1450, 
          "level": 38
@@ -3220,7 +3220,7 @@ var items = {
          "price": 23000, 
          "resources": {
             "leather": 65, 
-            "hwood": 12, 
+            "hardwood": 12, 
             "fabric": 24
          }, 
          "power": 600, 
@@ -3519,10 +3519,10 @@ var items = {
          "resources": {
             "steel": 63, 
             "oil": 63, 
+            "hardwood": 63, 
             "mana": 30, 
             "wood": 111, 
-            "iron": 111, 
-            "hwood": 63
+            "iron": 111
          }, 
          "power": 1250, 
          "level": 35
@@ -3532,10 +3532,10 @@ var items = {
          "resources": {
             "steel": 120, 
             "oil": 120, 
+            "hardwood": 120, 
             "mana": 100, 
             "wood": 300, 
-            "iron": 300, 
-            "hwood": 120
+            "iron": 300
          }, 
          "power": 3025, 
          "level": 50
@@ -3553,9 +3553,9 @@ var items = {
          "price": 330000, 
          "resources": {
             "steel": 39, 
-            "hwood": 39, 
-            "wood": 72, 
+            "hardwood": 39, 
             "oil": 39, 
+            "wood": 72, 
             "iron": 72
          }, 
          "power": 1325, 
@@ -3565,9 +3565,9 @@ var items = {
          "price": 350000, 
          "resources": {
             "steel": 57, 
-            "hwood": 57, 
-            "wood": 102, 
+            "hardwood": 57, 
             "oil": 57, 
+            "wood": 102, 
             "iron": 102
          }, 
          "power": 1150, 
@@ -3578,10 +3578,10 @@ var items = {
          "resources": {
             "steel": 72, 
             "oil": 72, 
+            "hardwood": 72, 
             "mana": 36, 
             "wood": 132, 
-            "iron": 132, 
-            "hwood": 72
+            "iron": 132
          }, 
          "power": 1400, 
          "level": 38
@@ -3600,10 +3600,10 @@ var items = {
          "resources": {
             "steel": 75, 
             "oil": 75, 
+            "hardwood": 75, 
             "mana": 38, 
             "wood": 141, 
-            "iron": 141, 
-            "hwood": 75
+            "iron": 141
          }, 
          "power": 2175, 
          "level": 39
@@ -3621,9 +3621,9 @@ var items = {
          "price": 2000000, 
          "resources": {
             "steel": 66, 
-            "hwood": 66, 
-            "wood": 120, 
+            "hardwood": 66, 
             "oil": 66, 
+            "wood": 120, 
             "iron": 120
          }, 
          "power": 1950, 
@@ -3653,7 +3653,7 @@ var items = {
          "price": 7800, 
          "resources": {
             "steel": 6, 
-            "hwood": 6, 
+            "hardwood": 6, 
             "wood": 27, 
             "iron": 27
          }, 
@@ -3673,9 +3673,9 @@ var items = {
          "price": 160000, 
          "resources": {
             "steel": 36, 
-            "hwood": 36, 
-            "wood": 66, 
+            "hardwood": 36, 
             "oil": 36, 
+            "wood": 66, 
             "iron": 66
          }, 
          "power": 825, 
@@ -3685,9 +3685,9 @@ var items = {
          "price": 33000, 
          "resources": {
             "steel": 19, 
-            "hwood": 19, 
-            "wood": 45, 
+            "hardwood": 19, 
             "oil": 19, 
+            "wood": 45, 
             "iron": 45
          }, 
          "power": 550, 
@@ -3697,9 +3697,9 @@ var items = {
          "price": 8850, 
          "resources": {
             "steel": 7, 
-            "hwood": 7, 
-            "wood": 30, 
+            "hardwood": 7, 
             "oil": 7, 
+            "wood": 30, 
             "iron": 30
          }, 
          "power": 360, 
@@ -3710,10 +3710,10 @@ var items = {
          "resources": {
             "steel": 69, 
             "oil": 69, 
+            "hardwood": 69, 
             "mana": 34, 
             "wood": 126, 
-            "iron": 126, 
-            "hwood": 69
+            "iron": 126
          }, 
          "power": 1675, 
          "level": 37
@@ -3722,9 +3722,9 @@ var items = {
          "price": 69500, 
          "resources": {
             "steel": 30, 
-            "hwood": 30, 
-            "wood": 60, 
+            "hardwood": 30, 
             "oil": 30, 
+            "wood": 60, 
             "iron": 60
          }, 
          "power": 750, 
@@ -3735,10 +3735,10 @@ var items = {
          "resources": {
             "steel": 102, 
             "oil": 102, 
+            "hardwood": 102, 
             "mana": 65, 
             "wood": 255, 
-            "iron": 255, 
-            "hwood": 102
+            "iron": 255
          }, 
          "power": 2325, 
          "level": 47
@@ -3747,9 +3747,9 @@ var items = {
          "price": 225000, 
          "resources": {
             "steel": 25, 
-            "hwood": 25, 
-            "wood": 54, 
+            "hardwood": 25, 
             "oil": 25, 
+            "wood": 54, 
             "iron": 54
          }, 
          "power": 825, 
@@ -3759,9 +3759,9 @@ var items = {
          "price": 17500, 
          "resources": {
             "steel": 14, 
-            "hwood": 14, 
-            "wood": 39, 
+            "hardwood": 14, 
             "oil": 14, 
+            "wood": 39, 
             "iron": 39
          }, 
          "power": 470, 
@@ -3771,7 +3771,7 @@ var items = {
          "price": 99500, 
          "resources": {
             "steel": 17, 
-            "hwood": 17, 
+            "hardwood": 17, 
             "wood": 42, 
             "iron": 42
          }, 
@@ -3783,10 +3783,10 @@ var items = {
          "resources": {
             "steel": 81, 
             "oil": 81, 
+            "hardwood": 81, 
             "mana": 42, 
             "wood": 165, 
-            "iron": 165, 
-            "hwood": 81
+            "iron": 165
          }, 
          "power": 1550, 
          "level": 41
@@ -3795,9 +3795,9 @@ var items = {
          "price": 230000, 
          "resources": {
             "steel": 45, 
-            "hwood": 45, 
-            "wood": 84, 
+            "hardwood": 45, 
             "oil": 45, 
+            "wood": 84, 
             "iron": 84
          }, 
          "power": 975, 
@@ -3807,9 +3807,9 @@ var items = {
          "price": 47500, 
          "resources": {
             "steel": 23, 
-            "hwood": 23, 
-            "wood": 51, 
+            "hardwood": 23, 
             "oil": 23, 
+            "wood": 51, 
             "iron": 51
          }, 
          "power": 625, 
@@ -4094,7 +4094,7 @@ var items = {
       "War Gavel": {
          "price": 5700, 
          "resources": {
-            "hwood": 22, 
+            "hardwood": 22, 
             "wood": 59
          }, 
          "power": 470, 
@@ -4103,8 +4103,8 @@ var items = {
       "Destroyer": {
          "price": 540000, 
          "resources": {
+            "hardwood": 113, 
             "mana": 29, 
-            "hwood": 113, 
             "wood": 212, 
             "jewels": 38
          }, 
@@ -4114,7 +4114,7 @@ var items = {
       "Demolisher": {
          "price": 24500, 
          "resources": {
-            "hwood": 50, 
+            "hardwood": 50, 
             "wood": 95
          }, 
          "power": 800, 
@@ -4123,8 +4123,8 @@ var items = {
       "Tide Maker": {
          "price": 225000, 
          "resources": {
+            "hardwood": 104, 
             "mana": 26, 
-            "hwood": 104, 
             "wood": 189, 
             "jewels": 34
          }, 
@@ -4134,7 +4134,7 @@ var items = {
       "Journey Mace": {
          "price": 9550, 
          "resources": {
-            "hwood": 34, 
+            "hardwood": 34, 
             "wood": 77
          }, 
          "power": 625, 
@@ -4144,7 +4144,7 @@ var items = {
          "price": 54000, 
          "resources": {
             "steel": 11, 
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 81
          }, 
          "power": 825, 
@@ -4161,7 +4161,7 @@ var items = {
       "Fury Club": {
          "price": 43500, 
          "resources": {
-            "hwood": 63, 
+            "hardwood": 63, 
             "wood": 117
          }, 
          "power": 925, 
@@ -4170,7 +4170,7 @@ var items = {
       "Tree Trunk": {
          "price": 12500, 
          "resources": {
-            "hwood": 14, 
+            "hardwood": 14, 
             "wood": 50
          }, 
          "power": 600, 
@@ -4188,7 +4188,7 @@ var items = {
          "price": 3500, 
          "resources": {
             "steel": 3, 
-            "hwood": 11, 
+            "hardwood": 11, 
             "wood": 45
          }, 
          "power": 360, 
@@ -4197,8 +4197,8 @@ var items = {
       "Storm Basher": {
          "price": 1500000, 
          "resources": {
+            "hardwood": 131, 
             "mana": 36, 
-            "hwood": 131, 
             "wood": 293, 
             "jewels": 48
          }, 
@@ -4208,7 +4208,7 @@ var items = {
       "Apocalyptus": {
          "price": 385000, 
          "resources": {
-            "hwood": 81, 
+            "hardwood": 81, 
             "wood": 149, 
             "jewels": 24, 
             "oil": 23
@@ -4219,8 +4219,8 @@ var items = {
       "Crusher": {
          "price": 6450000, 
          "resources": {
+            "hardwood": 162, 
             "mana": 53, 
-            "hwood": 162, 
             "wood": 405, 
             "jewels": 70, 
             "oil": 45
@@ -4231,8 +4231,8 @@ var items = {
       "Earthquake": {
          "price": 62500, 
          "resources": {
+            "hardwood": 77, 
             "mana": 17, 
-            "hwood": 77, 
             "wood": 135
          }, 
          "power": 1050, 
@@ -4241,7 +4241,7 @@ var items = {
       "Battle Mace": {
          "price": 1750, 
          "resources": {
-            "hwood": 5, 
+            "hardwood": 5, 
             "wood": 32
          }, 
          "power": 260, 
@@ -4250,8 +4250,8 @@ var items = {
       "Hundred Ton": {
          "price": 2650000, 
          "resources": {
+            "hardwood": 117, 
             "mana": 30, 
-            "hwood": 117, 
             "wood": 225, 
             "jewels": 40, 
             "oil": 33
@@ -4262,8 +4262,8 @@ var items = {
       "Evening Star": {
          "price": 940000, 
          "resources": {
+            "hardwood": 108, 
             "mana": 27, 
-            "hwood": 108, 
             "wood": 198, 
             "jewels": 36, 
             "oil": 30
@@ -4290,7 +4290,7 @@ var items = {
       "Giant's Hammer": {
          "price": 115000, 
          "resources": {
-            "hwood": 50, 
+            "hardwood": 50, 
             "wood": 95
          }, 
          "power": 1190, 
@@ -4308,7 +4308,7 @@ var items = {
          "price": 160000, 
          "resources": {
             "steel": 26, 
-            "hwood": 95, 
+            "hardwood": 95, 
             "wood": 167, 
             "jewels": 30
          }, 
@@ -4328,10 +4328,10 @@ var items = {
          "resources": {
             "steel": 50, 
             "oil": 50, 
+            "hardwood": 180, 
             "jewels": 100, 
             "mana": 75, 
-            "wood": 450, 
-            "hwood": 180
+            "wood": 450
          }, 
          "power": 3025, 
          "level": 50
@@ -4342,7 +4342,7 @@ var items = {
          "price": 65500, 
          "resources": {
             "leather": 90, 
-            "hwood": 21, 
+            "hardwood": 21, 
             "wood": 45, 
             "jewels": 5
          }, 
@@ -4381,7 +4381,7 @@ var items = {
          "price": 120000, 
          "resources": {
             "leather": 150, 
-            "hwood": 43, 
+            "hardwood": 43, 
             "wood": 75
          }, 
          "power": 875, 
@@ -4391,10 +4391,10 @@ var items = {
          "price": 64500, 
          "resources": {
             "leather": 130, 
-            "mana": 16, 
-            "hwood": 35, 
+            "hardwood": 35, 
             "wood": 65, 
-            "fabric": 70
+            "fabric": 70, 
+            "mana": 16
          }, 
          "power": 775, 
          "level": 28
@@ -4403,10 +4403,10 @@ var items = {
          "price": 19500, 
          "resources": {
             "leather": 85, 
-            "mana": 5, 
-            "hwood": 19, 
+            "hardwood": 19, 
             "wood": 43, 
-            "fabric": 38
+            "fabric": 38, 
+            "mana": 5
          }, 
          "power": 525, 
          "level": 21
@@ -4415,11 +4415,11 @@ var items = {
          "price": 1200000, 
          "resources": {
             "fabric": 125, 
+            "mana": 38, 
             "leather": 235, 
             "jewels": 29, 
-            "mana": 38, 
-            "wood": 118, 
-            "hwood": 63
+            "hardwood": 63, 
+            "wood": 118
          }, 
          "power": 1200, 
          "level": 39
@@ -4428,10 +4428,10 @@ var items = {
          "price": 2350000, 
          "resources": {
             "leather": 220, 
-            "mana": 36, 
-            "hwood": 60, 
+            "hardwood": 60, 
             "wood": 110, 
-            "jewels": 27
+            "jewels": 27, 
+            "mana": 36
          }, 
          "power": 1450, 
          "level": 38
@@ -4448,10 +4448,10 @@ var items = {
          "price": 10650000, 
          "resources": {
             "leather": 375, 
-            "mana": 55, 
-            "hwood": 78, 
+            "hardwood": 78, 
             "wood": 188, 
-            "jewels": 41
+            "jewels": 41, 
+            "mana": 55
          }, 
          "power": 1825, 
          "level": 45
@@ -4469,10 +4469,10 @@ var items = {
          "price": 3600000, 
          "resources": {
             "leather": 250, 
-            "mana": 40, 
-            "hwood": 65, 
+            "hardwood": 65, 
             "wood": 125, 
-            "fabric": 130
+            "fabric": 130, 
+            "mana": 40
          }, 
          "power": 1875, 
          "level": 40
@@ -4481,11 +4481,11 @@ var items = {
          "price": 21300000, 
          "resources": {
             "fabric": 190, 
+            "mana": 80, 
             "leather": 475, 
             "jewels": 60, 
-            "mana": 80, 
-            "wood": 238, 
-            "hwood": 95
+            "hardwood": 95, 
+            "wood": 238
          }, 
          "power": 2450, 
          "level": 49
@@ -4503,7 +4503,7 @@ var items = {
          "price": 9050, 
          "resources": {
             "leather": 65, 
-            "hwood": 12, 
+            "hardwood": 12, 
             "wood": 33, 
             "fabric": 24
          }, 
@@ -4533,10 +4533,10 @@ var items = {
          "price": 560000, 
          "resources": {
             "leather": 140, 
-            "mana": 18, 
-            "hwood": 38, 
+            "hardwood": 38, 
             "wood": 70, 
-            "jewels": 14
+            "jewels": 14, 
+            "mana": 18
          }, 
          "power": 1200, 
          "level": 29
@@ -4545,7 +4545,7 @@ var items = {
          "price": 5750, 
          "resources": {
             "leather": 50, 
-            "hwood": 6, 
+            "hardwood": 6, 
             "wood": 25, 
             "fabric": 12
          }, 
@@ -4565,7 +4565,7 @@ var items = {
          "price": 16500, 
          "resources": {
             "leather": 55, 
-            "hwood": 8, 
+            "hardwood": 8, 
             "wood": 28, 
             "fabric": 16
          }, 
@@ -4576,11 +4576,11 @@ var items = {
          "price": 1900000, 
          "resources": {
             "fabric": 145, 
+            "mana": 48, 
             "leather": 325, 
             "jewels": 36, 
-            "mana": 48, 
-            "wood": 163, 
-            "hwood": 73
+            "hardwood": 73, 
+            "wood": 163
          }, 
          "power": 1375, 
          "level": 43
@@ -4589,9 +4589,9 @@ var items = {
          "price": 37500, 
          "resources": {
             "leather": 105, 
-            "mana": 10, 
-            "hwood": 28, 
-            "wood": 53
+            "hardwood": 28, 
+            "wood": 53, 
+            "mana": 10
          }, 
          "power": 650, 
          "level": 25
@@ -4600,10 +4600,10 @@ var items = {
          "price": 920000, 
          "resources": {
             "leather": 210, 
-            "mana": 34, 
-            "hwood": 58, 
+            "hardwood": 58, 
             "wood": 105, 
-            "fabric": 115
+            "fabric": 115, 
+            "mana": 34
          }, 
          "power": 1125, 
          "level": 37
@@ -4612,10 +4612,10 @@ var items = {
          "price": 380000, 
          "resources": {
             "leather": 185, 
-            "mana": 30, 
-            "hwood": 53, 
+            "hardwood": 53, 
             "wood": 93, 
-            "fabric": 105
+            "fabric": 105, 
+            "mana": 30
          }, 
          "power": 1050, 
          "level": 35
@@ -5315,11 +5315,11 @@ var items = {
          "price": 920000, 
          "resources": {
             "fabric": 120, 
+            "mana": 36, 
             "leather": 220, 
             "jewels": 27, 
-            "mana": 36, 
-            "wood": 110, 
-            "hwood": 60
+            "hardwood": 60, 
+            "wood": 110
          }, 
          "power": 1750, 
          "level": 38
@@ -5336,7 +5336,7 @@ var items = {
          "price": 2150, 
          "resources": {
             "leather": 21, 
-            "hwood": 2, 
+            "hardwood": 2, 
             "wood": 11
          }, 
          "power": 215, 
@@ -5766,7 +5766,7 @@ var items = {
          "price": 2500, 
          "resources": {
             "leather": 30, 
-            "hwood": 4
+            "hardwood": 4
          }, 
          "power": 245, 
          "level": 12
@@ -5855,9 +5855,9 @@ var items = {
          "price": 115000, 
          "resources": {
             "leather": 75, 
-            "mana": 7, 
-            "hwood": 25, 
-            "jewels": 8
+            "hardwood": 25, 
+            "jewels": 8, 
+            "mana": 7
          }, 
          "power": 950, 
          "level": 24
@@ -5897,9 +5897,9 @@ var items = {
          "price": 79500, 
          "resources": {
             "leather": 79, 
-            "mana": 9, 
-            "hwood": 28, 
-            "jewels": 10
+            "hardwood": 28, 
+            "jewels": 10, 
+            "mana": 9
          }, 
          "power": 650, 
          "level": 25
@@ -5942,9 +5942,9 @@ var items = {
          "price": 190000, 
          "resources": {
             "leather": 105, 
-            "mana": 16, 
-            "hwood": 38, 
-            "jewels": 18
+            "hardwood": 38, 
+            "jewels": 18, 
+            "mana": 16
          }, 
          "power": 800, 
          "level": 29
@@ -5976,9 +5976,9 @@ var items = {
          "price": 1600000, 
          "resources": {
             "leather": 139, 
-            "mana": 27, 
-            "hwood": 53, 
-            "jewels": 30
+            "hardwood": 53, 
+            "jewels": 30, 
+            "mana": 27
          }, 
          "power": 1550, 
          "level": 35
@@ -6296,10 +6296,10 @@ var items = {
          "price": 41500, 
          "resources": {
             "leather": 100, 
-            "mana": 8, 
-            "hwood": 25, 
+            "hardwood": 25, 
             "wood": 50, 
-            "fabric": 50
+            "fabric": 50, 
+            "mana": 8
          }, 
          "power": 625, 
          "level": 24
@@ -6308,10 +6308,10 @@ var items = {
          "price": 1500000, 
          "resources": {
             "leather": 220, 
-            "mana": 36, 
-            "hwood": 60, 
+            "hardwood": 60, 
             "fabric": 120, 
-            "jewels": 27
+            "jewels": 27, 
+            "mana": 36
          }, 
          "power": 1450, 
          "level": 38
@@ -6320,7 +6320,7 @@ var items = {
          "price": 17000, 
          "resources": {
             "leather": 55, 
-            "hwood": 8, 
+            "hardwood": 8, 
             "fabric": 16, 
             "jewels": 2
          }, 
@@ -6418,10 +6418,10 @@ var items = {
          "price": 16750000, 
          "resources": {
             "leather": 475, 
-            "mana": 80, 
-            "hwood": 95, 
+            "hardwood": 95, 
             "fabric": 190, 
-            "jewels": 60
+            "jewels": 60, 
+            "mana": 80
          }, 
          "power": 2450, 
          "level": 49
@@ -6438,10 +6438,10 @@ var items = {
          "price": 2750000, 
          "resources": {
             "leather": 235, 
-            "mana": 38, 
-            "hwood": 63, 
+            "hardwood": 63, 
             "fabric": 125, 
-            "jewels": 29
+            "jewels": 29, 
+            "mana": 38
          }, 
          "power": 1800, 
          "level": 39
@@ -6459,10 +6459,10 @@ var items = {
          "price": 7950000, 
          "resources": {
             "leather": 375, 
-            "mana": 55, 
-            "hwood": 78, 
+            "hardwood": 78, 
             "fabric": 155, 
-            "jewels": 41
+            "jewels": 41, 
+            "mana": 55
          }, 
          "power": 1825, 
          "level": 45
@@ -6479,10 +6479,10 @@ var items = {
          "price": 18500, 
          "resources": {
             "leather": 80, 
-            "mana": 5, 
-            "hwood": 18, 
+            "hardwood": 18, 
             "wood": 40, 
-            "fabric": 35
+            "fabric": 35, 
+            "mana": 5
          }, 
          "power": 490, 
          "level": 20
@@ -6491,7 +6491,7 @@ var items = {
          "price": 30500, 
          "resources": {
             "leather": 90, 
-            "hwood": 21, 
+            "hardwood": 21, 
             "fabric": 42
          }, 
          "power": 550, 
@@ -6501,11 +6501,11 @@ var items = {
          "price": 72500, 
          "resources": {
             "fabric": 60, 
+            "mana": 12, 
             "leather": 110, 
             "jewels": 9, 
-            "mana": 12, 
-            "wood": 55, 
-            "hwood": 30
+            "hardwood": 30, 
+            "wood": 55
          }, 
          "power": 700, 
          "level": 26
@@ -6522,11 +6522,11 @@ var items = {
          "price": 160000, 
          "resources": {
             "fabric": 80, 
+            "mana": 20, 
             "leather": 145, 
             "jewels": 15, 
-            "mana": 20, 
-            "wood": 73, 
-            "hwood": 40
+            "hardwood": 40, 
+            "wood": 73
          }, 
          "power": 850, 
          "level": 30
@@ -6535,10 +6535,10 @@ var items = {
          "price": 1300000, 
          "resources": {
             "leather": 200, 
-            "mana": 32, 
-            "hwood": 55, 
+            "hardwood": 55, 
             "wood": 100, 
-            "jewels": 24
+            "jewels": 24, 
+            "mana": 32
          }, 
          "power": 1625, 
          "level": 36
@@ -6573,8 +6573,8 @@ var items = {
       "Paralysis Totem": {
          "price": 86500, 
          "resources": {
+            "hardwood": 25, 
             "herbs": 100, 
-            "hwood": 25, 
             "wood": 50, 
             "jewels": 6, 
             "mana": 8
@@ -6613,8 +6613,8 @@ var items = {
       "Pain Totem": {
          "price": 12500, 
          "resources": {
+            "hardwood": 5, 
             "herbs": 45, 
-            "hwood": 5, 
             "wood": 23
          }, 
          "power": 340, 
@@ -6665,8 +6665,8 @@ var items = {
       "Hawk Totem": {
          "price": 1300000, 
          "resources": {
+            "hardwood": 60, 
             "herbs": 220, 
-            "hwood": 60, 
             "wood": 110, 
             "jewels": 29, 
             "mana": 36
@@ -6832,8 +6832,8 @@ var items = {
       "Gloom Totem": {
          "price": 635000, 
          "resources": {
+            "hardwood": 45, 
             "herbs": 165, 
-            "hwood": 45, 
             "wood": 83, 
             "jewels": 19, 
             "mana": 24

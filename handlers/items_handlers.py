@@ -4,7 +4,7 @@ from db.items_db import item_db  # @UnresolvedImport
 
 # ordered list of resources_list
 resources_list = ['iron', 'wood', 'leather', 'herbs',
-             'steel', 'hwood', 'fabric', 'oil', 'mana', 'jewels']
+    'steel', 'hardwood', 'fabric', 'oil', 'mana', 'jewels']
 
 class ItemCategoryHandler(BaseHandler):
     def get(self, **kwargs):

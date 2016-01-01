@@ -1,13 +1,32 @@
 {% extends "base.html" %}
 {% block title %}{{ category|capitalize }}{% endblock title %}
 {% block style %}
-  .itemBox {}
+  .itemBox {
+    background-color: #f8f8f8; 
+    overflow: auto; /* expands the div's height*/
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 1px solid #e7e7e7;
+    color: black;
+  } 
+  .itemImg, .itemInfo, .matList {
+    background-color: white;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    overflow: hidden; /* so images dont overflow on the border */
+  }
+  .imgBox {
+    margin: 0px auto;
+    padding: 0 5px 0 0;
+  }
   .itemLevel {
     font-weight: bold; 
-    background-color: black; 
+    background-color: #5e5e5e;
     color: white; 
     padding: 2px;
   }
+  .itemInfo {margin-bottom: 5px;}
   /* resource images */
   .rsrc {
     background-image: url({{ rsrc_spr.url }});
@@ -20,39 +39,45 @@
       background-position: 0px -{{ loop.index0 * 30}}px;
     }
   {% endfor %}
-
+  .price {
+    font-family: sans-serif;
+    color: yellow;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+  }
 {% endblock style %}
 {% block content %}
   <h1>{{ category|capitalize }}</h1>
-  <div class='row'>
+  <div class='row itemList'>
     {% for item in items %}
-      <div class="col-sm-6 col-lg-4 itemBox">
-        <div class="col-xs-4">
-          <img class="img-responsive" 
+      <div class="col-sm-6 col-lg-4"><div class='itemBox'>
+        <div class="col-xs-4 imgBox">
+          <img class="img-responsive itemImg" 
             title="{{ item.name }}" 
             src="{{ item.img }}"/>
         </div>
         <div class="col-xs-8">
-          <div>
-            <span class="itemLevel">{{ item.level }}</span>
+          <div class='itemInfo'>
+            <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
             <span class="itemName">{{ item.name }}</span>
           </div>
-          <div class='row'>
+          <div class='row matList'>
             {% for mat in item.mats %}
-              <div class="col-xs-4 col-md-3 nopadding">
+              <!-- <div class="col-xs-4 col-md-3 nopadding"> -->
+              <div class="col-xs-4 nopadding">
                 <!-- {{mat.qty}} <img src="{{ mat.img }}"/> -->
-                {{mat.qty}} <img src='/static/misc/transparent_dot.gif' class='rsrc rsrc-{{ mat.name }}'/>
+                <img src='/static/misc/transparent_dot.gif' class='rsrc rsrc-{{ mat.name }}' title='{{ mat.name }}'/>
+                {{mat.qty}}
               </div>
               {% if loop.index0 % 3 == 2 %}
                 <div class="clearfix visible-xs-block visible-sm-block"></div>
               {% endif %}
               {% if loop.index0 % 4 == 3 %}
-                <div class="clearfix visible-md-block visible-lg-block"></div>
+                <!-- <div class="clearfix visible-md-block visible-lg-block"></div> -->
               {% endif %}
             {% endfor %}
           </div>
         </div>
-      </div>
+      </div></div>
 
       <div class="clearfix visible-xs-block"></div>
       {% if loop.index0 % 2 == 1 %}

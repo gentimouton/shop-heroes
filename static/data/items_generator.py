@@ -31,7 +31,7 @@ reader = csv.DictReader(input_file)
 items = defaultdict(dict)  # {'Swords': {'Shortsword': {}, ...}, 'Axes': {} }
 basics = ['price', 'level', 'power']
 resources = ['iron', 'wood', 'leather', 'herbs',
-             'steel', 'hwood', 'fabric', 'oil', 'mana', 'jewels']
+             'steel', 'hardwood', 'fabric', 'oil', 'mana', 'jewels']
 for row in reader:
     name = row['name']
     kind = row['class']
