@@ -6,6 +6,12 @@ from db.items_db import item_db  # @UnresolvedImport
 resources_list = ['iron', 'wood', 'leather', 'herbs',
     'steel', 'hardwood', 'fabric', 'oil', 'mana', 'jewels']
 
+def format_price(price):
+    # 1500 becomes 1,500
+    # 15500 becomes 15.5k
+    return '{:,}'.format(price)
+        
+    
 class ItemCategoryHandler(BaseHandler):
     def get(self, **kwargs):
         category = kwargs['category']
@@ -27,20 +33,17 @@ class ItemCategoryHandler(BaseHandler):
             img = '/static/%s/%s.png' % (category, item_filename)
             item = {
                 'name': item_name,
-                'level': item_data['level'], 
-                'price': item_data['price'],
+                'level': item_data['level'],
+                'price': format_price(item_data['price']),
+                'power': item_data['power'],
                 'img': img,
                 'mats': mats_display
             }
             items.append(item)
         items.sort(key=lambda item: (item['level'], item['name']))
-        # resource sprite: image url and mapping
-        rsrc_spr = {'url': '/static/resources/resources_sprite.png',
-            'map': resources_list
-            }
         context = {'category': category,
             'items': items,
-            'rsrc_spr': rsrc_spr
+            'resources': resources_list  # same order as in the icon sprite
             }
         self.render_response('category.html', **context)
 

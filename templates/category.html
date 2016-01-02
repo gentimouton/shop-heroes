@@ -26,23 +26,30 @@
     color: white; 
     padding: 2px;
   }
+  .itemPower {
+    float: right;
+    font-family: arial;
+    color: gold;
+    padding-right: 5px;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px maroon, 1px -1px 1px maroon, -1px -1px 1px maroon, -1px 1px 1px maroon;
+  }
   .itemInfo {margin-bottom: 5px;}
   /* resource images */
-  .rsrc {
-    background-image: url({{ rsrc_spr.url }});
+  .icon {
+    background-image: url('/static/icons.png');
     background-repeat: no-repeat;
     height: 30px;
     width: 30px;
   }
-  {% for rsrc in rsrc_spr.map %}
-    .rsrc-{{ rsrc }} {
+  {% for rsrc in resources %}
+    .icon-{{ rsrc }} {
       background-position: 0px -{{ loop.index0 * 30}}px;
     }
   {% endfor %}
-  .price {
+  .icon-coin {background-position: 0px -300px} /* after all resources */
+  .itemPrice {
     font-family: sans-serif;
-    color: yellow;
-    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
   }
 {% endblock style %}
 {% block content %}
@@ -54,18 +61,23 @@
           <img class="img-responsive itemImg" 
             title="{{ item.name }}" 
             src="{{ item.img }}"/>
+          <span class='itemPrice'>
+            <img src='/static/transparent_dot.gif' class='icon icon-coin'/>
+            {{ item.price }}
+          </span>
         </div>
         <div class="col-xs-8">
           <div class='itemInfo'>
             <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
             <span class="itemName">{{ item.name }}</span>
+            <span class='itemPower'>{{ item.power }}</span>
           </div>
           <div class='row matList'>
             {% for mat in item.mats %}
               <!-- <div class="col-xs-4 col-md-3 nopadding"> -->
               <div class="col-xs-4 nopadding">
                 <!-- {{mat.qty}} <img src="{{ mat.img }}"/> -->
-                <img src='/static/misc/transparent_dot.gif' class='rsrc rsrc-{{ mat.name }}' title='{{ mat.name }}'/>
+                <img src='/static/transparent_dot.gif' class='icon icon-{{ mat.name }}' title='{{ mat.name }}'/>
                 {{mat.qty}}
               </div>
               {% if loop.index0 % 3 == 2 %}
