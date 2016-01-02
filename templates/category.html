@@ -28,6 +28,7 @@
   }
   .itemPower {
     float: right;
+    margin-left: -30px; /* allow overlap with .itemName to prevent line break */
     font-family: arial;
     color: gold;
     padding-right: 5px;
@@ -42,15 +43,15 @@
     height: 30px;
     width: 30px;
   }
-  {% for rsrc in resources %}
-    .icon-{{ rsrc }} {
-      background-position: 0px -{{ loop.index0 * 30}}px;
-    }
+  {% for icon_list in icons_map %}
+    {% set outer_loop = loop %}
+    {% for icon in icon_list %}
+      .icon-{{ icon }} {
+        background-position: -{{ outer_loop.index0 * 30 }}px -{{ loop.index0 * 30}}px;
+      }
+    {% endfor %}
   {% endfor %}
-  .icon-coin {background-position: 0px -300px} /* after all resources */
-  .itemPrice {
-    font-family: sans-serif;
-  }
+
 {% endblock style %}
 {% block content %}
   <h1>{{ category|capitalize }}</h1>
@@ -74,17 +75,12 @@
           </div>
           <div class='row matList'>
             {% for mat in item.mats %}
-              <!-- <div class="col-xs-4 col-md-3 nopadding"> -->
               <div class="col-xs-4 nopadding">
-                <!-- {{mat.qty}} <img src="{{ mat.img }}"/> -->
-                <img src='/static/transparent_dot.gif' class='icon icon-{{ mat.name }}' title='{{ mat.name }}'/>
+                <img src='/static/transparent_dot.gif' class='icon icon-{{ mat.slug }}' title='{{ mat.name }}'/>
                 {{mat.qty}}
               </div>
               {% if loop.index0 % 3 == 2 %}
                 <div class="clearfix visible-xs-block visible-sm-block"></div>
-              {% endif %}
-              {% if loop.index0 % 4 == 3 %}
-                <!-- <div class="clearfix visible-md-block visible-lg-block"></div> -->
               {% endif %}
             {% endfor %}
           </div>

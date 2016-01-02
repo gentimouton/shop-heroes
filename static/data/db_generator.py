@@ -1,27 +1,44 @@
+from collections import defaultdict
 import csv
 import json
-from collections import defaultdict
+import pprint
 from string import Template
 
 
 ############ helper
-
-def get_int(row, key):
+def get_int(row, key, ignore=0):
+    """ row is the csv row to get an integer from, 
+    key is that row's column that we want to cast as int,
+    ignore is the number of chars to ignore.
+    return 0 if could not convert 
+    """
     try:
-        val = int(row[key].replace(',', ''))
+        val = int(row[key][ignore:].replace(',', ''))
     except ValueError:  # raised by int('') or int('---')
         val = 0
     return val
 
-############### fetch special resources data
-special_resources = []
-input_file = open('special resources.csv')
-reader = csv.DictReader(input_file)  # Resource,Level
+############### fetch and write artifact data
+artifacts = {}
+input_file = open('artifacts.csv')
+reader = csv.DictReader(input_file)  # Artifact Name,Level,Tier,Artifact Type
 for row in reader:
-    special_resources.append(row['Resource'])
+    artifacts[row['Artifact Name']] = {
+        'level': int(row['Level']),
+        'tier': get_int(row, 'Tier', ignore=len('Tier ')),  # 0 for city raids
+        'origin': row['Artifact Type']
+        }
 input_file.close()
 
+pp = pprint.PrettyPrinter(indent=4)
+output_file = open('artifacts_db.py', 'wb')
+output_file.write('artifacts_db = \\\n')
+output_file.write(pprint.pformat(artifacts, indent=4))
+output_file.close()
+
+
 ############## read item data
+print 'reading items.csv'
 input_file = open('items.csv')
 reader = csv.DictReader(input_file)
 # name    level    power    class    price
@@ -33,24 +50,37 @@ basics = ['price', 'level', 'power']
 resources = ['iron', 'wood', 'leather', 'herbs',
              'steel', 'hardwood', 'fabric', 'oil', 'mana', 'jewels']
 for row in reader:
-    name = row['name']
-    kind = row['class']
+    item_name = row['name']
+    item_kind = row['class']
     # fill item_data
     item_data = {}
     for b in basics:
         value = get_int(row, b)
         item_data[b] = value
+    # resources
     item_res = {}
     for r in resources:
         value = get_int(row, r)
         if value:
             item_res[r] = value
     item_data['resources'] = item_res
-    items[kind][name] = item_data
+    # components
+    item_comp = {}
+    for comp in [row['comp1'], row['comp2']]:
+        tokens = comp.split(' ')
+        try:
+            comp_qty = int(tokens[0])
+            comp_name = ' '.join(tokens[1:])  # rejoin tokens for component name
+            if comp_name in artifacts.keys():  # TODO: precrafts as well
+                item_comp[comp_name] = comp_qty
+        except ValueError:  # first token was not an integer, eg int('---')
+            continue
+    item_data['components'] = item_comp
+    items[item_kind][item_name] = item_data
 input_file.close()
 
 ################ write python
-import pprint 
+print 'writing items_db.py'
 pp = pprint.PrettyPrinter(indent=4)
 output_file = open('items_db.py', 'wb')
 output_file.write('item_db = \\\n')
@@ -112,6 +142,7 @@ item_template_str = """
 
 
 ################# write HTML from string templates
+print 'writing items_db.html'
 output_file = open('items_db.html', 'wb')
 document_template = Template(doc_template_str)
 section_template = Template(section_template_str)

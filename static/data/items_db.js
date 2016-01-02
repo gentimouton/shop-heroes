@@ -1,6 +1,9 @@
 var items = {
    "Armor": {
       "White Fullplate": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 230000, 
          "resources": {
             "steel": 90, 
@@ -14,6 +17,7 @@ var items = {
          "level": 32
       }, 
       "Ring Mail": {
+         "components": {}, 
          "price": 320, 
          "resources": {
             "leather": 6, 
@@ -23,6 +27,7 @@ var items = {
          "level": 5
       }, 
       "Banded Mail": {
+         "components": {}, 
          "price": 95, 
          "resources": {
             "leather": 3, 
@@ -32,6 +37,9 @@ var items = {
          "level": 3
       }, 
       "Gaia's Fortress": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 1400000, 
          "resources": {
             "steel": 120, 
@@ -45,6 +53,9 @@ var items = {
          "level": 38
       }, 
       "Eldritch Mail": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 2800000, 
          "resources": {
             "leather": 93, 
@@ -57,6 +68,9 @@ var items = {
          "level": 35
       }, 
       "Oracle's Armor": {
+         "components": {
+            "Shard Of Gaia": 3
+         }, 
          "price": 20350000, 
          "resources": {
             "steel": 190, 
@@ -70,6 +84,9 @@ var items = {
          "level": 49
       }, 
       "Draconic Plate": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 3550000, 
          "resources": {
             "steel": 125, 
@@ -83,6 +100,9 @@ var items = {
          "level": 39
       }, 
       "Twilight Cuirass": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 835000, 
          "resources": {
             "steel": 130, 
@@ -96,6 +116,7 @@ var items = {
          "level": 40
       }, 
       "Longmail": {
+         "components": {}, 
          "price": 12500, 
          "resources": {
             "leather": 33, 
@@ -107,6 +128,7 @@ var items = {
          "level": 17
       }, 
       "Chainmail": {
+         "components": {}, 
          "price": 995, 
          "resources": {
             "leather": 11, 
@@ -116,6 +138,9 @@ var items = {
          "level": 8
       }, 
       "Shining Armor": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 190000, 
          "resources": {
             "leather": 60, 
@@ -128,6 +153,9 @@ var items = {
          "level": 27
       }, 
       "Runic Mail": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 67500, 
          "resources": {
             "steel": 46, 
@@ -141,6 +169,9 @@ var items = {
          "level": 23
       }, 
       "Arcane Guard": {
+         "components": {
+            "Royal Bone": 1
+         }, 
          "price": 43000, 
          "resources": {
             "leather": 45, 
@@ -153,6 +184,7 @@ var items = {
          "level": 22
       }, 
       "Cuirass": {
+         "components": {}, 
          "price": 16, 
          "resources": {
             "leather": 1, 
@@ -162,6 +194,9 @@ var items = {
          "level": 1
       }, 
       "Valkyrie Armor": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 635000, 
          "resources": {
             "steel": 80, 
@@ -175,6 +210,9 @@ var items = {
          "level": 30
       }, 
       "Earthen Mail": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 10100000, 
          "resources": {
             "steel": 160, 
@@ -188,6 +226,10 @@ var items = {
          "level": 46
       }, 
       "Golden Heart": {
+         "components": {
+            "Yggdrasil Leaf": 2, 
+            "Sun Tear": 1
+         }, 
          "price": 305000, 
          "resources": {
             "steel": 110, 
@@ -201,6 +243,9 @@ var items = {
          "level": 36
       }, 
       "Scale Mail": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 215, 
          "resources": {
             "leather": 4, 
@@ -210,6 +255,9 @@ var items = {
          "level": 4
       }, 
       "Silvered Scales": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 26500, 
          "resources": {
             "leather": 38, 
@@ -222,6 +270,9 @@ var items = {
          "level": 19
       }, 
       "Noble Plate": {
+         "components": {
+            "Rainbow Dust": 5
+         }, 
          "price": 36500, 
          "resources": {
             "leather": 35, 
@@ -233,6 +284,9 @@ var items = {
          "level": 18
       }, 
       "Chaos Armor": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 405000, 
          "resources": {
             "steel": 55, 
@@ -246,6 +300,9 @@ var items = {
          "level": 25
       }, 
       "Steel Cuirass": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 3550, 
          "resources": {
             "leather": 18, 
@@ -257,6 +314,9 @@ var items = {
          "level": 11
       }, 
       "Moonplate": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 4400, 
          "resources": {
             "leather": 15, 
@@ -266,6 +326,9 @@ var items = {
          "level": 10
       }, 
       "Half Plate": {
+         "components": {
+            "Elven Dew": 4
+         }, 
          "price": 1650, 
          "resources": {
             "leather": 13, 
@@ -276,6 +339,9 @@ var items = {
          "level": 9
       }, 
       "Crimson Plate": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1700000, 
          "resources": {
             "steel": 140, 
@@ -289,6 +355,7 @@ var items = {
          "level": 42
       }, 
       "Full Plate": {
+         "components": {}, 
          "price": 5200, 
          "resources": {
             "leather": 25, 
@@ -302,6 +369,7 @@ var items = {
    }, 
    "Axes": {
       "Labrys": {
+         "components": {}, 
          "price": 3950, 
          "resources": {
             "steel": 6, 
@@ -313,6 +381,9 @@ var items = {
          "level": 12
       }, 
       "Berserker's Axe": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 165000, 
          "resources": {
             "steel": 35, 
@@ -324,6 +395,9 @@ var items = {
          "level": 23
       }, 
       "Eagle": {
+         "components": {
+            "Dragon Scale": 1
+         }, 
          "price": 745000, 
          "resources": {
             "steel": 94, 
@@ -337,6 +411,10 @@ var items = {
          "level": 39
       }, 
       "Storm Splitter": {
+         "components": {
+            "Phoenix Feather": 2, 
+            "Sun Tear": 1
+         }, 
          "price": 420000, 
          "resources": {
             "steel": 83, 
@@ -350,6 +428,7 @@ var items = {
          "level": 36
       }, 
       "Pole Axe": {
+         "components": {}, 
          "price": 1650, 
          "resources": {
             "steel": 3, 
@@ -360,6 +439,7 @@ var items = {
          "level": 9
       }, 
       "Broad Axe": {
+         "components": {}, 
          "price": 290, 
          "resources": {
             "wood": 6, 
@@ -369,6 +449,9 @@ var items = {
          "level": 4
       }, 
       "Ragnarok's Edge": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 4150000, 
          "resources": {
             "steel": 98, 
@@ -381,6 +464,9 @@ var items = {
          "level": 40
       }, 
       "Halberd": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 405, 
          "resources": {
             "wood": 8, 
@@ -390,6 +476,7 @@ var items = {
          "level": 5
       }, 
       "Hand Axe": {
+         "components": {}, 
          "price": 42, 
          "resources": {
             "wood": 2, 
@@ -399,6 +486,7 @@ var items = {
          "level": 2
       }, 
       "Hawk": {
+         "components": {}, 
          "price": 11500, 
          "resources": {
             "steel": 15, 
@@ -410,6 +498,9 @@ var items = {
          "level": 16
       }, 
       "Retribution": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1650000, 
          "resources": {
             "steel": 105, 
@@ -423,6 +514,10 @@ var items = {
          "level": 42
       }, 
       "Bone Reaver": {
+         "components": {
+            "Wyvern Wing": 3, 
+            "Royal Bone": 2
+         }, 
          "price": 56500, 
          "resources": {
             "steel": 38, 
@@ -434,6 +529,9 @@ var items = {
          "level": 24
       }, 
       "Frenzied Axe": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 12150000, 
          "resources": {
             "steel": 135, 
@@ -447,6 +545,9 @@ var items = {
          "level": 48
       }, 
       "Nocturne Axe": {
+         "components": {
+            "Dark Energy": 1
+         }, 
          "price": 205000, 
          "resources": {
             "steel": 71, 
@@ -459,6 +560,9 @@ var items = {
          "level": 33
       }, 
       "Crystal Asunder": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 99500, 
          "resources": {
             "steel": 53, 
@@ -470,6 +574,9 @@ var items = {
          "level": 28
       }, 
       "Sharp Tusk": {
+         "components": {
+            "Silver Steel": 3
+         }, 
          "price": 185000, 
          "resources": {
             "steel": 41, 
@@ -481,6 +588,9 @@ var items = {
          "level": 25
       }, 
       "Infernal Rage": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 1550000, 
          "resources": {
             "steel": 90, 
@@ -494,6 +604,9 @@ var items = {
          "level": 38
       }, 
       "Umbral Axe": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 20200000, 
          "resources": {
             "steel": 150, 
@@ -507,6 +620,9 @@ var items = {
          "level": 50
       }, 
       "Hunting Axe": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 830, 
          "resources": {
             "wood": 11, 
@@ -516,6 +632,9 @@ var items = {
          "level": 6
       }, 
       "Druidic Axe": {
+         "components": {
+            "Viper Essence": 2
+         }, 
          "price": 1250, 
          "resources": {
             "wood": 11, 
@@ -525,6 +644,9 @@ var items = {
          "level": 6
       }, 
       "Reaper": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 45500, 
          "resources": {
             "steel": 32, 
@@ -536,6 +658,7 @@ var items = {
          "level": 22
       }, 
       "Iron Axe": {
+         "components": {}, 
          "price": 115, 
          "resources": {
             "wood": 4, 
@@ -545,6 +668,9 @@ var items = {
          "level": 3
       }, 
       "Lava Axe": {
+         "components": {
+            "Burning Ember": 3
+         }, 
          "price": 21000, 
          "resources": {
             "steel": 26, 
@@ -556,6 +682,9 @@ var items = {
          "level": 20
       }, 
       "Shining Axe": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 170000, 
          "resources": {
             "steel": 64, 
@@ -567,6 +696,7 @@ var items = {
          "level": 31
       }, 
       "Steel Axe": {
+         "components": {}, 
          "price": 6950, 
          "resources": {
             "steel": 9, 
@@ -578,6 +708,9 @@ var items = {
          "level": 14
       }, 
       "Widow Maker": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 670000, 
          "resources": {
             "steel": 68, 
@@ -589,6 +722,9 @@ var items = {
          "level": 32
       }, 
       "Tiamat": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 4750, 
          "resources": {
             "wood": 23, 
@@ -600,6 +736,7 @@ var items = {
    }, 
    "Swords": {
       "Longsword": {
+         "components": {}, 
          "price": 60, 
          "resources": {
             "iron": 5
@@ -608,6 +745,9 @@ var items = {
          "level": 3
       }, 
       "Sabre": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 7000, 
          "resources": {
             "steel": 20, 
@@ -617,6 +757,7 @@ var items = {
          "level": 16
       }, 
       "Vorpal Sword": {
+         "components": {}, 
          "price": 48000, 
          "resources": {
             "steel": 35, 
@@ -627,6 +768,9 @@ var items = {
          "level": 20
       }, 
       "Twilight Scimitar": {
+         "components": {
+            "Demon Heart": 4
+         }, 
          "price": 680000, 
          "resources": {
             "steel": 125, 
@@ -638,6 +782,9 @@ var items = {
          "level": 39
       }, 
       "Claymore": {
+         "components": {
+            "Viper Essence": 3
+         }, 
          "price": 920, 
          "resources": {
             "iron": 21
@@ -646,6 +793,7 @@ var items = {
          "level": 8
       }, 
       "Shortsword": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "iron": 3
@@ -654,6 +802,10 @@ var items = {
          "level": 2
       }, 
       "Heaven's Will": {
+         "components": {
+            "Phoenix Feather": 2, 
+            "Demon Heart": 1
+         }, 
          "price": 140000, 
          "resources": {
             "steel": 85, 
@@ -665,6 +817,7 @@ var items = {
          "level": 31
       }, 
       "Scimitar": {
+         "components": {}, 
          "price": 19000, 
          "resources": {
             "steel": 46, 
@@ -674,6 +827,9 @@ var items = {
          "level": 23
       }, 
       "Stormbringer": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 2000000, 
          "resources": {
             "steel": 120, 
@@ -685,6 +841,7 @@ var items = {
          "level": 38
       }, 
       "Rapier": {
+         "components": {}, 
          "price": 555, 
          "resources": {
             "iron": 18
@@ -693,6 +850,9 @@ var items = {
          "level": 7
       }, 
       "Excalibur": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 410000, 
          "resources": {
             "steel": 115, 
@@ -703,6 +863,7 @@ var items = {
          "level": 37
       }, 
       "Broadsword": {
+         "components": {}, 
          "price": 250, 
          "resources": {
             "iron": 11
@@ -711,6 +872,9 @@ var items = {
          "level": 5
       }, 
       "Slashing Tiger": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 210000, 
          "resources": {
             "steel": 105, 
@@ -721,6 +885,9 @@ var items = {
          "level": 35
       }, 
       "Zweihander": {
+         "components": {
+            "Iron Wood": 1
+         }, 
          "price": 2250, 
          "resources": {
             "steel": 8, 
@@ -730,6 +897,9 @@ var items = {
          "level": 12
       }, 
       "Dragonslayer": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 3950000, 
          "resources": {
             "steel": 135, 
@@ -741,6 +911,7 @@ var items = {
          "level": 41
       }, 
       "Bastard Sword": {
+         "components": {}, 
          "price": 3700, 
          "resources": {
             "steel": 12, 
@@ -750,6 +921,9 @@ var items = {
          "level": 14
       }, 
       "Fire Blade": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 1850, 
          "resources": {
             "iron": 30
@@ -758,6 +932,10 @@ var items = {
          "level": 10
       }, 
       "Sawblade": {
+         "components": {
+            "Wyvern Wing": 3, 
+            "Royal Bone": 4
+         }, 
          "price": 92000, 
          "resources": {
             "steel": 80, 
@@ -767,6 +945,9 @@ var items = {
          "level": 30
       }, 
       "Abyssal Brand": {
+         "components": {
+            "Silver Steel": 3
+         }, 
          "price": 485000, 
          "resources": {
             "steel": 90, 
@@ -777,6 +958,9 @@ var items = {
          "level": 32
       }, 
       "Masamune": {
+         "components": {
+            "Silver Steel": 1
+         }, 
          "price": 65000, 
          "resources": {
             "steel": 65, 
@@ -786,6 +970,9 @@ var items = {
          "level": 27
       }, 
       "Balmung": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 4400000, 
          "resources": {
             "steel": 130, 
@@ -797,6 +984,9 @@ var items = {
          "level": 40
       }, 
       "Durandal": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 18700000, 
          "resources": {
             "steel": 200, 
@@ -808,6 +998,9 @@ var items = {
          "level": 50
       }, 
       "Unholy Fangs": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1100000, 
          "resources": {
             "steel": 145, 
@@ -819,6 +1012,9 @@ var items = {
          "level": 43
       }, 
       "Coldsteel": {
+         "components": {
+            "Frozen Core": 3
+         }, 
          "price": 71500, 
          "resources": {
             "steel": 55, 
@@ -828,6 +1024,9 @@ var items = {
          "level": 25
       }, 
       "Frostfire Blade": {
+         "components": {
+            "Frostfire Crystal": 1
+         }, 
          "price": 5450000, 
          "resources": {
             "steel": 160, 
@@ -839,6 +1038,7 @@ var items = {
          "level": 46
       }, 
       "Wakizashi": {
+         "components": {}, 
          "price": 11000, 
          "resources": {
             "steel": 32, 
@@ -850,6 +1050,9 @@ var items = {
    }, 
    "Bows": {
       "Dragon Eye": {
+         "components": {
+            "Dragon Scale": 1
+         }, 
          "price": 4100000, 
          "resources": {
             "hardwood": 115, 
@@ -860,6 +1063,9 @@ var items = {
          "level": 37
       }, 
       "Faery's String": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 345, 
          "resources": {
             "wood": 11
@@ -868,6 +1074,9 @@ var items = {
          "level": 5
       }, 
       "Bow Of Light": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 160000, 
          "resources": {
             "hardwood": 75, 
@@ -878,6 +1087,9 @@ var items = {
          "level": 29
       }, 
       "Valkyrie's Touch": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 460000, 
          "resources": {
             "hardwood": 80, 
@@ -889,6 +1101,7 @@ var items = {
          "level": 30
       }, 
       "Double String": {
+         "components": {}, 
          "price": 635, 
          "resources": {
             "wood": 18
@@ -897,6 +1110,9 @@ var items = {
          "level": 7
       }, 
       "Twilight Shot": {
+         "components": {
+            "Liquid Fire": 15
+         }, 
          "price": 2150000, 
          "resources": {
             "hardwood": 130, 
@@ -908,6 +1124,9 @@ var items = {
          "level": 40
       }, 
       "Recurved Bow": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 4650, 
          "resources": {
             "hardwood": 12, 
@@ -917,6 +1136,9 @@ var items = {
          "level": 14
       }, 
       "Griffin Wings": {
+         "components": {
+            "Sun Tear": 1
+         }, 
          "price": 850000, 
          "resources": {
             "hardwood": 120, 
@@ -928,6 +1150,9 @@ var items = {
          "level": 38
       }, 
       "Wind Piercer": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 19200000, 
          "resources": {
             "hardwood": 180, 
@@ -939,6 +1164,7 @@ var items = {
          "level": 48
       }, 
       "Long Bow": {
+         "components": {}, 
          "price": 75, 
          "resources": {
             "wood": 5
@@ -947,6 +1173,9 @@ var items = {
          "level": 3
       }, 
       "Elven Bow": {
+         "components": {
+            "Ancient Essence": 2
+         }, 
          "price": 8550000, 
          "resources": {
             "hardwood": 145, 
@@ -958,6 +1187,7 @@ var items = {
          "level": 43
       }, 
       "Forester": {
+         "components": {}, 
          "price": 14000, 
          "resources": {
             "hardwood": 35, 
@@ -967,6 +1197,9 @@ var items = {
          "level": 20
       }, 
       "Heavy Crossbow": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 9950, 
          "resources": {
             "hardwood": 24, 
@@ -977,6 +1210,9 @@ var items = {
          "level": 17
       }, 
       "Silent Arbalest": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 74000, 
          "resources": {
             "hardwood": 55, 
@@ -987,6 +1223,9 @@ var items = {
          "level": 25
       }, 
       "Transfixer": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 25500, 
          "resources": {
             "hardwood": 46, 
@@ -996,6 +1235,9 @@ var items = {
          "level": 23
       }, 
       "Falcon Eye": {
+         "components": {
+            "Viper Essence": 5
+         }, 
          "price": 2800, 
          "resources": {
             "wood": 21
@@ -1004,6 +1246,7 @@ var items = {
          "level": 8
       }, 
       "Short Bow": {
+         "components": {}, 
          "price": 32, 
          "resources": {
             "wood": 3
@@ -1012,6 +1255,9 @@ var items = {
          "level": 2
       }, 
       "Wind Striker": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 115000, 
          "resources": {
             "hardwood": 65, 
@@ -1021,6 +1267,9 @@ var items = {
          "level": 27
       }, 
       "Composite Bow": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 1500, 
          "resources": {
             "wood": 25
@@ -1029,6 +1278,7 @@ var items = {
          "level": 9
       }, 
       "Crossbow": {
+         "components": {}, 
          "price": 2550, 
          "resources": {
             "hardwood": 6, 
@@ -1039,6 +1289,10 @@ var items = {
          "level": 11
       }, 
       "Chimera Wings": {
+         "components": {
+            "Dark Energy": 2, 
+            "Sun Tear": 1
+         }, 
          "price": 365000, 
          "resources": {
             "hardwood": 100, 
@@ -1050,6 +1304,7 @@ var items = {
          "level": 34
       }, 
       "Self-loader": {
+         "components": {}, 
          "price": 45500, 
          "resources": {
             "hardwood": 28, 
@@ -1060,6 +1315,9 @@ var items = {
          "level": 18
       }, 
       "Eagle Eye": {
+         "components": {
+            "Royal Bone": 1
+         }, 
          "price": 48500, 
          "resources": {
             "hardwood": 38, 
@@ -1069,6 +1327,9 @@ var items = {
          "level": 21
       }, 
       "Adamantium Crossbow": {
+         "components": {
+            "Adamantium": 3
+         }, 
          "price": 6400000, 
          "resources": {
             "hardwood": 125, 
@@ -1081,6 +1342,9 @@ var items = {
          "level": 39
       }, 
       "Evelyn": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 1300000, 
          "resources": {
             "hardwood": 105, 
@@ -1091,6 +1355,9 @@ var items = {
          "level": 35
       }, 
       "Spider": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 215000, 
          "resources": {
             "hardwood": 85, 
@@ -1104,6 +1371,7 @@ var items = {
    }, 
    "Music": {
       "Wood Flute": {
+         "components": {}, 
          "price": 80, 
          "resources": {
             "wood": 4
@@ -1112,6 +1380,9 @@ var items = {
          "level": 3
       }, 
       "Ygg Flute": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 110000, 
          "resources": {
             "hardwood": 45, 
@@ -1122,6 +1393,9 @@ var items = {
          "level": 26
       }, 
       "Wyrm Horn": {
+         "components": {
+            "Phoenix Feather": 3
+         }, 
          "price": 510000, 
          "resources": {
             "steel": 43, 
@@ -1133,6 +1407,9 @@ var items = {
          "level": 31
       }, 
       "Iron Flute": {
+         "components": {
+            "Iron Wood": 5
+         }, 
          "price": 4350, 
          "resources": {
             "iron": 20
@@ -1141,6 +1418,9 @@ var items = {
          "level": 12
       }, 
       "Nordic Lute": {
+         "components": {
+            "Frozen Core": 3
+         }, 
          "price": 49500, 
          "resources": {
             "leather": 45, 
@@ -1151,6 +1431,9 @@ var items = {
          "level": 22
       }, 
       "Oud": {
+         "components": {
+            "Royal Bone": 1
+         }, 
          "price": 19500, 
          "resources": {
             "leather": 40, 
@@ -1161,6 +1444,9 @@ var items = {
          "level": 20
       }, 
       "Pan Flute": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 985, 
          "resources": {
             "leather": 9, 
@@ -1170,6 +1456,9 @@ var items = {
          "level": 7
       }, 
       "Ancient Horn": {
+         "components": {
+            "Ancient Essence": 2
+         }, 
          "price": 3400000, 
          "resources": {
             "hardwood": 101, 
@@ -1181,6 +1470,9 @@ var items = {
          "level": 41
       }, 
       "Long Flute": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 12000, 
          "resources": {
             "hardwood": 21, 
@@ -1190,6 +1482,9 @@ var items = {
          "level": 18
       }, 
       "Frozen Harp": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 46000, 
          "resources": {
             "hardwood": 15, 
@@ -1199,6 +1494,9 @@ var items = {
          "level": 16
       }, 
       "Lute": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 7450, 
          "resources": {
             "leather": 28, 
@@ -1209,6 +1507,9 @@ var items = {
          "level": 15
       }, 
       "Gaia's Flute": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 19900000, 
          "resources": {
             "fabric": 95, 
@@ -1222,6 +1523,9 @@ var items = {
          "level": 49
       }, 
       "Frostfire Harp": {
+         "components": {
+            "Frostfire Crystal": 3
+         }, 
          "price": 15350000, 
          "resources": {
             "fabric": 78, 
@@ -1235,6 +1539,9 @@ var items = {
          "level": 45
       }, 
       "Twilight Flute": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 2400000, 
          "resources": {
             "hardwood": 94, 
@@ -1246,6 +1553,9 @@ var items = {
          "level": 39
       }, 
       "Soothing Harp": {
+         "components": {
+            "Phoenix Feather": 3
+         }, 
          "price": 325000, 
          "resources": {
             "hardwood": 60, 
@@ -1256,6 +1566,9 @@ var items = {
          "level": 30
       }, 
       "Angelic Bell": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 12300000, 
          "resources": {
             "fabric": 80, 
@@ -1269,6 +1582,9 @@ var items = {
          "level": 46
       }, 
       "Military Tap": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 105000, 
          "resources": {
             "leather": 53, 
@@ -1280,6 +1596,9 @@ var items = {
          "level": 25
       }, 
       "Silvered Flute": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 215000, 
          "resources": {
             "hardwood": 53, 
@@ -1290,6 +1609,9 @@ var items = {
          "level": 28
       }, 
       "Angelic Strings": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 6450000, 
          "resources": {
             "fabric": 65, 
@@ -1303,6 +1625,9 @@ var items = {
          "level": 40
       }, 
       "Golden String": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 410000, 
          "resources": {
             "leather": 83, 
@@ -1314,6 +1639,9 @@ var items = {
          "level": 32
       }, 
       "Draconian Sound": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1950000, 
          "resources": {
             "steel": 53, 
@@ -1327,6 +1655,9 @@ var items = {
          "level": 35
       }, 
       "Horn": {
+         "components": {
+            "Viper Essence": 2
+         }, 
          "price": 1700, 
          "resources": {
             "leather": 13, 
@@ -1336,6 +1667,9 @@ var items = {
          "level": 9
       }, 
       "Draconic Heartbeat": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 2150000, 
          "resources": {
             "fabric": 60, 
@@ -1349,6 +1683,9 @@ var items = {
          "level": 38
       }, 
       "Small Drum": {
+         "components": {
+            "Shiny Gem": 3
+         }, 
          "price": 350, 
          "resources": {
             "leather": 4, 
@@ -1358,6 +1695,9 @@ var items = {
          "level": 4
       }, 
       "Harp": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 4350, 
          "resources": {
             "leather": 18, 
@@ -1368,6 +1708,10 @@ var items = {
          "level": 11
       }, 
       "Hell Hound": {
+         "components": {
+            "Dark Energy": 2, 
+            "Demon Heart": 2
+         }, 
          "price": 500000, 
          "resources": {
             "leather": 85, 
@@ -1382,6 +1726,9 @@ var items = {
    }, 
    "Spears": {
       "Moon Voulge": {
+         "components": {
+            "Moon Shard": 7
+         }, 
          "price": 355000, 
          "resources": {
             "steel": 40, 
@@ -1393,6 +1740,7 @@ var items = {
          "level": 30
       }, 
       "Half Pike": {
+         "components": {}, 
          "price": 140, 
          "resources": {
             "wood": 8
@@ -1401,6 +1749,10 @@ var items = {
          "level": 4
       }, 
       "Silver Fork": {
+         "components": {
+            "Frozen Core": 2, 
+            "Liquid Fire": 2
+         }, 
          "price": 70500, 
          "resources": {
             "steel": 30, 
@@ -1412,6 +1764,7 @@ var items = {
          "level": 26
       }, 
       "Lion's Tail": {
+         "components": {}, 
          "price": 51000, 
          "resources": {
             "steel": 38, 
@@ -1423,6 +1776,9 @@ var items = {
          "level": 29
       }, 
       "Mystic Spear": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 740000, 
          "resources": {
             "steel": 65, 
@@ -1436,6 +1792,9 @@ var items = {
          "level": 40
       }, 
       "Obsidian Voulge": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 6350000, 
          "resources": {
             "steel": 85, 
@@ -1448,6 +1807,9 @@ var items = {
          "level": 47
       }, 
       "Primordial Trident": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 16800000, 
          "resources": {
             "steel": 100, 
@@ -1461,6 +1823,10 @@ var items = {
          "level": 50
       }, 
       "Titanic Lance": {
+         "components": {
+            "Phoenix Feather": 3, 
+            "Sun Tear": 1
+         }, 
          "price": 295000, 
          "resources": {
             "steel": 55, 
@@ -1473,6 +1839,7 @@ var items = {
          "level": 36
       }, 
       "Lance": {
+         "components": {}, 
          "price": 3150, 
          "resources": {
             "steel": 5, 
@@ -1483,6 +1850,9 @@ var items = {
          "level": 13
       }, 
       "Gaia's Javelin": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 1700, 
          "resources": {
             "wood": 25
@@ -1491,6 +1861,9 @@ var items = {
          "level": 9
       }, 
       "Obsidian Spear": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 345000, 
          "resources": {
             "steel": 45, 
@@ -1503,6 +1876,9 @@ var items = {
          "level": 32
       }, 
       "Trident": {
+         "components": {
+            "Shiny Gem": 3
+         }, 
          "price": 290, 
          "resources": {
             "wood": 11
@@ -1511,6 +1887,9 @@ var items = {
          "level": 5
       }, 
       "Bone Spear": {
+         "components": {
+            "Royal Bone": 1
+         }, 
          "price": 24000, 
          "resources": {
             "steel": 19, 
@@ -1522,6 +1901,9 @@ var items = {
          "level": 21
       }, 
       "Divine Ray": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 2800000, 
          "resources": {
             "steel": 63, 
@@ -1534,6 +1916,7 @@ var items = {
          "level": 39
       }, 
       "Pike": {
+         "components": {}, 
          "price": 615, 
          "resources": {
             "wood": 21
@@ -1542,6 +1925,7 @@ var items = {
          "level": 8
       }, 
       "Seeking Tip": {
+         "components": {}, 
          "price": 5250, 
          "resources": {
             "steel": 4, 
@@ -1553,6 +1937,7 @@ var items = {
          "level": 12
       }, 
       "Valkyrie": {
+         "components": {}, 
          "price": 10000, 
          "resources": {
             "steel": 14, 
@@ -1563,6 +1948,9 @@ var items = {
          "level": 18
       }, 
       "Night Spike": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 1300000, 
          "resources": {
             "steel": 60, 
@@ -1574,6 +1962,7 @@ var items = {
          "level": 38
       }, 
       "Iron Spear": {
+         "components": {}, 
          "price": 60, 
          "resources": {
             "wood": 5
@@ -1582,6 +1971,10 @@ var items = {
          "level": 3
       }, 
       "Winged Spear": {
+         "components": {
+            "Yggdrasil Leaf": 1, 
+            "Rainbow Dust": 3
+         }, 
          "price": 33000, 
          "resources": {
             "steel": 28, 
@@ -1593,6 +1986,9 @@ var items = {
          "level": 25
       }, 
       "Twilight Spear": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1200000, 
          "resources": {
             "steel": 73, 
@@ -1606,6 +2002,9 @@ var items = {
          "level": 43
       }, 
       "Twisted Pike": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 165000, 
          "resources": {
             "steel": 50, 
@@ -1617,6 +2016,10 @@ var items = {
          "level": 34
       }, 
       "Poison Tip": {
+         "components": {
+            "Viper Essence": 7, 
+            "Royal Bone": 3
+         }, 
          "price": 62000, 
          "resources": {
             "steel": 16, 
@@ -1627,6 +2030,9 @@ var items = {
          "level": 19
       }, 
       "Impaler": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 99500, 
          "resources": {
             "steel": 45, 
@@ -1638,6 +2044,9 @@ var items = {
          "level": 32
       }, 
       "Knight's Lance": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 6750, 
          "resources": {
             "steel": 8, 
@@ -1649,6 +2058,7 @@ var items = {
          "level": 15
       }, 
       "Wooden Spear": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "wood": 2
@@ -1657,6 +2067,9 @@ var items = {
          "level": 1
       }, 
       "Spade": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 1750, 
          "resources": {
             "wood": 30, 
@@ -1668,6 +2081,10 @@ var items = {
    }, 
    "Shields": {
       "Ember Shield": {
+         "components": {
+            "Phoenix Feather": 1, 
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 135000, 
          "resources": {
             "steel": 75, 
@@ -1678,6 +2095,9 @@ var items = {
          "level": 29
       }, 
       "Hawk Shield": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 715000, 
          "resources": {
             "hardwood": 120, 
@@ -1689,6 +2109,9 @@ var items = {
          "level": 38
       }, 
       "Medusa Buckler": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 14250000, 
          "resources": {
             "hardwood": 170, 
@@ -1700,6 +2123,9 @@ var items = {
          "level": 47
       }, 
       "Fire Proof": {
+         "components": {
+            "Wyvern Wing": 1
+         }, 
          "price": 22500, 
          "resources": {
             "steel": 28, 
@@ -1710,6 +2136,9 @@ var items = {
          "level": 18
       }, 
       "Knight Shield": {
+         "components": {
+            "Iron Carapace": 2
+         }, 
          "price": 12000, 
          "resources": {
             "steel": 24, 
@@ -1719,6 +2148,9 @@ var items = {
          "level": 17
       }, 
       "Blessed Aegis": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 470000, 
          "resources": {
             "hardwood": 100, 
@@ -1729,6 +2161,9 @@ var items = {
          "level": 34
       }, 
       "Heater Shield": {
+         "components": {
+            "Burning Ember": 1
+         }, 
          "price": 550, 
          "resources": {
             "iron": 15
@@ -1737,6 +2172,9 @@ var items = {
          "level": 6
       }, 
       "Giantshield": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 3750000, 
          "resources": {
             "steel": 125, 
@@ -1748,6 +2186,7 @@ var items = {
          "level": 39
       }, 
       "Kite Shield": {
+         "components": {}, 
          "price": 1100, 
          "resources": {
             "wood": 25
@@ -1756,6 +2195,9 @@ var items = {
          "level": 9
       }, 
       "Venomous Buckler": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 19000, 
          "resources": {
             "hardwood": 35, 
@@ -1765,6 +2207,9 @@ var items = {
          "level": 20
       }, 
       "Bulwark": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 37500, 
          "resources": {
             "steel": 42, 
@@ -1774,6 +2219,9 @@ var items = {
          "level": 22
       }, 
       "Spiked Shield": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 82500, 
          "resources": {
             "steel": 65, 
@@ -1784,6 +2232,7 @@ var items = {
          "level": 27
       }, 
       "Buckler": {
+         "components": {}, 
          "price": 75, 
          "resources": {
             "wood": 5
@@ -1792,6 +2241,9 @@ var items = {
          "level": 3
       }, 
       "Protector": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 1650, 
          "resources": {
             "wood": 21
@@ -1800,6 +2252,9 @@ var items = {
          "level": 8
       }, 
       "Argus' Shield": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 270000, 
          "resources": {
             "steel": 85, 
@@ -1810,6 +2265,9 @@ var items = {
          "level": 31
       }, 
       "Crystal Shield": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 760000, 
          "resources": {
             "steel": 80, 
@@ -1821,6 +2279,9 @@ var items = {
          "level": 30
       }, 
       "Oracle Shield": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 20150000, 
          "resources": {
             "steel": 200, 
@@ -1832,6 +2293,9 @@ var items = {
          "level": 50
       }, 
       "Twilight Aegis": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1400000, 
          "resources": {
             "hardwood": 135, 
@@ -1843,6 +2307,7 @@ var items = {
          "level": 41
       }, 
       "Small Shield": {
+         "components": {}, 
          "price": 265, 
          "resources": {
             "iron": 11
@@ -1851,6 +2316,9 @@ var items = {
          "level": 5
       }, 
       "Dragon Skull": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 2000000, 
          "resources": {
             "hardwood": 115, 
@@ -1862,6 +2330,9 @@ var items = {
          "level": 37
       }, 
       "Aegis": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 63500, 
          "resources": {
             "hardwood": 38, 
@@ -1872,6 +2343,9 @@ var items = {
          "level": 21
       }, 
       "Reflective Shield": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 29500, 
          "resources": {
             "steel": 46, 
@@ -1882,6 +2356,7 @@ var items = {
          "level": 23
       }, 
       "Targe": {
+         "components": {}, 
          "price": 34, 
          "resources": {
             "wood": 3
@@ -1890,6 +2365,9 @@ var items = {
          "level": 2
       }, 
       "Moonlight Shield": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 5400, 
          "resources": {
             "hardwood": 12, 
@@ -1899,6 +2377,9 @@ var items = {
          "level": 14
       }, 
       "Tower Shield": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 2250, 
          "resources": {
             "wood": 35
@@ -1907,6 +2388,9 @@ var items = {
          "level": 11
       }, 
       "Skeleton Shield": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 39500, 
          "resources": {
             "hardwood": 55, 
@@ -1919,6 +2403,9 @@ var items = {
    }, 
    "Remedies": {
       "Coldfire Dust": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 120000, 
          "resources": {
             "herbs": 150, 
@@ -1929,6 +2416,9 @@ var items = {
          "level": 31
       }, 
       "Mistletoe": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 2950, 
          "resources": {
             "herbs": 30
@@ -1937,6 +2427,9 @@ var items = {
          "level": 10
       }, 
       "Protection Dust": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 32500, 
          "resources": {
             "herbs": 85, 
@@ -1947,6 +2440,9 @@ var items = {
          "level": 21
       }, 
       "Panacea": {
+         "components": {
+            "Dragon Scale": 1
+         }, 
          "price": 2600000, 
          "resources": {
             "herbs": 210, 
@@ -1957,6 +2453,9 @@ var items = {
          "level": 37
       }, 
       "Swift Seed": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 72500, 
          "resources": {
             "herbs": 95, 
@@ -1967,6 +2466,9 @@ var items = {
          "level": 23
       }, 
       "Angel Dust": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 92000, 
          "resources": {
             "herbs": 130, 
@@ -1977,6 +2479,9 @@ var items = {
          "level": 28
       }, 
       "Fungi Brew": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 95, 
          "resources": {
             "herbs": 5
@@ -1985,6 +2490,9 @@ var items = {
          "level": 3
       }, 
       "Strength Seed": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 1150000, 
          "resources": {
             "herbs": 175, 
@@ -1995,6 +2503,9 @@ var items = {
          "level": 34
       }, 
       "Colored Powder": {
+         "components": {
+            "Rainbow Dust": 1
+         }, 
          "price": 2200, 
          "resources": {
             "herbs": 21
@@ -2003,6 +2514,7 @@ var items = {
          "level": 8
       }, 
       "Elderflower": {
+         "components": {}, 
          "price": 385, 
          "resources": {
             "herbs": 15
@@ -2011,6 +2523,7 @@ var items = {
          "level": 6
       }, 
       "Healing Mix": {
+         "components": {}, 
          "price": 690, 
          "resources": {
             "herbs": 18
@@ -2019,6 +2532,9 @@ var items = {
          "level": 7
       }, 
       "Mystic Flower": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 880000, 
          "resources": {
             "herbs": 235, 
@@ -2029,6 +2545,9 @@ var items = {
          "level": 39
       }, 
       "Draconic Tea": {
+         "components": {
+            "Primal Horn": 1
+         }, 
          "price": 21250000, 
          "resources": {
             "herbs": 500, 
@@ -2039,6 +2558,9 @@ var items = {
          "level": 50
       }, 
       "Devil Dust": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 6150000, 
          "resources": {
             "herbs": 425, 
@@ -2049,6 +2571,9 @@ var items = {
          "level": 47
       }, 
       "Anti-venom": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 14500, 
          "resources": {
             "herbs": 75, 
@@ -2059,6 +2584,9 @@ var items = {
          "level": 19
       }, 
       "Rejuvenating Tea": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 120000, 
          "resources": {
             "herbs": 110, 
@@ -2069,6 +2597,7 @@ var items = {
          "level": 26
       }, 
       "Healing Herbs": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "herbs": 2
@@ -2077,6 +2606,9 @@ var items = {
          "level": 1
       }, 
       "Fairy Sprinkle": {
+         "components": {
+            "Rainbow Dust": 3
+         }, 
          "price": 6200, 
          "resources": {
             "herbs": 55, 
@@ -2086,6 +2618,9 @@ var items = {
          "level": 15
       }, 
       "Magic Seed": {
+         "components": {
+            "Dark Energy": 3
+         }, 
          "price": 5550000, 
          "resources": {
             "herbs": 250, 
@@ -2096,6 +2631,9 @@ var items = {
          "level": 40
       }, 
       "Albizia": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1100000, 
          "resources": {
             "herbs": 275, 
@@ -2106,6 +2644,9 @@ var items = {
          "level": 41
       }, 
       "Bark Tea": {
+         "components": {
+            "Iron Wood": 4
+         }, 
          "price": 3500, 
          "resources": {
             "herbs": 45, 
@@ -2115,6 +2656,9 @@ var items = {
          "level": 13
       }, 
       "Antidote": {
+         "components": {
+            "Elven Dew": 1
+         }, 
          "price": 44, 
          "resources": {
             "herbs": 3
@@ -2123,6 +2667,9 @@ var items = {
          "level": 2
       }, 
       "Elven Cure": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 45500, 
          "resources": {
             "herbs": 100, 
@@ -2133,6 +2680,9 @@ var items = {
          "level": 24
       }, 
       "Phoenix Dust": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 410000, 
          "resources": {
             "herbs": 185, 
@@ -2143,6 +2693,7 @@ var items = {
          "level": 35
       }, 
       "Sleeping Shrooms": {
+         "components": {}, 
          "price": 2200, 
          "resources": {
             "herbs": 35, 
@@ -2152,6 +2703,9 @@ var items = {
          "level": 11
       }, 
       "Fire Moss": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 1200, 
          "resources": {
             "herbs": 25
@@ -2162,6 +2716,10 @@ var items = {
    }, 
    "Helmets": {
       "Paladin's Helmet": {
+         "components": {
+            "Iron Carapace": 3, 
+            "Liquid Fire": 2
+         }, 
          "price": 62500, 
          "resources": {
             "leather": 68, 
@@ -2174,6 +2732,7 @@ var items = {
          "level": 19
       }, 
       "Great Helm": {
+         "components": {}, 
          "price": 18500, 
          "resources": {
             "leather": 77, 
@@ -2184,6 +2743,9 @@ var items = {
          "level": 21
       }, 
       "Frostfire Barbuta": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 7600000, 
          "resources": {
             "leather": 338, 
@@ -2196,6 +2758,9 @@ var items = {
          "level": 45
       }, 
       "Adamantium Helm": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 3450000, 
          "resources": {
             "leather": 225, 
@@ -2208,6 +2773,9 @@ var items = {
          "level": 40
       }, 
       "Jade Helm": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 19500000, 
          "resources": {
             "leather": 450, 
@@ -2220,6 +2788,9 @@ var items = {
          "level": 50
       }, 
       "Champion's Helm": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 780000, 
          "resources": {
             "leather": 167, 
@@ -2231,6 +2802,7 @@ var items = {
          "level": 35
       }, 
       "Iron Helmet": {
+         "components": {}, 
          "price": 230, 
          "resources": {
             "leather": 7, 
@@ -2240,6 +2812,9 @@ var items = {
          "level": 4
       }, 
       "Full Helm": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 705, 
          "resources": {
             "leather": 14, 
@@ -2249,6 +2824,9 @@ var items = {
          "level": 6
       }, 
       "Frozen Helm": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 185000, 
          "resources": {
             "leather": 86, 
@@ -2261,6 +2839,7 @@ var items = {
          "level": 23
       }, 
       "Knight's Helm": {
+         "components": {}, 
          "price": 11000, 
          "resources": {
             "leather": 59, 
@@ -2271,6 +2850,7 @@ var items = {
          "level": 17
       }, 
       "Warrior's Helmet": {
+         "components": {}, 
          "price": 1700, 
          "resources": {
             "leather": 23, 
@@ -2281,6 +2861,9 @@ var items = {
          "level": 9
       }, 
       "Dragoon's Casque": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 120000, 
          "resources": {
             "leather": 117, 
@@ -2292,6 +2875,9 @@ var items = {
          "level": 28
       }, 
       "Dragonscale Helmet": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1450000, 
          "resources": {
             "leather": 198, 
@@ -2304,6 +2890,9 @@ var items = {
          "level": 38
       }, 
       "Spangenhelm": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 3350, 
          "resources": {
             "leather": 32, 
@@ -2314,6 +2903,9 @@ var items = {
          "level": 11
       }, 
       "Viking Helm": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 915000, 
          "resources": {
             "leather": 212, 
@@ -2326,6 +2918,9 @@ var items = {
          "level": 39
       }, 
       "Scale Helmet": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 6350, 
          "resources": {
             "leather": 45, 
@@ -2336,6 +2931,9 @@ var items = {
          "level": 14
       }, 
       "Moonlight Cap": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 4850, 
          "resources": {
             "leather": 27, 
@@ -2345,6 +2943,9 @@ var items = {
          "level": 10
       }, 
       "Mercurial": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 295000, 
          "resources": {
             "leather": 153, 
@@ -2357,6 +2958,7 @@ var items = {
          "level": 33
       }, 
       "Horned Helm": {
+         "components": {}, 
          "price": 400, 
          "resources": {
             "leather": 10, 
@@ -2366,6 +2968,9 @@ var items = {
          "level": 5
       }, 
       "Silver Helm": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 65500, 
          "resources": {
             "leather": 95, 
@@ -2377,6 +2982,7 @@ var items = {
          "level": 25
       }, 
       "Hard Hat": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "iron": 2
@@ -2385,6 +2991,9 @@ var items = {
          "level": 1
       }, 
       "Valkyrie Helm": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 2400000, 
          "resources": {
             "leather": 248, 
@@ -2397,6 +3006,7 @@ var items = {
          "level": 41
       }, 
       "Iron Cap": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "iron": 3
@@ -2405,6 +3015,9 @@ var items = {
          "level": 2
       }, 
       "Golden Helm": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1850000, 
          "resources": {
             "leather": 270, 
@@ -2417,6 +3030,9 @@ var items = {
          "level": 42
       }, 
       "Elir's Barbuta": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 190000, 
          "resources": {
             "leather": 135, 
@@ -2429,6 +3045,9 @@ var items = {
          "level": 31
       }, 
       "Phoenix Helmet": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 1750000, 
          "resources": {
             "leather": 158, 
@@ -2443,6 +3062,9 @@ var items = {
    }, 
    "Staves": {
       "Valkyrie's Wisdom": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 2150000, 
          "resources": {
             "steel": 33, 
@@ -2456,6 +3078,9 @@ var items = {
          "level": 40
       }, 
       "Shattered Wand": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 21250000, 
          "resources": {
             "hardwood": 200, 
@@ -2468,6 +3093,9 @@ var items = {
          "level": 50
       }, 
       "Rebirth Rod": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 47500, 
          "resources": {
             "hardwood": 46, 
@@ -2478,6 +3106,7 @@ var items = {
          "level": 23
       }, 
       "Healing Rod": {
+         "components": {}, 
          "price": 2150, 
          "resources": {
             "hardwood": 5, 
@@ -2487,6 +3116,9 @@ var items = {
          "level": 10
       }, 
       "Whispering Wand": {
+         "components": {
+            "Frozen Core": 1
+         }, 
          "price": 27000, 
          "resources": {
             "hardwood": 32, 
@@ -2496,6 +3128,9 @@ var items = {
          "level": 19
       }, 
       "Star Wand": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 795000, 
          "resources": {
             "hardwood": 105, 
@@ -2508,6 +3143,9 @@ var items = {
          "level": 35
       }, 
       "Bishop Staff": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 1550, 
          "resources": {
             "wood": 25
@@ -2516,6 +3154,9 @@ var items = {
          "level": 9
       }, 
       "Sacred Scepter": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 405000, 
          "resources": {
             "steel": 18, 
@@ -2529,6 +3170,9 @@ var items = {
          "level": 28
       }, 
       "Cultist Staff": {
+         "components": {
+            "Silver Steel": 5
+         }, 
          "price": 1500000, 
          "resources": {
             "hardwood": 125, 
@@ -2541,6 +3185,9 @@ var items = {
          "level": 39
       }, 
       "Blood Staff": {
+         "components": {
+            "Wyvern Wing": 1
+         }, 
          "price": 11000, 
          "resources": {
             "hardwood": 16, 
@@ -2550,6 +3197,9 @@ var items = {
          "level": 15
       }, 
       "Eagle Rod": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 920000, 
          "resources": {
             "hardwood": 110, 
@@ -2562,6 +3212,9 @@ var items = {
          "level": 36
       }, 
       "Battle Staff": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 645, 
          "resources": {
             "wood": 15
@@ -2570,6 +3223,9 @@ var items = {
          "level": 6
       }, 
       "Fire Rod": {
+         "components": {
+            "Burning Ember": 1
+         }, 
          "price": 7750, 
          "resources": {
             "hardwood": 10, 
@@ -2579,6 +3235,9 @@ var items = {
          "level": 13
       }, 
       "Luna Rod": {
+         "components": {
+            "Moon Shard": 5
+         }, 
          "price": 36500, 
          "resources": {
             "hardwood": 24, 
@@ -2590,6 +3249,9 @@ var items = {
          "level": 17
       }, 
       "Crow Stick": {
+         "components": {
+            "Shiny Gem": 1
+         }, 
          "price": 85, 
          "resources": {
             "wood": 5
@@ -2598,6 +3260,7 @@ var items = {
          "level": 3
       }, 
       "Walking Stick": {
+         "components": {}, 
          "price": 12, 
          "resources": {
             "wood": 2
@@ -2606,6 +3269,9 @@ var items = {
          "level": 1
       }, 
       "Staff of Ages": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 530000, 
          "resources": {
             "hardwood": 95, 
@@ -2618,6 +3284,7 @@ var items = {
          "level": 33
       }, 
       "Muted Caster": {
+         "components": {}, 
          "price": 965, 
          "resources": {
             "wood": 21
@@ -2626,6 +3293,9 @@ var items = {
          "level": 8
       }, 
       "Death Stick": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 190000, 
          "resources": {
             "hardwood": 65, 
@@ -2637,6 +3307,10 @@ var items = {
          "level": 27
       }, 
       "Emperor Wand": {
+         "components": {
+            "Dragon Scale": 2, 
+            "Yggdrasil Leaf": 5
+         }, 
          "price": 1400000, 
          "resources": {
             "steel": 30, 
@@ -2650,6 +3324,10 @@ var items = {
          "level": 38
       }, 
       "Soul Stealer": {
+         "components": {
+            "Phoenix Feather": 3, 
+            "Demon Heart": 2
+         }, 
          "price": 325000, 
          "resources": {
             "hardwood": 80, 
@@ -2661,6 +3339,9 @@ var items = {
          "level": 30
       }, 
       "Forest Wand": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 3950, 
          "resources": {
             "hardwood": 8, 
@@ -2670,6 +3351,9 @@ var items = {
          "level": 12
       }, 
       "Keeper Of Souls": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 12900000, 
          "resources": {
             "steel": 39, 
@@ -2683,6 +3367,9 @@ var items = {
          "level": 45
       }, 
       "Sun King": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 5850000, 
          "resources": {
             "hardwood": 135, 
@@ -2695,6 +3382,9 @@ var items = {
          "level": 41
       }, 
       "Ice Staff": {
+         "components": {
+            "Frozen Core": 4
+         }, 
          "price": 93500, 
          "resources": {
             "hardwood": 60, 
@@ -2706,6 +3396,9 @@ var items = {
          "level": 26
       }, 
       "Druidic Rod": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 335, 
          "resources": {
             "wood": 11
@@ -2716,6 +3409,7 @@ var items = {
    }, 
    "Projectiles": {
       "Sleeping Bomb": {
+         "components": {}, 
          "price": 6100, 
          "resources": {
             "steel": 10, 
@@ -2727,6 +3421,9 @@ var items = {
          "level": 13
       }, 
       "Toxic Bomb": {
+         "components": {
+            "Viper Essence": 3
+         }, 
          "price": 12000, 
          "resources": {
             "herbs": 10, 
@@ -2737,6 +3434,9 @@ var items = {
          "level": 12
       }, 
       "Elasti-sling": {
+         "components": {
+            "Wyvern Wing": 3
+         }, 
          "price": 32000, 
          "resources": {
             "leather": 60, 
@@ -2747,6 +3447,9 @@ var items = {
          "level": 20
       }, 
       "Frostfire Kunai": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 8150000, 
          "resources": {
             "steel": 155, 
@@ -2759,6 +3462,9 @@ var items = {
          "level": 45
       }, 
       "Chakram": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 54000, 
          "resources": {
             "steel": 42, 
@@ -2769,6 +3475,9 @@ var items = {
          "level": 22
       }, 
       "Hell Bomb": {
+         "components": {
+            "Demon Heart": 7
+         }, 
          "price": 20100000, 
          "resources": {
             "hardwood": 190, 
@@ -2781,6 +3490,9 @@ var items = {
          "level": 49
       }, 
       "Shock Darts": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 13000, 
          "resources": {
             "steel": 16, 
@@ -2792,6 +3504,7 @@ var items = {
          "level": 15
       }, 
       "Sling": {
+         "components": {}, 
          "price": 150, 
          "resources": {
             "leather": 4, 
@@ -2801,6 +3514,9 @@ var items = {
          "level": 3
       }, 
       "Kunai": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 550, 
          "resources": {
             "iron": 15
@@ -2809,6 +3525,7 @@ var items = {
          "level": 6
       }, 
       "Metal Boomerang": {
+         "components": {}, 
          "price": 3900, 
          "resources": {
             "steel": 6, 
@@ -2818,6 +3535,7 @@ var items = {
          "level": 11
       }, 
       "Darts": {
+         "components": {}, 
          "price": 70, 
          "resources": {
             "wood": 3, 
@@ -2827,6 +3545,9 @@ var items = {
          "level": 2
       }, 
       "Smoke Bomb": {
+         "components": {
+            "Rainbow Dust": 1
+         }, 
          "price": 2600, 
          "resources": {
             "leather": 19, 
@@ -2837,6 +3558,9 @@ var items = {
          "level": 9
       }, 
       "Heart Piercer": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 2650000, 
          "resources": {
             "steel": 110, 
@@ -2847,6 +3571,9 @@ var items = {
          "level": 36
       }, 
       "Magic Shuriken": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 155000, 
          "resources": {
             "steel": 50, 
@@ -2857,6 +3584,9 @@ var items = {
          "level": 24
       }, 
       "Thunder Clap": {
+         "components": {
+            "Dark Energy": 4
+         }, 
          "price": 2000000, 
          "resources": {
             "hardwood": 120, 
@@ -2868,6 +3598,9 @@ var items = {
          "level": 38
       }, 
       "Light Boomerang": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 500000, 
          "resources": {
             "steel": 115, 
@@ -2880,6 +3613,9 @@ var items = {
          "level": 37
       }, 
       "Poison Darts": {
+         "components": {
+            "Viper Essence": 3
+         }, 
          "price": 1800, 
          "resources": {
             "herbs": 5, 
@@ -2890,6 +3626,9 @@ var items = {
          "level": 7
       }, 
       "Boomerang": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 215, 
          "resources": {
             "wood": 8
@@ -2898,6 +3637,9 @@ var items = {
          "level": 4
       }, 
       "Exploding Darts": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 785000, 
          "resources": {
             "steel": 105, 
@@ -2910,6 +3652,9 @@ var items = {
          "level": 35
       }, 
       "Bladed Feather": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 43500, 
          "resources": {
             "steel": 42, 
@@ -2919,6 +3664,9 @@ var items = {
          "level": 22
       }, 
       "Seeking Kunai": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 180000, 
          "resources": {
             "steel": 80, 
@@ -2929,6 +3677,9 @@ var items = {
          "level": 30
       }, 
       "Dragon Darts": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 1100000, 
          "resources": {
             "steel": 125, 
@@ -2941,6 +3692,9 @@ var items = {
          "level": 39
       }, 
       "Steelarang": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 93000, 
          "resources": {
             "steel": 70, 
@@ -2951,6 +3705,9 @@ var items = {
          "level": 28
       }, 
       "Singing Chakram": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 175000, 
          "resources": {
             "steel": 60, 
@@ -2961,6 +3718,7 @@ var items = {
          "level": 26
       }, 
       "Shuriken": {
+         "components": {}, 
          "price": 21000, 
          "resources": {
             "steel": 28, 
@@ -2971,6 +3729,9 @@ var items = {
          "level": 18
       }, 
       "Shredder": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 280000, 
          "resources": {
             "steel": 95, 
@@ -2985,6 +3746,9 @@ var items = {
    }, 
    "Vests": {
       "Boiled Leather": {
+         "components": {
+            "Viper Essence": 1
+         }, 
          "price": 215, 
          "resources": {
             "leather": 8, 
@@ -2994,6 +3758,9 @@ var items = {
          "level": 4
       }, 
       "Black Crow": {
+         "components": {
+            "Primal Horn": 3
+         }, 
          "price": 21400000, 
          "resources": {
             "leather": 500, 
@@ -3006,6 +3773,9 @@ var items = {
          "level": 50
       }, 
       "Moonscale Armor": {
+         "components": {
+            "Moon Shard": 25
+         }, 
          "price": 615000, 
          "resources": {
             "leather": 235, 
@@ -3018,6 +3788,10 @@ var items = {
          "level": 39
       }, 
       "Raccoon Ranger": {
+         "components": {
+            "Iron Carapace": 2, 
+            "Rainbow Dust": 2
+         }, 
          "price": 8650, 
          "resources": {
             "leather": 40, 
@@ -3028,6 +3802,9 @@ var items = {
          "level": 12
       }, 
       "Pirate Armor": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1500000, 
          "resources": {
             "leather": 300, 
@@ -3040,6 +3817,7 @@ var items = {
          "level": 42
       }, 
       "Brigandine": {
+         "components": {}, 
          "price": 510, 
          "resources": {
             "leather": 15, 
@@ -3049,6 +3827,7 @@ var items = {
          "level": 6
       }, 
       "Strapped Leather": {
+         "components": {}, 
          "price": 6500, 
          "resources": {
             "leather": 60, 
@@ -3059,6 +3838,10 @@ var items = {
          "level": 16
       }, 
       "Genji Armor": {
+         "components": {
+            "Wyvern Wing": 3, 
+            "Phoenix Feather": 2
+         }, 
          "price": 87000, 
          "resources": {
             "leather": 110, 
@@ -3069,6 +3852,9 @@ var items = {
          "level": 26
       }, 
       "Layered Armor": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 140000, 
          "resources": {
             "leather": 140, 
@@ -3079,6 +3865,9 @@ var items = {
          "level": 29
       }, 
       "Ocean Leather": {
+         "components": {
+            "Shard Of Gaia": 3
+         }, 
          "price": 13950000, 
          "resources": {
             "oil": 128, 
@@ -3092,6 +3881,9 @@ var items = {
          "level": 47
       }, 
       "Wyrm Hide": {
+         "components": {
+            "Demon Heart": 3
+         }, 
          "price": 935000, 
          "resources": {
             "leather": 170, 
@@ -3103,6 +3895,7 @@ var items = {
          "level": 33
       }, 
       "Leather Vest": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "leather": 2
@@ -3111,6 +3904,9 @@ var items = {
          "level": 1
       }, 
       "Shadow Lurker": {
+         "components": {
+            "Dark Energy": 3
+         }, 
          "price": 825000, 
          "resources": {
             "oil": 90, 
@@ -3124,6 +3920,7 @@ var items = {
          "level": 38
       }, 
       "Studded Leather": {
+         "components": {}, 
          "price": 1800, 
          "resources": {
             "leather": 35, 
@@ -3133,6 +3930,9 @@ var items = {
          "level": 11
       }, 
       "Dragon Skin": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 5400000, 
          "resources": {
             "leather": 275, 
@@ -3145,6 +3945,9 @@ var items = {
          "level": 41
       }, 
       "Leather Cuirass": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 695, 
          "resources": {
             "leather": 21
@@ -3153,6 +3956,7 @@ var items = {
          "level": 8
       }, 
       "Bear Armor": {
+         "components": {}, 
          "price": 18000, 
          "resources": {
             "leather": 85, 
@@ -3164,6 +3968,9 @@ var items = {
          "level": 21
       }, 
       "White Crow": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 395000, 
          "resources": {
             "leather": 200, 
@@ -3175,6 +3982,9 @@ var items = {
          "level": 36
       }, 
       "Nightingale": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 51500, 
          "resources": {
             "leather": 100, 
@@ -3185,6 +3995,9 @@ var items = {
          "level": 24
       }, 
       "Gold Stitch": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 170000, 
          "resources": {
             "leather": 165, 
@@ -3196,6 +4009,9 @@ var items = {
          "level": 32
       }, 
       "Poison Studs": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 4250, 
          "resources": {
             "leather": 45, 
@@ -3206,6 +4022,9 @@ var items = {
          "level": 13
       }, 
       "Valkyrie's Embrace": {
+         "components": {
+            "Sun Tear": 3
+         }, 
          "price": 1750000, 
          "resources": {
             "leather": 250, 
@@ -3217,6 +4036,9 @@ var items = {
          "level": 40
       }, 
       "Plated Tunic": {
+         "components": {
+            "Iron Carapace": 3
+         }, 
          "price": 23000, 
          "resources": {
             "leather": 65, 
@@ -3227,6 +4049,7 @@ var items = {
          "level": 17
       }, 
       "Hide Armor": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "leather": 3
@@ -3235,6 +4058,9 @@ var items = {
          "level": 2
       }, 
       "Oiled Leather": {
+         "components": {
+            "Golden Thread": 1
+         }, 
          "price": 90500, 
          "resources": {
             "leather": 130, 
@@ -3246,6 +4072,7 @@ var items = {
          "level": 28
       }, 
       "Plated Leather": {
+         "components": {}, 
          "price": 12000, 
          "resources": {
             "leather": 70, 
@@ -3259,6 +4086,9 @@ var items = {
    }, 
    "Rings": {
       "Lich Ring": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1200000, 
          "resources": {
             "steel": 135, 
@@ -3270,6 +4100,7 @@ var items = {
          "level": 41
       }, 
       "Power Ring": {
+         "components": {}, 
          "price": 52000, 
          "resources": {
             "steel": 46, 
@@ -3281,6 +4112,7 @@ var items = {
          "level": 23
       }, 
       "Shadow Mark": {
+         "components": {}, 
          "price": 470, 
          "resources": {
             "iron": 15
@@ -3289,6 +4121,9 @@ var items = {
          "level": 6
       }, 
       "Moonstone Ring": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 1250, 
          "resources": {
             "iron": 25
@@ -3297,6 +4132,9 @@ var items = {
          "level": 9
       }, 
       "Nimble Ring": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 15500, 
          "resources": {
             "steel": 12, 
@@ -3306,6 +4144,7 @@ var items = {
          "level": 14
       }, 
       "Wisdom Mark": {
+         "components": {}, 
          "price": 180000, 
          "resources": {
             "steel": 70, 
@@ -3317,6 +4156,7 @@ var items = {
          "level": 28
       }, 
       "Luck Band": {
+         "components": {}, 
          "price": 3100, 
          "resources": {
             "steel": 6, 
@@ -3326,6 +4166,9 @@ var items = {
          "level": 11
       }, 
       "Royal Ring": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1900000, 
          "resources": {
             "steel": 110, 
@@ -3336,6 +4179,9 @@ var items = {
          "level": 36
       }, 
       "Fallen Angel Ring": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 950000, 
          "resources": {
             "steel": 115, 
@@ -3347,6 +4193,9 @@ var items = {
          "level": 37
       }, 
       "Resistance Band": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 215000, 
          "resources": {
             "steel": 85, 
@@ -3358,6 +4207,9 @@ var items = {
          "level": 31
       }, 
       "Undead Ring": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 32000, 
          "resources": {
             "steel": 38, 
@@ -3369,6 +4221,9 @@ var items = {
          "level": 21
       }, 
       "Crusader Ring": {
+         "components": {
+            "Silver Steel": 3
+         }, 
          "price": 175000, 
          "resources": {
             "steel": 55, 
@@ -3379,6 +4234,7 @@ var items = {
          "level": 25
       }, 
       "Rabbit Ring": {
+         "components": {}, 
          "price": 155, 
          "resources": {
             "iron": 8
@@ -3387,6 +4243,7 @@ var items = {
          "level": 4
       }, 
       "Iron Band": {
+         "components": {}, 
          "price": 32, 
          "resources": {
             "iron": 3
@@ -3395,6 +4252,7 @@ var items = {
          "level": 2
       }, 
       "Sight Band": {
+         "components": {}, 
          "price": 16000, 
          "resources": {
             "steel": 32, 
@@ -3405,6 +4263,9 @@ var items = {
          "level": 19
       }, 
       "Crescent Ring": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 660, 
          "resources": {
             "iron": 18
@@ -3413,6 +4274,9 @@ var items = {
          "level": 7
       }, 
       "Prayer Ring": {
+         "components": {
+            "Royal Bone": 3
+         }, 
          "price": 245000, 
          "resources": {
             "steel": 65, 
@@ -3424,6 +4288,9 @@ var items = {
          "level": 27
       }, 
       "Oracle": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 4350000, 
          "resources": {
             "steel": 125, 
@@ -3435,6 +4302,9 @@ var items = {
          "level": 39
       }, 
       "Fire Band": {
+         "components": {
+            "Burning Ember": 5
+         }, 
          "price": 10000, 
          "resources": {
             "steel": 20, 
@@ -3445,6 +4315,9 @@ var items = {
          "level": 16
       }, 
       "Antimagic Band": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 19550000, 
          "resources": {
             "steel": 200, 
@@ -3456,6 +4329,9 @@ var items = {
          "level": 50
       }, 
       "Jewel Ring": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 305, 
          "resources": {
             "iron": 11
@@ -3464,6 +4340,7 @@ var items = {
          "level": 5
       }, 
       "Soldier's Mark": {
+         "components": {}, 
          "price": 4250, 
          "resources": {
             "steel": 10, 
@@ -3473,6 +4350,9 @@ var items = {
          "level": 13
       }, 
       "Divine Mark": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 2200000, 
          "resources": {
             "steel": 100, 
@@ -3484,6 +4364,9 @@ var items = {
          "level": 34
       }, 
       "Azure Ring": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 16750000, 
          "resources": {
             "steel": 155, 
@@ -3494,6 +4377,9 @@ var items = {
          "level": 45
       }, 
       "Truth Ring": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 470000, 
          "resources": {
             "steel": 95, 
@@ -3505,6 +4391,10 @@ var items = {
          "level": 33
       }, 
       "Gold Digger": {
+         "components": {
+            "Iron Wood": 4, 
+            "Shiny Gem": 5
+         }, 
          "price": 4050, 
          "resources": {
             "iron": 40
@@ -3515,6 +4405,9 @@ var items = {
    }, 
    "Guns": {
       "One-shot": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 690000, 
          "resources": {
             "steel": 63, 
@@ -3528,6 +4421,9 @@ var items = {
          "level": 35
       }, 
       "Demonic Blast": {
+         "components": {
+            "Demon Heart": 10
+         }, 
          "price": 18700000, 
          "resources": {
             "steel": 120, 
@@ -3541,6 +4437,9 @@ var items = {
          "level": 50
       }, 
       "Arquebuse": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 1650, 
          "resources": {
             "wood": 11, 
@@ -3550,6 +4449,9 @@ var items = {
          "level": 7
       }, 
       "Candy Cane Pistol": {
+         "components": {
+            "Silver Steel": 3
+         }, 
          "price": 330000, 
          "resources": {
             "steel": 39, 
@@ -3562,6 +4464,9 @@ var items = {
          "level": 27
       }, 
       "Rising Sun": {
+         "components": {
+            "Sun Tear": 1
+         }, 
          "price": 350000, 
          "resources": {
             "steel": 57, 
@@ -3574,6 +4479,9 @@ var items = {
          "level": 33
       }, 
       "Solar Flare": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 935000, 
          "resources": {
             "steel": 72, 
@@ -3587,6 +4495,7 @@ var items = {
          "level": 38
       }, 
       "Pistol": {
+         "components": {}, 
          "price": 420, 
          "resources": {
             "wood": 7, 
@@ -3596,6 +4505,9 @@ var items = {
          "level": 5
       }, 
       "Nordic Warfare": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 3050000, 
          "resources": {
             "steel": 75, 
@@ -3609,6 +4521,9 @@ var items = {
          "level": 39
       }, 
       "Musket": {
+         "components": {
+            "Shiny Gem": 5
+         }, 
          "price": 1000, 
          "resources": {
             "wood": 9, 
@@ -3618,6 +4533,9 @@ var items = {
          "level": 6
       }, 
       "Judgement": {
+         "components": {
+            "Silver Steel": 5
+         }, 
          "price": 2000000, 
          "resources": {
             "steel": 66, 
@@ -3630,6 +4548,9 @@ var items = {
          "level": 36
       }, 
       "Falconer": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 6650, 
          "resources": {
             "steel": 4, 
@@ -3641,6 +4562,7 @@ var items = {
          "level": 11
       }, 
       "Long Musket": {
+         "components": {}, 
          "price": 4100, 
          "resources": {
             "wood": 15, 
@@ -3650,6 +4572,9 @@ var items = {
          "level": 9
       }, 
       "Rifle": {
+         "components": {
+            "Iron Wood": 3
+         }, 
          "price": 7800, 
          "resources": {
             "steel": 6, 
@@ -3661,6 +4586,7 @@ var items = {
          "level": 13
       }, 
       "Pocket Pistol": {
+         "components": {}, 
          "price": 2200, 
          "resources": {
             "wood": 13, 
@@ -3670,6 +4596,9 @@ var items = {
          "level": 8
       }, 
       "Thunder Shot": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 160000, 
          "resources": {
             "steel": 36, 
@@ -3682,6 +4611,7 @@ var items = {
          "level": 26
       }, 
       "Double Barrel": {
+         "components": {}, 
          "price": 33000, 
          "resources": {
             "steel": 19, 
@@ -3694,6 +4624,7 @@ var items = {
          "level": 19
       }, 
       "Axe Pistol": {
+         "components": {}, 
          "price": 8850, 
          "resources": {
             "steel": 7, 
@@ -3706,6 +4637,9 @@ var items = {
          "level": 14
       }, 
       "Bomb Launcher": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1600000, 
          "resources": {
             "steel": 69, 
@@ -3719,6 +4653,7 @@ var items = {
          "level": 37
       }, 
       "War Axe Pistol": {
+         "components": {}, 
          "price": 69500, 
          "resources": {
             "steel": 30, 
@@ -3731,6 +4666,9 @@ var items = {
          "level": 24
       }, 
       "Pirate Pistol": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 9650000, 
          "resources": {
             "steel": 102, 
@@ -3744,6 +4682,9 @@ var items = {
          "level": 47
       }, 
       "Conqueror": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 225000, 
          "resources": {
             "steel": 25, 
@@ -3756,6 +4697,9 @@ var items = {
          "level": 22
       }, 
       "Flintlock": {
+         "components": {
+            "Rainbow Dust": 3
+         }, 
          "price": 17500, 
          "resources": {
             "steel": 14, 
@@ -3768,6 +4712,9 @@ var items = {
          "level": 17
       }, 
       "Black Stock": {
+         "components": {
+            "Wyvern Wing": 5
+         }, 
          "price": 99500, 
          "resources": {
             "steel": 17, 
@@ -3779,6 +4726,9 @@ var items = {
          "level": 18
       }, 
       "Harpoon Gun": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1850000, 
          "resources": {
             "steel": 81, 
@@ -3792,6 +4742,9 @@ var items = {
          "level": 41
       }, 
       "Death Missive": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 230000, 
          "resources": {
             "steel": 45, 
@@ -3804,6 +4757,10 @@ var items = {
          "level": 29
       }, 
       "Fire Gun": {
+         "components": {
+            "Royal Bone": 2, 
+            "Burning Ember": 3
+         }, 
          "price": 47500, 
          "resources": {
             "steel": 23, 
@@ -3818,6 +4775,9 @@ var items = {
    }, 
    "Daggers": {
       "Traitorous Blade": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 790000, 
          "resources": {
             "steel": 122, 
@@ -3829,6 +4789,10 @@ var items = {
          "level": 41
       }, 
       "Wing Blade": {
+         "components": {
+            "Golden Thread": 2, 
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 110000, 
          "resources": {
             "steel": 72, 
@@ -3840,6 +4804,7 @@ var items = {
          "level": 30
       }, 
       "Kris": {
+         "components": {}, 
          "price": 260, 
          "resources": {
             "iron": 5
@@ -3848,6 +4813,9 @@ var items = {
          "level": 3
       }, 
       "White Dagger": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 1250, 
          "resources": {
             "iron": 23
@@ -3856,6 +4824,7 @@ var items = {
          "level": 9
       }, 
       "Broad Blade": {
+         "components": {}, 
          "price": 865, 
          "resources": {
             "iron": 27
@@ -3864,6 +4833,9 @@ var items = {
          "level": 10
       }, 
       "Seven Stars": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 955000, 
          "resources": {
             "steel": 108, 
@@ -3876,6 +4848,9 @@ var items = {
          "level": 38
       }, 
       "Dark Hand": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 175000, 
          "resources": {
             "steel": 95, 
@@ -3887,6 +4862,7 @@ var items = {
          "level": 35
       }, 
       "Gutting Knife": {
+         "components": {}, 
          "price": 1750, 
          "resources": {
             "steel": 7, 
@@ -3896,6 +4872,9 @@ var items = {
          "level": 12
       }, 
       "Betrayer": {
+         "components": {
+            "Dark Energy": 1
+         }, 
          "price": 845000, 
          "resources": {
             "steel": 99, 
@@ -3906,6 +4885,7 @@ var items = {
          "level": 36
       }, 
       "Knife": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "iron": 2
@@ -3914,6 +4894,7 @@ var items = {
          "level": 1
       }, 
       "Dirk": {
+         "components": {}, 
          "price": 60, 
          "resources": {
             "iron": 5
@@ -3922,6 +4903,9 @@ var items = {
          "level": 3
       }, 
       "Dragon Fang": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1750000, 
          "resources": {
             "steel": 113, 
@@ -3934,6 +4918,7 @@ var items = {
          "level": 39
       }, 
       "Switch Blade": {
+         "components": {}, 
          "price": 11500, 
          "resources": {
             "steel": 32, 
@@ -3944,6 +4929,9 @@ var items = {
          "level": 20
       }, 
       "Aphotic Shiv": {
+         "components": {
+            "Shard Of Gaia": 3
+         }, 
          "price": 14350000, 
          "resources": {
             "steel": 171, 
@@ -3956,6 +4944,9 @@ var items = {
          "level": 49
       }, 
       "Shadowripper": {
+         "components": {
+            "Silver Steel": 1
+         }, 
          "price": 54500, 
          "resources": {
             "steel": 59, 
@@ -3966,6 +4957,9 @@ var items = {
          "level": 27
       }, 
       "Obsidian Dagger": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 6750000, 
          "resources": {
             "steel": 144, 
@@ -3978,6 +4972,9 @@ var items = {
          "level": 46
       }, 
       "Life Stealer": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 19000, 
          "resources": {
             "steel": 38, 
@@ -3989,6 +4986,9 @@ var items = {
          "level": 22
       }, 
       "Royal Dirk": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 405000, 
          "resources": {
             "steel": 104, 
@@ -4000,6 +5000,9 @@ var items = {
          "level": 37
       }, 
       "Night Shiv": {
+         "components": {
+            "Frozen Core": 3
+         }, 
          "price": 33000, 
          "resources": {
             "steel": 50, 
@@ -4010,6 +5013,7 @@ var items = {
          "level": 25
       }, 
       "Mail Breaker": {
+         "components": {}, 
          "price": 4850, 
          "resources": {
             "steel": 18, 
@@ -4020,6 +5024,9 @@ var items = {
          "level": 16
       }, 
       "Crimson Heart": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 11000, 
          "resources": {
             "steel": 14, 
@@ -4031,6 +5038,7 @@ var items = {
          "level": 15
       }, 
       "Phantom Katar": {
+         "components": {}, 
          "price": 26000, 
          "resources": {
             "steel": 25, 
@@ -4041,6 +5049,7 @@ var items = {
          "level": 18
       }, 
       "Parrying Dagger": {
+         "components": {}, 
          "price": 195, 
          "resources": {
             "iron": 10
@@ -4049,6 +5058,9 @@ var items = {
          "level": 5
       }, 
       "Stiletto": {
+         "components": {
+            "Viper Essence": 2
+         }, 
          "price": 475, 
          "resources": {
             "iron": 16
@@ -4057,6 +5069,7 @@ var items = {
          "level": 7
       }, 
       "Hunting Knife": {
+         "components": {}, 
          "price": 2100, 
          "resources": {
             "steel": 9, 
@@ -4066,6 +5079,7 @@ var items = {
          "level": 13
       }, 
       "Pocket Knife": {
+         "components": {}, 
          "price": 24, 
          "resources": {
             "iron": 3
@@ -4076,6 +5090,9 @@ var items = {
    }, 
    "Maces": {
       "Sledgehammer": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 195, 
          "resources": {
             "wood": 10
@@ -4084,6 +5101,7 @@ var items = {
          "level": 5
       }, 
       "Spiked Club": {
+         "components": {}, 
          "price": 24, 
          "resources": {
             "wood": 3
@@ -4092,6 +5110,7 @@ var items = {
          "level": 2
       }, 
       "War Gavel": {
+         "components": {}, 
          "price": 5700, 
          "resources": {
             "hardwood": 22, 
@@ -4101,6 +5120,9 @@ var items = {
          "level": 17
       }, 
       "Destroyer": {
+         "components": {
+            "Dragon Scale": 1
+         }, 
          "price": 540000, 
          "resources": {
             "hardwood": 113, 
@@ -4112,6 +5134,9 @@ var items = {
          "level": 39
       }, 
       "Demolisher": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 24500, 
          "resources": {
             "hardwood": 50, 
@@ -4121,6 +5146,10 @@ var items = {
          "level": 25
       }, 
       "Tide Maker": {
+         "components": {
+            "Dark Energy": 2, 
+            "Phoenix Feather": 2
+         }, 
          "price": 225000, 
          "resources": {
             "hardwood": 104, 
@@ -4132,6 +5161,7 @@ var items = {
          "level": 37
       }, 
       "Journey Mace": {
+         "components": {}, 
          "price": 9550, 
          "resources": {
             "hardwood": 34, 
@@ -4141,6 +5171,9 @@ var items = {
          "level": 21
       }, 
       "Hammer Fist": {
+         "components": {
+            "Royal Bone": 3
+         }, 
          "price": 54000, 
          "resources": {
             "steel": 11, 
@@ -4151,6 +5184,7 @@ var items = {
          "level": 22
       }, 
       "Club": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "wood": 2
@@ -4159,6 +5193,9 @@ var items = {
          "level": 1
       }, 
       "Fury Club": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 43500, 
          "resources": {
             "hardwood": 63, 
@@ -4168,6 +5205,9 @@ var items = {
          "level": 28
       }, 
       "Tree Trunk": {
+         "components": {
+            "Rainbow Dust": 4
+         }, 
          "price": 12500, 
          "resources": {
             "hardwood": 14, 
@@ -4177,6 +5217,7 @@ var items = {
          "level": 15
       }, 
       "Mace": {
+         "components": {}, 
          "price": 390, 
          "resources": {
             "wood": 16
@@ -4185,6 +5226,9 @@ var items = {
          "level": 7
       }, 
       "Steeled Club": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 3500, 
          "resources": {
             "steel": 3, 
@@ -4195,6 +5239,9 @@ var items = {
          "level": 14
       }, 
       "Storm Basher": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1500000, 
          "resources": {
             "hardwood": 131, 
@@ -4206,6 +5253,9 @@ var items = {
          "level": 43
       }, 
       "Apocalyptus": {
+         "components": {
+            "Demon Heart": 3
+         }, 
          "price": 385000, 
          "resources": {
             "hardwood": 81, 
@@ -4217,6 +5267,9 @@ var items = {
          "level": 32
       }, 
       "Crusher": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 6450000, 
          "resources": {
             "hardwood": 162, 
@@ -4229,6 +5282,9 @@ var items = {
          "level": 48
       }, 
       "Earthquake": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 62500, 
          "resources": {
             "hardwood": 77, 
@@ -4239,6 +5295,7 @@ var items = {
          "level": 31
       }, 
       "Battle Mace": {
+         "components": {}, 
          "price": 1750, 
          "resources": {
             "hardwood": 5, 
@@ -4248,6 +5305,9 @@ var items = {
          "level": 11
       }, 
       "Hundred Ton": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 2650000, 
          "resources": {
             "hardwood": 117, 
@@ -4260,6 +5320,9 @@ var items = {
          "level": 40
       }, 
       "Evening Star": {
+         "components": {
+            "Sun Tear": 3
+         }, 
          "price": 940000, 
          "resources": {
             "hardwood": 108, 
@@ -4272,6 +5335,9 @@ var items = {
          "level": 38
       }, 
       "Heavy Mace": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 815, 
          "resources": {
             "wood": 23
@@ -4280,6 +5346,7 @@ var items = {
          "level": 9
       }, 
       "Shieldbreaker": {
+         "components": {}, 
          "price": 260, 
          "resources": {
             "wood": 5
@@ -4288,6 +5355,9 @@ var items = {
          "level": 3
       }, 
       "Giant's Hammer": {
+         "components": {
+            "Yggdrasil Leaf": 1
+         }, 
          "price": 115000, 
          "resources": {
             "hardwood": 50, 
@@ -4297,6 +5367,7 @@ var items = {
          "level": 25
       }, 
       "Maul": {
+         "components": {}, 
          "price": 95, 
          "resources": {
             "wood": 7
@@ -4305,6 +5376,7 @@ var items = {
          "level": 4
       }, 
       "Pulverizer": {
+         "components": {}, 
          "price": 160000, 
          "resources": {
             "steel": 26, 
@@ -4316,6 +5388,9 @@ var items = {
          "level": 35
       }, 
       "Morning Star": {
+         "components": {
+            "Elven Dew": 3
+         }, 
          "price": 1150, 
          "resources": {
             "wood": 19
@@ -4324,6 +5399,9 @@ var items = {
          "level": 8
       }, 
       "Tenderizer": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 13000000, 
          "resources": {
             "steel": 50, 
@@ -4339,6 +5417,9 @@ var items = {
    }, 
    "Footwear": {
       "Winged Sandals": {
+         "components": {
+            "Wyvern Wing": 3
+         }, 
          "price": 65500, 
          "resources": {
             "leather": 90, 
@@ -4350,6 +5431,7 @@ var items = {
          "level": 22
       }, 
       "Light Boots": {
+         "components": {}, 
          "price": 915, 
          "resources": {
             "leather": 18, 
@@ -4359,6 +5441,9 @@ var items = {
          "level": 7
       }, 
       "Dancer Shoes": {
+         "components": {
+            "Burning Ember": 1
+         }, 
          "price": 1500, 
          "resources": {
             "leather": 25, 
@@ -4369,6 +5454,9 @@ var items = {
          "level": 9
       }, 
       "Fur Loafers": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 575, 
          "resources": {
             "leather": 15, 
@@ -4378,6 +5466,9 @@ var items = {
          "level": 6
       }, 
       "Floating Slippers": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 120000, 
          "resources": {
             "leather": 150, 
@@ -4388,6 +5479,9 @@ var items = {
          "level": 31
       }, 
       "Genji Getas": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 64500, 
          "resources": {
             "leather": 130, 
@@ -4400,6 +5494,9 @@ var items = {
          "level": 28
       }, 
       "Plumed Loafers": {
+         "components": {
+            "Wyvern Wing": 1
+         }, 
          "price": 19500, 
          "resources": {
             "leather": 85, 
@@ -4412,6 +5509,9 @@ var items = {
          "level": 21
       }, 
       "Adamantium Shoes": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 1200000, 
          "resources": {
             "fabric": 125, 
@@ -4425,6 +5525,9 @@ var items = {
          "level": 39
       }, 
       "Planeswalkers": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 2350000, 
          "resources": {
             "leather": 220, 
@@ -4437,6 +5540,7 @@ var items = {
          "level": 38
       }, 
       "Druidic Shoes": {
+         "components": {}, 
          "price": 210, 
          "resources": {
             "wood": 3
@@ -4445,6 +5549,9 @@ var items = {
          "level": 3
       }, 
       "Frostfire Shoes": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 10650000, 
          "resources": {
             "leather": 375, 
@@ -4457,6 +5564,7 @@ var items = {
          "level": 45
       }, 
       "Sandals": {
+         "components": {}, 
          "price": 16, 
          "resources": {
             "leather": 2, 
@@ -4466,6 +5574,9 @@ var items = {
          "level": 1
       }, 
       "Draconic Boots": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 3600000, 
          "resources": {
             "leather": 250, 
@@ -4478,6 +5589,9 @@ var items = {
          "level": 40
       }, 
       "Firewalkers": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 21300000, 
          "resources": {
             "fabric": 190, 
@@ -4491,6 +5605,7 @@ var items = {
          "level": 49
       }, 
       "Leather Shoes": {
+         "components": {}, 
          "price": 185, 
          "resources": {
             "leather": 8, 
@@ -4500,6 +5615,7 @@ var items = {
          "level": 4
       }, 
       "Golden Shoes": {
+         "components": {}, 
          "price": 9050, 
          "resources": {
             "leather": 65, 
@@ -4511,6 +5627,9 @@ var items = {
          "level": 17
       }, 
       "Elven Boots": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 2300, 
          "resources": {
             "leather": 21, 
@@ -4520,6 +5639,7 @@ var items = {
          "level": 8
       }, 
       "Legion Sandals": {
+         "components": {}, 
          "price": 2550, 
          "resources": {
             "leather": 35, 
@@ -4530,6 +5650,7 @@ var items = {
          "level": 11
       }, 
       "Path Finders": {
+         "components": {}, 
          "price": 560000, 
          "resources": {
             "leather": 140, 
@@ -4542,6 +5663,9 @@ var items = {
          "level": 29
       }, 
       "Horned Shoes": {
+         "components": {
+            "Moon Shard": 1
+         }, 
          "price": 5750, 
          "resources": {
             "leather": 50, 
@@ -4553,6 +5677,7 @@ var items = {
          "level": 14
       }, 
       "Shoes": {
+         "components": {}, 
          "price": 44, 
          "resources": {
             "leather": 3, 
@@ -4562,6 +5687,9 @@ var items = {
          "level": 2
       }, 
       "Moon Walkers": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 16500, 
          "resources": {
             "leather": 55, 
@@ -4573,6 +5701,9 @@ var items = {
          "level": 15
       }, 
       "Jade Shoes": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1900000, 
          "resources": {
             "fabric": 145, 
@@ -4586,6 +5717,9 @@ var items = {
          "level": 43
       }, 
       "Imperial Sandals": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 37500, 
          "resources": {
             "leather": 105, 
@@ -4597,6 +5731,9 @@ var items = {
          "level": 25
       }, 
       "Arcane Sandals": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 920000, 
          "resources": {
             "leather": 210, 
@@ -4609,6 +5746,9 @@ var items = {
          "level": 37
       }, 
       "Wind Walkers": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 380000, 
          "resources": {
             "leather": 185, 
@@ -4623,6 +5763,9 @@ var items = {
    }, 
    "Potions": {
       "Clarity Potion": {
+         "components": {
+            "Golden Thread": 4
+         }, 
          "price": 2000000, 
          "resources": {
             "herbs": 250, 
@@ -4634,6 +5777,7 @@ var items = {
          "level": 40
       }, 
       "Mana Vial": {
+         "components": {}, 
          "price": 175, 
          "resources": {
             "herbs": 8
@@ -4642,6 +5786,9 @@ var items = {
          "level": 4
       }, 
       "Obsidian Potion": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 13800000, 
          "resources": {
             "herbs": 425, 
@@ -4653,6 +5800,9 @@ var items = {
          "level": 47
       }, 
       "Warming Spray": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 8100, 
          "resources": {
             "herbs": 55, 
@@ -4662,6 +5812,9 @@ var items = {
          "level": 15
       }, 
       "Wisdom Potion": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 40000, 
          "resources": {
             "herbs": 90, 
@@ -4671,6 +5824,9 @@ var items = {
          "level": 22
       }, 
       "Speed Potion": {
+         "components": {
+            "Elven Dew": 1
+         }, 
          "price": 285, 
          "resources": {
             "herbs": 11
@@ -4679,6 +5835,9 @@ var items = {
          "level": 5
       }, 
       "Gods' Essence": {
+         "components": {
+            "Adamantium": 1
+         }, 
          "price": 4700000, 
          "resources": {
             "herbs": 235, 
@@ -4690,6 +5849,7 @@ var items = {
          "level": 39
       }, 
       "Love Splash": {
+         "components": {}, 
          "price": 420, 
          "resources": {
             "herbs": 15
@@ -4698,6 +5858,9 @@ var items = {
          "level": 6
       }, 
       "Mana Potion": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 75500, 
          "resources": {
             "herbs": 90, 
@@ -4709,6 +5872,9 @@ var items = {
          "level": 22
       }, 
       "Golden Potion": {
+         "components": {
+            "Silver Steel": 1
+         }, 
          "price": 130000, 
          "resources": {
             "herbs": 130, 
@@ -4720,6 +5886,9 @@ var items = {
          "level": 28
       }, 
       "Elixir": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 170000, 
          "resources": {
             "herbs": 110, 
@@ -4731,6 +5900,7 @@ var items = {
          "level": 26
       }, 
       "Healing Potion": {
+         "components": {}, 
          "price": 740, 
          "resources": {
             "herbs": 18
@@ -4739,6 +5909,9 @@ var items = {
          "level": 7
       }, 
       "Toxic Vial": {
+         "components": {
+            "Viper Essence": 2
+         }, 
          "price": 930, 
          "resources": {
             "herbs": 21
@@ -4747,6 +5920,9 @@ var items = {
          "level": 8
       }, 
       "Invincibility Potion": {
+         "components": {
+            "Phoenix Feather": 3
+         }, 
          "price": 995000, 
          "resources": {
             "herbs": 170, 
@@ -4758,6 +5934,7 @@ var items = {
          "level": 33
       }, 
       "Strength Potion": {
+         "components": {}, 
          "price": 3900, 
          "resources": {
             "herbs": 45, 
@@ -4767,6 +5944,9 @@ var items = {
          "level": 13
       }, 
       "Demon's Blood": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 125000, 
          "resources": {
             "herbs": 100, 
@@ -4778,6 +5958,9 @@ var items = {
          "level": 24
       }, 
       "Health Potion": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 26500, 
          "resources": {
             "herbs": 80, 
@@ -4789,6 +5972,7 @@ var items = {
          "level": 20
       }, 
       "Acidic Splash": {
+         "components": {}, 
          "price": 11000, 
          "resources": {
             "herbs": 65, 
@@ -4800,6 +5984,9 @@ var items = {
          "level": 17
       }, 
       "Megalixir": {
+         "components": {
+            "Sun Tear": 3
+         }, 
          "price": 2150000, 
          "resources": {
             "herbs": 200, 
@@ -4811,6 +5998,9 @@ var items = {
          "level": 36
       }, 
       "Life Potion": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 220000, 
          "resources": {
             "herbs": 150, 
@@ -4822,6 +6012,9 @@ var items = {
          "level": 31
       }, 
       "Elixir Drops": {
+         "components": {
+            "Elven Dew": 3
+         }, 
          "price": 1800, 
          "resources": {
             "herbs": 25, 
@@ -4831,6 +6024,9 @@ var items = {
          "level": 9
       }, 
       "Dragon's Blood": {
+         "components": {
+            "Dragon Scale": 1
+         }, 
          "price": 1200000, 
          "resources": {
             "herbs": 175, 
@@ -4842,6 +6038,7 @@ var items = {
          "level": 34
       }, 
       "Health Drink": {
+         "components": {}, 
          "price": 2350, 
          "resources": {
             "herbs": 30, 
@@ -4851,6 +6048,9 @@ var items = {
          "level": 10
       }, 
       "Gaia's Essence": {
+         "components": {
+            "Shard Of Gaia": 1
+         }, 
          "price": 22700000, 
          "resources": {
             "herbs": 500, 
@@ -4862,6 +6062,7 @@ var items = {
          "level": 50
       }, 
       "Health Vial": {
+         "components": {}, 
          "price": 75, 
          "resources": {
             "herbs": 5
@@ -4870,6 +6071,9 @@ var items = {
          "level": 3
       }, 
       "Twilight Potion": {
+         "components": {
+            "Dark Energy": 4
+         }, 
          "price": 1300000, 
          "resources": {
             "herbs": 210, 
@@ -4883,6 +6087,9 @@ var items = {
    }, 
    "Clothes": {
       "Holy Tunic": {
+         "components": {
+            "Primal Horn": 3
+         }, 
          "price": 19200000, 
          "resources": {
             "leather": 500, 
@@ -4894,6 +6101,9 @@ var items = {
          "level": 50
       }, 
       "Stealth Apparel": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 82000, 
          "resources": {
             "leather": 130, 
@@ -4905,6 +6115,9 @@ var items = {
          "level": 28
       }, 
       "Ice Cloak": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 15500, 
          "resources": {
             "leather": 45, 
@@ -4914,6 +6127,7 @@ var items = {
          "level": 13
       }, 
       "Mage Robe": {
+         "components": {}, 
          "price": 34500, 
          "resources": {
             "leather": 75, 
@@ -4925,6 +6139,7 @@ var items = {
          "level": 19
       }, 
       "Cloak": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "leather": 3
@@ -4933,6 +6148,9 @@ var items = {
          "level": 2
       }, 
       "Gaia's Mantle": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 145000, 
          "resources": {
             "leather": 120, 
@@ -4944,6 +6162,9 @@ var items = {
          "level": 27
       }, 
       "Night Walker": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 145000, 
          "resources": {
             "leather": 150, 
@@ -4955,6 +6176,9 @@ var items = {
          "level": 31
       }, 
       "Robe": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 505, 
          "resources": {
             "leather": 18
@@ -4963,6 +6187,7 @@ var items = {
          "level": 7
       }, 
       "Red Tunic": {
+         "components": {}, 
          "price": 230, 
          "resources": {
             "leather": 11
@@ -4971,6 +6196,9 @@ var items = {
          "level": 5
       }, 
       "Plasmic Robe": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 2000000, 
          "resources": {
             "leather": 220, 
@@ -4982,6 +6210,9 @@ var items = {
          "level": 38
       }, 
       "King's Mantle": {
+         "components": {
+            "Ancient Essence": 2
+         }, 
          "price": 2200000, 
          "resources": {
             "leather": 325, 
@@ -4993,6 +6224,10 @@ var items = {
          "level": 43
       }, 
       "Twilight Robe": {
+         "components": {
+            "Adamantium": 1, 
+            "Dark Energy": 4
+         }, 
          "price": 990000, 
          "resources": {
             "leather": 250, 
@@ -5004,6 +6239,9 @@ var items = {
          "level": 40
       }, 
       "Sacred Tunic": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 25000, 
          "resources": {
             "leather": 85, 
@@ -5014,6 +6252,7 @@ var items = {
          "level": 21
       }, 
       "Tunic": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "leather": 2
@@ -5022,6 +6261,9 @@ var items = {
          "level": 1
       }, 
       "Sage's Robe": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 160000, 
          "resources": {
             "leather": 175, 
@@ -5033,6 +6275,9 @@ var items = {
          "level": 34
       }, 
       "Storm Apparel": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 180000, 
          "resources": {
             "leather": 140, 
@@ -5044,6 +6289,9 @@ var items = {
          "level": 29
       }, 
       "Sorcerer Robe": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 975000, 
          "resources": {
             "leather": 165, 
@@ -5055,6 +6303,9 @@ var items = {
          "level": 32
       }, 
       "Apprentice Robes": {
+         "components": {
+            "Rainbow Dust": 1
+         }, 
          "price": 1950, 
          "resources": {
             "leather": 35, 
@@ -5064,6 +6315,9 @@ var items = {
          "level": 11
       }, 
       "Magician's Cloak": {
+         "components": {
+            "Wyvern Wing": 1
+         }, 
          "price": 5700, 
          "resources": {
             "leather": 55, 
@@ -5073,6 +6327,7 @@ var items = {
          "level": 15
       }, 
       "Doublet": {
+         "components": {}, 
          "price": 1000, 
          "resources": {
             "leather": 25, 
@@ -5082,6 +6337,9 @@ var items = {
          "level": 9
       }, 
       "Mantle": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 190, 
          "resources": {
             "leather": 8
@@ -5090,6 +6348,9 @@ var items = {
          "level": 4
       }, 
       "Nightmare Cape": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 790000, 
          "resources": {
             "leather": 170, 
@@ -5101,6 +6362,9 @@ var items = {
          "level": 33
       }, 
       "Mage Doublet": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 8250000, 
          "resources": {
             "leather": 425, 
@@ -5112,6 +6376,9 @@ var items = {
          "level": 47
       }, 
       "Imperial Mantle": {
+         "components": {
+            "Phoenix Feather": 1
+         }, 
          "price": 44000, 
          "resources": {
             "leather": 105, 
@@ -5123,6 +6390,9 @@ var items = {
          "level": 25
       }, 
       "Archwizard Robe": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 2900000, 
          "resources": {
             "leather": 235, 
@@ -5134,6 +6404,9 @@ var items = {
          "level": 39
       }, 
       "Shimmering Robes": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 465000, 
          "resources": {
             "leather": 200, 
@@ -5145,6 +6418,9 @@ var items = {
          "level": 36
       }, 
       "Silk Robe": {
+         "components": {
+            "Moon Shard": 3
+         }, 
          "price": 10500, 
          "resources": {
             "leather": 65, 
@@ -5156,6 +6432,9 @@ var items = {
    }, 
    "Hats": {
       "Thunder Crown": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 1650000, 
          "resources": {
             "steel": 28, 
@@ -5169,6 +6448,9 @@ var items = {
          "level": 36
       }, 
       "Plumed Hat": {
+         "components": {
+            "Viper Essence": 2
+         }, 
          "price": 755, 
          "resources": {
             "leather": 21
@@ -5177,6 +6459,9 @@ var items = {
          "level": 8
       }, 
       "Golden Crown": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 265000, 
          "resources": {
             "leather": 105, 
@@ -5189,6 +6474,9 @@ var items = {
          "level": 25
       }, 
       "Archwizard's Hat": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 400000, 
          "resources": {
             "leather": 170, 
@@ -5199,6 +6487,7 @@ var items = {
          "level": 33
       }, 
       "Circlet": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "leather": 2
@@ -5207,6 +6496,7 @@ var items = {
          "level": 1
       }, 
       "Scarlet Coif": {
+         "components": {}, 
          "price": 9100, 
          "resources": {
             "leather": 55, 
@@ -5216,6 +6506,9 @@ var items = {
          "level": 15
       }, 
       "Runic Coif": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 575000, 
          "resources": {
             "leather": 200, 
@@ -5227,6 +6520,7 @@ var items = {
          "level": 36
       }, 
       "Buckle Hat": {
+         "components": {}, 
          "price": 335, 
          "resources": {
             "leather": 15
@@ -5235,6 +6529,10 @@ var items = {
          "level": 6
       }, 
       "Demonic Visage": {
+         "components": {
+            "Adamantium": 2, 
+            "Demon Heart": 3
+         }, 
          "price": 2450000, 
          "resources": {
             "leather": 235, 
@@ -5247,6 +6545,9 @@ var items = {
          "level": 39
       }, 
       "Wise Cap": {
+         "components": {
+            "Rainbow Dust": 6
+         }, 
          "price": 380000, 
          "resources": {
             "leather": 120, 
@@ -5256,6 +6557,9 @@ var items = {
          "level": 27
       }, 
       "Cultist's Hood": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 8200000, 
          "resources": {
             "leather": 425, 
@@ -5268,6 +6572,9 @@ var items = {
          "level": 47
       }, 
       "Jade Visage": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1000000, 
          "resources": {
             "steel": 33, 
@@ -5281,6 +6588,9 @@ var items = {
          "level": 40
       }, 
       "Runic Tiara": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 615000, 
          "resources": {
             "steel": 25, 
@@ -5294,6 +6604,9 @@ var items = {
          "level": 34
       }, 
       "Monk's Hat": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 130, 
          "resources": {
             "leather": 5
@@ -5302,6 +6615,7 @@ var items = {
          "level": 3
       }, 
       "Light Visage": {
+         "components": {}, 
          "price": 3150, 
          "resources": {
             "leather": 45, 
@@ -5312,6 +6626,9 @@ var items = {
          "level": 13
       }, 
       "Jorou's Crown": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 920000, 
          "resources": {
             "fabric": 120, 
@@ -5325,6 +6642,9 @@ var items = {
          "level": 38
       }, 
       "Robin's Hood": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 2000, 
          "resources": {
             "leather": 21
@@ -5333,6 +6653,9 @@ var items = {
          "level": 8
       }, 
       "Pumpkinhead": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 2150, 
          "resources": {
             "leather": 21, 
@@ -5343,6 +6666,9 @@ var items = {
          "level": 8
       }, 
       "Silver Crown": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 38000, 
          "resources": {
             "leather": 85, 
@@ -5355,6 +6681,7 @@ var items = {
          "level": 21
       }, 
       "Elven Coif": {
+         "components": {}, 
          "price": 65500, 
          "resources": {
             "leather": 100, 
@@ -5365,6 +6692,9 @@ var items = {
          "level": 24
       }, 
       "Royal Tiara": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 23650000, 
          "resources": {
             "steel": 50, 
@@ -5378,6 +6708,9 @@ var items = {
          "level": 50
       }, 
       "Dark Visage": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 105000, 
          "resources": {
             "leather": 130, 
@@ -5390,6 +6723,9 @@ var items = {
          "level": 28
       }, 
       "Noble Tiara": {
+         "components": {
+            "Shiny Gem": 3
+         }, 
          "price": 2100, 
          "resources": {
             "leather": 35, 
@@ -5400,6 +6736,7 @@ var items = {
          "level": 11
       }, 
       "Thief's Hood": {
+         "components": {}, 
          "price": 1150, 
          "resources": {
             "leather": 25, 
@@ -5409,6 +6746,9 @@ var items = {
          "level": 9
       }, 
       "Magic Top": {
+         "components": {
+            "Wyvern Wing": 3
+         }, 
          "price": 21000, 
          "resources": {
             "leather": 75, 
@@ -5419,6 +6759,9 @@ var items = {
          "level": 19
       }, 
       "Shadowhood": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 140000, 
          "resources": {
             "leather": 150, 
@@ -5429,6 +6772,7 @@ var items = {
          "level": 31
       }, 
       "Hood": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "leather": 3
@@ -5439,6 +6783,7 @@ var items = {
    }, 
    "Gauntlets": {
       "Giga-brace": {
+         "components": {}, 
          "price": 385000, 
          "resources": {
             "leather": 167, 
@@ -5451,6 +6796,9 @@ var items = {
          "level": 35
       }, 
       "Vambrace": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 455, 
          "resources": {
             "leather": 10, 
@@ -5460,6 +6808,9 @@ var items = {
          "level": 5
       }, 
       "Protector Gauntlets": {
+         "components": {
+            "Phoenix Feather": 3
+         }, 
          "price": 265000, 
          "resources": {
             "leather": 135, 
@@ -5472,6 +6823,9 @@ var items = {
          "level": 31
       }, 
       "Dark Vambrace": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 185000, 
          "resources": {
             "leather": 131, 
@@ -5483,6 +6837,9 @@ var items = {
          "level": 30
       }, 
       "Fire Smashers": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 885000, 
          "resources": {
             "leather": 189, 
@@ -5495,6 +6852,9 @@ var items = {
          "level": 37
       }, 
       "Dragonscale Gauntlets": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 2150000, 
          "resources": {
             "leather": 198, 
@@ -5507,6 +6867,9 @@ var items = {
          "level": 38
       }, 
       "Adamantium Fists": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 3900000, 
          "resources": {
             "leather": 225, 
@@ -5519,6 +6882,9 @@ var items = {
          "level": 40
       }, 
       "Volcanic Smashers": {
+         "components": {
+            "Primal Horn": 1
+         }, 
          "price": 24000000, 
          "resources": {
             "leather": 428, 
@@ -5531,6 +6897,9 @@ var items = {
          "level": 49
       }, 
       "Frozen Grip": {
+         "components": {
+            "Frozen Core": 5
+         }, 
          "price": 135000, 
          "resources": {
             "leather": 72, 
@@ -5543,6 +6912,9 @@ var items = {
          "level": 20
       }, 
       "Berserker Gauntlets": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 15450000, 
          "resources": {
             "leather": 360, 
@@ -5555,6 +6927,7 @@ var items = {
          "level": 46
       }, 
       "Light Gauntlets": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "iron": 3
@@ -5563,6 +6936,9 @@ var items = {
          "level": 2
       }, 
       "Lord's Gauntlets": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 15500, 
          "resources": {
             "leather": 54, 
@@ -5573,6 +6949,9 @@ var items = {
          "level": 16
       }, 
       "King's Gauntlets": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 265000, 
          "resources": {
             "leather": 95, 
@@ -5585,6 +6964,7 @@ var items = {
          "level": 25
       }, 
       "Long Gauntlets": {
+         "components": {}, 
          "price": 980, 
          "resources": {
             "leather": 16, 
@@ -5594,6 +6974,7 @@ var items = {
          "level": 7
       }, 
       "Chainmail Gauntlets": {
+         "components": {}, 
          "price": 3650, 
          "resources": {
             "leather": 36, 
@@ -5604,6 +6985,9 @@ var items = {
          "level": 12
       }, 
       "Shockers": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 385000, 
          "resources": {
             "leather": 149, 
@@ -5616,6 +7000,9 @@ var items = {
          "level": 32
       }, 
       "Moonlight Gauntlets": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 6450, 
          "resources": {
             "leather": 27, 
@@ -5625,6 +7012,9 @@ var items = {
          "level": 10
       }, 
       "Silver Gauntlets": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 63000, 
          "resources": {
             "leather": 86, 
@@ -5635,6 +7025,9 @@ var items = {
          "level": 23
       }, 
       "Twilight Fists": {
+         "components": {
+            "Yggdrasil Leaf": 5
+         }, 
          "price": 1050000, 
          "resources": {
             "leather": 212, 
@@ -5647,6 +7040,9 @@ var items = {
          "level": 39
       }, 
       "Gauntlets": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 95, 
          "resources": {
             "iron": 5
@@ -5655,6 +7051,10 @@ var items = {
          "level": 3
       }, 
       "Golden Gauntlets": {
+         "components": {
+            "Golden Thread": 2, 
+            "Ancient Essence": 2
+         }, 
          "price": 2350000, 
          "resources": {
             "leather": 293, 
@@ -5667,6 +7067,9 @@ var items = {
          "level": 43
       }, 
       "Meshed Gauntlets": {
+         "components": {
+            "Burning Ember": 2
+         }, 
          "price": 1500, 
          "resources": {
             "leather": 19, 
@@ -5676,6 +7079,9 @@ var items = {
          "level": 8
       }, 
       "Bloodlust Gauntlets": {
+         "components": {
+            "Silver Steel": 3
+         }, 
          "price": 120000, 
          "resources": {
             "leather": 108, 
@@ -5687,6 +7093,9 @@ var items = {
          "level": 27
       }, 
       "Steel Vambrace": {
+         "components": {
+            "Royal Bone": 2
+         }, 
          "price": 28000, 
          "resources": {
             "leather": 68, 
@@ -5697,6 +7106,9 @@ var items = {
          "level": 19
       }, 
       "Jagged Gauntlets": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 7400, 
          "resources": {
             "leather": 50, 
@@ -5709,6 +7121,9 @@ var items = {
    }, 
    "Pendants": {
       "Fiery Talisman": {
+         "components": {
+            "Burning Ember": 3
+         }, 
          "price": 9800, 
          "resources": {
             "leather": 45, 
@@ -5720,6 +7135,9 @@ var items = {
          "level": 16
       }, 
       "Trine Charm": {
+         "components": {
+            "Dark Energy": 4
+         }, 
          "price": 780000, 
          "resources": {
             "leather": 158, 
@@ -5732,6 +7150,9 @@ var items = {
          "level": 37
       }, 
       "Draconic Amulet": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1200000, 
          "resources": {
             "leather": 150, 
@@ -5743,6 +7164,7 @@ var items = {
          "level": 36
       }, 
       "Opal Necklace": {
+         "components": {}, 
          "price": 320, 
          "resources": {
             "leather": 8, 
@@ -5752,6 +7174,7 @@ var items = {
          "level": 5
       }, 
       "Jade Amulet": {
+         "components": {}, 
          "price": 26500, 
          "resources": {
             "leather": 60, 
@@ -5763,6 +7186,7 @@ var items = {
          "level": 20
       }, 
       "Skeleton Ward": {
+         "components": {}, 
          "price": 2500, 
          "resources": {
             "leather": 30, 
@@ -5772,6 +7196,7 @@ var items = {
          "level": 12
       }, 
       "Obelisk Charm": {
+         "components": {}, 
          "price": 42500, 
          "resources": {
             "leather": 68, 
@@ -5783,6 +7208,9 @@ var items = {
          "level": 22
       }, 
       "Scarlet Drop": {
+         "components": {
+            "Shiny Gem": 2
+         }, 
          "price": 565, 
          "resources": {
             "leather": 11, 
@@ -5792,6 +7220,9 @@ var items = {
          "level": 6
       }, 
       "Wind Charm": {
+         "components": {
+            "Shiny Gem": 3
+         }, 
          "price": 5850, 
          "resources": {
             "leather": 26, 
@@ -5801,6 +7232,7 @@ var items = {
          "level": 11
       }, 
       "Hanging Journal": {
+         "components": {}, 
          "price": 4200, 
          "resources": {
             "leather": 38, 
@@ -5812,6 +7244,9 @@ var items = {
          "level": 14
       }, 
       "Adamantium Amulet": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1250000, 
          "resources": {
             "leather": 206, 
@@ -5824,6 +7259,9 @@ var items = {
          "level": 41
       }, 
       "Azure Beads": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 36500, 
          "resources": {
             "leather": 53, 
@@ -5834,6 +7272,7 @@ var items = {
          "level": 18
       }, 
       "Shiny Pendant": {
+         "components": {}, 
          "price": 100, 
          "resources": {
             "leather": 4, 
@@ -5843,6 +7282,9 @@ var items = {
          "level": 3
       }, 
       "Protection Pendant": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 1050, 
          "resources": {
             "leather": 16, 
@@ -5852,6 +7294,9 @@ var items = {
          "level": 8
       }, 
       "Turning Token": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 115000, 
          "resources": {
             "leather": 75, 
@@ -5863,6 +7308,9 @@ var items = {
          "level": 24
       }, 
       "Luna Charm": {
+         "components": {
+            "Iron Wood": 1
+         }, 
          "price": 1550, 
          "resources": {
             "leather": 23, 
@@ -5872,6 +7320,9 @@ var items = {
          "level": 10
       }, 
       "Timeless Locket": {
+         "components": {
+            "Frozen Core": 2
+         }, 
          "price": 19000, 
          "resources": {
             "leather": 53, 
@@ -5882,6 +7333,9 @@ var items = {
          "level": 18
       }, 
       "Frostfire Talisman": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 11600000, 
          "resources": {
             "leather": 319, 
@@ -5894,6 +7348,7 @@ var items = {
          "level": 47
       }, 
       "Light Amulet": {
+         "components": {}, 
          "price": 79500, 
          "resources": {
             "leather": 79, 
@@ -5905,6 +7360,9 @@ var items = {
          "level": 25
       }, 
       "Shielding Ward": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 200000, 
          "resources": {
             "leather": 90, 
@@ -5916,6 +7374,9 @@ var items = {
          "level": 27
       }, 
       "Gaia's Heart": {
+         "components": {
+            "Shard Of Gaia": 3
+         }, 
          "price": 24600000, 
          "resources": {
             "leather": 375, 
@@ -5928,6 +7389,9 @@ var items = {
          "level": 50
       }, 
       "Freezing Ward": {
+         "components": {
+            "Frozen Core": 7
+         }, 
          "price": 285000, 
          "resources": {
             "leather": 113, 
@@ -5939,6 +7403,9 @@ var items = {
          "level": 31
       }, 
       "Phoenix Talon": {
+         "components": {
+            "Phoenix Feather": 3
+         }, 
          "price": 190000, 
          "resources": {
             "leather": 105, 
@@ -5950,6 +7417,9 @@ var items = {
          "level": 29
       }, 
       "Cat's Eye": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 430000, 
          "resources": {
             "leather": 131, 
@@ -5962,6 +7432,10 @@ var items = {
          "level": 34
       }, 
       "Goddess' Tear": {
+         "components": {
+            "Adamantium": 2, 
+            "Sun Tear": 2
+         }, 
          "price": 3050000, 
          "resources": {
             "leather": 165, 
@@ -5973,6 +7447,9 @@ var items = {
          "level": 38
       }, 
       "Lich's Heart": {
+         "components": {
+            "Demon Heart": 3
+         }, 
          "price": 1600000, 
          "resources": {
             "leather": 139, 
@@ -5986,6 +7463,7 @@ var items = {
    }, 
    "Boots": {
       "Explorer Boots": {
+         "components": {}, 
          "price": 6800, 
          "resources": {
             "leather": 41, 
@@ -5997,6 +7475,9 @@ var items = {
          "level": 13
       }, 
       "Titan's Feet": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 22750000, 
          "resources": {
             "steel": 200, 
@@ -6010,6 +7491,7 @@ var items = {
          "level": 50
       }, 
       "Sabaton": {
+         "components": {}, 
          "price": 9800, 
          "resources": {
             "leather": 50, 
@@ -6020,6 +7502,9 @@ var items = {
          "level": 15
       }, 
       "Valkyrie Boots": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 17000, 
          "resources": {
             "leather": 45, 
@@ -6031,6 +7516,9 @@ var items = {
          "level": 14
       }, 
       "King's Boots": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 1250000, 
          "resources": {
             "steel": 115, 
@@ -6044,6 +7532,9 @@ var items = {
          "level": 37
       }, 
       "Moon Boots": {
+         "components": {
+            "Moon Shard": 2
+         }, 
          "price": 4300, 
          "resources": {
             "leather": 23, 
@@ -6053,6 +7544,9 @@ var items = {
          "level": 9
       }, 
       "Lord's Boots": {
+         "components": {
+            "Yggdrasil Leaf": 3
+         }, 
          "price": 130000, 
          "resources": {
             "steel": 75, 
@@ -6066,6 +7560,9 @@ var items = {
          "level": 29
       }, 
       "Adamantium Boots": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 1700000, 
          "resources": {
             "steel": 130, 
@@ -6079,6 +7576,7 @@ var items = {
          "level": 40
       }, 
       "Heavy Boots": {
+         "components": {}, 
          "price": 22, 
          "resources": {
             "leather": 2, 
@@ -6088,6 +7586,7 @@ var items = {
          "level": 1
       }, 
       "Chain Greaves": {
+         "components": {}, 
          "price": 230, 
          "resources": {
             "leather": 7, 
@@ -6097,6 +7596,9 @@ var items = {
          "level": 4
       }, 
       "Earthshakers": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 375000, 
          "resources": {
             "leather": 158, 
@@ -6109,6 +7611,9 @@ var items = {
          "level": 34
       }, 
       "Draconic Greaves": {
+         "components": {
+            "Dragon Scale": 3
+         }, 
          "price": 2650000, 
          "resources": {
             "steel": 125, 
@@ -6122,6 +7627,9 @@ var items = {
          "level": 39
       }, 
       "Lion Boots": {
+         "components": {
+            "Rainbow Dust": 4
+         }, 
          "price": 12500, 
          "resources": {
             "leather": 36, 
@@ -6134,6 +7642,9 @@ var items = {
          "level": 12
       }, 
       "Magic Riders": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 390000, 
          "resources": {
             "steel": 80, 
@@ -6147,6 +7658,9 @@ var items = {
          "level": 30
       }, 
       "Obsidian Greaves": {
+         "components": {
+            "Obsidian Coral": 2
+         }, 
          "price": 9700000, 
          "resources": {
             "steel": 170, 
@@ -6160,6 +7674,9 @@ var items = {
          "level": 47
       }, 
       "Flame Greaves": {
+         "components": {
+            "Liquid Fire": 3
+         }, 
          "price": 245000, 
          "resources": {
             "steel": 65, 
@@ -6173,6 +7690,9 @@ var items = {
          "level": 27
       }, 
       "Skull Stompers": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 2200000, 
          "resources": {
             "steel": 120, 
@@ -6186,6 +7706,9 @@ var items = {
          "level": 38
       }, 
       "Royal Greaves": {
+         "components": {
+            "Ancient Essence": 2
+         }, 
          "price": 3200000, 
          "resources": {
             "steel": 145, 
@@ -6199,6 +7722,9 @@ var items = {
          "level": 43
       }, 
       "Plated Boots": {
+         "components": {
+            "Shiny Gem": 3
+         }, 
          "price": 705, 
          "resources": {
             "leather": 14, 
@@ -6208,6 +7734,7 @@ var items = {
          "level": 6
       }, 
       "Rider's Boots": {
+         "components": {}, 
          "price": 120, 
          "resources": {
             "leather": 5, 
@@ -6217,6 +7744,7 @@ var items = {
          "level": 3
       }, 
       "Traveling Boots": {
+         "components": {}, 
          "price": 1250, 
          "resources": {
             "leather": 19, 
@@ -6226,6 +7754,9 @@ var items = {
          "level": 8
       }, 
       "Silvered Greaves": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 96500, 
          "resources": {
             "leather": 95, 
@@ -6238,6 +7769,9 @@ var items = {
          "level": 25
       }, 
       "Warrior's Greaves": {
+         "components": {
+            "Iron Carapace": 3
+         }, 
          "price": 19500, 
          "resources": {
             "leather": 63, 
@@ -6249,6 +7783,7 @@ var items = {
          "level": 18
       }, 
       "Knight Riders": {
+         "components": {}, 
          "price": 38000, 
          "resources": {
             "leather": 77, 
@@ -6261,6 +7796,10 @@ var items = {
          "level": 21
       }, 
       "Frost Sabatons": {
+         "components": {
+            "Golden Thread": 2, 
+            "Frozen Core": 3
+         }, 
          "price": 180000, 
          "resources": {
             "leather": 149, 
@@ -6273,6 +7812,9 @@ var items = {
          "level": 32
       }, 
       "Red Boots": {
+         "components": {
+            "Burning Ember": 1
+         }, 
          "price": 2950, 
          "resources": {
             "leather": 27, 
@@ -6285,6 +7827,7 @@ var items = {
    }, 
    "Gloves": {
       "Woven Bracers": {
+         "components": {}, 
          "price": 1300, 
          "resources": {
             "leather": 30
@@ -6293,6 +7836,9 @@ var items = {
          "level": 10
       }, 
       "Mage Bracers": {
+         "components": {
+            "Yggdrasil Leaf": 1
+         }, 
          "price": 41500, 
          "resources": {
             "leather": 100, 
@@ -6305,6 +7851,7 @@ var items = {
          "level": 24
       }, 
       "Nightstalker Gloves": {
+         "components": {}, 
          "price": 1500000, 
          "resources": {
             "leather": 220, 
@@ -6317,6 +7864,7 @@ var items = {
          "level": 38
       }, 
       "Grandmaster Gloves": {
+         "components": {}, 
          "price": 17000, 
          "resources": {
             "leather": 55, 
@@ -6328,6 +7876,9 @@ var items = {
          "level": 15
       }, 
       "Angel Gloves": {
+         "components": {
+            "Golden Thread": 3
+         }, 
          "price": 355000, 
          "resources": {
             "leather": 185, 
@@ -6340,6 +7891,9 @@ var items = {
          "level": 35
       }, 
       "Flaming Hands": {
+         "components": {
+            "Burning Ember": 3
+         }, 
          "price": 8650, 
          "resources": {
             "leather": 60, 
@@ -6349,6 +7903,9 @@ var items = {
          "level": 16
       }, 
       "Shadowed Gloves": {
+         "components": {
+            "Wyvern Wing": 3
+         }, 
          "price": 33000, 
          "resources": {
             "leather": 70, 
@@ -6359,6 +7916,9 @@ var items = {
          "level": 18
       }, 
       "Cindari Gloves": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 810000, 
          "resources": {
             "leather": 275, 
@@ -6371,6 +7931,9 @@ var items = {
          "level": 41
       }, 
       "Wrist Guards": {
+         "components": {
+            "Elven Dew": 2
+         }, 
          "price": 160, 
          "resources": {
             "leather": 5, 
@@ -6380,6 +7943,7 @@ var items = {
          "level": 3
       }, 
       "Fur Gloves": {
+         "components": {}, 
          "price": 790, 
          "resources": {
             "leather": 18
@@ -6388,6 +7952,9 @@ var items = {
          "level": 7
       }, 
       "Wisdom Gloves": {
+         "components": {
+            "Wyvern Wing": 2
+         }, 
          "price": 17000, 
          "resources": {
             "leather": 50, 
@@ -6397,6 +7964,9 @@ var items = {
          "level": 14
       }, 
       "Elemental Bracers": {
+         "components": {
+            "Iron Carapace": 1
+         }, 
          "price": 5250, 
          "resources": {
             "leather": 50, 
@@ -6407,6 +7977,7 @@ var items = {
          "level": 14
       }, 
       "Leather Bracers": {
+         "components": {}, 
          "price": 10, 
          "resources": {
             "leather": 2
@@ -6415,6 +7986,9 @@ var items = {
          "level": 1
       }, 
       "Archangel Gloves": {
+         "components": {
+            "Shard Of Gaia": 3
+         }, 
          "price": 16750000, 
          "resources": {
             "leather": 475, 
@@ -6427,6 +8001,9 @@ var items = {
          "level": 49
       }, 
       "Padded Gloves": {
+         "components": {
+            "Iron Wood": 2
+         }, 
          "price": 410, 
          "resources": {
             "leather": 11
@@ -6435,6 +8012,9 @@ var items = {
          "level": 5
       }, 
       "Death Grip": {
+         "components": {
+            "Dark Energy": 3
+         }, 
          "price": 2750000, 
          "resources": {
             "leather": 235, 
@@ -6447,6 +8027,9 @@ var items = {
          "level": 39
       }, 
       "Dexterous Gloves": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 3150, 
          "resources": {
             "leather": 40, 
@@ -6456,6 +8039,9 @@ var items = {
          "level": 12
       }, 
       "Frostfire Gloves": {
+         "components": {
+            "Frostfire Crystal": 2
+         }, 
          "price": 7950000, 
          "resources": {
             "leather": 375, 
@@ -6468,6 +8054,7 @@ var items = {
          "level": 45
       }, 
       "Gloves": {
+         "components": {}, 
          "price": 28, 
          "resources": {
             "leather": 3
@@ -6476,6 +8063,9 @@ var items = {
          "level": 2
       }, 
       "Royal Bracers": {
+         "components": {
+            "Royal Bone": 1
+         }, 
          "price": 18500, 
          "resources": {
             "leather": 80, 
@@ -6488,6 +8078,9 @@ var items = {
          "level": 20
       }, 
       "Alchemist Gloves": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 30500, 
          "resources": {
             "leather": 90, 
@@ -6498,6 +8091,9 @@ var items = {
          "level": 22
       }, 
       "Sorcerer's Bracers": {
+         "components": {
+            "Silver Steel": 1
+         }, 
          "price": 72500, 
          "resources": {
             "fabric": 60, 
@@ -6511,6 +8107,9 @@ var items = {
          "level": 26
       }, 
       "Venomous Hands": {
+         "components": {
+            "Viper Essence": 3
+         }, 
          "price": 1400, 
          "resources": {
             "leather": 25
@@ -6519,6 +8118,9 @@ var items = {
          "level": 9
       }, 
       "Shield Bracers": {
+         "components": {
+            "Phoenix Feather": 2
+         }, 
          "price": 160000, 
          "resources": {
             "fabric": 80, 
@@ -6532,6 +8134,9 @@ var items = {
          "level": 30
       }, 
       "Freezing Bracers": {
+         "components": {
+            "Frozen Core": 7
+         }, 
          "price": 1300000, 
          "resources": {
             "leather": 200, 
@@ -6544,6 +8149,9 @@ var items = {
          "level": 36
       }, 
       "Runic Bracers": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 585000, 
          "resources": {
             "oil": 58, 
@@ -6559,6 +8167,9 @@ var items = {
    }, 
    "Spells": {
       "Guardian Seal": {
+         "components": {
+            "Primal Horn": 2
+         }, 
          "price": 17850000, 
          "resources": {
             "steel": 100, 
@@ -6571,6 +8182,9 @@ var items = {
          "level": 50
       }, 
       "Paralysis Totem": {
+         "components": {
+            "Yggdrasil Leaf": 2
+         }, 
          "price": 86500, 
          "resources": {
             "hardwood": 25, 
@@ -6583,6 +8197,9 @@ var items = {
          "level": 24
       }, 
       "Teleportation Scroll": {
+         "components": {
+            "Liquid Fire": 1
+         }, 
          "price": 40000, 
          "resources": {
             "leather": 85, 
@@ -6594,6 +8211,9 @@ var items = {
          "level": 21
       }, 
       "Deflection Seal": {
+         "components": {
+            "Iron Carapace": 2
+         }, 
          "price": 8150, 
          "resources": {
             "steel": 6, 
@@ -6603,6 +8223,9 @@ var items = {
          "level": 14
       }, 
       "Lightning Scroll": {
+         "components": {
+            "Rainbow Dust": 2
+         }, 
          "price": 2700, 
          "resources": {
             "leather": 25
@@ -6611,6 +8234,9 @@ var items = {
          "level": 9
       }, 
       "Pain Totem": {
+         "components": {
+            "Iron Carapace": 2
+         }, 
          "price": 12500, 
          "resources": {
             "hardwood": 5, 
@@ -6621,6 +8247,9 @@ var items = {
          "level": 13
       }, 
       "Magical Codex": {
+         "components": {
+            "Liquid Fire": 2
+         }, 
          "price": 130000, 
          "resources": {
             "leather": 95, 
@@ -6633,6 +8262,9 @@ var items = {
          "level": 23
       }, 
       "Disintegration Scroll": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 935000, 
          "resources": {
             "leather": 185, 
@@ -6645,6 +8277,9 @@ var items = {
          "level": 35
       }, 
       "Poison Scroll": {
+         "components": {
+            "Viper Essence": 3
+         }, 
          "price": 1450, 
          "resources": {
             "leather": 21
@@ -6653,6 +8288,9 @@ var items = {
          "level": 8
       }, 
       "Sleeping Totem": {
+         "components": {
+            "Elven Dew": 5
+         }, 
          "price": 4450, 
          "resources": {
             "herbs": 35, 
@@ -6663,6 +8301,9 @@ var items = {
          "level": 11
       }, 
       "Hawk Totem": {
+         "components": {
+            "Dragon Scale": 2
+         }, 
          "price": 1300000, 
          "resources": {
             "hardwood": 60, 
@@ -6675,6 +8316,9 @@ var items = {
          "level": 38
       }, 
       "Divine Tome": {
+         "components": {
+            "Adamantium": 2
+         }, 
          "price": 4850000, 
          "resources": {
             "leather": 250, 
@@ -6687,6 +8331,9 @@ var items = {
          "level": 40
       }, 
       "Fireball Scroll": {
+         "components": {
+            "Burning Ember": 1
+         }, 
          "price": 935, 
          "resources": {
             "leather": 18
@@ -6695,6 +8342,9 @@ var items = {
          "level": 7
       }, 
       "Shielding Seal": {
+         "components": {
+            "Shiny Gem": 1
+         }, 
          "price": 330, 
          "resources": {
             "leather": 11
@@ -6703,6 +8353,9 @@ var items = {
          "level": 5
       }, 
       "Possession Scroll": {
+         "components": {
+            "Phoenix Feather": 1
+         }, 
          "price": 115000, 
          "resources": {
             "leather": 130, 
@@ -6715,6 +8368,9 @@ var items = {
          "level": 28
       }, 
       "Twilight Seal": {
+         "components": {
+            "Ancient Essence": 1
+         }, 
          "price": 1700000, 
          "resources": {
             "steel": 68, 
@@ -6727,6 +8383,9 @@ var items = {
          "level": 41
       }, 
       "Return Scroll": {
+         "components": {
+            "Dark Energy": 2
+         }, 
          "price": 1600000, 
          "resources": {
             "leather": 210, 
@@ -6739,6 +8398,9 @@ var items = {
          "level": 37
       }, 
       "Njord": {
+         "components": {
+            "Golden Thread": 2
+         }, 
          "price": 580000, 
          "resources": {
             "leather": 145, 
@@ -6751,6 +8413,9 @@ var items = {
          "level": 30
       }, 
       "Freezing Scroll": {
+         "components": {
+            "Frozen Core": 1
+         }, 
          "price": 16500, 
          "resources": {
             "leather": 60, 
@@ -6762,6 +8427,9 @@ var items = {
          "level": 16
       }, 
       "Invisibility Scroll": {
+         "components": {
+            "Moon Shard": 3
+         }, 
          "price": 23500, 
          "resources": {
             "leather": 70, 
@@ -6772,6 +8440,9 @@ var items = {
          "level": 18
       }, 
       "Power Seal": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 405000, 
          "resources": {
             "steel": 40, 
@@ -6784,6 +8455,9 @@ var items = {
          "level": 30
       }, 
       "Haunted Scroll": {
+         "components": {
+            "Shard Of Gaia": 2
+         }, 
          "price": 11250000, 
          "resources": {
             "leather": 425, 
@@ -6796,6 +8470,9 @@ var items = {
          "level": 47
       }, 
       "Evil Seal": {
+         "components": {
+            "Silver Steel": 2
+         }, 
          "price": 305000, 
          "resources": {
             "steel": 30, 
@@ -6808,6 +8485,9 @@ var items = {
          "level": 26
       }, 
       "Arcane Compendium": {
+         "components": {
+            "Sun Tear": 2
+         }, 
          "price": 1950000, 
          "resources": {
             "leather": 170, 
@@ -6820,6 +8500,9 @@ var items = {
          "level": 33
       }, 
       "Firewall Scroll": {
+         "components": {
+            "Burning Ember": 3
+         }, 
          "price": 5850, 
          "resources": {
             "leather": 40, 
@@ -6830,6 +8513,9 @@ var items = {
          "level": 12
       }, 
       "Gloom Totem": {
+         "components": {
+            "Demon Heart": 2
+         }, 
          "price": 635000, 
          "resources": {
             "hardwood": 45, 
