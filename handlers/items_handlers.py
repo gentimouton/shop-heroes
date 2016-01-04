@@ -27,28 +27,43 @@ class ItemCategoryHandler(BaseHandler):
         category = kwargs['category']
         items = []
         
-        for item_name, item_data in item_db[category.capitalize()].items():
+        for item_slug, item_data in item_db[category.capitalize()].items():
             mats_display = []
             
             # resources from bins
             required_resources = item_data['resources']
-            for slug in resource_slugs:
-                if slug in required_resources.keys():
-                    mat = {'slug': slug,
-                        'name': resource_db[slug]['name'],
-                        'qty': required_resources[slug]}
+            for rsrc_slug in resource_slugs:
+                if rsrc_slug in required_resources.keys():
+                    mat = {'kind': 'resource',
+                        'slug': rsrc_slug,
+                        'name': resource_db[rsrc_slug]['name'],
+                        'qty': required_resources[rsrc_slug]}
                     mats_display.append(mat)
                     
-            # components # TODO: precrafts 
+            # components: artifacts and precrafts
             required_components = item_data['components']
-            for slug in artifact_slugs:
-                if slug in required_components.keys():
-                    mat = {'slug': slug,
-                        'name': artifact_db[slug]['name'],
-                        'qty': required_components[slug]}
+            # sort components: artifacts before precrafts, then alphabetically 
+            sorted_comps = sorted(required_components.keys(),
+                key=lambda c_slug: (c_slug not in artifact_slugs, c_slug))
+            logging.info('----- ' + str(sorted_comps))  
+            for comp_slug in sorted_comps:
+                comp_data = required_components[comp_slug]
+                if comp_slug in artifact_slugs:  # artifact
+                    mat = {'kind': 'artifact',
+                        'slug': comp_slug,
+                        'name': artifact_db[comp_slug]['name'],
+                        'qty': comp_data}
                     mats_display.append(mat)
-
-            # item level, img, and price
+                else:  # precraft
+                    mat = {'kind': 'precraft',
+                        'slug': comp_slug,
+                        'name': comp_slug,  # TODO: name instead
+                        'qty': comp_data[0],
+                        'quality': comp_data[1]}
+                    mats_display.append(mat)
+            
+            # item name, level, img, and price
+            item_name = item_data['name']
             item_filename = item_name.replace(' ', '_').replace('\'', '')
             img = '/static/%s/%s.png' % (category, item_filename)
             item = {

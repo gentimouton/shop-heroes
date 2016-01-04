@@ -63,8 +63,7 @@
             title="{{ item.name }}" 
             src="{{ item.img }}"/>
           <span class='itemPrice'>
-            <img src='/static/transparent_dot.gif' class='icon icon-coin'/>
-            {{ item.price }}
+            <img src='/static/transparent_dot.gif' class='icon icon-coin'/>{{ item.price }}
           </span>
         </div>
         <div class="col-xs-8">
@@ -74,15 +73,18 @@
             <span class='itemPower'>{{ item.power }}</span>
           </div>
           <div class='row matList'>
-            {% for mat in item.mats %}
+            {% for mat in item.mats -%}
               <div class="col-xs-4 nopadding">
-                <img src='/static/transparent_dot.gif' class='icon icon-{{ mat.slug }}' title='{{ mat.name }}'/>
-                {{mat.qty}}
+                {%- if mat.kind in ['resource', 'artifact'] -%}
+                  <img src='/static/transparent_dot.gif' class='icon icon-{{ mat.slug }}' title='{{ mat.name }}'/>{{mat.qty}}
+                {%- else -%}
+                   {{mat.qty}} {{mat.quality}} {{mat.name}}
+                {%- endif -%}
               </div>
-              {% if loop.index0 % 3 == 2 %}
+              {% if loop.index0 % 3 == 2 -%}
                 <div class="clearfix visible-xs-block visible-sm-block"></div>
-              {% endif %}
-            {% endfor %}
+              {%- endif -%}
+            {% endfor -%}
           </div>
         </div>
       </div></div>
@@ -94,6 +96,6 @@
       {% if loop.index0 % 3 == 2 %}
         <div class="clearfix visible-lg-block"></div>
       {% endif %}
-    {% endfor %}
+    {%- endfor -%}
   </div>
 {% endblock content %}
