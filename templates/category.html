@@ -44,12 +44,12 @@
     width: 30px;
   }
   {% for icon_list in icons_map %}
-    {% set outer_loop = loop %}
-    {% for icon in icon_list %}
+    {%- set outer_loop = loop -%}
+    {%- for icon in icon_list -%}
       .icon-{{ icon }} {
         background-position: -{{ outer_loop.index0 * 30 }}px -{{ loop.index0 * 30}}px;
       }
-    {% endfor %}
+    {% endfor -%}
   {% endfor %}
 
 {% endblock style %}

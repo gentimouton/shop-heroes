@@ -1,6 +1,9 @@
 import webapp2
 from webapp2_extras import jinja2
 
+# prevent template lines to leave blank lines
+jinja2.default_config['environment_args']['trim_blocks'] = True
+
 
 class BaseHandler(webapp2.RequestHandler):
     """

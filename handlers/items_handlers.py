@@ -1,28 +1,24 @@
 import logging
 
-from db.artifacts_db import artifacts_db
-from db.items_db import item_db
+from db.db_artifacts import artifact_db
+from db.db_resources import resource_db
+from db.db_items import item_db
 from handlers.base import BaseHandler
 
 
 # ordered list of resources and special resources
-resources_list = ['iron', 'wood', 'leather', 'herbs',
-    'steel', 'hardwood', 'fabric', 'oil', 'mana', 'jewels']
-artifacts_list = sorted(artifacts_db.keys(),
-    key=lambda name: artifacts_db[name]['level'])
-# only keep alphanum characters in artifact names
-artifacts_slugs = {
-    artifact: ''.join(c for c in artifact if c.isalnum()) 
-    for artifact in artifacts_list
-    }
+resource_slugs = sorted(resource_db.keys(),
+    key=lambda slug: resource_db[slug]['rank'])
+artifact_slugs = sorted(artifact_db.keys(),
+    key=lambda slug: artifact_db[slug]['level'])
 
 # map resource and artifact slugs to their position in the icons sprite
-icons_map = [resources_list,
-    [artifacts_slugs[a] for a in artifacts_list[0:10]],
-    [artifacts_slugs[a] for a in artifacts_list[10:20]],
-    [artifacts_slugs[a] for a in artifacts_list[20:26]],
+icons_map = [resource_slugs,
+    artifact_slugs[0:10],
+    artifact_slugs[10:20],
+    artifact_slugs[20:26],
     ['coin', 'gem', 'time', 'barracks', 'power', 'heart']
-    ]       
+    ]
 
 
 class ItemCategoryHandler(BaseHandler):
@@ -32,25 +28,24 @@ class ItemCategoryHandler(BaseHandler):
         items = []
         
         for item_name, item_data in item_db[category.capitalize()].items():
-            # materials listing # TODO: db_gen.py should generate slugs for me
             mats_display = []
+            
             # resources from bins
             required_resources = item_data['resources']
-            for r in resources_list:
-                if r in required_resources.keys():
-                    mat = {'name': r, 
-                        'slug': r, 
-                        'qty': required_resources[r]}
+            for slug in resource_slugs:
+                if slug in required_resources.keys():
+                    mat = {'slug': slug,
+                        'name': resource_db[slug]['name'],
+                        'qty': required_resources[slug]}
                     mats_display.append(mat)
                     
             # components # TODO: precrafts 
-            # TODO: db_gen.py should generate slugs for me
             required_components = item_data['components']
-            for artifact in artifacts_list:
-                if artifact in required_components.keys():
-                    mat = {'name': artifact,
-                        'slug': artifacts_slugs[artifact],
-                        'qty': required_components[artifact]}
+            for slug in artifact_slugs:
+                if slug in required_components.keys():
+                    mat = {'slug': slug,
+                        'name': artifact_db[slug]['name'],
+                        'qty': required_components[slug]}
                     mats_display.append(mat)
 
             # item level, img, and price
