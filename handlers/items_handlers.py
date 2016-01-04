@@ -6,6 +6,29 @@ from db.db_items import item_db
 from handlers.base import BaseHandler
 
 
+def format_qty(qty):
+    """
+    From a positive integer, return a string with 3 significant figures.  
+    1234 -> 1.23k
+    1000 -> 1k
+    123456 -> 123k
+    12345678 -> 12.3M
+    '{:,}'.format(qty) is not satisfactory: 123456 -> 123,456
+    """
+    if qty < 1000:
+        return qty
+    s = list(str(qty))
+    res = s[:3]  # 1234 -> 123
+    if int(s[3]) >= 5:  # 4569 -> 457 
+        res[2] = str(int(s[2]) + 1)  # round up third digit
+    dot_location = len(s) % 3
+    if dot_location:  # add a dot if needed
+        res.insert(dot_location, '.')  # 1234 -> 1.23, and 123456 -> 123
+    res = '%g' % float(''.join(res)) # remove superfluous zeros: 12.0 -> 12
+    suffix = ['k', 'M', 'B', 'T'][(len(s) - 1) / 3 - 1]
+    return res + suffix
+
+
 # ordered list of resources and special resources
 resource_slugs = sorted(resource_db.keys(),
     key=lambda slug: resource_db[slug]['rank'])
@@ -45,7 +68,6 @@ class ItemCategoryHandler(BaseHandler):
             # sort components: artifacts before precrafts, then alphabetically 
             sorted_comps = sorted(required_components.keys(),
                 key=lambda c_slug: (c_slug not in artifact_slugs, c_slug))
-            logging.info('----- ' + str(sorted_comps))  
             for comp_slug in sorted_comps:
                 comp_data = required_components[comp_slug]
                 if comp_slug in artifact_slugs:  # artifact
@@ -69,7 +91,7 @@ class ItemCategoryHandler(BaseHandler):
             item = {
                 'name': item_name,
                 'level': item_data['level'],
-                'price': '{:,}'.format(item_data['price']),
+                'price': format_qty(item_data['price']),
                 'power': item_data['power'],
                 'img': img,
                 'mats': mats_display
