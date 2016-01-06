@@ -27,7 +27,7 @@ def slugify(value):
     value = re.sub('[^\w\s-]', '', value).strip().lower()
     return str(re.sub('[-\s]+', '-', value))
 
-def print_to_file(db_name, data, filename):
+def print_to_file(db_name, db_data, filename):
     """
     Write a database to a database file.
     filename is a python file name,
@@ -36,7 +36,7 @@ def print_to_file(db_name, data, filename):
     print 'writing ' + filename
     output_file = open(filename, 'wb')
     output_file.write(db_name + ' = \\\n')
-    output_file.write(pprint.pformat(data, indent=4))
+    output_file.write(pprint.pformat(db_data, indent=4))
     output_file.close()
 
 
@@ -74,25 +74,27 @@ print_to_file('resource_db', resources, 'db_resources.py')
 
 
 ############## process item data
-items = defaultdict(dict)  # {'Swords': {'Shortsword': {}, ...}, 'Axes': {} }
+item_categories = defaultdict(dict) # {'axes': {'name': 'Axes', 'items': ['hawk']}  
+items = {} # { 'hawk': {'price': 1, 'name': 'Hawk'}, 'fire-gun': {} }
 filename = 'items.csv'
 print 'reading ' + filename
 input_file = open('items.csv')
 reader = csv.DictReader(input_file)  # name, level, power, class, price
 
-basics = ['price', 'level', 'power']
+basics_int = ['price', 'level', 'power']
 # sort resources by rank 
 resources = sorted(resources.keys(), key=lambda slug: resources[slug]['rank'])
 qualities = ['good', 'great', 'flawless', 'epic', 'legendary', 'mythical']
 
 for row in reader:
-    item_name = row['name']
-    item_kind = row['class']
-    
     # fill item_data
     item_data = {}
-    item_data['name'] = item_name
-    for b in basics:
+    item_data['name'] = row['name']
+    category_slug = slugify(row['class'])
+    item_data['category'] = category_slug
+    item_slug = slugify(item_data['name'])
+    item_data['slug'] = item_slug
+    for b in basics_int:
         value = get_int(row, b)
         item_data[b] = value
         
@@ -122,11 +124,17 @@ for row in reader:
                 item_comp[comp_slug] = (comp_qty, quality)
         except ValueError:  # first token was not an integer, eg int('---')
             continue
-        
     item_data['components'] = item_comp
-    items[item_kind][slugify(item_name)] = item_data
+    
+    # fill-up databases
+    if category_slug not in item_categories.keys():
+        item_categories[category_slug] = {'name': row['class'], 'items': []}
+    item_categories[category_slug]['items'].append(item_slug)
+    items[item_slug] = item_data
+    
 input_file.close()
 print_to_file('item_db', dict(items), 'db_items.py')
+print_to_file('categories_db', dict(item_categories), 'db_categories.py')
 
 
 ################ write json
@@ -135,3 +143,4 @@ print_to_file('item_db', dict(items), 'db_items.py')
 # output_file.write(text)
 # output_file.close()
 
+print 'done'

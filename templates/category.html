@@ -38,8 +38,6 @@
   .itemInfo {margin-bottom: 5px;}
   /* resource images */
   .icon {
-    background-image: url('/static/icons.png');
-    background-repeat: no-repeat;
     height: 30px;
     width: 30px;
   }
@@ -51,7 +49,19 @@
       }
     {% endfor -%}
   {% endfor %}
-
+  .icon-resourceArtifact, .icon-currency {
+    background-image: url('/static/icons.png');
+    background-repeat: no-repeat;
+  }
+  .precraft {border-radius: 5px;}
+  .precraft-normal {box-shadow: 0px 0px 15px lightgray inset;}
+  .precraft-good {box-shadow: 0px 0px 15px lime inset;}
+  .precraft-great {box-shadow: 0px 0px 15px royalblue  inset;} 
+  .precraft-flawless {box-shadow: 0px 0px 15px cyan inset;}
+  .precraft-epic {box-shadow: 0px 0px 15px orchid inset;}
+  .precraft-legendary {box-shadow: 0px 0px 15px gold inset;}
+  .precraft-mythical {box-shadow: 0px 0px 15px red inset;}
+  
 {% endblock style %}
 {% block content %}
   <h1>{{ category|capitalize }}</h1>
@@ -61,9 +71,9 @@
         <div class="col-xs-3 imgBox">
           <img class="img-responsive itemImg" 
             title="{{ item.name }}" 
-            src="{{ item.img }}"/>
+            src="/static/{{item.category}}/{{ item.slug }}.png"/>
           <span class='itemPrice'>
-            <img src='/static/transparent_dot.gif' class='icon icon-coin'/>{{ item.price }}
+            <img src='/static/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
           </span>
         </div>
         <div class="col-xs-9 nopadding">
@@ -83,9 +93,12 @@
                       <div class="col-xs-3 nopadding">
                         {%- if item.mats|length > i -%}
                           {%- if item.mats[i].kind in ['resource', 'artifact'] -%}
-                            <img src='/static/transparent_dot.gif' class='icon icon-{{item.mats[i].slug}}' title='{{item.mats[i].name}}'/>
+                            <img src='/static/transparent_dot.gif' class='icon icon-resourceArtifact icon-{{item.mats[i].slug}}' title='{{item.mats[i].name}}'/>
                           {%- else -%}
-                            <img src='/static/transparent_dot.gif' class='icon icon-heart' title='{{item.mats[i].quality}} {{item.mats[i].name}}'/>
+                            <img src="/static/{{item.mats[i].category}}/{{item.mats[i].slug}}.png" class="icon precraft precraft-{{item.mats[i].quality}}" title='{{item.mats[i].name}} ({{item.mats[i].quality}})'/>
+                            <!--
+                            <img src='/static/transparent_dot.gif' class='icon icon-heart precraft-{{item.mats[i].quality}}' title='{{item.mats[i].quality}} {{item.mats[i].name}}'/>
+                            -->
                           {%- endif %}
                         {%- endif -%}
                       </div>
@@ -104,7 +117,7 @@
                 {% endif %}
                       <div class="col-xs-3 nopadding">
                         {%- if item.mats|length > i -%}
-                          {% if 10 > item.mats[i].qty %}&nbsp;{% endif %}
+                          {% if 10 > item.mats[i].qty %}&nbsp;&nbsp;{% endif %}
                           {% if 100 > item.mats[i].qty and item.mats[i].qty >= 10 %}&nbsp;{% endif %}
                           {{ item.mats[i].qty }}
                         {%- endif -%}

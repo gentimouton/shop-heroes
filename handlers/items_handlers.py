@@ -3,6 +3,7 @@ import logging
 from db.db_artifacts import artifact_db
 from db.db_resources import resource_db
 from db.db_items import item_db
+from db.db_categories import categories_db
 from handlers.base import BaseHandler
 
 
@@ -24,7 +25,7 @@ def format_qty(qty):
     dot_location = len(s) % 3
     if dot_location:  # add a dot if needed
         res.insert(dot_location, '.')  # 1234 -> 1.23, and 123456 -> 123
-    res = '%g' % float(''.join(res)) # remove superfluous zeros: 12.0 -> 12
+    res = '%g' % float(''.join(res))  # remove superfluous zeros: 12.0 -> 12
     suffix = ['k', 'M', 'B', 'T'][(len(s) - 1) / 3 - 1]
     return res + suffix
 
@@ -50,8 +51,9 @@ class ItemCategoryHandler(BaseHandler):
         category = kwargs['category']
         items = []
         
-        for item_slug, item_data in item_db[category.capitalize()].items():
-            mats_display = []
+        for item_slug in categories_db[category]['items']:
+            item_data = item_db[item_slug]
+            mats_display = [] # materials required to craft the item 
             
             # resources from bins
             required_resources = item_data['resources']
@@ -79,26 +81,25 @@ class ItemCategoryHandler(BaseHandler):
                 else:  # precraft
                     mat = {'kind': 'precraft',
                         'slug': comp_slug,
-                        'name': comp_slug,  # TODO: name instead
+                        'name': item_db[comp_slug]['name'],
+                        'category': item_db[comp_slug]['category'],
                         'qty': comp_data[0],
                         'quality': comp_data[1]}
                     mats_display.append(mat)
             
             # item name, level, img, and price
-            item_name = item_data['name']
-            item_filename = item_name.replace(' ', '_').replace('\'', '')
-            img = '/static/%s/%s.png' % (category, item_filename)
             item = {
-                'name': item_name,
+                'slug': item_slug,
+                'name': item_data['name'],
+                'category': item_data['category'],
                 'level': item_data['level'],
                 'price': format_qty(item_data['price']),
                 'power': item_data['power'],
-                'img': img,
                 'mats': mats_display
             }
             items.append(item)
         items.sort(key=lambda item: (item['level'], item['name']))
-        context = {'category': category,
+        context = {'category': categories_db[category]['name'],
             'items': items,
             'icons_map': icons_map
             }
