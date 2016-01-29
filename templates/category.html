@@ -64,14 +64,22 @@
   
 {% endblock style %}
 {% block content %}
+
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li class="active">{{category|capitalize}}</li>
+  </ol>
+  
   <h1>{{ category|capitalize }}</h1>
   <div class='row itemList'>
     {% for item in items %}
       <div class="col-sm-6 col-lg-4"><div class='itemBox'>
         <div class="col-xs-3 imgBox">
-          <img class="img-responsive itemImg" 
-            title="{{ item.name }}" 
-            src="/static/{{item.category}}/{{ item.slug }}.png"/>
+          <a href="/item/{{item.slug}}">
+            <img class="img-responsive itemImg" 
+              title="{{ item.name }}" 
+              src="/static/{{item.category}}/{{ item.slug }}.png"/>
+          </a>
           <span class='itemPrice'>
             <img src='/static/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
           </span>
@@ -79,7 +87,7 @@
         <div class="col-xs-9 nopadding">
           <div class='itemInfo'>
             <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
-            <span class="itemName">{{ item.name }}</span>
+            <span class="itemName"><a href="/item/{{item.slug}}">{{ item.name }}</a></span>
             <span class='itemPower'>{{ item.power }}</span>
           </div>
           <div class='matList'>
@@ -95,7 +103,9 @@
                           {%- if item.mats[i].kind in ['resource', 'artifact'] -%}
                             <img src='/static/transparent_dot.gif' class='icon icon-resourceArtifact icon-{{item.mats[i].slug}}' title='{{item.mats[i].name}}'/>
                           {%- else -%}
-                            <img src="/static/{{item.mats[i].category}}/{{item.mats[i].slug}}.png" class="icon precraft precraft-{{item.mats[i].quality}}" title='{{item.mats[i].name}} ({{item.mats[i].quality}})'/>
+                            <a href="/item/{{item.mats[i].slug}}">
+                              <img src="/static/{{item.mats[i].category}}/{{item.mats[i].slug}}.png" class="icon precraft precraft-{{item.mats[i].quality}}" title='{{item.mats[i].name}} ({{item.mats[i].quality}})'/>
+                            </a>
                             <!--
                             <img src='/static/transparent_dot.gif' class='icon icon-heart precraft-{{item.mats[i].quality}}' title='{{item.mats[i].quality}} {{item.mats[i].name}}'/>
                             -->

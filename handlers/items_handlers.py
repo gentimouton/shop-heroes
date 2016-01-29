@@ -45,60 +45,69 @@ icons_map = [resource_slugs,
     ]
 
 
+def get_item_data(item_slug):
+    # return item name, price, etc. given a slug
+    # return {} if not found
+    try:
+        item_data = item_db[item_slug]
+    except KeyError:
+        return {}
+    mats_display = [] # materials required to craft the item 
+    
+    # resources from bins
+    required_resources = item_data['resources']
+    for rsrc_slug in resource_slugs:
+        if rsrc_slug in required_resources.keys():
+            mat = {'kind': 'resource',
+                'slug': rsrc_slug,
+                'name': resource_db[rsrc_slug]['name'],
+                'qty': required_resources[rsrc_slug]}
+            mats_display.append(mat)
+            
+    # components: artifacts and precrafts
+    required_components = item_data['components']
+    # sort components: artifacts before precrafts, then alphabetically 
+    sorted_comps = sorted(required_components.keys(),
+        key=lambda c_slug: (c_slug not in artifact_slugs, c_slug))
+    for comp_slug in sorted_comps:
+        comp_data = required_components[comp_slug]
+        if comp_slug in artifact_slugs:  # artifact
+            mat = {'kind': 'artifact',
+                'slug': comp_slug,
+                'name': artifact_db[comp_slug]['name'],
+                'qty': comp_data}
+            mats_display.append(mat)
+        else:  # precraft
+            mat = {'kind': 'precraft',
+                'slug': comp_slug,
+                'name': item_db[comp_slug]['name'],
+                'category': item_db[comp_slug]['category'],
+                'qty': comp_data[0],
+                'quality': comp_data[1]}
+            mats_display.append(mat)
+    
+    # add item name, level, img, and price
+    item = {
+        'slug': item_slug,
+        'name': item_data['name'],
+        'category': item_data['category'],
+        'level': item_data['level'],
+        'price': format_qty(item_data['price']),
+        'power': item_data['power'],
+        'mats': mats_display
+    }
+    return item
+
+    
 class ItemCategoryHandler(BaseHandler):
     
     def get(self, **kwargs):
         category = kwargs['category']
         items = []
-        
         for item_slug in categories_db[category]['items']:
-            item_data = item_db[item_slug]
-            mats_display = [] # materials required to craft the item 
-            
-            # resources from bins
-            required_resources = item_data['resources']
-            for rsrc_slug in resource_slugs:
-                if rsrc_slug in required_resources.keys():
-                    mat = {'kind': 'resource',
-                        'slug': rsrc_slug,
-                        'name': resource_db[rsrc_slug]['name'],
-                        'qty': required_resources[rsrc_slug]}
-                    mats_display.append(mat)
-                    
-            # components: artifacts and precrafts
-            required_components = item_data['components']
-            # sort components: artifacts before precrafts, then alphabetically 
-            sorted_comps = sorted(required_components.keys(),
-                key=lambda c_slug: (c_slug not in artifact_slugs, c_slug))
-            for comp_slug in sorted_comps:
-                comp_data = required_components[comp_slug]
-                if comp_slug in artifact_slugs:  # artifact
-                    mat = {'kind': 'artifact',
-                        'slug': comp_slug,
-                        'name': artifact_db[comp_slug]['name'],
-                        'qty': comp_data}
-                    mats_display.append(mat)
-                else:  # precraft
-                    mat = {'kind': 'precraft',
-                        'slug': comp_slug,
-                        'name': item_db[comp_slug]['name'],
-                        'category': item_db[comp_slug]['category'],
-                        'qty': comp_data[0],
-                        'quality': comp_data[1]}
-                    mats_display.append(mat)
-            
-            # item name, level, img, and price
-            item = {
-                'slug': item_slug,
-                'name': item_data['name'],
-                'category': item_data['category'],
-                'level': item_data['level'],
-                'price': format_qty(item_data['price']),
-                'power': item_data['power'],
-                'mats': mats_display
-            }
-            items.append(item)
-        items.sort(key=lambda item: (item['level'], item['name']))
+            item_data = get_item_data(item_slug)
+            items.append(item_data)
+        items.sort(key=lambda item: (item_data['level'], item_data['name']))
         context = {'category': categories_db[category]['name'],
             'items': items,
             'icons_map': icons_map
@@ -106,7 +115,12 @@ class ItemCategoryHandler(BaseHandler):
         self.render_response('category.html', **context)
 
 
-class ItemListHandler(BaseHandler):
-    def get(self):
-        context = {'category': 'item list'}
-        self.render_response('category.html', **context)
+class ItemHandler(BaseHandler):
+
+    def get(self, **kwargs):
+        item_slug = kwargs['slug']
+        item_data = get_item_data(item_slug)
+        context = {'item': item_data,
+            'icons_map': icons_map
+            }
+        self.render_response('item.html', **context)

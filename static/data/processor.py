@@ -1,4 +1,3 @@
-from collections import defaultdict
 import csv
 import pprint
 import re
@@ -73,12 +72,30 @@ input_file.close()
 print_to_file('resource_db', resources, 'db_resources.py')
 
 
-############## process item data
-item_categories = defaultdict(dict) # {'axes': {'name': 'Axes', 'items': ['hawk']}  
-items = {} # { 'hawk': {'price': 1, 'name': 'Hawk'}, 'fire-gun': {} }
+############## process item categories and item data
+item_categories = {}  # {'axes': {'name': 'Axes', 'items': ['hawk']}  
+items = {}  # { 'hawk': {'price': 1, 'name': 'Hawk'}, 'fire-gun': {} }
+
+# read item categories
+filename = 'item_categories.csv'
+print 'reading ' + filename
+input_file = open(filename)
+reader = csv.DictReader(input_file)  # name, metacategory, rank, slot, slotname
+for row in reader:
+    item_categories[row['slug']] = { # swords
+        'name': row['name'], # Swords
+        'meta_category': row['metacategory'], # Weapons 
+        'rank': int(row['rank']), # 1
+        'slot': int(row['slot']), # 1
+        'slot_name': row['slotname'], # Right Hand
+        'items': [] # ['Shortsword', 'Longsword']
+    }
+input_file.close()
+
+# read items
 filename = 'items.csv'
 print 'reading ' + filename
-input_file = open('items.csv')
+input_file = open(filename)
 reader = csv.DictReader(input_file)  # name, level, power, class, price
 
 basics_int = ['price', 'level', 'power']
@@ -91,6 +108,8 @@ for row in reader:
     item_data = {}
     item_data['name'] = row['name']
     category_slug = slugify(row['class'])
+    if category_slug == 'armor':
+        category_slug = 'armors'
     item_data['category'] = category_slug
     item_slug = slugify(item_data['name'])
     item_data['slug'] = item_slug
@@ -111,11 +130,11 @@ for row in reader:
     for comp in [row['comp1'], row['comp2']]:
         tokens = comp.split(' ')
         try:
-            comp_qty = int(tokens[0]) # int('---') will raise ValueError
+            comp_qty = int(tokens[0])  # int('---') will raise ValueError
             comp_slug = slugify(' '.join(tokens[1:]))
-            if comp_slug in artifacts.keys(): # component is an artifact
+            if comp_slug in artifacts.keys():  # component is an artifact
                 item_comp[comp_slug] = comp_qty
-            else: # component is a precraft
+            else:  # component is a precraft
                 quality = 'normal'
                 if slugify(tokens[1]) in qualities:  # quality specified
                     quality = slugify(tokens[1])
@@ -127,14 +146,13 @@ for row in reader:
     item_data['components'] = item_comp
     
     # fill-up databases
-    if category_slug not in item_categories.keys():
-        item_categories[category_slug] = {'name': row['class'], 'items': []}
     item_categories[category_slug]['items'].append(item_slug)
     items[item_slug] = item_data
-    
 input_file.close()
-print_to_file('item_db', dict(items), 'db_items.py')
-print_to_file('categories_db', dict(item_categories), 'db_categories.py')
+
+# write
+print_to_file('item_db', items, 'db_items.py')
+print_to_file('categories_db', item_categories, 'db_categories.py')
 
 
 ################ write json
