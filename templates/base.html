@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% block title %}{% endblock %} - Shop Heroes Helper</title>
+  <title>{% block title %}{% endblock %} - Shop Heroes Database</title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -15,16 +15,23 @@
   
     var stringMatcher = function(suggestions) {
       return function findMatches(query, callback) {
-        var matches = []; // populated with substring matches
-        // match strings that start with query or have space then query
-        var substrRegex = new RegExp('(^|\\s)' + query, 'i');
+        var matches1 = []; // matches that start with query, highest priority
+        var matches2 = []; // matches that have space then query, lower priority
+        var regex1 = new RegExp('^' + query, 'i');
+        var regex2 = new RegExp('\\s' + query, 'i');
         // collect matching strings
         $.each(suggestions, function(i, suggestion) {
-          if (substrRegex.test(suggestion['name'])) {
-            matches.push(suggestion);
+          if (regex1.test(suggestion['name'])) {
+            matches1.push(suggestion);
+          } else if (regex2.test(suggestion['name'])) {
+            matches2.push(suggestion);
           }
         });
-        callback(matches);
+        // sort each array alphabetically
+        matches1.sort(function(a,b) {return a['name'] > b['name'] ? 1 : -1});
+        matches2.sort(function(a,b) {return a['name'] > b['name'] ? 1 : -1});
+        Array.prototype.push.apply(matches1, matches2); // concat m2 to m1
+        callback(matches1);
       };
     };
     
