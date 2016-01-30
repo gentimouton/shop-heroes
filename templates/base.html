@@ -8,6 +8,38 @@
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" media="screen">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script src="/static/lib/typeahead.bundle.min.js"></script>
+  <script type="text/javascript">
+  //$("#searchForm").submit(function() {window.location.href = '/items/swords'; return false;});
+
+  $(function() { // onload
+    // search box script
+    var substringMatcher = function(suggestions) {
+      return function findMatches(query, callback) {
+        var matches = []; // populated with substring matches
+        // match strings that start with query or have space then query
+        var substrRegex = new RegExp('(^|\\s)' + query, 'i');
+        // collect matching strings
+        $.each(suggestions, function(i, suggestion) {
+          if (substrRegex.test(suggestion['name'])) {
+            matches.push(suggestion);
+          }
+        });
+        callback(matches);
+      };
+    };
+    
+    var searchTerms = {{search_terms|safe}}; // [ {name:Kunai,slug:kunai}, ... ]
+    $('#searchBox').typeahead( {highlight: true}, { 
+      name: 'searchingTerms', 
+      display: function(suggestion) {return suggestion['name']},
+      source: substringMatcher(searchTerms)
+    }).on('typeahead:select', function(ev, suggestion){
+      window.location.href = '/item/' + suggestion['slug'];
+    });
+  });
+  </script>
+  <link href="/static/lib/typeahead.css" rel="stylesheet">
   <style>
     html {
       position: relative;
@@ -36,46 +68,63 @@
 <body>
 
 {% block navbar %}
+<!-- navbar: http://bootsnipp.com/snippets/featured/navbar-search-add-on-bs-3 -->
 <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container">
+  
+    <!-- Group brand and toggle on mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Shop Heroes Helper</a>
+      <a class="navbar-brand" href="/">SH DB</a>
     </div>
-    <div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weapons <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/items/swords">Swords</a></li>
-              <li><a href="/items/daggers">Daggers</a></li>
-              <li><a href="/items/axes">Axes</a></li>
-              <li><a href="/items/guns">Guns</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garments <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/items/guns">Guns</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="/items/spells">Spells</a></li>
-            </ul>
-          </li>
-          <li><a href="/heroes">Heroes</a></li>
-          <li><a href="/furniture">Furniture</a></li>
-        </ul>
+    
+    <!-- navbar on tablets and desktops -->
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weapons <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/items/swords">Swords</a></li>
+            <li><a href="/items/daggers">Daggers</a></li>
+            <li><a href="/items/axes">Axes</a></li>
+            <li><a href="/items/guns">Guns</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garments <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/items/guns">Guns</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/items/spells">Spells</a></li>
+          </ul>
+        </li>
+      </ul>
+      
+      <div class="col-sm-3">
+        <!-- <form class="navbar-form" id="searchForm" role="search"> -->
+        <form class="navbar-form" role="search" onsubmit="window.location.href = '/items/swords'; return false;">
+          <div class="input-group">
+            <input id="searchBox" type="text" class="form-control typeahead" placeholder="Search">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+          </div>
+        </form>
       </div>
-    </div>
-  </div>
+      
+    </div> <!-- navbar-collapse -->
+    
+  </div> <!-- container -->
 </nav>
 {% endblock navbar %}
 

@@ -5,10 +5,13 @@ import traceback
 import webapp2
 from webapp2_extras import jinja2
 
+from db.db_items import item_db
 
 # prevent template lines to leave blank lines
 jinja2.default_config['environment_args']['trim_blocks'] = True
 
+# search terms for the search box
+search_terms = [{'slug': s, 'name': d['name']} for s, d in item_db.items()] 
 
 class BaseHandler(webapp2.RequestHandler):
     """
@@ -24,12 +27,18 @@ class BaseHandler(webapp2.RequestHandler):
     def render_response(self, _template, **context):
         # Renders a template and writes the result to the response.
         # templates are at /templates by default, cf http://stackoverflow.com/a/32435965
+        # add list of names to context for search box autocompletion
+        context['search_terms'] = search_terms
         rv = self.jinja2.render_template(_template, **context)
         self.response.write(rv)
 
     def handle_exception(self, exception, debug):
         handle_error(None, self.response, exception)
-    
+        
+    def serve_404(self):
+        render_error(self.response, 404, {}, '404.html')
+        
+            
 
 def handle_error(request, response, exception):
     """
@@ -45,20 +54,21 @@ def handle_error(request, response, exception):
     else: 
         status = 500
     logging.error("Error {}: {}".format(status, exception))
-    renderer = jinja2.get_jinja2(app=webapp2.get_app())
     
     if status == 404:
-        render_error(response, renderer, status, {}, '404.html')
+        render_error(response, status, {}, '404.html')
     elif status == 500:
         exc_type, exc_value, exc_tb = sys.exc_info()  # get trace
         trace = traceback.format_exception(exc_type, exc_value, exc_tb)
         context = {'error_code': status, 'exception': exception, 'trace': trace}
-        render_error(response, renderer, status, context)
+        render_error(response, status, context)
     else:  # other http error code
         context = {'error_code': status, 'exception': exception}
-        render_error(response, renderer, status, context)
+        render_error(response, status, context)
 
 
-def render_error(response, renderer, status, context, template='error.html'):
+def render_error(response, status, context, template='error.html'):
+    context['search_terms'] = search_terms
+    renderer = jinja2.get_jinja2(app=webapp2.get_app())
     response.write(renderer.render_template(template, **context))
     response.set_status(status)

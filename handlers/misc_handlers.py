@@ -15,4 +15,4 @@ class FurnitureListHandler(BaseHandler):
 class HomeHandler(BaseHandler):
     def get(self):
         context = {}
-        self.render_response('base.html', **context)
+        self.render_response('home.html', **context)

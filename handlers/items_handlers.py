@@ -103,6 +103,9 @@ class ItemCategoryHandler(BaseHandler):
     
     def get(self, **kwargs):
         category = kwargs['category']
+        if category not in categories_db: # 404 if category invalid
+            self.serve_404()
+            return
         items = []
         for item_slug in categories_db[category]['items']:
             item_data = get_item_data(item_slug)
@@ -120,7 +123,11 @@ class ItemHandler(BaseHandler):
     def get(self, **kwargs):
         item_slug = kwargs['slug']
         item_data = get_item_data(item_slug)
+        if not item_data:  # 404 if item name invalid
+            self.serve_404()
+            return
         context = {'item': item_data,
             'icons_map': icons_map
             }
         self.render_response('item.html', **context)
+            
