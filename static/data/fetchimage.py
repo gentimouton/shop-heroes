@@ -24,12 +24,12 @@ if not os.path.exists(directory):
     os.makedirs(directory)
     
 for item_slug in categories_db[category]['items']:
-    time.sleep(1 + random.random() * 2) # throttle 
+    time.sleep(.5 + random.random() * 1.5) # throttle 
 
     # build wiki page url
     item_name = item_db[item_slug]['name'].replace(' ', '_')
-    filename = categories_db[category]['name'] + '_' + item_name + '.png'
-    #filename = item_name + '.png' # when wiki file name has no category prefix
+    #filename = categories_db[category]['name'] + '_' + item_name + '.png'
+    filename = item_name + '.png' # when wiki file name has no category prefix
     url = "http://shop-heroes.wikia.com/wiki/File:" + filename
     
     # get page html

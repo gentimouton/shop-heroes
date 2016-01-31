@@ -1,17 +1,33 @@
 import logging
 import sys
 import traceback
-
+from collections import defaultdict
 import webapp2
 from webapp2_extras import jinja2
 
+from db.db_categories import categories_db
 from db.db_items import item_db
+
 
 # prevent template lines to leave blank lines
 jinja2.default_config['environment_args']['trim_blocks'] = True
 
 # search terms for the search box
 search_terms = [{'slug': s, 'name': d['name']} for s, d in item_db.items()] 
+
+# item categories for the navbar links
+def get_cat_links():
+    # return {'Weapons': [{'slug':'swords', 'name':'Swords'}], 'Garments': []}
+    cat_links = defaultdict(list)  
+    for cat_slug, cat_data in categories_db.items():
+        cat = {k: cat_data[k] for k in ['name', 'slot']}
+        cat['slug'] = cat_slug
+        cat_links[cat_data['meta_category']].append(cat)
+    # sort each meta-category by slot, then alphabetically
+    [l.sort(key=lambda x: (x['slot'], x['name'])) for l in cat_links.values()]
+    return dict(cat_links)
+item_cat_links = get_cat_links()
+
 
 class BaseHandler(webapp2.RequestHandler):
     """
@@ -29,6 +45,7 @@ class BaseHandler(webapp2.RequestHandler):
         # templates are at /templates by default, cf http://stackoverflow.com/a/32435965
         # add list of names to context for search box autocompletion
         context['search_terms'] = search_terms
+        context['item_cat_links'] = item_cat_links
         rv = self.jinja2.render_template(_template, **context)
         self.response.write(rv)
 

@@ -91,29 +91,22 @@
     <!-- navbar on tablets and desktops -->
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
+
+        {%- for metacat in ['Weapons', 'Garments', 'Accessories'] -%}
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Weapons <span class="caret"></span></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{metacat}} <span class="caret"></span></a>
           <ul class="dropdown-menu">
-            <li><a href="/items/swords">Swords</a></li>
-            <li><a href="/items/daggers">Daggers</a></li>
-            <li><a href="/items/axes">Axes</a></li>
-            <li><a href="/items/guns">Guns</a></li>
+          {% set slot = item_cat_links[metacat][0].slot -%}
+          {%- for link in item_cat_links[metacat] -%}
+            {%- if link.slot != slot -%}
+            <li role="separator" class="divider"></li>
+            {%- endif -%}
+            <li><a href="/items/{{ link.slug }}">{{ link.name }}</a></li>
+            {% set slot = link.slot -%}
+          {%- endfor -%}
           </ul>
         </li>
-        
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Garments <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/items/guns">Guns</a></li>
-          </ul>
-        </li>
-        
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Accessories <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="/items/spells">Spells</a></li>
-          </ul>
-        </li>
+        {%- endfor -%}
       </ul>
       
       <div class="col-sm-3 hidden-xs">
