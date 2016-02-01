@@ -146,6 +146,10 @@ for row in reader:
     for b in basics_int:
         value = get_int(row, b)
         item_data[b] = value
+    
+    # source: which chest or package, if any
+    if row['recipe'] != '---':
+        item_data['source'] = slugify(row['recipe']) 
         
     # resources
     item_res = {}
