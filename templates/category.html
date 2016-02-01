@@ -49,7 +49,7 @@
       }
     {% endfor -%}
   {% endfor %}
-  .icon-resourceArtifact, .icon-currency {
+  .icon-resource, .icon-currency, .icon-skill {
     background-image: url('/static/img/icons.png');
     background-repeat: no-repeat;
   }
@@ -73,72 +73,118 @@
   <h1>{{ category|capitalize }}</h1>
   <div class='row itemList'>
     {% for item in items %}
-      <div class="col-sm-6 col-lg-4"><div class='itemBox'>
-        <div class="col-xs-3 imgBox">
-          <a href="/item/{{item.slug}}">
+        <div class="col-sm-6 col-lg-4"><div class='itemBox'>
+    
+          <div class="col-xs-3 imgBox"> <!-- image on the left side -->
             <img class="img-responsive itemImg" 
               title="{{ item.name }}" 
               src="/static/img/{{item.category}}/{{ item.slug }}.png"/>
-          </a>
-          <span class='itemPrice'>
-            <img src='/static/img/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
-          </span>
-        </div>
-        <div class="col-xs-9 nopadding">
-          <div class='itemInfo'>
-            <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
-            <span class="itemName"><a href="/item/{{item.slug}}">{{ item.name }}</a></span>
-            <span class='itemPower'>{{ item.power }}</span>
-          </div>
-          <div class='matList'>
+            <span class='itemPrice'>
+              <img src='/static/img/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
+            </span>
+          </div> <!-- end image left side -->
           
-            <div class='row nopadding nomargin'> <!-- material icons -->
-              {% for i in range(8) -%}
-                {% if i in [0, 4] %}
-                  <div class="col-xs-6 nopadding">
-                    <div class="row nomargin">
-                {% endif %}
-                      <div class="col-xs-3 nopadding">
-                        {%- if item.mats|length > i -%}
-                          {%- if item.mats[i].kind in ['resource', 'artifact'] -%}
-                            <img src='/static/img/transparent_dot.gif' class='icon icon-resourceArtifact icon-{{item.mats[i].slug}}' title='{{item.mats[i].name}}'/>
-                          {%- else -%}
-                            <a href="/item/{{item.mats[i].slug}}">
-                              <img src="/static/img/{{item.mats[i].category}}/{{item.mats[i].slug}}.png" class="icon precraft precraft-{{item.mats[i].quality}}" title='{{item.mats[i].name}} ({{item.mats[i].quality}})'/>
-                            </a>
-                          {%- endif %}
-                        {%- endif -%}
-                      </div>
-                {% if i in [3, 7] %}
-                    </div>
-                  </div>
-                {% endif %}
-              {% endfor -%}
+          <div class="col-xs-9 nopadding"> <!-- data on right side of itemBox -->
+            
+            <div class='itemInfo'>
+              <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
+              <span class="itemName">{{ item.name }}</span>
+              <span class='itemPower'>{{ item.power }}</span>
             </div>
             
-            <div class='row nopadding nomargin'> <!-- material quantities -->
+            <div class='matList'> <!-- list of materials -->
+            
+              <div class='row nopadding nomargin'> <!-- material icons -->
               {% for i in range(8) -%}
                 {% if i in [0, 4] %}
-                  <div class="col-xs-6 nopadding">
-                    <div class="row nomargin">
+                <div class="col-xs-6 nopadding">
+                  <div class="row nomargin">
                 {% endif %}
-                      <div class="col-xs-3 nopadding">
-                        {%- if item.mats|length > i -%}
-                          {% if 10 > item.mats[i].qty %}&nbsp;&nbsp;{% endif %}
-                          {% if 100 > item.mats[i].qty and item.mats[i].qty >= 10 %}&nbsp;{% endif %}
-                          {{ item.mats[i].qty }}
-                        {%- endif -%}
-                      </div>
-                {% if i in [3, 7] %}
+                    <div class="col-xs-3 nopadding">
+                    {%- if item.mats|length > i -%}
+                      {%- if item.mats[i].kind in ['resource', 'artifact'] -%}
+                      <img src='/static/img/transparent_dot.gif' class='icon icon-resource icon-{{item.mats[i].slug}}' title='{{item.mats[i].name}}'/>
+                      {%- else -%}
+                      <a href="/item/{{item.mats[i].slug}}">
+                        <img src="/static/img/{{item.mats[i].category}}/{{item.mats[i].slug}}.png" class="icon precraft precraft-{{item.mats[i].quality}}" title='{{item.mats[i].name}} ({{item.mats[i].quality}})'/>
+                      </a>
+                      {%- endif %}
+                    {%- endif -%}
                     </div>
+                {% if i in [3, 7] %}
                   </div>
+                </div>
                 {% endif %}
               {% endfor -%}
-            </div>
+              </div> <!-- end material icons -->
+              
+              <div class='row nopadding nomargin'> <!-- material quantities -->
+              {% for i in range(8) -%}
+                {% if i in [0, 4] %}
+                <div class="col-xs-6 nopadding">
+                  <div class="row nomargin">
+                {% endif %}
+                    <div class="col-xs-3 nopadding">
+                    {%- if item.mats|length > i -%}
+                      <!-- add spaces before single- and double-digit quantities -->
+                      {% if 10 > item.mats[i].qty %}&nbsp;&nbsp;{% endif %}
+                      {% if 100 > item.mats[i].qty and item.mats[i].qty >= 10 %}&nbsp;{% endif %}
+                      {{ item.mats[i].qty }}
+                    {%- endif -%}
+                    </div>
+                {% if i in [3, 7] %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor -%}
+              </div> <!-- end material quantities -->
+            </div> <!-- end matList -->
             
-          </div> <!-- end list of materials -->
-        </div> <!-- end of right side of itemBox -->
-      </div></div>
+            <div class='matList'> <!-- list of skills -->
+            
+              <div class='row nopadding nomargin'> <!-- skill icons -->
+              {% for i in range(8) -%}
+                {% if i in [0, 4] %}
+                <div class="col-xs-6 nopadding">
+                  <div class="row nomargin">
+                {% endif %}
+                    <div class="col-xs-3 nopadding">
+                    {%- if item.skills|length > i -%}
+                      <img src='/static/img/transparent_dot.gif' class='icon icon-skill icon-{{item.skills[i].slug}}' title='{{item.skills[i].name}}'/>
+                    {%- endif -%}
+                    </div>
+                {% if i in [3, 7] %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor -%}
+              </div> <!-- end skill icons -->
+              
+              <div class='row nopadding nomargin'> <!-- skill quantities -->
+              {% for i in range(8) -%}
+                {% if i in [0, 4] %}
+                <div class="col-xs-6 nopadding">
+                  <div class="row nomargin">
+                {% endif %}
+                    <div class="col-xs-3 nopadding">
+                    {%- if item.skills|length > i -%}
+                      <!-- add spaces before short quantities -->
+                      {% if item.skills[i].qty|length == 1 %}&nbsp;&nbsp;{% endif %}
+                      {% if item.skills[i].qty|length == 2 %}&nbsp;{% endif %}
+                      {{ item.skills[i].qty }}
+                    {%- endif -%}
+                    </div>
+                {% if i in [3, 7] %}
+                  </div>
+                </div>
+                {% endif %}
+              {% endfor -%}
+              </div> <!-- end skill quantities -->
+              
+            </div> <!-- end list of skills -->
+            
+          </div> <!-- end of right side of itemBox -->
+        </div></div>
 
       <div class="clearfix visible-xs-block"></div>
       {% if loop.index0 % 2 == 1 %}
