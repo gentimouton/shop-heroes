@@ -12,9 +12,9 @@ from db.db_items import item_db
 # prevent template lines to leave blank lines
 jinja2.default_config['environment_args']['trim_blocks'] = True
 
+# prep navbar context: search box and dropdowns
 # search terms for the search box
 search_terms = [{'slug': s, 'name': d['name']} for s, d in item_db.items()] 
-
 # item categories for the navbar links
 def get_cat_links():
     # return {'Weapons': [{'slug':'swords', 'name':'Swords'}], 'Garments': []}
@@ -27,7 +27,11 @@ def get_cat_links():
     [l.sort(key=lambda x: (x['slot'], x['name'])) for l in cat_links.values()]
     return dict(cat_links)
 item_cat_links = get_cat_links()
-
+navbar_context = {
+    'search_terms': search_terms,
+    'item_cat_links': item_cat_links
+    }
+    
 
 class BaseHandler(webapp2.RequestHandler):
     """
@@ -44,8 +48,7 @@ class BaseHandler(webapp2.RequestHandler):
         # Renders a template and writes the result to the response.
         # templates are at /templates by default, cf http://stackoverflow.com/a/32435965
         # add list of names to context for search box autocompletion
-        context['search_terms'] = search_terms
-        context['item_cat_links'] = item_cat_links
+        context.update(navbar_context)
         rv = self.jinja2.render_template(_template, **context)
         self.response.write(rv)
 
@@ -78,6 +81,7 @@ def handle_error(request, response, exception):
         exc_type, exc_value, exc_tb = sys.exc_info()  # get trace
         trace = traceback.format_exception(exc_type, exc_value, exc_tb)
         context = {'error_code': status, 'exception': exception, 'trace': trace}
+        [logging.error(line.rstrip().lstrip()) for line in trace] 
         render_error(response, status, context)
     else:  # other http error code
         context = {'error_code': status, 'exception': exception}
@@ -85,7 +89,7 @@ def handle_error(request, response, exception):
 
 
 def render_error(response, status, context, template='error.html'):
-    context['search_terms'] = search_terms
+    context.update(navbar_context)
     renderer = jinja2.get_jinja2(app=webapp2.get_app())
     response.write(renderer.render_template(template, **context))
     response.set_status(status)

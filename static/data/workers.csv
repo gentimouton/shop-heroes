@@ -1,0 +1,20 @@
+name,tier,level-cap,per-level,skill1,skill2,skill3,skill4,unlock
+Blacksmith,Tier 1,50,5 Skill Points,Metal Working,Weapon Crafting,---,---,Forge - Level 1
+Carpenter,Tier 1,50,5 Skill Points,Wood Working,Weapon Crafting,---,---,Market - Level 1
+Armorer,Tier 1,50,5 Skill Points,Metal Working,Armor Crafting,---,---,Forge - Level 2
+Druid,Tier 1,50,5 Skill Points,Wood Working,Alchemy,---,---,Park - Level 1
+Leatherworker,Tier 1,50,5 Skill Points,Textile Working,Armor Crafting,---,---,Park - Level 2
+Tailor,Tier 1,50,5 Skill Points,Textile Working,Arts and Crafts,---,---,Market - Level 2
+Artificer,Tier 2,50,7 Skill Points,Tinkering,Armor Crafting,---,---,Engineering School - Level 1
+Enchanter,Tier 2,50,7 Skill Points,Magic,Rune Writing,---,---,Sorcerer's Tower - Level 1
+Fletcher,Tier 2,50,7 Skill Points,Weapon Crafting,Arts and Crafts,---,---,Trader's Square - Level 1
+Jeweler,Tier 2,50,7 Skill Points,Metal Working,Jewelry,---,---,Miner's Guild - Level 1
+Luthier,Tier 2,50,7 Skill Points,Wood Working,Textile Working,---,---,Miner's Guild - Level 2
+Sorceress,Tier 2,50,7 Skill Points,Magic,Alchemy,---,---,Sorcerer's Tower - Level 2
+Alchemist,Tier 3,50,10 Skill Points,Magic,Alchemy,Tinkering,---,Engineering School - Level 21
+Artisan,Tier 3,50,10 Skill Points,Textile Working,Arts and Crafts,Jewelry,---,Trader's Square - Level 21
+Master,Tier 3,50,10 Skill Points,Metal Working,Weapon Crafting,Armor Crafting,---,Forge - Level 29
+Seamstress,Tier 3,50,10 Skill Points,Textile Working,Arts and Crafts,Armor Crafting,---,Market - Level 29
+Sculptor,Tier 3,50,10 Skill Points,Wood Working,Arts and Crafts,Jewelry,---,Miner's Guild - Level 29
+Wizard,Tier 3,50,10 Skill Points,Magic,Alchemy,Rune Writing,---,Sorcerer's Tower - Level 29
+The Giant,Tier 4,50,12 Skill Points,Metal Working,Weapon Crafting,Magic,Rune Writing,Advanced Shopfare Package

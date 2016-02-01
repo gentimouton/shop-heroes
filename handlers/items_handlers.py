@@ -40,7 +40,7 @@ artifact_slugs = sorted(artifact_db.keys(),
 icons_map = [resource_slugs,
     artifact_slugs[0:10],
     artifact_slugs[10:20],
-    artifact_slugs[20:26],
+    artifact_slugs[20:len(artifact_slugs)],
     ['coin', 'gem', 'time', 'barracks', 'power', 'heart']
     ]
 
@@ -85,6 +85,7 @@ def get_item_data(item_slug):
                 'qty': comp_data[0],
                 'quality': comp_data[1]}
             mats_display.append(mat)
+                
     
     # add item name, level, img, and price
     item = {
