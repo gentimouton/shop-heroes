@@ -45,7 +45,9 @@ icons_map = [resource_slugs,
     artifact_slugs[20:len(artifact_slugs)],
     ['coin', 'gem', 'time', 'barracks', 'power', 'heart'],
     skill_slugs[0:10],
-    skill_slugs[10:len(skill_slugs)]
+    skill_slugs[10:len(skill_slugs)],
+    ['wooden-chest', 'leather-chest', 'iron-chest', 'gold-chest', 'magic-chest',
+        'dwarvish-chest', 'primal-chest', 'city-raid', 'gem-chest']
     ]
 
 
@@ -56,7 +58,7 @@ def get_item_data(item_slug):
         item_data = item_db[item_slug]
     except KeyError:
         return {}
-    mats_display = [] # materials required to craft the item 
+    mats_display = []  # materials required to craft the item 
     
     # resources from bins
     required_resources = item_data['resources']
@@ -91,7 +93,7 @@ def get_item_data(item_slug):
             mats_display.append(mat)
                 
     # build list of skills
-    skills_display = [] # [{'slug': 'tinkering', 'qty': 5, 'name': 'Tinkering'}]
+    skills_display = []  # [{'slug': 'tinkering', 'qty': 5, 'name': 'Tinkering'}]
     required_skills = item_data['skills'] 
     for skill_slug in skill_slugs:
         if skill_slug in required_skills.keys():
@@ -108,6 +110,7 @@ def get_item_data(item_slug):
         'level': item_data['level'],
         'price': format_qty(item_data['price']),
         'power': item_data['power'],
+        'source': item_data['source'],
         'mats': mats_display,
         'skills': skills_display
     }
@@ -118,7 +121,7 @@ class ItemCategoryHandler(BaseHandler):
     
     def get(self, **kwargs):
         category = kwargs['category']
-        if category not in categories_db: # 404 if category invalid
+        if category not in categories_db:  # 404 if category invalid
             self.serve_404()
             return
         items = []

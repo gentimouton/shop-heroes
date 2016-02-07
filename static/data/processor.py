@@ -148,7 +148,9 @@ for row in reader:
         item_data[b] = value
     
     # source: which chest or package, if any
-    if row['recipe'] != '---':
+    if row['recipe'] == '---':
+        item_data['source'] = 'basic'
+    else:
         item_data['source'] = slugify(row['recipe']) 
         
     # resources

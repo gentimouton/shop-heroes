@@ -14,17 +14,26 @@
     background-color: white;
     border: 1px solid #e7e7e7;
     border-radius: 10px;
+  }
+  .itemImg, .matList {
     overflow: hidden; /* so images dont overflow on the border */
   }
   .imgBox {
     margin: 0px auto;
     padding: 0 5px 0 0;
   }
+  .itemLevelBox { /* trick div to allow for chest icons to overlay itemInfo */
+    border-radius: 10px;
+    overflow: hidden; /* so images dont overflow on the border */s
+    display: block;
+    float:left;
+    padding-right: 10px;
+  }
   .itemLevel {
     font-weight: bold; 
     background-color: #5e5e5e;
     color: white; 
-    padding: 2px;
+    padding: 3px 5px 3px 5px; /* top right bottom left */
   }
   .itemPower {
     float: right;
@@ -35,8 +44,10 @@
     font-weight: bold;
     text-shadow: 1px 1px 1px maroon, 1px -1px 1px maroon, -1px -1px 1px maroon, -1px 1px 1px maroon;
   }
-  .itemInfo {margin-bottom: 5px;}
-  /* resource images */
+  .itemInfo {
+    margin-bottom: 5px; 
+  }
+  /* icons: resources, currencies, skills, chests */
   .icon {
     height: 30px;
     width: 30px;
@@ -49,10 +60,11 @@
       }
     {% endfor -%}
   {% endfor %}
-  .icon-resource, .icon-currency, .icon-skill {
+  .icon-resource, .icon-currency, .icon-skill, .icon-chest {
     background-image: url('/static/img/icons.png');
     background-repeat: no-repeat;
   }
+  .icon-chest {position: absolute; z-index:10; margin-top: -5px;}
   .precraft {border-radius: 5px;}
   .precraft-normal {box-shadow: 0px 0px 15px lightgray inset;}
   .precraft-good {box-shadow: 0px 0px 15px lime inset;}
@@ -87,10 +99,27 @@
     <div class="col-xs-9 nopadding"> <!-- data on right side of itemBox -->
       
       <div class='itemInfo'>
-        <span class="itemLevel">{% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}</span>
-        <span class="itemName">{{ item.name }}</span>
-        <span class='itemPower'>{{ item.power }}</span>
-      </div>
+              <div class="itemLevelBox">
+                <span class="itemLevel">
+                  {% if item.level < 10 %}&nbsp;{% endif %}{{ item.level }}
+                </span>
+              </div>
+              <span class="itemName">{{ item.name }}</span>
+              {%- if item.source != 'basic' -%}
+                &nbsp;
+                <!-- display gem chest if source has no matching icon -->
+                {%- if item.source in icons_map[7] -%}
+                  <img src='/static/img/transparent_dot.gif' 
+                    class='icon icon-chest icon-{{item.source}}' 
+                    title='Found in {{item.source}}'/>
+                {%- else -%}
+                  <img src='/static/img/transparent_dot.gif' 
+                    class='icon icon-chest icon-gem-chest' 
+                    title='Found in {{item.source}}'/>
+                {%- endif -%}
+              {%- endif -%}
+              <span class='itemPower'>{{ item.power }}</span>
+            </div> <!-- end itemInfo -->
       
       <div class='matList'> <!-- list of materials -->
       
