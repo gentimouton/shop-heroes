@@ -85,6 +85,8 @@
 
   <h1>{{item.name}}</h1>
   
+  <div class="row">
+  
   <div class="col-sm-6 col-lg-4"><div class='itemBox'>
     
     <div class="col-xs-3 imgBox"> <!-- image on the left side -->
@@ -177,11 +179,11 @@
           <div class="col-xs-6 nopadding">
             <div class="row nomargin">
           {% endif %}
-              <div class="col-xs-3 nopadding">
               {%- if item.skills|length > i -%}
+              <div class="col-xs-3 nopadding">
                 <img src='/static/img/transparent_dot.gif' class='icon icon-skill icon-{{item.skills[i].slug}}' title='{{item.skills[i].name}}'/>
-              {%- endif -%}
               </div>
+              {%- endif -%}
           {% if i in [3, 7] %}
             </div>
           </div>
@@ -195,14 +197,14 @@
           <div class="col-xs-6 nopadding">
             <div class="row nomargin">
           {% endif %}
-              <div class="col-xs-3 nopadding">
               {%- if item.skills|length > i -%}
+              <div class="col-xs-3 nopadding">
                 <!-- add spaces before short quantities -->
                 {% if item.skills[i].qty|length == 1 %}&nbsp;&nbsp;{% endif %}
                 {% if item.skills[i].qty|length == 2 %}&nbsp;{% endif %}
                 {{ item.skills[i].qty }}
-              {%- endif -%}
               </div>
+              {%- endif -%}
           {% if i in [3, 7] %}
             </div>
           </div>
@@ -214,7 +216,27 @@
       
     </div> <!-- end of right side of itemBox -->
   </div></div>
+
+  </div> <!-- row -->
   
+  <h2>Precrafts</h2>
+  {% if item.precrafts|length == 0%}None{% endif %}
+  {% for precraft in item.precrafts %}
+    <p>
+      {{item.name}} requires {{precraft.qty}} {{precraft.quality}} 
+      <a href="/item/{{precraft.data.slug}}">{{precraft.data.name}}</a>
+    </p>
+  {% endfor %}
+  
+  
+  <h2>Postcrafts</h2>
+  {% if item.postcrafts|length == 0%}<p>None</p>{% endif %}
+  {% for postcraft in item.postcrafts %}
+    <p>
+      <a href="/item/{{postcraft.data.slug}}">{{postcraft.data.name}}</a> 
+      requires {{postcraft.qty}} {{postcraft.quality}} {{item.name}}
+    </p>
+  {% endfor %}
     
 {% endblock content %}
 

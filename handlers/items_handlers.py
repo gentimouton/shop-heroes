@@ -51,9 +51,10 @@ icons_map = [resource_slugs,
     ]
 
 
-def get_item_data(item_slug):
+def get_item_data(item_slug, get_postcrafts=True, get_precrafts=True):
     # return item name, price, etc. given a slug
     # return {} if not found
+    # get_postcrafts is false when calling itself, to prevent endless recursion 
     try:
         item_data = item_db[item_slug]
     except KeyError:
@@ -72,6 +73,7 @@ def get_item_data(item_slug):
             
     # components: artifacts and precrafts
     required_components = item_data['components']
+    precrafts = [] # [ {'quality':'good', 'qty':2, 'data': {item data}}, ]
     # sort components: artifacts before precrafts, then alphabetically 
     sorted_comps = sorted(required_components.keys(),
         key=lambda c_slug: (c_slug not in artifact_slugs, c_slug))
@@ -83,13 +85,19 @@ def get_item_data(item_slug):
                 'name': artifact_db[comp_slug]['name'],
                 'qty': comp_data}
             mats_display.append(mat)
-        else:  # precraft
+        elif get_precrafts:  # precraft
+            quality = comp_data[1]
+            qty = comp_data[0]
             mat = {'kind': 'precraft',
                 'slug': comp_slug,
                 'name': item_db[comp_slug]['name'],
                 'category': item_db[comp_slug]['category'],
-                'qty': comp_data[0],
-                'quality': comp_data[1]}
+                'qty': qty,
+                'quality': quality}
+            precraft = {'quality': quality, 
+                'qty': qty, 
+                'data': get_item_data(comp_slug, False, True)} # no postcrafts recursion
+            precrafts.append(precraft) 
             mats_display.append(mat)
                 
     # build list of skills
@@ -102,18 +110,31 @@ def get_item_data(item_slug):
                 'qty': str(format_qty(required_skills[skill_slug]))}
             skills_display.append(skill)
     
-    # add item name, level, img, and price
+    # fetch postcrafts data only if asked to
+    postcrafts = [] # [ {'quality':'good', 'qty':1, 'data':{item data} } ]
+    if get_postcrafts: 
+        for quality, postcrafts_quantities in item_data['postcrafts'].items():
+        # 'magic-top': {'postcrafts': {   'great': {   'wise-cap': 2},
+        #                                'normal': {   'wisdom-mark': 2}
+        #                             } }
+            for postcraft_slug, qty in postcrafts_quantities.items():
+                postcraft_display = {'quality': quality,
+                    'qty': qty,
+                    'data': get_item_data(postcraft_slug, True, False)} # no precrafts recursion
+                postcrafts.append(postcraft_display)
+        
+    # prepare the structure to be returned
     item = {
         'slug': item_slug,
-        'name': item_data['name'],
-        'category': item_data['category'],
-        'level': item_data['level'],
         'price': format_qty(item_data['price']),
-        'power': item_data['power'],
-        'source': item_data['source'],
         'mats': mats_display,
-        'skills': skills_display
+        'skills': skills_display,
+        'precrafts': precrafts,
+        'postcrafts': postcrafts
     }
+    # fill in the raw unchanged attributes
+    for k in ['name','category','level','power','source']:
+        item[k] = item_data[k]
     return item
 
     

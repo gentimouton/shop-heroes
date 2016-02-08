@@ -86,19 +86,7 @@
   <div class='row itemList'>
     {% for item in items %}
         <div class="col-sm-6 col-lg-4"><div class='itemBox'>
-          <div class="col-xs-3 imgBox"> <!-- image on the left side -->
-            <a href="/item/{{item.slug}}">
-              <img class="img-responsive itemImg" 
-                title="{{ item.name }}" 
-                src="/static/img/{{item.category}}/{{ item.slug }}.png"/>
-            </a>
-            <span class='itemPrice'>
-              <img src='/static/img/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
-            </span>
-          </div> <!-- end image left side -->
-          
-          <div class="col-xs-9 nopadding"> <!-- data on right side of itemBox -->
-            
+        
             <div class='itemInfo'>
               <div class="itemLevelBox">
                 <span class="itemLevel">
@@ -123,6 +111,20 @@
               {%- endif -%}
               <span class='itemPower'>{{ item.power }}</span>
             </div> <!-- end itemInfo -->
+            
+          <div class="col-xs-3 imgBox"> <!-- image on the left side -->
+            <a href="/item/{{item.slug}}">
+              <img class="img-responsive itemImg" 
+                title="{{ item.name }}" 
+                src="/static/img/{{item.category}}/{{ item.slug }}.png"/>
+            </a>
+            <span class='itemPrice'>
+              <img src='/static/img/transparent_dot.gif' class='icon icon-currency icon-coin'/>{{ item.price }}
+            </span>
+          </div> <!-- end image left side -->
+          
+          <div class="col-xs-9 nopadding"> <!-- data on right side of itemBox -->
+            
             
             <div class='matList'> <!-- list of materials -->
             

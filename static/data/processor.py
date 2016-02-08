@@ -1,9 +1,15 @@
 import csv
 import pprint
 import re
-
+import collections
 
 ############ helpers
+
+class PrettyDefaultDict(collections.defaultdict):
+    # default dict that is printed as dict
+    # http://stackoverflow.com/a/18376589
+    __repr__ = dict.__repr__
+    
 def get_int(row, key, ignore_start=0, ignore_end=None):
     """ row is the csv row to get an integer from, 
     key is that row's column that we want to cast as int,
@@ -105,6 +111,8 @@ print_to_file('resource_db', resources, 'db_resources.py')
 ############## process item categories and item data
 item_categories = {}  # {'axes': {'name': 'Axes', 'items': ['hawk']}  
 items = {}  # { 'hawk': {'price': 1, 'name': 'Hawk'}, 'fire-gun': {} }
+precrafts = PrettyDefaultDict(lambda : PrettyDefaultDict(dict)) 
+# { 'claymore': {'common': {'sabre': 1}, 'great': {'vorpal': 3}}, 'bow': {} }
 
 # read item categories
 filename = 'item_categories.csv'
@@ -175,7 +183,7 @@ for row in reader:
                 if slugify(tokens[1]) in qualities:  # quality specified
                     quality = slugify(tokens[1])
                     comp_slug = slugify(' '.join(tokens[2:]))
-                    # TODO: make sure that component slug exists
+                precrafts[comp_slug][quality][item_slug] = comp_qty 
                 item_comp[comp_slug] = (comp_qty, quality)
         except ValueError:  # first token was not an integer, eg int('---')
             continue
@@ -193,6 +201,12 @@ for row in reader:
     item_categories[category_slug]['items'].append(item_slug)
     items[item_slug] = item_data
 input_file.close()
+
+# fill up postcrafts data
+for item_slug, item_data in items.iteritems():
+    # items['magic-top']['postcrafts'] = 
+    #     {'great': {'wise-cap':2}, 'common': {'wisdom-mark': 2}}
+    item_data['postcrafts'] = precrafts[item_slug]
 
 # write
 print_to_file('item_db', items, 'db_items.py')
